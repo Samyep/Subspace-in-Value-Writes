@@ -1,0 +1,20 @@
+{
+  "cell": "qwen_14b",
+  "family": "Qwen",
+  "n_total": 800,
+  "n_correct": 601,
+  "n_incorrect": 199,
+  "correct_prompts": {
+    "mean_auc_pc1_vs_gold": 0.8931,
+    "mean_auc_pc1_vs_model": 0.8931,
+    "pca_agrees_gold_rate": 0.6473,
+    "pca_agrees_model_rate": 0.6473
+  },
+  "incorrect_prompts": {
+    "mean_auc_pc1_vs_gold": 0.8003,
+    "mean_auc_pc1_vs_model": 0.7387,
+    "pca_agrees_gold_rate": 0.2563,
+    "pca_agrees_model_rate": 0.3719
+  },
+  "routing_verdict": "PC1_TRACKS_GOLD_SEMANTICS"
+}

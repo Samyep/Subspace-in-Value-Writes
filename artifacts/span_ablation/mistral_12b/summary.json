@@ -1,0 +1,14 @@
+{
+  "cell": "mistral_12b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+  "n_prompts": 800,
+  "n_baseline_correct": 460,
+  "gold_destruction_rate": 0.426,
+  "pca_destruction_rate": 0.385,
+  "random_destruction_rate": 0.052,
+  "pca_gold_ratio": 7.4,
+  "gold_random_ratio": 8.2,
+  "pca_gold_agreement": 0.717,
+  "verdict": "PCA_CAUSAL"
+}

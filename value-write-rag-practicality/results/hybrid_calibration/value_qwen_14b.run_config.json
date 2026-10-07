@@ -1,0 +1,38 @@
+{
+  "cell": "qwen_14b",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_commit": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "writer_window": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "data": "data/hotpot_hybrid_calibration.jsonl",
+  "direction": "calibration/qwen_14b/frozen_direction.npz",
+  "max_prompt_tokens": 4096,
+  "shard_index": 0,
+  "num_shards": 1,
+  "n_rows": 200,
+  "runtime": {
+    "platform": "Linux-6.4.0-150600.23.53-64kb-aarch64-with-glibc2.38",
+    "python": "3.12.9",
+    "torch": "2.10.0+cu129",
+    "cuda_available": true,
+    "cuda_version": "12.9",
+    "gpu": "NVIDIA GH200 120GB",
+    "transformers": "5.11.0"
+  }
+}

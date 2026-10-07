@@ -1,0 +1,65 @@
+{
+  "cell": "mistral_12b",
+  "loader": "AutoTokenizer.from_pretrained public API",
+  "fix_mistral_regex_argument": true,
+  "raw_backend_fix_flag": true,
+  "canonical_pre_tokenizer": {
+    "type": "Sequence",
+    "pretokenizers": [
+      {
+        "type": "Split",
+        "pattern": {
+          "Regex": "[^\\r\\n\\p{L}\\p{N}]?[\\p{Lu}\\p{Lt}\\p{Lm}\\p{Lo}\\p{M}]*[\\p{Ll}\\p{Lm}\\p{Lo}\\p{M}]+|[^\\r\\n\\p{L}\\p{N}]?[\\p{Lu}\\p{Lt}\\p{Lm}\\p{Lo}\\p{M}]+[\\p{Ll}\\p{Lm}\\p{Lo}\\p{M}]*|\\p{N}| ?[^\\s\\p{L}\\p{N}]+[\\r\\n/]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+"
+        },
+        "behavior": "Isolated",
+        "invert": false
+      },
+      {
+        "type": "ByteLevel",
+        "add_prefix_space": false,
+        "trim_offsets": true,
+        "use_regex": false
+      }
+    ]
+  },
+  "observed_pre_tokenizer": {
+    "type": "Sequence",
+    "pretokenizers": [
+      {
+        "type": "Split",
+        "pattern": {
+          "Regex": "[^\\r\\n\\p{L}\\p{N}]?[\\p{Lu}\\p{Lt}\\p{Lm}\\p{Lo}\\p{M}]*[\\p{Ll}\\p{Lm}\\p{Lo}\\p{M}]+|[^\\r\\n\\p{L}\\p{N}]?[\\p{Lu}\\p{Lt}\\p{Lm}\\p{Lo}\\p{M}]+[\\p{Ll}\\p{Lm}\\p{Lo}\\p{M}]*|\\p{N}| ?[^\\s\\p{L}\\p{N}]+[\\r\\n/]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+"
+        },
+        "behavior": "Isolated",
+        "invert": false
+      },
+      {
+        "type": "ByteLevel",
+        "add_prefix_space": false,
+        "trim_offsets": true,
+        "use_regex": false
+      }
+    ]
+  },
+  "canonical_pre_tokenizer_preserved": true,
+  "probe_audits": [
+    {
+      "text": "A. [Title] First fact.",
+      "roundtrip_exact": true,
+      "canonical_token_ids_match": true,
+      "token_count": 8
+    },
+    {
+      "text": "Two  spaces and\ta tab.\nNext line.",
+      "roundtrip_exact": true,
+      "canonical_token_ids_match": true,
+      "token_count": 10
+    },
+    {
+      "text": "Select two facts. Unicode: café, 東京. Digits: 12345.",
+      "roundtrip_exact": true,
+      "canonical_token_ids_match": true,
+      "token_count": 20
+    }
+  ]
+}

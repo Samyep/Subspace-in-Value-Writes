@@ -1,0 +1,700 @@
+{
+  "protocol": {
+    "n_questions": 400,
+    "primary_reader": "qwen_14b",
+    "confirmation_reader": "qwen3_8b",
+    "readers": [
+      "qwen_14b",
+      "qwen3_8b"
+    ],
+    "bootstrap_draws": 20000,
+    "seed": 29911
+  },
+  "selection": {
+    "value_full_model_agreement": {
+      "mean": 0.9525,
+      "lo": 0.93,
+      "hi": 0.9725,
+      "n": 400
+    },
+    "attention_full_model_agreement": {
+      "mean": 0.9475,
+      "lo": 0.925,
+      "hi": 0.9675,
+      "n": 400
+    },
+    "value_support_recall": {
+      "mean": 0.43625,
+      "lo": 0.405,
+      "hi": 0.4675,
+      "n": 400
+    },
+    "attention_support_recall": {
+      "mean": 0.38375,
+      "lo": 0.35375,
+      "hi": 0.415,
+      "n": 400
+    },
+    "reranker_support_recall": {
+      "mean": 0.4975,
+      "lo": 0.47,
+      "hi": 0.525,
+      "n": 400
+    },
+    "maximum_value_score_difference": 0.09798464741249369,
+    "maximum_attention_score_difference": 0.2984543442726135
+  },
+  "same_runtime_prefix_audit": {
+    "n": 400,
+    "comparison": "same-runtime full 28-block versus truncated 18-block Llama",
+    "value_selection_agreement": 1.0,
+    "attention_selection_agreement": 1.0,
+    "maximum_value_score_difference": 0.0,
+    "maximum_attention_score_difference": 0.0,
+    "value_mismatch_ids": [],
+    "attention_mismatch_ids": []
+  },
+  "readers": {
+    "qwen_14b": {
+      "quality": {
+        "full20_em": {
+          "mean": 0.2125,
+          "lo": 0.1725,
+          "hi": 0.255,
+          "n": 400
+        },
+        "full20_f1": {
+          "mean": 0.31102021337621016,
+          "lo": 0.27166833996055284,
+          "hi": 0.35205989937753024,
+          "n": 400
+        },
+        "full20_prompt_token_ratio": {
+          "mean": 1.0,
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 400
+        },
+        "bm25_2_em": {
+          "mean": 0.085,
+          "lo": 0.06,
+          "hi": 0.1125,
+          "n": 400
+        },
+        "bm25_2_f1": {
+          "mean": 0.17953564727423216,
+          "lo": 0.14913698271975553,
+          "hi": 0.21162918356165225,
+          "n": 400
+        },
+        "bm25_2_prompt_token_ratio": {
+          "mean": 0.1107363966555161,
+          "lo": 0.10775109646392292,
+          "hi": 0.1137655235598742,
+          "n": 400
+        },
+        "bm25_2_support_recall": {
+          "mean": 0.37625,
+          "lo": 0.35125,
+          "hi": 0.40125,
+          "n": 400
+        },
+        "reranker2_em": {
+          "mean": 0.18,
+          "lo": 0.1425,
+          "hi": 0.2175,
+          "n": 400
+        },
+        "reranker2_f1": {
+          "mean": 0.265682935656017,
+          "lo": 0.22729036942130637,
+          "hi": 0.30476684047398606,
+          "n": 400
+        },
+        "reranker2_prompt_token_ratio": {
+          "mean": 0.12433595760914859,
+          "lo": 0.12119863341142556,
+          "hi": 0.12756276689870127,
+          "n": 400
+        },
+        "reranker2_support_recall": {
+          "mean": 0.4975,
+          "lo": 0.47,
+          "hi": 0.525,
+          "n": 400
+        },
+        "scout_attention2_em": {
+          "mean": 0.1975,
+          "lo": 0.16,
+          "hi": 0.2375,
+          "n": 400
+        },
+        "scout_attention2_f1": {
+          "mean": 0.27726074164766873,
+          "lo": 0.23857888995200108,
+          "hi": 0.3173702167935175,
+          "n": 400
+        },
+        "scout_attention2_prompt_token_ratio": {
+          "mean": 0.14320178661496105,
+          "lo": 0.1392949663714939,
+          "hi": 0.14725007909573465,
+          "n": 400
+        },
+        "scout_attention2_support_recall": {
+          "mean": 0.38375,
+          "lo": 0.35375,
+          "hi": 0.415,
+          "n": 400
+        },
+        "scout_value2_em": {
+          "mean": 0.1825,
+          "lo": 0.145,
+          "hi": 0.2225,
+          "n": 400
+        },
+        "scout_value2_f1": {
+          "mean": 0.27659055458539406,
+          "lo": 0.238161147834826,
+          "hi": 0.31520833218441124,
+          "n": 400
+        },
+        "scout_value2_prompt_token_ratio": {
+          "mean": 0.1260843682047718,
+          "lo": 0.12251171495627816,
+          "hi": 0.1296976730301452,
+          "n": 400
+        },
+        "scout_value2_support_recall": {
+          "mean": 0.43625,
+          "lo": 0.405,
+          "hi": 0.4675,
+          "n": 400
+        },
+        "oracle2_em": {
+          "mean": 0.2775,
+          "lo": 0.235,
+          "hi": 0.3225,
+          "n": 400
+        },
+        "oracle2_f1": {
+          "mean": 0.36825458694707885,
+          "lo": 0.32544578623968073,
+          "hi": 0.41125755431446476,
+          "n": 400
+        },
+        "oracle2_prompt_token_ratio": {
+          "mean": 0.11354901294086908,
+          "lo": 0.11071329136576619,
+          "hi": 0.11645414129524889,
+          "n": 400
+        },
+        "oracle2_support_recall": {
+          "mean": 0.63625,
+          "lo": 0.6075,
+          "hi": 0.66625,
+          "n": 400
+        }
+      },
+      "contrasts": {
+        "scout_value2_em_minus_full20": {
+          "mean": -0.03,
+          "lo": -0.0625,
+          "hi": 0.0025,
+          "n": 400
+        },
+        "scout_value2_em_minus_scout_attention2": {
+          "mean": -0.015,
+          "lo": -0.0375,
+          "hi": 0.0075,
+          "n": 400
+        },
+        "scout_value2_em_minus_reranker2": {
+          "mean": 0.0025,
+          "lo": -0.0325,
+          "hi": 0.0375,
+          "n": 400
+        }
+      },
+      "cost": {
+        "full20_seconds": {
+          "mean": 0.505754561175274,
+          "lo": 0.47370150032724384,
+          "hi": 0.53894853630224,
+          "n": 395
+        },
+        "bm25_2_seconds": {
+          "mean": 0.5073904098082287,
+          "lo": 0.4687148662369781,
+          "hi": 0.5455495014564499,
+          "n": 395
+        },
+        "reranker2_seconds": {
+          "mean": 0.49586594361175274,
+          "lo": 0.46168025803562146,
+          "hi": 0.5312459396206424,
+          "n": 395
+        },
+        "scout_attention2_seconds": {
+          "mean": 0.5714925980784847,
+          "lo": 0.5329663718820408,
+          "hi": 0.610249477071552,
+          "n": 395
+        },
+        "scout_value2_seconds": {
+          "mean": 0.5456707197819141,
+          "lo": 0.510095341313141,
+          "hi": 0.5826027018102947,
+          "n": 395
+        },
+        "full20_time_ratio": {
+          "mean": 1.0,
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 395
+        },
+        "bm25_2_time_ratio": {
+          "mean": 1.1743980735094022,
+          "lo": 1.0707041179760273,
+          "hi": 1.2848405027762593,
+          "n": 395
+        },
+        "reranker2_time_ratio": {
+          "mean": 1.1356663322334377,
+          "lo": 1.0481979074551238,
+          "hi": 1.2269632129644943,
+          "n": 395
+        },
+        "scout_attention2_time_ratio": {
+          "mean": 1.3127622757247899,
+          "lo": 1.2175933217000596,
+          "hi": 1.4125168072389198,
+          "n": 395
+        },
+        "scout_value2_time_ratio": {
+          "mean": 1.2448363845484494,
+          "lo": 1.1606326748976616,
+          "hi": 1.3346141897909973,
+          "n": 395
+        }
+      },
+      "runtime_signatures": {
+        "scout": {
+          "gpu": "NVIDIA GH200 120GB",
+          "torch": "2.10.0+cu129",
+          "transformers": "5.11.0"
+        },
+        "reranker": {
+          "gpu": "NVIDIA GH200 120GB",
+          "torch": "2.10.0+cu129",
+          "transformers": "5.11.0"
+        },
+        "reader": {
+          "gpu": "NVIDIA GH200 120GB",
+          "torch": "2.10.0+cu129",
+          "transformers": "5.11.0"
+        }
+      }
+    },
+    "qwen3_8b": {
+      "quality": {
+        "full20_em": {
+          "mean": 0.1575,
+          "lo": 0.1225,
+          "hi": 0.195,
+          "n": 400
+        },
+        "full20_f1": {
+          "mean": 0.27377830003115927,
+          "lo": 0.23665519234989554,
+          "hi": 0.31119334236136176,
+          "n": 400
+        },
+        "full20_prompt_token_ratio": {
+          "mean": 1.0,
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 400
+        },
+        "bm25_2_em": {
+          "mean": 0.0525,
+          "lo": 0.0325,
+          "hi": 0.075,
+          "n": 400
+        },
+        "bm25_2_f1": {
+          "mean": 0.16140886370998767,
+          "lo": 0.1341393812489017,
+          "hi": 0.1900612920156736,
+          "n": 400
+        },
+        "bm25_2_prompt_token_ratio": {
+          "mean": 0.11219644549721763,
+          "lo": 0.10923572450060387,
+          "hi": 0.11522047109024944,
+          "n": 400
+        },
+        "bm25_2_support_recall": {
+          "mean": 0.37625,
+          "lo": 0.35125,
+          "hi": 0.40125,
+          "n": 400
+        },
+        "reranker2_em": {
+          "mean": 0.13,
+          "lo": 0.0975,
+          "hi": 0.1625,
+          "n": 400
+        },
+        "reranker2_f1": {
+          "mean": 0.22966591385836424,
+          "lo": 0.19531157695522722,
+          "hi": 0.26474621660029923,
+          "n": 400
+        },
+        "reranker2_prompt_token_ratio": {
+          "mean": 0.12577468582120743,
+          "lo": 0.12260677045555689,
+          "hi": 0.1289619248065264,
+          "n": 400
+        },
+        "reranker2_support_recall": {
+          "mean": 0.4975,
+          "lo": 0.47,
+          "hi": 0.525,
+          "n": 400
+        },
+        "scout_attention2_em": {
+          "mean": 0.155,
+          "lo": 0.12,
+          "hi": 0.19,
+          "n": 400
+        },
+        "scout_attention2_f1": {
+          "mean": 0.24642709124920972,
+          "lo": 0.21013236704664326,
+          "hi": 0.28340495454535564,
+          "n": 400
+        },
+        "scout_attention2_prompt_token_ratio": {
+          "mean": 0.14461022022075706,
+          "lo": 0.14058430923050397,
+          "hi": 0.1486581156163385,
+          "n": 400
+        },
+        "scout_attention2_support_recall": {
+          "mean": 0.38375,
+          "lo": 0.35375,
+          "hi": 0.41375,
+          "n": 400
+        },
+        "scout_value2_em": {
+          "mean": 0.165,
+          "lo": 0.13,
+          "hi": 0.2025,
+          "n": 400
+        },
+        "scout_value2_f1": {
+          "mean": 0.2578237578621455,
+          "lo": 0.2216490960597878,
+          "hi": 0.29567081243747495,
+          "n": 400
+        },
+        "scout_value2_prompt_token_ratio": {
+          "mean": 0.12751994027049027,
+          "lo": 0.12402215192647006,
+          "hi": 0.13112803239972504,
+          "n": 400
+        },
+        "scout_value2_support_recall": {
+          "mean": 0.43625,
+          "lo": 0.405,
+          "hi": 0.4675,
+          "n": 400
+        },
+        "oracle2_em": {
+          "mean": 0.2225,
+          "lo": 0.1825,
+          "hi": 0.2625,
+          "n": 400
+        },
+        "oracle2_f1": {
+          "mean": 0.3367200445350677,
+          "lo": 0.29660739261326047,
+          "hi": 0.37811470032085215,
+          "n": 400
+        },
+        "oracle2_prompt_token_ratio": {
+          "mean": 0.1150045372445234,
+          "lo": 0.11214277884626922,
+          "hi": 0.11795354154249318,
+          "n": 400
+        },
+        "oracle2_support_recall": {
+          "mean": 0.63625,
+          "lo": 0.60625,
+          "hi": 0.66625,
+          "n": 400
+        }
+      },
+      "contrasts": {
+        "scout_value2_em_minus_full20": {
+          "mean": 0.0075,
+          "lo": -0.02,
+          "hi": 0.035,
+          "n": 400
+        },
+        "scout_value2_em_minus_scout_attention2": {
+          "mean": 0.01,
+          "lo": -0.01,
+          "hi": 0.03,
+          "n": 400
+        },
+        "scout_value2_em_minus_reranker2": {
+          "mean": 0.035,
+          "lo": 0.0025,
+          "hi": 0.0675,
+          "n": 400
+        }
+      },
+      "cost": {
+        "full20_seconds": {
+          "mean": 0.41718052329511757,
+          "lo": 0.3892619233050264,
+          "hi": 0.44617242598529094,
+          "n": 395
+        },
+        "bm25_2_seconds": {
+          "mean": 0.3973577257848486,
+          "lo": 0.37129137030303294,
+          "hi": 0.4242819227134739,
+          "n": 395
+        },
+        "reranker2_seconds": {
+          "mean": 0.4195474603009275,
+          "lo": 0.3937684129191013,
+          "hi": 0.4465247009313961,
+          "n": 395
+        },
+        "scout_attention2_seconds": {
+          "mean": 0.497070559381973,
+          "lo": 0.47026102501648304,
+          "hi": 0.5252721446703569,
+          "n": 395
+        },
+        "scout_value2_seconds": {
+          "mean": 0.4729155503166987,
+          "lo": 0.44685513985129605,
+          "hi": 0.5003014427766037,
+          "n": 395
+        },
+        "full20_time_ratio": {
+          "mean": 1.0,
+          "lo": 1.0,
+          "hi": 1.0,
+          "n": 395
+        },
+        "bm25_2_time_ratio": {
+          "mean": 1.1380314250816428,
+          "lo": 1.0576552510639579,
+          "hi": 1.220956898808383,
+          "n": 395
+        },
+        "reranker2_time_ratio": {
+          "mean": 1.1792639775134302,
+          "lo": 1.113844383395624,
+          "hi": 1.2489015544960074,
+          "n": 395
+        },
+        "scout_attention2_time_ratio": {
+          "mean": 1.4059635255807403,
+          "lo": 1.3282822215067402,
+          "hi": 1.4890236332707654,
+          "n": 395
+        },
+        "scout_value2_time_ratio": {
+          "mean": 1.3442712073540088,
+          "lo": 1.273085330648759,
+          "hi": 1.419955176767401,
+          "n": 395
+        }
+      },
+      "runtime_signatures": {
+        "scout": {
+          "gpu": "NVIDIA GH200 120GB",
+          "torch": "2.10.0+cu129",
+          "transformers": "5.11.0"
+        },
+        "reranker": {
+          "gpu": "NVIDIA GH200 120GB",
+          "torch": "2.10.0+cu129",
+          "transformers": "5.11.0"
+        },
+        "reader": {
+          "gpu": "NVIDIA GH200 120GB",
+          "torch": "2.10.0+cu129",
+          "transformers": "5.11.0"
+        }
+      }
+    }
+  },
+  "macro_shared_question_bootstrap": {
+    "full20_em": {
+      "mean": 0.185,
+      "lo": 0.15125,
+      "hi": 0.21875,
+      "n": 400
+    },
+    "full20_f1": {
+      "mean": 0.2923992567036847,
+      "lo": 0.2567242171919896,
+      "hi": 0.32852467108765515,
+      "n": 400
+    },
+    "full20_prompt_token_ratio": {
+      "mean": 1.0,
+      "lo": 1.0,
+      "hi": 1.0,
+      "n": 400
+    },
+    "bm25_2_em": {
+      "mean": 0.06875,
+      "lo": 0.0475,
+      "hi": 0.09125,
+      "n": 400
+    },
+    "bm25_2_f1": {
+      "mean": 0.17047225549210993,
+      "lo": 0.1438336581888605,
+      "hi": 0.1980962914460307,
+      "n": 400
+    },
+    "bm25_2_prompt_token_ratio": {
+      "mean": 0.11146642107636687,
+      "lo": 0.10850555455712564,
+      "hi": 0.11450360853639745,
+      "n": 400
+    },
+    "bm25_2_support_recall": {
+      "mean": 0.37625,
+      "lo": 0.35125,
+      "hi": 0.40125,
+      "n": 400
+    },
+    "reranker2_em": {
+      "mean": 0.155,
+      "lo": 0.1225,
+      "hi": 0.18875,
+      "n": 400
+    },
+    "reranker2_f1": {
+      "mean": 0.24767442475719062,
+      "lo": 0.21350501417854417,
+      "hi": 0.2828092948841966,
+      "n": 400
+    },
+    "reranker2_prompt_token_ratio": {
+      "mean": 0.12505532171517802,
+      "lo": 0.12191984946421067,
+      "hi": 0.12828656549553727,
+      "n": 400
+    },
+    "reranker2_support_recall": {
+      "mean": 0.4975,
+      "lo": 0.47,
+      "hi": 0.525,
+      "n": 400
+    },
+    "scout_attention2_em": {
+      "mean": 0.17625,
+      "lo": 0.1425,
+      "hi": 0.2125,
+      "n": 400
+    },
+    "scout_attention2_f1": {
+      "mean": 0.2618439164484392,
+      "lo": 0.22664891736167286,
+      "hi": 0.2984293962027851,
+      "n": 400
+    },
+    "scout_attention2_prompt_token_ratio": {
+      "mean": 0.14390600341785906,
+      "lo": 0.13997159602784606,
+      "hi": 0.14798656889752845,
+      "n": 400
+    },
+    "scout_attention2_support_recall": {
+      "mean": 0.38375,
+      "lo": 0.3525,
+      "hi": 0.415,
+      "n": 400
+    },
+    "scout_value2_em": {
+      "mean": 0.17375,
+      "lo": 0.14,
+      "hi": 0.20875,
+      "n": 400
+    },
+    "scout_value2_f1": {
+      "mean": 0.2672071562237698,
+      "lo": 0.2310323500968842,
+      "hi": 0.3040733216034349,
+      "n": 400
+    },
+    "scout_value2_prompt_token_ratio": {
+      "mean": 0.12680215423763103,
+      "lo": 0.12331034154588459,
+      "hi": 0.13034296556129324,
+      "n": 400
+    },
+    "scout_value2_support_recall": {
+      "mean": 0.43625,
+      "lo": 0.405,
+      "hi": 0.4675,
+      "n": 400
+    },
+    "oracle2_em": {
+      "mean": 0.25,
+      "lo": 0.21125,
+      "hi": 0.28875,
+      "n": 400
+    },
+    "oracle2_f1": {
+      "mean": 0.3524873157410732,
+      "lo": 0.3131225903354208,
+      "hi": 0.3920643816531096,
+      "n": 400
+    },
+    "oracle2_prompt_token_ratio": {
+      "mean": 0.11427677509269624,
+      "lo": 0.1114253559478968,
+      "hi": 0.11720066740905857,
+      "n": 400
+    },
+    "oracle2_support_recall": {
+      "mean": 0.63625,
+      "lo": 0.60625,
+      "hi": 0.66625,
+      "n": 400
+    },
+    "scout_value2_em_minus_full20": {
+      "mean": -0.01125,
+      "lo": -0.03375,
+      "hi": 0.01125,
+      "n": 400
+    },
+    "scout_value2_em_minus_scout_attention2": {
+      "mean": -0.0025,
+      "lo": -0.02125,
+      "hi": 0.0175,
+      "n": 400
+    },
+    "scout_value2_em_minus_reranker2": {
+      "mean": 0.01875,
+      "lo": -0.01125,
+      "hi": 0.04875,
+      "n": 400
+    }
+  },
+  "cost_interpretation": "Scout totals add one shared truncated-Llama scoring pass to selected-context generation. BGE totals add cross-encoder scoring to generation. Direct wall-time comparisons require matching GPU and software signatures, which are recorded in the JSON report."
+}

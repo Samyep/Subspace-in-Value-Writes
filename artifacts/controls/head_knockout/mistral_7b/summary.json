@@ -1,0 +1,128 @@
+{
+  "cell": "mistral_7b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "n_prompts": 400,
+  "baseline_accuracy": 0.278,
+  "top_heads": [
+    [
+      19,
+      9
+    ],
+    [
+      19,
+      17
+    ],
+    [
+      22,
+      6
+    ],
+    [
+      19,
+      16
+    ],
+    [
+      20,
+      28
+    ]
+  ],
+  "random_heads": [
+    [
+      20,
+      7
+    ],
+    [
+      21,
+      6
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      22,
+      13
+    ],
+    [
+      22,
+      4
+    ]
+  ],
+  "head_results": [
+    {
+      "layer": 19,
+      "head": 9,
+      "type": "top",
+      "accuracy": 0.278,
+      "damage": 0.0
+    },
+    {
+      "layer": 19,
+      "head": 17,
+      "type": "top",
+      "accuracy": 0.27,
+      "damage": 0.008
+    },
+    {
+      "layer": 22,
+      "head": 6,
+      "type": "top",
+      "accuracy": 0.278,
+      "damage": 0.0
+    },
+    {
+      "layer": 19,
+      "head": 16,
+      "type": "top",
+      "accuracy": 0.27,
+      "damage": 0.008
+    },
+    {
+      "layer": 20,
+      "head": 28,
+      "type": "top",
+      "accuracy": 0.278,
+      "damage": 0.0
+    },
+    {
+      "layer": 20,
+      "head": 7,
+      "type": "random",
+      "accuracy": 0.278,
+      "damage": 0.0
+    },
+    {
+      "layer": 21,
+      "head": 6,
+      "type": "random",
+      "accuracy": 0.278,
+      "damage": 0.0
+    },
+    {
+      "layer": 22,
+      "head": 31,
+      "type": "random",
+      "accuracy": 0.278,
+      "damage": 0.0
+    },
+    {
+      "layer": 22,
+      "head": 13,
+      "type": "random",
+      "accuracy": 0.278,
+      "damage": 0.0
+    },
+    {
+      "layer": 22,
+      "head": 4,
+      "type": "random",
+      "accuracy": 0.278,
+      "damage": 0.0
+    }
+  ],
+  "mean_top_damage": 0.003,
+  "mean_random_damage": 0.0,
+  "max_top_damage": 0.008,
+  "top_random_ratio": 3.2,
+  "verdict": "CIRCUIT_PARTIAL"
+}

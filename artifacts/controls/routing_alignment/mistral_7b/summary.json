@@ -1,0 +1,20 @@
+{
+  "cell": "mistral_7b",
+  "family": "Mistral",
+  "n_total": 800,
+  "n_correct": 217,
+  "n_incorrect": 583,
+  "correct_prompts": {
+    "mean_auc_pc1_vs_gold": 0.7938,
+    "mean_auc_pc1_vs_model": 0.7938,
+    "pca_agrees_gold_rate": 0.3917,
+    "pca_agrees_model_rate": 0.3917
+  },
+  "incorrect_prompts": {
+    "mean_auc_pc1_vs_gold": 0.7476,
+    "mean_auc_pc1_vs_model": 0.5512,
+    "pca_agrees_gold_rate": 0.2556,
+    "pca_agrees_model_rate": 0.0961
+  },
+  "routing_verdict": "PC1_TRACKS_GOLD_SEMANTICS"
+}

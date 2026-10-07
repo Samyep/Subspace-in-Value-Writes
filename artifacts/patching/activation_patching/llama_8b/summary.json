@@ -1,0 +1,67 @@
+{
+  "cell": "llama_8b",
+  "family": "Llama",
+  "model_id": "NousResearch/Hermes-3-Llama-3.1-8B",
+  "n_prompts": 800,
+  "n_clean_correct": 383,
+  "n_usable": 383,
+  "n_skipped": 0,
+  "accuracies": {
+    "clean": 1.0,
+    "corrupted": 0.0,
+    "full_patch": 0.5091,
+    "pc1_replace": 0.0,
+    "multi_pc": 0.0366,
+    "random_replace": 0.0
+  },
+  "rescue_rates": {
+    "n_rescuable": 383,
+    "full_rescued": 0.5091,
+    "pc1_rescued": 0.0,
+    "multi_pc_rescued": 0.0366,
+    "random_rescued": 0.0,
+    "full_vs_random": 509.1,
+    "pc1_vs_random": 0.0
+  },
+  "gold_overlap": {
+    "corrupted": 0.123,
+    "full_patch": 1.496,
+    "pc1_replace": 0.154,
+    "multi_pc": 0.329,
+    "random_replace": 0.125
+  },
+  "bootstrap_cis": {
+    "corrupted": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 383
+    },
+    "full_patch": {
+      "mean": 0.5091383812010444,
+      "ci_lo": 0.45691906005221933,
+      "ci_hi": 0.5587467362924282,
+      "n": 383
+    },
+    "pc1_replace": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 383
+    },
+    "multi_pc": {
+      "mean": 0.03655352480417755,
+      "ci_lo": 0.018276762402088774,
+      "ci_hi": 0.057441253263707574,
+      "n": 383
+    },
+    "random_replace": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 383
+    }
+  },
+  "discovery_auc": 0.909,
+  "verdict": "FULL_ONLY"
+}

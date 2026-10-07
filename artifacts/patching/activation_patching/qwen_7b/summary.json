@@ -1,0 +1,67 @@
+{
+  "cell": "qwen_7b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "n_prompts": 800,
+  "n_clean_correct": 510,
+  "n_usable": 510,
+  "n_skipped": 0,
+  "accuracies": {
+    "clean": 1.0,
+    "corrupted": 0.0,
+    "full_patch": 0.2235,
+    "pc1_replace": 0.0,
+    "multi_pc": 0.0157,
+    "random_replace": 0.0
+  },
+  "rescue_rates": {
+    "n_rescuable": 510,
+    "full_rescued": 0.2235,
+    "pc1_rescued": 0.0,
+    "multi_pc_rescued": 0.0157,
+    "random_rescued": 0.0,
+    "full_vs_random": 223.5,
+    "pc1_vs_random": 0.0
+  },
+  "gold_overlap": {
+    "corrupted": 0.075,
+    "full_patch": 1.153,
+    "pc1_replace": 0.269,
+    "multi_pc": 0.571,
+    "random_replace": 0.075
+  },
+  "bootstrap_cis": {
+    "corrupted": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 510
+    },
+    "full_patch": {
+      "mean": 0.2235294117647059,
+      "ci_lo": 0.18823529411764706,
+      "ci_hi": 0.2607843137254902,
+      "n": 510
+    },
+    "pc1_replace": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 510
+    },
+    "multi_pc": {
+      "mean": 0.01568627450980392,
+      "ci_lo": 0.0058823529411764705,
+      "ci_hi": 0.027450980392156862,
+      "n": 510
+    },
+    "random_replace": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 510
+    }
+  },
+  "discovery_auc": 0.4195,
+  "verdict": "FULL_ONLY"
+}

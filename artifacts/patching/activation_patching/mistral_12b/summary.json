@@ -1,0 +1,67 @@
+{
+  "cell": "mistral_12b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+  "n_prompts": 800,
+  "n_clean_correct": 459,
+  "n_usable": 459,
+  "n_skipped": 0,
+  "accuracies": {
+    "clean": 1.0,
+    "corrupted": 0.0,
+    "full_patch": 0.2658,
+    "pc1_replace": 0.0,
+    "multi_pc": 0.0087,
+    "random_replace": 0.0
+  },
+  "rescue_rates": {
+    "n_rescuable": 459,
+    "full_rescued": 0.2658,
+    "pc1_rescued": 0.0,
+    "multi_pc_rescued": 0.0087,
+    "random_rescued": 0.0,
+    "full_vs_random": 265.8,
+    "pc1_vs_random": 0.0
+  },
+  "gold_overlap": {
+    "corrupted": 0.094,
+    "full_patch": 1.161,
+    "pc1_replace": 0.15,
+    "multi_pc": 0.42,
+    "random_replace": 0.094
+  },
+  "bootstrap_cis": {
+    "corrupted": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 459
+    },
+    "full_patch": {
+      "mean": 0.2657952069716776,
+      "ci_lo": 0.22657952069716775,
+      "ci_hi": 0.30501089324618735,
+      "n": 459
+    },
+    "pc1_replace": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 459
+    },
+    "multi_pc": {
+      "mean": 0.008714596949891068,
+      "ci_lo": 0.002178649237472767,
+      "ci_hi": 0.017429193899782137,
+      "n": 459
+    },
+    "random_replace": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 459
+    }
+  },
+  "discovery_auc": 0.9102,
+  "verdict": "FULL_ONLY"
+}

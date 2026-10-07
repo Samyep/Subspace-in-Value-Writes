@@ -1,0 +1,7 @@
+cell,display,family,discovery_auc,transfer_auc,auc_retention,transfer_recovery,n_discovery,n_validation
+llama_3b,Llama 3B,Llama,0.835,0.821,0.875,0.375,400,400
+llama_8b,Llama 8B,Llama,0.907,0.893,0.936,0.593,400,400
+qwen_7b,Qwen 7B,Qwen,0.772,0.753,0.814,0.31,400,400
+qwen_14b,Qwen 14B,Qwen,0.962,0.927,0.972,0.635,400,400
+mistral_7b,Mistral 7B,Mistral,0.741,0.708,0.775,0.24,400,400
+mistral_12b,Mistral 12B,Mistral,0.911,0.895,0.943,0.555,400,400

@@ -1,0 +1,14 @@
+{
+  "cell": "qwen_14b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "n_prompts": 800,
+  "n_baseline_correct": 633,
+  "gold_destruction_rate": 0.194,
+  "pca_destruction_rate": 0.163,
+  "random_destruction_rate": 0.013,
+  "pca_gold_ratio": 12.9,
+  "gold_random_ratio": 15.4,
+  "pca_gold_agreement": 0.605,
+  "verdict": "PCA_CAUSAL"
+}

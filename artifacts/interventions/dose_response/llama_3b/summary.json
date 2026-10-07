@@ -1,0 +1,30 @@
+{
+  "cell": "llama_3b",
+  "family": "Llama",
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "n_prompts": 800,
+  "factors": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    2.0
+  ],
+  "factor_accuracies": {
+    "0.0": 0.181,
+    "0.25": 0.24,
+    "0.5": 0.261,
+    "0.75": 0.276,
+    "1.0": 0.284,
+    "1.25": 0.29,
+    "1.5": 0.292,
+    "2.0": 0.29
+  },
+  "monotonicity_correlation": 0.928,
+  "amplification_boost": 0.008,
+  "ablation_drop": 0.103,
+  "verdict": "STRONG_DOSE_RESPONSE"
+}

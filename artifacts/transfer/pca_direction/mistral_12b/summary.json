@@ -1,0 +1,18 @@
+{
+  "cell": "mistral_12b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+  "n_discovery": 400,
+  "n_validation": 400,
+  "n_disc_vectors": 2400,
+  "discovery_best_pc": 0,
+  "discovery_auc": 0.911,
+  "transfer_auc": 0.895,
+  "transfer_recovery": 0.555,
+  "perexample_auc": 0.948,
+  "perexample_recovery": 0.71,
+  "auc_retention": 0.943,
+  "n_validation_examples": 400,
+  "random_baseline": 0.067,
+  "verdict": "STRONG_TRANSFER"
+}

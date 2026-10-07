@@ -1,0 +1,23 @@
+{
+  "data": "data/musique_pooled_rag_confirm.jsonl",
+  "model_id": "BAAI/bge-reranker-v2-m3",
+  "model_commit": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+  "device": "cuda",
+  "dtype": "torch.bfloat16",
+  "batch_size": 8,
+  "max_length": 512,
+  "top_k": 2,
+  "shard_index": 0,
+  "num_shards": 1,
+  "n_rows_in_shard": 400,
+  "timing_warmup_examples": 5,
+  "runtime": {
+    "platform": "Linux-6.4.0-150600.23.53-64kb-aarch64-with-glibc2.38",
+    "python": "3.12.9",
+    "torch": "2.10.0+cu129",
+    "cuda_available": true,
+    "cuda_version": "12.9",
+    "gpu": "NVIDIA GH200 120GB",
+    "transformers": "5.11.0"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "cell": "llama_3b",
+  "family": "Llama",
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "n_prompts": 800,
+  "n_clean_correct": 231,
+  "n_usable": 231,
+  "n_skipped": 0,
+  "accuracies": {
+    "clean": 1.0,
+    "corrupted": 0.0,
+    "full_patch": 0.1429,
+    "pc1_replace": 0.0,
+    "multi_pc": 0.039,
+    "random_replace": 0.0
+  },
+  "rescue_rates": {
+    "n_rescuable": 231,
+    "full_rescued": 0.1429,
+    "pc1_rescued": 0.0,
+    "multi_pc_rescued": 0.039,
+    "random_rescued": 0.0,
+    "full_vs_random": 142.9,
+    "pc1_vs_random": 0.0
+  },
+  "gold_overlap": {
+    "corrupted": 0.753,
+    "full_patch": 1.091,
+    "pc1_replace": 0.762,
+    "multi_pc": 0.844,
+    "random_replace": 0.753
+  },
+  "bootstrap_cis": {
+    "corrupted": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 231
+    },
+    "full_patch": {
+      "mean": 0.14285714285714285,
+      "ci_lo": 0.09956709956709957,
+      "ci_hi": 0.19047619047619047,
+      "n": 231
+    },
+    "pc1_replace": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 231
+    },
+    "multi_pc": {
+      "mean": 0.03896103896103896,
+      "ci_lo": 0.017316017316017316,
+      "ci_hi": 0.06493506493506493,
+      "n": 231
+    },
+    "random_replace": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 231
+    }
+  },
+  "discovery_auc": 0.8378,
+  "verdict": "FULL_ONLY"
+}

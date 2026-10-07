@@ -1,0 +1,10 @@
+{
+  "n": 400,
+  "comparison": "same-runtime full 28-block versus truncated 18-block Llama",
+  "value_selection_agreement": 1.0,
+  "attention_selection_agreement": 1.0,
+  "maximum_value_score_difference": 0.0,
+  "maximum_attention_score_difference": 0.0,
+  "value_mismatch_ids": [],
+  "attention_mismatch_ids": []
+}

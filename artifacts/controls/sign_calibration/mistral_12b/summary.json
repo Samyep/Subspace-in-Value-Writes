@@ -1,0 +1,24 @@
+{
+  "cell": "mistral_12b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+  "n_valid_prompts": 800,
+  "n_model_correct": 459,
+  "auc": {
+    "gold": 0.8112,
+    "h1_per_prompt": 0.7686,
+    "h2_global": 0.5396
+  },
+  "top2_recovery": {
+    "gold": 0.535,
+    "h1_per_prompt": 0.52,
+    "h2_global": 0.2988
+  },
+  "h1_sign_agreement_with_gold": 0.8775,
+  "h2_global_sign": 1,
+  "h2_positive_count": 457,
+  "h2_negative_count": 343,
+  "h1_auc_retention": 0.9475,
+  "h2_auc_retention": 0.6652,
+  "verdict": "CALIBRATION_FREE_INSUFFICIENT"
+}

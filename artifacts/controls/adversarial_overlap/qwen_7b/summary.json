@@ -1,0 +1,13 @@
+{
+  "cell": "qwen_7b",
+  "family": "Qwen",
+  "n_adversarial": 508,
+  "n_easy": 292,
+  "adversarial_pca_auc": 0.7074,
+  "easy_pca_auc": 0.6797,
+  "overall_pca_auc": 0.6973,
+  "adversarial_top2": 0.1654,
+  "easy_top2": 0.1336,
+  "auc_retention_on_adversarial": 1.0407,
+  "verdict": "ROBUST_TO_OVERLAP"
+}

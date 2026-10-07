@@ -1,0 +1,18 @@
+{
+  "prompt_count": 800,
+  "base_example_count": 200,
+  "example_rank_min": 201,
+  "example_rank_max": 400,
+  "families": [
+    "active_set",
+    "working_set"
+  ],
+  "lexical_packs": [
+    "pack_a",
+    "pack_b"
+  ],
+  "source_dataset": "hotpotqa/hotpot_qa",
+  "source_split": [
+    "train"
+  ]
+}

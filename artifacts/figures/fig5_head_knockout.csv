@@ -1,0 +1,7 @@
+cell,display,family,baseline_accuracy,mean_top_damage,mean_random_damage,max_top_damage,top_random_ratio,status
+llama_3b,Llama 3B,Llama,0.287,0.012,-0.006,0.052,11.6,supportive
+llama_8b,Llama 8B,Llama,0.45,0.086,-0.002,0.18,86.2,supportive
+qwen_7b,Qwen 7B,Qwen,0.662,0.108,-0.001,0.135,108.4,supportive
+qwen_14b,Qwen 14B,Qwen,0.815,0.079,0.003,0.115,26.3,supportive
+mistral_7b,Mistral 7B,Mistral,0.278,0.003,0.0,0.008,3.2,supportive
+mistral_12b,Mistral 12B,Mistral,0.535,0.066,0.0,0.145,66.0,supportive

@@ -1,0 +1,24 @@
+{
+  "cell": "llama_3b",
+  "family": "Llama",
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "n_valid_prompts": 800,
+  "n_model_correct": 234,
+  "auc": {
+    "gold": 0.8208,
+    "h1_per_prompt": 0.6366,
+    "h2_global": 0.4852
+  },
+  "top2_recovery": {
+    "gold": 0.42,
+    "h1_per_prompt": 0.3013,
+    "h2_global": 0.1913
+  },
+  "h1_sign_agreement_with_gold": 0.7075,
+  "h2_global_sign": 1,
+  "h2_positive_count": 406,
+  "h2_negative_count": 394,
+  "h1_auc_retention": 0.7756,
+  "h2_auc_retention": 0.5911,
+  "verdict": "CALIBRATION_FREE_INSUFFICIENT"
+}

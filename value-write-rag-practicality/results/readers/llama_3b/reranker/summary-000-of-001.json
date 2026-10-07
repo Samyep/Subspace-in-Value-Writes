@@ -1,0 +1,100 @@
+{
+  "run_config": {
+    "cell": "llama_3b",
+    "model_id": "unsloth/Llama-3.2-3B-Instruct",
+    "model_commit": "006f5dcd1393c3add266de40994ba96225e9689d",
+    "data": "data/musique_pooled_rag_confirm.jsonl",
+    "reranker_selections": "results/reranker/bge_v2_m3/selections.jsonl",
+    "reference_results": "reference_results/llama_3b/per_example.jsonl",
+    "max_new_tokens": 32,
+    "shard_index": 0,
+    "num_shards": 1,
+    "n_rows_in_shard": 400,
+    "timing_warmup_examples": 5,
+    "runtime": {
+      "platform": "Linux-6.4.0-150600.23.53-64kb-aarch64-with-glibc2.38",
+      "python": "3.12.9",
+      "torch": "2.10.0+cu129",
+      "cuda_available": true,
+      "cuda_version": "12.9",
+      "gpu": "NVIDIA GH200 120GB",
+      "transformers": "5.11.0"
+    }
+  },
+  "answer_and_selection_metrics": {
+    "em": {
+      "mean": 0.1325,
+      "lo": 0.1,
+      "hi": 0.1675,
+      "n": 400
+    },
+    "f1": {
+      "mean": 0.21368106151169988,
+      "lo": 0.17971533345516974,
+      "hi": 0.2489385064253407,
+      "n": 400
+    },
+    "support_recall": {
+      "mean": 0.4975,
+      "lo": 0.47,
+      "hi": 0.525,
+      "n": 400
+    },
+    "exact_top2": {
+      "mean": 0.155,
+      "lo": 0.12,
+      "hi": 0.19,
+      "n": 400
+    },
+    "prompt_token_ratio": {
+      "mean": 0.1335389317009317,
+      "lo": 0.13040809844767406,
+      "hi": 0.13674186649993852,
+      "n": 400
+    },
+    "em_minus_full20": {
+      "mean": 0.04,
+      "lo": 0.0075,
+      "hi": 0.075,
+      "n": 400
+    },
+    "em_minus_value2": {
+      "mean": -0.0175,
+      "lo": -0.05,
+      "hi": 0.015,
+      "n": 400
+    },
+    "em_minus_attention2": {
+      "mean": -0.01,
+      "lo": -0.04,
+      "hi": 0.02,
+      "n": 400
+    }
+  },
+  "timing_after_warmup": {
+    "generation_seconds": {
+      "mean": 0.23583953727458168,
+      "lo": 0.21761779357582853,
+      "hi": 0.2552922918190247,
+      "n": 395
+    },
+    "prompt_tokens": {
+      "mean": 317.8126582278481,
+      "lo": 309.7113291139241,
+      "hi": 326.2763924050633,
+      "n": 395
+    },
+    "output_tokens": {
+      "mean": 6.936708860759493,
+      "lo": 6.369620253164557,
+      "hi": 7.539240506329114,
+      "n": 395
+    }
+  },
+  "paired_f1_minus_full20": {
+    "mean": 0.03063574658714279,
+    "lo": -0.0010923874262089611,
+    "hi": 0.06288214037677504,
+    "n": 400
+  }
+}

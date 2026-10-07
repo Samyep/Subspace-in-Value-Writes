@@ -1,0 +1,51 @@
+{
+  "cell": "mistral_12b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+  "n_prompts": 800,
+  "n_baseline_correct": 459,
+  "destruction_rates": {
+    "full_abl": 0.3878,
+    "pc1_only": 0.3094,
+    "orthogonal": 0.3769,
+    "pc1_restore": 0.2854,
+    "random": 0.0153
+  },
+  "bootstrap_cis": {
+    "full_abl": {
+      "mean": 0.3877995642701525,
+      "ci_lo": 0.3442265795206972,
+      "ci_hi": 0.4335511982570806,
+      "n": 459
+    },
+    "pc1_only": {
+      "mean": 0.3093681917211329,
+      "ci_lo": 0.2679738562091503,
+      "ci_hi": 0.35294117647058826,
+      "n": 459
+    },
+    "orthogonal": {
+      "mean": 0.3769063180827887,
+      "ci_lo": 0.3333333333333333,
+      "ci_hi": 0.4226579520697168,
+      "n": 459
+    },
+    "pc1_restore": {
+      "mean": 0.28540305010893247,
+      "ci_lo": 0.24618736383442266,
+      "ci_hi": 0.32679738562091504,
+      "n": 459
+    },
+    "random": {
+      "mean": 0.015250544662309368,
+      "ci_lo": 0.004357298474945534,
+      "ci_hi": 0.026143790849673203,
+      "n": 459
+    }
+  },
+  "pc1_concentration": 0.798,
+  "orth_vs_full_ratio": 0.972,
+  "pc1_vs_random_ratio": 20.286,
+  "pc1_restore_recovery": 0.264,
+  "verdict": "PC1_CAUSAL_STRONG"
+}

@@ -1,0 +1,16 @@
+name: causal-support-evidence
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - pyyaml
+  - pip:
+      - datasets
+      - transformers
+      - torch

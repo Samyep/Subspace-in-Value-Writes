@@ -1,0 +1,13 @@
+{
+  "cell": "llama_8b",
+  "family": "Llama",
+  "n_adversarial": 508,
+  "n_easy": 292,
+  "adversarial_pca_auc": 0.8514,
+  "easy_pca_auc": 0.8498,
+  "overall_pca_auc": 0.8505,
+  "adversarial_top2": 0.6004,
+  "easy_top2": 0.6507,
+  "auc_retention_on_adversarial": 1.0019,
+  "verdict": "ROBUST_TO_OVERLAP"
+}

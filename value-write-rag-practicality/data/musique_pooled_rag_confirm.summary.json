@@ -1,0 +1,164 @@
+{
+  "corpus_documents": 101958,
+  "retriever": {
+    "first_stage": "BM25 over title + paragraph text with English stop words",
+    "k1": 1.2,
+    "b": 0.75,
+    "average_document_terms": 47.14068603515625,
+    "initial_depth": 100,
+    "final_depth": 20,
+    "development_examples": 200,
+    "selection_metric": "support_recall@20, then both-support coverage@20",
+    "development_grid": {
+      "seeds_0_initial_keep_20": {
+        "n": 200,
+        "support_recall": 0.5925,
+        "both_support_coverage": 0.28,
+        "any_support_coverage": 0.905
+      },
+      "seeds_1_initial_keep_5": {
+        "n": 200,
+        "support_recall": 0.58,
+        "both_support_coverage": 0.315,
+        "any_support_coverage": 0.845
+      },
+      "seeds_1_initial_keep_10": {
+        "n": 200,
+        "support_recall": 0.5925,
+        "both_support_coverage": 0.31,
+        "any_support_coverage": 0.875
+      },
+      "seeds_1_initial_keep_15": {
+        "n": 200,
+        "support_recall": 0.6125,
+        "both_support_coverage": 0.33,
+        "any_support_coverage": 0.895
+      },
+      "seeds_3_initial_keep_5": {
+        "n": 200,
+        "support_recall": 0.535,
+        "both_support_coverage": 0.27,
+        "any_support_coverage": 0.8
+      },
+      "seeds_3_initial_keep_10": {
+        "n": 200,
+        "support_recall": 0.5675,
+        "both_support_coverage": 0.28,
+        "any_support_coverage": 0.855
+      },
+      "seeds_3_initial_keep_15": {
+        "n": 200,
+        "support_recall": 0.6025,
+        "both_support_coverage": 0.31,
+        "any_support_coverage": 0.895
+      },
+      "seeds_5_initial_keep_5": {
+        "n": 200,
+        "support_recall": 0.52,
+        "both_support_coverage": 0.255,
+        "any_support_coverage": 0.785
+      },
+      "seeds_5_initial_keep_10": {
+        "n": 200,
+        "support_recall": 0.5625,
+        "both_support_coverage": 0.275,
+        "any_support_coverage": 0.85
+      },
+      "seeds_5_initial_keep_15": {
+        "n": 200,
+        "support_recall": 0.6,
+        "both_support_coverage": 0.305,
+        "any_support_coverage": 0.895
+      },
+      "seeds_10_initial_keep_5": {
+        "n": 200,
+        "support_recall": 0.515,
+        "both_support_coverage": 0.25,
+        "any_support_coverage": 0.78
+      },
+      "seeds_10_initial_keep_10": {
+        "n": 200,
+        "support_recall": 0.56,
+        "both_support_coverage": 0.27,
+        "any_support_coverage": 0.85
+      },
+      "seeds_10_initial_keep_15": {
+        "n": 200,
+        "support_recall": 0.6,
+        "both_support_coverage": 0.305,
+        "any_support_coverage": 0.895
+      }
+    },
+    "selected_configuration": {
+      "name": "seeds_1_initial_keep_15",
+      "title_link_seed_documents": 1,
+      "initial_bm25_documents_kept": 15,
+      "metrics": {
+        "n": 200,
+        "support_recall": 0.6125,
+        "both_support_coverage": 0.33,
+        "any_support_coverage": 0.895
+      }
+    }
+  },
+  "evaluation": {
+    "source_split": "validation",
+    "question_type": "2hop",
+    "candidate_examples": 552,
+    "excluded_previous_context_filter_examples": 700,
+    "excluded_evaluation_examples": 700,
+    "exclusion_files": [
+      "musique2_context_filter.jsonl",
+      "musique_pooled_rag.jsonl"
+    ],
+    "selection_namespace": "pooled-rag",
+    "seed": 29911,
+    "plain_bm25": {
+      "n": 552,
+      "support_recall": 0.5688405797101449,
+      "both_support_coverage": 0.2427536231884058,
+      "any_support_coverage": 0.894927536231884
+    },
+    "selected_retriever": {
+      "n": 552,
+      "support_recall": 0.625,
+      "both_support_coverage": 0.35507246376811596,
+      "any_support_coverage": 0.894927536231884
+    }
+  },
+  "candidate_count": 552,
+  "eligible_for_every_model": 429,
+  "selected_count": 400,
+  "max_prompt_tokens": 3072,
+  "models": {
+    "qwen_7b": "Qwen/Qwen2.5-7B-Instruct",
+    "qwen_14b": "Qwen/Qwen2.5-14B-Instruct",
+    "qwen3_8b": "Qwen/Qwen3-8B",
+    "llama_3b": "unsloth/Llama-3.2-3B-Instruct"
+  },
+  "selection_rule": "first common-length-eligible rows in frozen candidate order",
+  "prompt_token_distributions": {
+    "qwen_7b": {
+      "min": 1387,
+      "median": 2511.0,
+      "max": 3067
+    },
+    "qwen_14b": {
+      "min": 1387,
+      "median": 2511.0,
+      "max": 3067
+    },
+    "qwen3_8b": {
+      "min": 1391,
+      "median": 2515.0,
+      "max": 3071
+    },
+    "llama_3b": {
+      "min": 1393,
+      "median": 2412.5,
+      "max": 3043
+    }
+  },
+  "labels_used_for_selection": false,
+  "artifact": "data/musique_pooled_rag_confirm.jsonl"
+}

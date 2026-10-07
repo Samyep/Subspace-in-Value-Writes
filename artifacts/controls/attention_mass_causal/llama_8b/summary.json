@@ -1,0 +1,40 @@
+{
+  "cell": "llama_8b",
+  "family": "Llama",
+  "n_baseline_correct": 383,
+  "n_agree": 254,
+  "n_disagree": 129,
+  "destruction_rates": {
+    "gold": 0.7676,
+    "pca_selected": 0.7023,
+    "attn_mass_selected": 0.6658,
+    "random": 0.0601
+  },
+  "disagree_subset": {
+    "n": 129,
+    "pca_dest": 0.6822,
+    "attn_dest": 0.5736
+  },
+  "bootstrap_ci": {
+    "pca": {
+      "mean": 0.7023498694516971,
+      "ci_lo": 0.6553524804177546,
+      "ci_hi": 0.7493472584856397,
+      "n": 383
+    },
+    "attn_mass": {
+      "mean": 0.6657963446475196,
+      "ci_lo": 0.618798955613577,
+      "ci_hi": 0.7127937336814621,
+      "n": 383
+    },
+    "random": {
+      "mean": 0.06005221932114883,
+      "ci_lo": 0.03655352480417755,
+      "ci_hi": 0.08616187989556136,
+      "n": 383
+    }
+  },
+  "pca_advantage": 0.0366,
+  "verdict": "PCA_CAUSAL_ADVANTAGE"
+}

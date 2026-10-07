@@ -1,0 +1,24 @@
+{
+  "cell": "llama_8b",
+  "family": "Llama",
+  "model_id": "NousResearch/Hermes-3-Llama-3.1-8B",
+  "n_valid_prompts": 800,
+  "n_model_correct": 383,
+  "auc": {
+    "gold": 0.8505,
+    "h1_per_prompt": 0.8033,
+    "h2_global": 0.6934
+  },
+  "top2_recovery": {
+    "gold": 0.6188,
+    "h1_per_prompt": 0.5863,
+    "h2_global": 0.4888
+  },
+  "h1_sign_agreement_with_gold": 0.9,
+  "h2_global_sign": 1,
+  "h2_positive_count": 597,
+  "h2_negative_count": 203,
+  "h1_auc_retention": 0.9445,
+  "h2_auc_retention": 0.8153,
+  "verdict": "CALIBRATION_FREE_MARGINAL"
+}

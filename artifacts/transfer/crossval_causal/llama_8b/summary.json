@@ -1,0 +1,57 @@
+{
+  "cell": "llama_8b",
+  "family": "Llama",
+  "model_id": "NousResearch/Hermes-3-Llama-3.1-8B",
+  "n_prompts": 800,
+  "n_baseline_correct": 383,
+  "direction_cosine": {
+    "a_vs_b": 0.9948,
+    "a_vs_full": 0.9987,
+    "b_vs_full": 0.9987
+  },
+  "discovery": {
+    "same_set_auc": 0.8869,
+    "crossval_auc": 0.8886,
+    "auc_retention": 1.0018,
+    "same_set_top2": 0.5988,
+    "crossval_top2": 0.5988
+  },
+  "causal": {
+    "xval_destruction": 0.3603,
+    "same_destruction": 0.3577,
+    "random_destruction": 0.0,
+    "xval_vs_random": 360.3,
+    "xval_retention_vs_same": 1.007
+  },
+  "bootstrap_cis": {
+    "xval": {
+      "mean": 0.360313315926893,
+      "ci_lo": 0.3133159268929504,
+      "ci_hi": 0.40992167101827676,
+      "n": 383
+    },
+    "same": {
+      "mean": 0.3577023498694517,
+      "ci_lo": 0.31070496083550914,
+      "ci_hi": 0.4046997389033943,
+      "n": 383
+    },
+    "rand": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 383
+    }
+  },
+  "paired_test": {
+    "xval_minus_rand_mean": 0.3603,
+    "xval_minus_rand_ci": {
+      "mean": 0.360313315926893,
+      "ci_lo": 0.3133159268929504,
+      "ci_hi": 0.40992167101827676,
+      "n": 383
+    },
+    "p_value": 0.0
+  },
+  "verdict": "CROSSVAL_STRONG"
+}

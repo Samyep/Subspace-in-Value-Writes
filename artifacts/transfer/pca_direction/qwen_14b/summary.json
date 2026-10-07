@@ -1,0 +1,18 @@
+{
+  "cell": "qwen_14b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "n_discovery": 400,
+  "n_validation": 400,
+  "n_disc_vectors": 2400,
+  "discovery_best_pc": 0,
+  "discovery_auc": 0.962,
+  "transfer_auc": 0.927,
+  "transfer_recovery": 0.635,
+  "perexample_auc": 0.953,
+  "perexample_recovery": 0.73,
+  "auc_retention": 0.972,
+  "n_validation_examples": 400,
+  "random_baseline": 0.067,
+  "verdict": "STRONG_TRANSFER"
+}

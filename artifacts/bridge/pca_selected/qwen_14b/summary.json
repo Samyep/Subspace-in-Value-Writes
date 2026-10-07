@@ -1,0 +1,46 @@
+{
+  "cell_key": "qwen_14b",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "family": "Qwen",
+  "size": "14B",
+  "writer_window": "L32-L47",
+  "n_prompts": 200,
+  "baseline_gold_cited_mean": 1.805,
+  "baseline_nongold_cited_mean": 0.94,
+  "pca_agrees_gold_rate": 0.16,
+  "gold_drop": {
+    "mean": 0.295,
+    "ci_lo": 0.22,
+    "ci_hi": 0.37,
+    "n": 200,
+    "perm_p": 0.0
+  },
+  "pca_drop": {
+    "mean": 0.18,
+    "ci_lo": 0.115,
+    "ci_hi": 0.245,
+    "n": 200,
+    "perm_p": 0.0
+  },
+  "distractor_drop": {
+    "mean": -0.03,
+    "ci_lo": -0.065,
+    "ci_hi": 0.0,
+    "n": 200,
+    "perm_p": 0.9905
+  },
+  "random_drop": {
+    "mean": 1.28,
+    "ci_lo": 1.16,
+    "ci_hi": 1.4,
+    "n": 200,
+    "perm_p": 0.0
+  },
+  "specificity_ratios": {
+    "pca_over_random": 0.14,
+    "pca_over_distractor": null,
+    "gold_over_random": 0.23,
+    "gold_over_distractor": null
+  },
+  "verdict": "SPOTLIGHT"
+}

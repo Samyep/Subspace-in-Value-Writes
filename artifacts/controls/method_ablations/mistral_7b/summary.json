@@ -1,0 +1,18 @@
+{
+  "cell": "mistral_7b",
+  "family": "Mistral",
+  "n_valid": 800,
+  "auc": {
+    "pca_centered": 0.7702,
+    "pca_uncentered": 0.7702,
+    "supervised_100pct": 0.7727,
+    "supervised_50pct": 0.752,
+    "supervised_10pct": 0.7507
+  },
+  "centering_effect": 0.0,
+  "supervised_vs_pca_gap": {
+    "100pct": 0.0025,
+    "50pct": -0.0182,
+    "10pct": -0.0195
+  }
+}

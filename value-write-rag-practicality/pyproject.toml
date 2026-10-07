@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "value-write-rag-practicality"
+version = "0.1.0"
+description = "Held-out MuSiQue RAG reranking and cost experiments for value-write passage selection"
+requires-python = ">=3.10"
+dependencies = [
+  "accelerate>=1.0",
+  "numpy>=1.26,<3",
+  "safetensors>=0.4",
+  "scikit-learn>=1.4,<2",
+  "sentencepiece>=0.2",
+  "torch>=2.3",
+  "transformers>=4.48,<6",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+data = ["datasets>=3,<5"]
+
+[tool.setuptools.packages.find]
+include = ["vw_rag*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

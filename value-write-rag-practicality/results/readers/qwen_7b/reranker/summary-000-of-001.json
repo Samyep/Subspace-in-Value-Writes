@@ -1,0 +1,100 @@
+{
+  "run_config": {
+    "cell": "qwen_7b",
+    "model_id": "Qwen/Qwen2.5-7B-Instruct",
+    "model_commit": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "data": "data/musique_pooled_rag_confirm.jsonl",
+    "reranker_selections": "results/reranker/bge_v2_m3/selections.jsonl",
+    "reference_results": "reference_results/qwen_7b/per_example.jsonl",
+    "max_new_tokens": 32,
+    "shard_index": 0,
+    "num_shards": 1,
+    "n_rows_in_shard": 400,
+    "timing_warmup_examples": 5,
+    "runtime": {
+      "platform": "Linux-6.4.0-150600.23.53-64kb-aarch64-with-glibc2.38",
+      "python": "3.12.9",
+      "torch": "2.10.0+cu129",
+      "cuda_available": true,
+      "cuda_version": "12.9",
+      "gpu": "NVIDIA GH200 120GB",
+      "transformers": "5.11.0"
+    }
+  },
+  "answer_and_selection_metrics": {
+    "em": {
+      "mean": 0.135,
+      "lo": 0.1025,
+      "hi": 0.17,
+      "n": 400
+    },
+    "f1": {
+      "mean": 0.220291953567055,
+      "lo": 0.1854924442593129,
+      "hi": 0.2567313137703236,
+      "n": 400
+    },
+    "support_recall": {
+      "mean": 0.4975,
+      "lo": 0.47,
+      "hi": 0.525,
+      "n": 400
+    },
+    "exact_top2": {
+      "mean": 0.155,
+      "lo": 0.12,
+      "hi": 0.19,
+      "n": 400
+    },
+    "prompt_token_ratio": {
+      "mean": 0.12433595760914859,
+      "lo": 0.1211890320217635,
+      "hi": 0.12757068645875685,
+      "n": 400
+    },
+    "em_minus_full20": {
+      "mean": 0.03,
+      "lo": -0.005,
+      "hi": 0.065,
+      "n": 400
+    },
+    "em_minus_value2": {
+      "mean": 0.0125,
+      "lo": -0.0175,
+      "hi": 0.0425,
+      "n": 400
+    },
+    "em_minus_attention2": {
+      "mean": 0.01,
+      "lo": -0.02,
+      "hi": 0.04,
+      "n": 400
+    }
+  },
+  "timing_after_warmup": {
+    "generation_seconds": {
+      "mean": 0.1779043879289227,
+      "lo": 0.16388234454186493,
+      "hi": 0.1927535313618947,
+      "n": 395
+    },
+    "prompt_tokens": {
+      "mean": 306.7518987341772,
+      "lo": 298.16708860759496,
+      "hi": 315.63044303797466,
+      "n": 395
+    },
+    "output_tokens": {
+      "mean": 7.050632911392405,
+      "lo": 6.478481012658228,
+      "hi": 7.663291139240506,
+      "n": 395
+    }
+  },
+  "paired_f1_minus_full20": {
+    "mean": 0.01933300671266864,
+    "lo": -0.012790410791868396,
+    "hi": 0.051615235396091086,
+    "n": 400
+  }
+}

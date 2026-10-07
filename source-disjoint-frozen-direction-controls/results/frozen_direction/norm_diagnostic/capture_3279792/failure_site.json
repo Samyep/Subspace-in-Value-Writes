@@ -1,0 +1,72 @@
+{
+  "prompt_id": "5a827a9f55429940e5e1a8cf::working_set_pack_b",
+  "example_id": "5a827a9f55429940e5e1a8cf",
+  "replicate": 0,
+  "step": 1,
+  "layer": 40,
+  "target": 0.00476321205496788,
+  "original_output_norm_gpu": 34.29914855957031,
+  "tolerance_gpu": 3.429914855957031e-05,
+  "relative_tolerance": 0.005,
+  "absolute_output_fraction": 1e-06,
+  "original_error": "BF16 displacement norm cannot meet declared tolerance: target=0.00476321205496788, achieved=0.00472657335922122, error=3.663869574666023e-05, tolerance=3.429914855957031e-05, original_norm=34.29914855957031",
+  "before_dtype": "torch.bfloat16",
+  "unit_dtype": "torch.float32",
+  "device": "cuda:0",
+  "gpu_name": "NVIDIA GH200 120GB",
+  "seed": 17240312586022282921,
+  "legacy_best": {
+    "scale": 0.010345101181883365,
+    "effective_float32_scale": 0.010345101356506348,
+    "norm_float32": 0.00472657335922122,
+    "norm_float64": 0.004726573503342126
+  },
+  "legacy_low_endpoint": {
+    "scale": 0.010345213042251,
+    "effective_float32_scale": 0.010345213115215302,
+    "norm_float32": 0.00472657335922122,
+    "norm_float64": 0.004726573503342126
+  },
+  "legacy_high_endpoint": {
+    "scale": 0.010345213610070125,
+    "effective_float32_scale": 0.010345214046537876,
+    "norm_float32": 0.004826403688639402,
+    "norm_float64": 0.0048264035677616215
+  },
+  "gpu_endpoint_certificate": {
+    "endpoint_evaluations_on_gpu": 2,
+    "endpoints": {
+      "lower": {
+        "scale": 0.010345213115215302,
+        "scale_float32_bits": 1009352440,
+        "gpu_norm_float32": 0.00472657335922122,
+        "gpu_norm_float64": 0.004726573503342126,
+        "cpu_norm_float32": 0.00472657335922122,
+        "cpu_norm_float64": 0.004726573503342126,
+        "gpu_absolute_error_float32": 3.663869574666023e-05,
+        "gpu_absolute_error_float64": 3.663855162575405e-05,
+        "satisfies_frozen_tolerance_on_gpu": false,
+        "gpu_and_cpu_bf16_outputs_equal": true
+      },
+      "upper": {
+        "scale": 0.010345214046537876,
+        "scale_float32_bits": 1009352441,
+        "gpu_norm_float32": 0.004826403688639402,
+        "gpu_norm_float64": 0.0048264035677616215,
+        "cpu_norm_float32": 0.004826403688639402,
+        "cpu_norm_float64": 0.0048264035677616215,
+        "gpu_absolute_error_float32": 6.319163367152214e-05,
+        "gpu_absolute_error_float64": 6.319151279374127e-05,
+        "satisfies_frozen_tolerance_on_gpu": false,
+        "gpu_and_cpu_bf16_outputs_equal": true
+      }
+    },
+    "adjacent_float32_amplitudes": true,
+    "gpu_norms_straddle_target": true,
+    "gpu_adjacent_bracket_certified": true,
+    "nearest_endpoint_side": "lower",
+    "frozen_tolerance_attainable_on_gpu": false,
+    "diagnosis": "certified_gpu_scalar_staircase_has_no_value_within_frozen_tolerance",
+    "qualification": "For the captured fixed vector, the original FP32 multiply/add and BF16 cast are coordinatewise monotone in a nonnegative FP32 amplitude; adjacent amplitudes straddling the GPU norm crossing bracket all reachable norms nearest the target."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "cell": "llama_3b",
+  "model_id": "unsloth/Llama-3.2-3B-Instruct",
+  "writer_window": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "data": "data/musique_pooled_rag_confirm.jsonl",
+  "direction": "calibration/llama_3b/frozen_direction.npz",
+  "reference_results": "reference_results/llama_3b/per_example.jsonl",
+  "max_prompt_tokens": 3072,
+  "shard_index": 0,
+  "num_shards": 1,
+  "n_rows_in_shard": 400,
+  "timing_warmup_examples": 5,
+  "attention_implementation": "eager",
+  "runtime": {
+    "platform": "Linux-6.4.0-150600.23.53-64kb-aarch64-with-glibc2.38",
+    "python": "3.12.9",
+    "torch": "2.10.0+cu129",
+    "cuda_available": true,
+    "cuda_version": "12.9",
+    "gpu": "NVIDIA GH200 120GB",
+    "transformers": "5.11.0"
+  }
+}

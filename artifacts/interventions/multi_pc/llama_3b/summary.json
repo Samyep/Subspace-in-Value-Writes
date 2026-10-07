@@ -1,0 +1,44 @@
+{
+  "cell": "llama_3b",
+  "family": "Llama",
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "n_prompts": 800,
+  "n_baseline_correct": 234,
+  "destruction_rates": {
+    "pc1": 0.1239,
+    "pc2": 0.0342,
+    "pc3": 0.047,
+    "random": 0.0085
+  },
+  "bootstrap_cis": {
+    "pc1": {
+      "mean": 0.12393162393162394,
+      "ci_lo": 0.0811965811965812,
+      "ci_hi": 0.16666666666666666,
+      "n": 234
+    },
+    "pc2": {
+      "mean": 0.03418803418803419,
+      "ci_lo": 0.01282051282051282,
+      "ci_hi": 0.05982905982905983,
+      "n": 234
+    },
+    "pc3": {
+      "mean": 0.04700854700854701,
+      "ci_lo": 0.021367521367521368,
+      "ci_hi": 0.07692307692307693,
+      "n": 234
+    },
+    "random": {
+      "mean": 0.008547008547008548,
+      "ci_lo": 0.0,
+      "ci_hi": 0.021367521367521368,
+      "n": 234
+    }
+  },
+  "pc1_vs_pc2": 3.6,
+  "pc1_vs_pc3": 2.6,
+  "pc1_vs_random": 14.5,
+  "pc1_uniquely_causal": true,
+  "verdict": "PC1_UNIQUE"
+}

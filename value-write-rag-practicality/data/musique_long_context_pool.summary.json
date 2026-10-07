@@ -1,0 +1,95 @@
+{
+  "source_dataset": "bdsaglam/musique:answerable",
+  "dataset_fingerprints": {
+    "train": "d85bfc85ef3b989e",
+    "validation": "6f3279cad8a686f0"
+  },
+  "corpus_documents": 101958,
+  "base_data": "data/musique_pooled_rag_confirm.jsonl",
+  "selected_count": 400,
+  "exact_hybrid20_prefixes": 400,
+  "final_decomposition_answer_matches": 400,
+  "depths": [
+    20,
+    40,
+    80,
+    160
+  ],
+  "retrieval_extension": "frozen hybrid top-20 followed by unused BM25 ranks",
+  "labels_used_for_retrieval_or_ordering": false,
+  "support_recall_available_by_depth": {
+    "20": 0.63625,
+    "40": 0.6875,
+    "80": 0.7175,
+    "160": 0.74625
+  },
+  "prompt_token_distributions": {
+    "qwen3_8b": {
+      "20": {
+        "min": 1391,
+        "median": 2515.0,
+        "max": 3071
+      },
+      "40": {
+        "min": 2808,
+        "median": 4803.0,
+        "max": 6511
+      },
+      "80": {
+        "min": 5861,
+        "median": 9389.5,
+        "max": 13581
+      },
+      "160": {
+        "min": 12315,
+        "median": 18918.0,
+        "max": 27350
+      }
+    },
+    "qwen_14b": {
+      "20": {
+        "min": 1387,
+        "median": 2511.0,
+        "max": 3067
+      },
+      "40": {
+        "min": 2804,
+        "median": 4799.0,
+        "max": 6507
+      },
+      "80": {
+        "min": 5857,
+        "median": 9385.5,
+        "max": 13577
+      },
+      "160": {
+        "min": 12311,
+        "median": 18914.0,
+        "max": 27346
+      }
+    },
+    "llama_3b": {
+      "20": {
+        "min": 1393,
+        "median": 2412.5,
+        "max": 3043
+      },
+      "40": {
+        "min": 2749,
+        "median": 4593.5,
+        "max": 6182
+      },
+      "80": {
+        "min": 5508,
+        "median": 8952.5,
+        "max": 12385
+      },
+      "160": {
+        "min": 11387,
+        "median": 17911.0,
+        "max": 25089
+      }
+    }
+  },
+  "output": "data/musique_long_context_pool.jsonl"
+}

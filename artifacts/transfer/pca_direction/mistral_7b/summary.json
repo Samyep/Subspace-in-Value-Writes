@@ -1,0 +1,18 @@
+{
+  "cell": "mistral_7b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "n_discovery": 400,
+  "n_validation": 400,
+  "n_disc_vectors": 2400,
+  "discovery_best_pc": 0,
+  "discovery_auc": 0.741,
+  "transfer_auc": 0.708,
+  "transfer_recovery": 0.24,
+  "perexample_auc": 0.913,
+  "perexample_recovery": 0.532,
+  "auc_retention": 0.775,
+  "n_validation_examples": 400,
+  "random_baseline": 0.067,
+  "verdict": "MODERATE_TRANSFER"
+}

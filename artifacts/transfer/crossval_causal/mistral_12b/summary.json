@@ -1,0 +1,57 @@
+{
+  "cell": "mistral_12b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+  "n_prompts": 800,
+  "n_baseline_correct": 459,
+  "direction_cosine": {
+    "a_vs_b": 0.9495,
+    "a_vs_full": 0.9849,
+    "b_vs_full": 0.9894
+  },
+  "discovery": {
+    "same_set_auc": 0.8785,
+    "crossval_auc": 0.8724,
+    "auc_retention": 0.9931,
+    "same_set_top2": 0.58,
+    "crossval_top2": 0.5875
+  },
+  "causal": {
+    "xval_destruction": 0.1416,
+    "same_destruction": 0.1329,
+    "random_destruction": 0.0131,
+    "xval_vs_random": 10.8,
+    "xval_retention_vs_same": 1.066
+  },
+  "bootstrap_cis": {
+    "xval": {
+      "mean": 0.14161220043572983,
+      "ci_lo": 0.1111111111111111,
+      "ci_hi": 0.17429193899782136,
+      "n": 459
+    },
+    "same": {
+      "mean": 0.1328976034858388,
+      "ci_lo": 0.10239651416122005,
+      "ci_hi": 0.16339869281045752,
+      "n": 459
+    },
+    "rand": {
+      "mean": 0.013071895424836602,
+      "ci_lo": 0.004357298474945534,
+      "ci_hi": 0.023965141612200435,
+      "n": 459
+    }
+  },
+  "paired_test": {
+    "xval_minus_rand_mean": 0.1285,
+    "xval_minus_rand_ci": {
+      "mean": 0.12854030501089325,
+      "ci_lo": 0.09803921568627451,
+      "ci_hi": 0.16122004357298475,
+      "n": 459
+    },
+    "p_value": 0.0
+  },
+  "verdict": "CROSSVAL_STRONG"
+}

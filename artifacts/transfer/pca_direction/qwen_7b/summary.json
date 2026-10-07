@@ -1,0 +1,18 @@
+{
+  "cell": "qwen_7b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "n_discovery": 400,
+  "n_validation": 400,
+  "n_disc_vectors": 2400,
+  "discovery_best_pc": 4,
+  "discovery_auc": 0.772,
+  "transfer_auc": 0.753,
+  "transfer_recovery": 0.31,
+  "perexample_auc": 0.926,
+  "perexample_recovery": 0.578,
+  "auc_retention": 0.814,
+  "n_validation_examples": 400,
+  "random_baseline": 0.067,
+  "verdict": "MODERATE_TRANSFER"
+}

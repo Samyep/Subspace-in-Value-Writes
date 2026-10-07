@@ -1,0 +1,13 @@
+{
+  "cell": "mistral_12b",
+  "family": "Mistral",
+  "n_adversarial": 508,
+  "n_easy": 292,
+  "adversarial_pca_auc": 0.8074,
+  "easy_pca_auc": 0.819,
+  "overall_pca_auc": 0.8112,
+  "adversarial_top2": 0.4921,
+  "easy_top2": 0.6096,
+  "auc_retention_on_adversarial": 0.9859,
+  "verdict": "ROBUST_TO_OVERLAP"
+}

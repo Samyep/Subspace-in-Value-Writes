@@ -1,0 +1,13 @@
+case_name,cell,prompt_id,label,is_gold,title,text
+main_llama8_orlando,llama_8b,5a7fb04d55429969796c1b24::active_set_pack_a,A,True,Sleeping with Sirens,"Sleeping with Sirens is an American rock band from Orlando, Florida currently residing in Grand Rapids, Michigan."
+main_llama8_orlando,llama_8b,5a7fb04d55429969796c1b24::active_set_pack_a,B,False,Let's Cheers to This,The album is the first to feature guitarists Jesse Lawson and Jack Fowler.
+main_llama8_orlando,llama_8b,5a7fb04d55429969796c1b24::active_set_pack_a,C,False,Rancid (2000 album),It was the band's first album released through Hellcat.
+main_llama8_orlando,llama_8b,5a7fb04d55429969796c1b24::active_set_pack_a,D,True,Let's Cheers to This,Let's Cheers to This is the second studio album by American post-hardcore band Sleeping with Sirens.
+main_llama8_orlando,llama_8b,5a7fb04d55429969796c1b24::active_set_pack_a,E,False,Rancid (2000 album),"It is the second eponymous album and was released on August 1, 2000, through frontman Tim Armstrong's label, Hellcat Records."
+main_llama8_orlando,llama_8b,5a7fb04d55429969796c1b24::active_set_pack_a,F,False,Rancid (2000 album),Rancid (also known as Rancid 5 or Rancid 2000) is the eponymously titled fifth studio album by the American punk rock band Rancid.
+bridge_llama8_prodigy,llama_8b,5abae247554299660624165c::active_set_pack_a,A,False,Animal Ambition,"Animal Ambition (released with the subtitle Animal Ambition: An Untamed Desire to Win) is the fifth studio album by American rapper 50 Cent, who also served as executive producer."
+bridge_llama8_prodigy,llama_8b,5abae247554299660624165c::active_set_pack_a,B,False,Smoke (50 Cent song),"This is the only song of ""Animal Ambition"" that is produced by 50 Cent's longtime mentor Dr. Dre."
+bridge_llama8_prodigy,llama_8b,5abae247554299660624165c::active_set_pack_a,C,False,Smoke (50 Cent song),"The song features singer Trey Songz and is produced by Dr. Dre, Dawaun Parker and Mark Batson."
+bridge_llama8_prodigy,llama_8b,5abae247554299660624165c::active_set_pack_a,D,False,Smoke (50 Cent song),"""Smoke"" is a song by American hip hop recording artist 50 Cent, released on March 31, 2014, as the fourth single from his fifth studio album ""Animal Ambition"" (2014)."
+bridge_llama8_prodigy,llama_8b,5abae247554299660624165c::active_set_pack_a,E,True,Animal Ambition,"The album features guest appearances from Yo Gotti, Trey Songz, Kidd Kidd, Jadakiss, Mr Probz, Guordan Banks, Prodigy, Schoolboy Q and Styles P."
+bridge_llama8_prodigy,llama_8b,5abae247554299660624165c::active_set_pack_a,F,True,Prodigy (rapper),"Albert Johnson (November 2, 1974 – June 20, 2017), better known by his stage name Prodigy, was an American rapper, actor and author who was one half of the hip hop duo Mobb Deep with Havoc."

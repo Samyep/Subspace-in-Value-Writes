@@ -1,0 +1,43 @@
+{
+  "cell": "llama_3b",
+  "family": "Llama",
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "n_prompts": 800,
+  "n_baseline_correct": 234,
+  "rates": {
+    "flip_destruction": 0.3718,
+    "flip_switch": 0.3718,
+    "flip_to_antigold": 0.0214,
+    "amp_destruction": 0.0171,
+    "rand_destruction": 0.0043,
+    "rand_switch": 0.0043
+  },
+  "bootstrap_cis": {
+    "flip_destruction": {
+      "mean": 0.3717948717948718,
+      "ci_lo": 0.31196581196581197,
+      "ci_hi": 0.4358974358974359,
+      "n": 234
+    },
+    "flip_switch": {
+      "mean": 0.3717948717948718,
+      "ci_lo": 0.31196581196581197,
+      "ci_hi": 0.4358974358974359,
+      "n": 234
+    },
+    "rand_destruction": {
+      "mean": 0.004273504273504274,
+      "ci_lo": 0.0,
+      "ci_hi": 0.01282051282051282,
+      "n": 234
+    },
+    "rand_switch": {
+      "mean": 0.004273504273504274,
+      "ci_lo": 0.0,
+      "ci_hi": 0.01282051282051282,
+      "n": 234
+    }
+  },
+  "flip_vs_rand_switch_ratio": 87.0,
+  "verdict": "PC1_STEERING_STRONG"
+}

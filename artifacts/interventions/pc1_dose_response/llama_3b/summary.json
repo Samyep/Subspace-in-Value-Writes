@@ -1,0 +1,32 @@
+{
+  "cell": "llama_3b",
+  "family": "Llama",
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "n_prompts": 800,
+  "n_baseline_correct": 234,
+  "alphas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "accuracy_by_alpha": {
+    "0.00": 0.8761,
+    "0.25": 0.9231,
+    "0.50": 0.9444,
+    "0.75": 0.9829,
+    "1.00": 1.0
+  },
+  "destruction_by_alpha": {
+    "0.00": 0.1239,
+    "0.25": 0.0769,
+    "0.50": 0.0556,
+    "0.75": 0.0171,
+    "1.00": 0.0
+  },
+  "spearman_rho": 1.0,
+  "spearman_p": 0.0,
+  "monotonic": true,
+  "verdict": "DOSE_RESPONSE_STRONG"
+}

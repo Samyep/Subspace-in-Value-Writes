@@ -1,0 +1,22 @@
+{
+  "cell": "qwen_14b",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_commit": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "data": "data/musique_pooled_rag_confirm.jsonl",
+  "reranker_selections": "results/reranker/bge_v2_m3/selections.jsonl",
+  "reference_results": "reference_results/qwen_14b/per_example.jsonl",
+  "max_new_tokens": 32,
+  "shard_index": 0,
+  "num_shards": 1,
+  "n_rows_in_shard": 400,
+  "timing_warmup_examples": 5,
+  "runtime": {
+    "platform": "Linux-6.4.0-150600.23.53-64kb-aarch64-with-glibc2.38",
+    "python": "3.12.9",
+    "torch": "2.10.0+cu129",
+    "cuda_available": true,
+    "cuda_version": "12.9",
+    "gpu": "NVIDIA GH200 120GB",
+    "transformers": "5.11.0"
+  }
+}

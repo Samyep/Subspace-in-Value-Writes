@@ -1,0 +1,1418 @@
+[
+  {
+    "path": "artifacts/bridge/pca_selected/llama_8b/per_example.csv",
+    "bytes": 236090,
+    "group": "bridge",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/bridge/pca_selected/llama_8b/summary.json",
+    "bytes": 915,
+    "group": "bridge",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/bridge/pca_selected/mistral_12b/per_example.csv",
+    "bytes": 154213,
+    "group": "bridge",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/bridge/pca_selected/mistral_12b/summary.json",
+    "bytes": 925,
+    "group": "bridge",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/bridge/pca_selected/qwen_14b/per_example.csv",
+    "bytes": 242135,
+    "group": "bridge",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/bridge/pca_selected/qwen_14b/summary.json",
+    "bytes": 903,
+    "group": "bridge",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/case_studies/bridge_llama8_prodigy_pca_scores.csv",
+    "bytes": 2105,
+    "group": "case_studies",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/case_studies/main_llama8_orlando_pca_scores.csv",
+    "bytes": 1819,
+    "group": "case_studies",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/case_studies/main_text_case_facts.csv",
+    "bytes": 2767,
+    "group": "case_studies",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/case_studies/main_text_case_summary.csv",
+    "bytes": 796,
+    "group": "case_studies",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/case_studies/selected_case_pca_scores.csv",
+    "bytes": 3796,
+    "group": "case_studies",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/adversarial_overlap/llama_3b/summary.json",
+    "bytes": 303,
+    "group": "adversarial_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/adversarial_overlap/llama_8b/summary.json",
+    "bytes": 304,
+    "group": "adversarial_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/adversarial_overlap/mistral_12b/summary.json",
+    "bytes": 308,
+    "group": "adversarial_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/adversarial_overlap/mistral_7b/summary.json",
+    "bytes": 305,
+    "group": "adversarial_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/adversarial_overlap/qwen_14b/summary.json",
+    "bytes": 302,
+    "group": "adversarial_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/adversarial_overlap/qwen_7b/summary.json",
+    "bytes": 302,
+    "group": "adversarial_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/attention_mass_causal/llama_3b/per_example.csv",
+    "bytes": 80695,
+    "group": "attention_mass_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/attention_mass_causal/llama_3b/summary.json",
+    "bytes": 857,
+    "group": "attention_mass_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/attention_mass_causal/llama_8b/per_example.csv",
+    "bytes": 88840,
+    "group": "attention_mass_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/attention_mass_causal/llama_8b/summary.json",
+    "bytes": 853,
+    "group": "attention_mass_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/attention_mass_causal/mistral_12b/per_example.csv",
+    "bytes": 93763,
+    "group": "attention_mass_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/attention_mass_causal/mistral_12b/summary.json",
+    "bytes": 859,
+    "group": "attention_mass_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/attention_mass_causal/mistral_7b/per_example.csv",
+    "bytes": 79775,
+    "group": "attention_mass_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/attention_mass_causal/mistral_7b/summary.json",
+    "bytes": 845,
+    "group": "attention_mass_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/attention_mass_causal/qwen_14b/per_example.csv",
+    "bytes": 102245,
+    "group": "attention_mass_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/attention_mass_causal/qwen_14b/summary.json",
+    "bytes": 840,
+    "group": "attention_mass_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/attention_mass_causal/qwen_7b/per_example.csv",
+    "bytes": 97117,
+    "group": "attention_mass_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/attention_mass_causal/qwen_7b/summary.json",
+    "bytes": 856,
+    "group": "attention_mass_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/head_knockout/llama_3b/head_knockout_table.csv",
+    "bytes": 270,
+    "group": "head_knockout",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/head_knockout/llama_3b/summary.json",
+    "bytes": 1880,
+    "group": "head_knockout",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/head_knockout/llama_8b/head_knockout_table.csv",
+    "bytes": 264,
+    "group": "head_knockout",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/head_knockout/llama_8b/summary.json",
+    "bytes": 1876,
+    "group": "head_knockout",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/head_knockout/mistral_12b/head_knockout_table.csv",
+    "bytes": 252,
+    "group": "head_knockout",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/head_knockout/mistral_12b/summary.json",
+    "bytes": 1869,
+    "group": "head_knockout",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/head_knockout/mistral_7b/head_knockout_table.csv",
+    "bytes": 244,
+    "group": "head_knockout",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/head_knockout/mistral_7b/summary.json",
+    "bytes": 1851,
+    "group": "head_knockout",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/head_knockout/qwen_14b/head_knockout_table.csv",
+    "bytes": 251,
+    "group": "head_knockout",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/head_knockout/qwen_14b/summary.json",
+    "bytes": 1853,
+    "group": "head_knockout",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/head_knockout/qwen_7b/head_knockout_table.csv",
+    "bytes": 263,
+    "group": "head_knockout",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/head_knockout/qwen_7b/summary.json",
+    "bytes": 1865,
+    "group": "head_knockout",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/label_format/llama_8b/summary.json",
+    "bytes": 899,
+    "group": "label_format",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/label_format/mistral_12b/summary.json",
+    "bytes": 906,
+    "group": "label_format",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/label_format/qwen_14b/summary.json",
+    "bytes": 889,
+    "group": "label_format",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/method_ablations/llama_3b/summary.json",
+    "bytes": 358,
+    "group": "method_ablations",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/method_ablations/llama_8b/summary.json",
+    "bytes": 357,
+    "group": "method_ablations",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/method_ablations/mistral_12b/summary.json",
+    "bytes": 362,
+    "group": "method_ablations",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/method_ablations/mistral_7b/summary.json",
+    "bytes": 363,
+    "group": "method_ablations",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/method_ablations/qwen_14b/summary.json",
+    "bytes": 353,
+    "group": "method_ablations",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/method_ablations/qwen_7b/summary.json",
+    "bytes": 352,
+    "group": "method_ablations",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/query_overlap/aggregate.json",
+    "bytes": 1248,
+    "group": "query_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/query_overlap/llama_3b/per_example.csv",
+    "bytes": 102844,
+    "group": "query_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/query_overlap/llama_3b/summary.json",
+    "bytes": 805,
+    "group": "query_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/query_overlap/llama_8b/per_example.csv",
+    "bytes": 102800,
+    "group": "query_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/query_overlap/llama_8b/summary.json",
+    "bytes": 863,
+    "group": "query_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/query_overlap/mistral_12b/per_example.csv",
+    "bytes": 102284,
+    "group": "query_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/query_overlap/mistral_12b/summary.json",
+    "bytes": 833,
+    "group": "query_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/query_overlap/mistral_7b/per_example.csv",
+    "bytes": 11322,
+    "group": "query_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/query_overlap/mistral_7b/summary.json",
+    "bytes": 863,
+    "group": "query_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/query_overlap/qwen_14b/per_example.csv",
+    "bytes": 101876,
+    "group": "query_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/query_overlap/qwen_14b/summary.json",
+    "bytes": 894,
+    "group": "query_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/query_overlap/qwen_7b/per_example.csv",
+    "bytes": 102725,
+    "group": "query_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/query_overlap/qwen_7b/summary.json",
+    "bytes": 794,
+    "group": "query_overlap",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/routing_alignment/llama_3b/per_example.csv",
+    "bytes": 113056,
+    "group": "routing_alignment",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/routing_alignment/llama_3b/summary.json",
+    "bytes": 504,
+    "group": "routing_alignment",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/routing_alignment/llama_8b/per_example.csv",
+    "bytes": 111910,
+    "group": "routing_alignment",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/routing_alignment/llama_8b/summary.json",
+    "bytes": 502,
+    "group": "routing_alignment",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/routing_alignment/mistral_12b/per_example.csv",
+    "bytes": 111786,
+    "group": "routing_alignment",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/routing_alignment/mistral_12b/summary.json",
+    "bytes": 509,
+    "group": "routing_alignment",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/routing_alignment/mistral_7b/per_example.csv",
+    "bytes": 113166,
+    "group": "routing_alignment",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/routing_alignment/mistral_7b/summary.json",
+    "bytes": 508,
+    "group": "routing_alignment",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/routing_alignment/qwen_14b/per_example.csv",
+    "bytes": 111358,
+    "group": "routing_alignment",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/routing_alignment/qwen_14b/summary.json",
+    "bytes": 503,
+    "group": "routing_alignment",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/routing_alignment/qwen_7b/per_example.csv",
+    "bytes": 112396,
+    "group": "routing_alignment",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/routing_alignment/qwen_7b/summary.json",
+    "bytes": 501,
+    "group": "routing_alignment",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/sign_calibration/llama_3b/per_prompt.csv",
+    "bytes": 446048,
+    "group": "sign_calibration",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/sign_calibration/llama_3b/summary.json",
+    "bytes": 560,
+    "group": "sign_calibration",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/sign_calibration/llama_8b/per_prompt.csv",
+    "bytes": 435525,
+    "group": "sign_calibration",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/sign_calibration/llama_8b/summary.json",
+    "bytes": 557,
+    "group": "sign_calibration",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/sign_calibration/mistral_12b/per_prompt.csv",
+    "bytes": 432307,
+    "group": "sign_calibration",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/sign_calibration/mistral_12b/summary.json",
+    "bytes": 568,
+    "group": "sign_calibration",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/sign_calibration/mistral_7b/per_prompt.csv",
+    "bytes": 453089,
+    "group": "sign_calibration",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/sign_calibration/mistral_7b/summary.json",
+    "bytes": 564,
+    "group": "sign_calibration",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/sign_calibration/qwen_14b/per_prompt.csv",
+    "bytes": 423650,
+    "group": "sign_calibration",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/sign_calibration/qwen_14b/summary.json",
+    "bytes": 551,
+    "group": "sign_calibration",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/sign_calibration/qwen_7b/per_prompt.csv",
+    "bytes": 422259,
+    "group": "sign_calibration",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/sign_calibration/qwen_7b/summary.json",
+    "bytes": 552,
+    "group": "sign_calibration",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/source_residual/llama_3b/summary.json",
+    "bytes": 341,
+    "group": "source_residual",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/source_residual/llama_8b/summary.json",
+    "bytes": 352,
+    "group": "source_residual",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/source_residual/mistral_12b/summary.json",
+    "bytes": 348,
+    "group": "source_residual",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/source_residual/mistral_7b/summary.json",
+    "bytes": 353,
+    "group": "source_residual",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/source_residual/qwen_14b/summary.json",
+    "bytes": 341,
+    "group": "source_residual",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/controls/source_residual/qwen_7b/summary.json",
+    "bytes": 346,
+    "group": "source_residual",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/discovery/llama_3b/per_example.csv",
+    "bytes": 123643,
+    "group": "discovery",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/discovery/llama_3b/summary.json",
+    "bytes": 561,
+    "group": "discovery",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/discovery/llama_8b/per_example.csv",
+    "bytes": 123880,
+    "group": "discovery",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/discovery/llama_8b/summary.json",
+    "bytes": 572,
+    "group": "discovery",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/discovery/mistral_12b/per_example.csv",
+    "bytes": 123714,
+    "group": "discovery",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/discovery/mistral_12b/summary.json",
+    "bytes": 566,
+    "group": "discovery",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/discovery/mistral_7b/per_example.csv",
+    "bytes": 124301,
+    "group": "discovery",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/discovery/mistral_7b/summary.json",
+    "bytes": 564,
+    "group": "discovery",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/discovery/qwen_14b/per_example.csv",
+    "bytes": 122877,
+    "group": "discovery",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/discovery/qwen_14b/summary.json",
+    "bytes": 562,
+    "group": "discovery",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/discovery/qwen_7b/per_example.csv",
+    "bytes": 123875,
+    "group": "discovery",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/discovery/qwen_7b/summary.json",
+    "bytes": 565,
+    "group": "discovery",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/figures/fig1_selection.csv",
+    "bytes": 607,
+    "group": "figure_csvs",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/figures/fig2_causal.csv",
+    "bytes": 694,
+    "group": "figure_csvs",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/figures/fig3_dose_response.csv",
+    "bytes": 2369,
+    "group": "figure_csvs",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/figures/fig4_transfer.csv",
+    "bytes": 448,
+    "group": "figure_csvs",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/figures/fig5_head_knockout.csv",
+    "bytes": 503,
+    "group": "figure_csvs",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/figures/fig6_label_controls.csv",
+    "bytes": 849,
+    "group": "figure_csvs",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/figures/fig7_bridge.csv",
+    "bytes": 395,
+    "group": "figure_csvs",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/figures/headline_baselines.csv",
+    "bytes": 1272,
+    "group": "figure_csvs",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/headline_baselines/aggregate.csv",
+    "bytes": 1272,
+    "group": "headline_baselines",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/headline_baselines/llama_3b/per_prompt.csv",
+    "bytes": 176068,
+    "group": "headline_baselines",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/headline_baselines/llama_3b/summary.json",
+    "bytes": 3200,
+    "group": "headline_baselines",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/headline_baselines/llama_8b/per_prompt.csv",
+    "bytes": 175815,
+    "group": "headline_baselines",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/headline_baselines/llama_8b/summary.json",
+    "bytes": 3200,
+    "group": "headline_baselines",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/headline_baselines/mistral_12b/per_prompt.csv",
+    "bytes": 174992,
+    "group": "headline_baselines",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/headline_baselines/mistral_12b/summary.json",
+    "bytes": 3209,
+    "group": "headline_baselines",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/headline_baselines/mistral_7b/per_prompt.csv",
+    "bytes": 177368,
+    "group": "headline_baselines",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/headline_baselines/mistral_7b/summary.json",
+    "bytes": 3189,
+    "group": "headline_baselines",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/headline_baselines/qwen_14b/per_prompt.csv",
+    "bytes": 172776,
+    "group": "headline_baselines",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/headline_baselines/qwen_14b/summary.json",
+    "bytes": 3182,
+    "group": "headline_baselines",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/headline_baselines/qwen_7b/per_prompt.csv",
+    "bytes": 175280,
+    "group": "headline_baselines",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/headline_baselines/qwen_7b/summary.json",
+    "bytes": 3190,
+    "group": "headline_baselines",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/dose_response/llama_3b/per_example.csv",
+    "bytes": 92428,
+    "group": "dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/dose_response/llama_3b/summary.json",
+    "bytes": 515,
+    "group": "dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/dose_response/llama_8b/per_example.csv",
+    "bytes": 91400,
+    "group": "dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/dose_response/llama_8b/summary.json",
+    "bytes": 520,
+    "group": "dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/dose_response/mistral_12b/per_example.csv",
+    "bytes": 90614,
+    "group": "dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/dose_response/mistral_12b/summary.json",
+    "bytes": 517,
+    "group": "dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/dose_response/mistral_7b/per_example.csv",
+    "bytes": 92583,
+    "group": "dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/dose_response/mistral_7b/summary.json",
+    "bytes": 515,
+    "group": "dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/dose_response/qwen_14b/per_example.csv",
+    "bytes": 89231,
+    "group": "dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/dose_response/qwen_14b/summary.json",
+    "bytes": 502,
+    "group": "dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/dose_response/qwen_7b/per_example.csv",
+    "bytes": 90324,
+    "group": "dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/dose_response/qwen_7b/summary.json",
+    "bytes": 509,
+    "group": "dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/multi_pc/llama_3b/per_example.csv",
+    "bytes": 15560,
+    "group": "multi_pc",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/multi_pc/llama_3b/summary.json",
+    "bytes": 959,
+    "group": "multi_pc",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/multi_pc/llama_8b/per_example.csv",
+    "bytes": 18193,
+    "group": "multi_pc",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/multi_pc/llama_8b/summary.json",
+    "bytes": 921,
+    "group": "multi_pc",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/multi_pc/mistral_12b/per_example.csv",
+    "bytes": 19586,
+    "group": "multi_pc",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/multi_pc/mistral_12b/summary.json",
+    "bytes": 988,
+    "group": "multi_pc",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/multi_pc/mistral_7b/per_example.csv",
+    "bytes": 15272,
+    "group": "multi_pc",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/multi_pc/mistral_7b/summary.json",
+    "bytes": 865,
+    "group": "multi_pc",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/multi_pc/qwen_14b/per_example.csv",
+    "bytes": 22081,
+    "group": "multi_pc",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/multi_pc/qwen_14b/summary.json",
+    "bytes": 957,
+    "group": "multi_pc",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/multi_pc/qwen_7b/per_example.csv",
+    "bytes": 20452,
+    "group": "multi_pc",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/multi_pc/qwen_7b/summary.json",
+    "bytes": 935,
+    "group": "multi_pc",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_ablation/llama_3b/per_example.csv",
+    "bytes": 77162,
+    "group": "pc1_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_ablation/llama_3b/summary.json",
+    "bytes": 1175,
+    "group": "pc1_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_ablation/llama_8b/per_example.csv",
+    "bytes": 83818,
+    "group": "pc1_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_ablation/llama_8b/summary.json",
+    "bytes": 1199,
+    "group": "pc1_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_ablation/mistral_12b/per_example.csv",
+    "bytes": 87562,
+    "group": "pc1_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_ablation/mistral_12b/summary.json",
+    "bytes": 1225,
+    "group": "pc1_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_ablation/mistral_7b/per_example.csv",
+    "bytes": 76402,
+    "group": "pc1_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_ablation/mistral_7b/summary.json",
+    "bytes": 1166,
+    "group": "pc1_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_ablation/qwen_14b/per_example.csv",
+    "bytes": 94000,
+    "group": "pc1_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_ablation/qwen_14b/summary.json",
+    "bytes": 1192,
+    "group": "pc1_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_ablation/qwen_7b/per_example.csv",
+    "bytes": 90028,
+    "group": "pc1_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_ablation/qwen_7b/summary.json",
+    "bytes": 1189,
+    "group": "pc1_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_dose_response/llama_3b/per_example.csv",
+    "bytes": 16510,
+    "group": "pc1_dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_dose_response/llama_3b/summary.json",
+    "bytes": 567,
+    "group": "pc1_dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_dose_response/llama_8b/per_example.csv",
+    "bytes": 19583,
+    "group": "pc1_dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_dose_response/llama_8b/summary.json",
+    "bytes": 567,
+    "group": "pc1_dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_dose_response/mistral_12b/per_example.csv",
+    "bytes": 21000,
+    "group": "pc1_dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_dose_response/mistral_12b/summary.json",
+    "bytes": 576,
+    "group": "pc1_dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_dose_response/mistral_7b/per_example.csv",
+    "bytes": 16142,
+    "group": "pc1_dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_dose_response/mistral_7b/summary.json",
+    "bytes": 575,
+    "group": "pc1_dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_dose_response/qwen_14b/per_example.csv",
+    "bytes": 23832,
+    "group": "pc1_dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_dose_response/qwen_14b/summary.json",
+    "bytes": 559,
+    "group": "pc1_dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_dose_response/qwen_7b/per_example.csv",
+    "bytes": 21902,
+    "group": "pc1_dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_dose_response/qwen_7b/summary.json",
+    "bytes": 557,
+    "group": "pc1_dose_response",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_steering/llama_3b/per_example.csv",
+    "bytes": 89503,
+    "group": "pc1_steering",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_steering/llama_3b/summary.json",
+    "bytes": 1017,
+    "group": "pc1_steering",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_steering/llama_8b/per_example.csv",
+    "bytes": 102352,
+    "group": "pc1_steering",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_steering/llama_8b/summary.json",
+    "bytes": 1019,
+    "group": "pc1_steering",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_steering/mistral_12b/per_example.csv",
+    "bytes": 108890,
+    "group": "pc1_steering",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_steering/mistral_12b/summary.json",
+    "bytes": 1056,
+    "group": "pc1_steering",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_steering/mistral_7b/per_example.csv",
+    "bytes": 88037,
+    "group": "pc1_steering",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_steering/mistral_7b/summary.json",
+    "bytes": 951,
+    "group": "pc1_steering",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_steering/qwen_14b/per_example.csv",
+    "bytes": 121079,
+    "group": "pc1_steering",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_steering/qwen_14b/summary.json",
+    "bytes": 1008,
+    "group": "pc1_steering",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_steering/qwen_7b/per_example.csv",
+    "bytes": 113147,
+    "group": "pc1_steering",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/interventions/pc1_steering/qwen_7b/summary.json",
+    "bytes": 1011,
+    "group": "pc1_steering",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/patching/activation_patching/llama_3b/per_example.csv",
+    "bytes": 46612,
+    "group": "activation_patching",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/patching/activation_patching/llama_3b/summary.json",
+    "bytes": 1387,
+    "group": "activation_patching",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/patching/activation_patching/llama_8b/per_example.csv",
+    "bytes": 76916,
+    "group": "activation_patching",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/patching/activation_patching/llama_8b/summary.json",
+    "bytes": 1389,
+    "group": "activation_patching",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/patching/activation_patching/mistral_12b/per_example.csv",
+    "bytes": 92237,
+    "group": "activation_patching",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/patching/activation_patching/mistral_12b/summary.json",
+    "bytes": 1397,
+    "group": "activation_patching",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/patching/activation_patching/mistral_7b/per_example.csv",
+    "bytes": 6139,
+    "group": "activation_patching",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/patching/activation_patching/mistral_7b/summary.json",
+    "bytes": 1324,
+    "group": "activation_patching",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/patching/activation_patching/qwen_14b/per_example.csv",
+    "bytes": 120408,
+    "group": "activation_patching",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/patching/activation_patching/qwen_14b/summary.json",
+    "bytes": 1419,
+    "group": "activation_patching",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/patching/activation_patching/qwen_7b/per_example.csv",
+    "bytes": 102469,
+    "group": "activation_patching",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/patching/activation_patching/qwen_7b/summary.json",
+    "bytes": 1379,
+    "group": "activation_patching",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/prompts/hotpot_400_eval_prompt_summary.json",
+    "bytes": 390,
+    "group": "prompts",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/prompts/hotpot_400_eval_prompts.jsonl",
+    "bytes": 2788704,
+    "group": "prompts",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/span_ablation/llama_3b/per_example.csv",
+    "bytes": 74860,
+    "group": "span_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/span_ablation/llama_3b/summary.json",
+    "bytes": 359,
+    "group": "span_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/span_ablation/llama_8b/per_example.csv",
+    "bytes": 81869,
+    "group": "span_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/span_ablation/llama_8b/summary.json",
+    "bytes": 363,
+    "group": "span_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/span_ablation/mistral_12b/per_example.csv",
+    "bytes": 84390,
+    "group": "span_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/span_ablation/mistral_12b/summary.json",
+    "bytes": 368,
+    "group": "span_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/span_ablation/mistral_7b/per_example.csv",
+    "bytes": 73691,
+    "group": "span_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/span_ablation/mistral_7b/summary.json",
+    "bytes": 367,
+    "group": "span_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/span_ablation/qwen_14b/per_example.csv",
+    "bytes": 91939,
+    "group": "span_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/span_ablation/qwen_14b/summary.json",
+    "bytes": 353,
+    "group": "span_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/span_ablation/qwen_7b/per_example.csv",
+    "bytes": 86848,
+    "group": "span_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/span_ablation/qwen_7b/summary.json",
+    "bytes": 349,
+    "group": "span_ablation",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/crossval_causal/llama_3b/per_example.csv",
+    "bytes": 15192,
+    "group": "crossval_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/crossval_causal/llama_3b/summary.json",
+    "bytes": 1296,
+    "group": "crossval_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/crossval_causal/llama_8b/per_example.csv",
+    "bytes": 17043,
+    "group": "crossval_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/crossval_causal/llama_8b/summary.json",
+    "bytes": 1256,
+    "group": "crossval_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/crossval_causal/mistral_12b/per_example.csv",
+    "bytes": 18250,
+    "group": "crossval_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/crossval_causal/mistral_12b/summary.json",
+    "bytes": 1320,
+    "group": "crossval_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/crossval_causal/mistral_7b/per_example.csv",
+    "bytes": 14932,
+    "group": "crossval_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/crossval_causal/mistral_7b/summary.json",
+    "bytes": 1263,
+    "group": "crossval_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/crossval_causal/qwen_14b/per_example.csv",
+    "bytes": 20276,
+    "group": "crossval_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/crossval_causal/qwen_14b/summary.json",
+    "bytes": 1291,
+    "group": "crossval_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/crossval_causal/qwen_7b/per_example.csv",
+    "bytes": 18949,
+    "group": "crossval_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/crossval_causal/qwen_7b/summary.json",
+    "bytes": 1285,
+    "group": "crossval_causal",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/pca_direction/llama_3b/per_example.csv",
+    "bytes": 41030,
+    "group": "transfer_pca_direction",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/pca_direction/llama_3b/summary.json",
+    "bytes": 453,
+    "group": "transfer_pca_direction",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/pca_direction/llama_8b/per_example.csv",
+    "bytes": 40917,
+    "group": "transfer_pca_direction",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/pca_direction/llama_8b/summary.json",
+    "bytes": 452,
+    "group": "transfer_pca_direction",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/pca_direction/mistral_12b/per_example.csv",
+    "bytes": 40931,
+    "group": "transfer_pca_direction",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/pca_direction/mistral_12b/summary.json",
+    "bytes": 459,
+    "group": "transfer_pca_direction",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/pca_direction/mistral_7b/per_example.csv",
+    "bytes": 41047,
+    "group": "transfer_pca_direction",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/pca_direction/mistral_7b/summary.json",
+    "bytes": 458,
+    "group": "transfer_pca_direction",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/pca_direction/qwen_14b/per_example.csv",
+    "bytes": 40903,
+    "group": "transfer_pca_direction",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/pca_direction/qwen_14b/summary.json",
+    "bytes": 442,
+    "group": "transfer_pca_direction",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/pca_direction/qwen_7b/per_example.csv",
+    "bytes": 41042,
+    "group": "transfer_pca_direction",
+    "generated_at": "2026-05-11T00:21:19Z"
+  },
+  {
+    "path": "artifacts/transfer/pca_direction/qwen_7b/summary.json",
+    "bytes": 442,
+    "group": "transfer_pca_direction",
+    "generated_at": "2026-05-11T00:21:19Z"
+  }
+]

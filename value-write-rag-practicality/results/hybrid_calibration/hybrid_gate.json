@@ -1,0 +1,67 @@
+{
+  "protocol": {
+    "n_examples": 200,
+    "readers": [
+      "qwen3_8b",
+      "qwen_14b"
+    ],
+    "interior_weights": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "normalization": "within-question z-score",
+    "selection_metric": "reader-macro support recall@2",
+    "minimum_improvement": 0.01
+  },
+  "per_reader": {
+    "qwen3_8b": {
+      "mean_score_correlation": 0.6683075064762221,
+      "top2_disagreement_rate": 0.545,
+      "support_recall_by_weight": {
+        "0.00": 0.9425,
+        "0.25": 0.9325,
+        "0.50": 0.8625,
+        "0.75": 0.7825,
+        "1.00": 0.695
+      },
+      "exact_support_pair_by_weight": {
+        "0.00": 0.885,
+        "0.25": 0.865,
+        "0.50": 0.735,
+        "0.75": 0.595,
+        "1.00": 0.445
+      }
+    },
+    "qwen_14b": {
+      "mean_score_correlation": 0.6662077718139787,
+      "top2_disagreement_rate": 0.595,
+      "support_recall_by_weight": {
+        "0.00": 0.9425,
+        "0.25": 0.9275,
+        "0.50": 0.8625,
+        "0.75": 0.7925,
+        "1.00": 0.665
+      },
+      "exact_support_pair_by_weight": {
+        "0.00": 0.885,
+        "0.25": 0.855,
+        "0.50": 0.725,
+        "0.75": 0.605,
+        "1.00": 0.385
+      }
+    }
+  },
+  "macro_support_recall_by_weight": {
+    "0.00": 0.9425,
+    "0.25": 0.9299999999999999,
+    "0.50": 0.8625,
+    "0.75": 0.7875,
+    "1.00": 0.6799999999999999
+  },
+  "selected_weight": 0.25,
+  "best_endpoint_support_recall": 0.9425,
+  "selected_support_recall": 0.9299999999999999,
+  "improvement": -0.012500000000000067,
+  "gate_passed": false
+}

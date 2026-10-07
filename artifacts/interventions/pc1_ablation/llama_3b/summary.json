@@ -1,0 +1,50 @@
+{
+  "cell": "llama_3b",
+  "family": "Llama",
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "n_prompts": 800,
+  "n_baseline_correct": 234,
+  "destruction_rates": {
+    "full_abl": 0.2949,
+    "pc1_only": 0.1239,
+    "orthogonal": 0.3205,
+    "pc1_restore": 0.2436,
+    "random": 0.0043
+  },
+  "bootstrap_cis": {
+    "full_abl": {
+      "mean": 0.2948717948717949,
+      "ci_lo": 0.23931623931623933,
+      "ci_hi": 0.3547008547008547,
+      "n": 234
+    },
+    "pc1_only": {
+      "mean": 0.12393162393162394,
+      "ci_lo": 0.0811965811965812,
+      "ci_hi": 0.16666666666666666,
+      "n": 234
+    },
+    "orthogonal": {
+      "mean": 0.32051282051282054,
+      "ci_lo": 0.2606837606837607,
+      "ci_hi": 0.3803418803418803,
+      "n": 234
+    },
+    "pc1_restore": {
+      "mean": 0.24358974358974358,
+      "ci_lo": 0.18803418803418803,
+      "ci_hi": 0.29914529914529914,
+      "n": 234
+    },
+    "random": {
+      "mean": 0.004273504273504274,
+      "ci_lo": 0.0,
+      "ci_hi": 0.01282051282051282,
+      "n": 234
+    }
+  },
+  "pc1_vs_full_ratio": 0.42,
+  "orth_vs_full_ratio": 1.087,
+  "pc1_vs_random_ratio": 29.0,
+  "verdict": "PC1_NOT_SPECIFICALLY_CAUSAL"
+}

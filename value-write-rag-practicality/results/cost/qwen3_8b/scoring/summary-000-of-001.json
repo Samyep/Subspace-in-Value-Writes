@@ -1,0 +1,62 @@
+{
+  "run_config": {
+    "cell": "qwen3_8b",
+    "model_id": "Qwen/Qwen3-8B",
+    "writer_window": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "data": "data/musique_pooled_rag_confirm.jsonl",
+    "direction": "calibration/qwen3_8b/frozen_direction.npz",
+    "reference_results": "reference_results/qwen3_8b/per_example.jsonl",
+    "max_prompt_tokens": 3072,
+    "shard_index": 0,
+    "num_shards": 1,
+    "n_rows_in_shard": 400,
+    "timing_warmup_examples": 5,
+    "attention_implementation": "eager",
+    "runtime": {
+      "platform": "Linux-6.4.0-150600.23.53-64kb-aarch64-with-glibc2.38",
+      "python": "3.12.9",
+      "torch": "2.10.0+cu129",
+      "cuda_available": true,
+      "cuda_version": "12.9",
+      "gpu": "NVIDIA GH200 120GB",
+      "transformers": "5.11.0"
+    }
+  },
+  "selection_reproduction": {
+    "value_all_match": true,
+    "attention_all_match": true
+  },
+  "timing_after_warmup": {
+    "score_seconds": {
+      "mean": 0.31701141167520486,
+      "lo": 0.311545187251173,
+      "hi": 0.32247663158327494,
+      "n": 395
+    },
+    "prompt_tokens": {
+      "mean": 2483.458227848101,
+      "lo": 2449.5261392405064,
+      "hi": 2517.073734177215,
+      "n": 395
+    },
+    "peak_allocated_bytes": {
+      "mean": 32709165015.817722,
+      "lo": 32288496542.26633,
+      "hi": 33131814370.187344,
+      "n": 395
+    }
+  }
+}

@@ -1,0 +1,19 @@
+\begin{table}[H]
+\centering
+\small
+\setlength{\tabcolsep}{2pt}
+\caption{Frozen-direction intervention on disjoint source questions.}
+\label{tab:frozen-controls}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrr@{}}
+\toprule
+Model & $n$ & PC1 & Random & Difference [95\% CI] \\
+\midrule
+Llama-3B & 217 & 0.028 & 0.014 & 0.014 [-0.009, 0.038] \\
+Llama-8B & 401 & 0.379 & 0.061 & 0.318 [0.240, 0.398] \\
+Qwen-7B & 521 & 0.106 & 0.006 & 0.100 [0.058, 0.146] \\
+Qwen-14B & 636 & 0.071 & 0.018 & 0.053 [0.023, 0.086] \\
+Mistral-7B & 287 & 0.014 & 0.022 & -0.008 [-0.028, 0.013] \\
+Mistral-12B & 458 & 0.094 & 0.030 & 0.064 [0.027, 0.105] \\
+\bottomrule
+\end{tabular*}
+\end{table}

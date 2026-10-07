@@ -1,0 +1,51 @@
+{
+  "cell": "qwen_7b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "n_prompts": 800,
+  "n_baseline_correct": 510,
+  "destruction_rates": {
+    "full_abl": 0.1863,
+    "pc1_only": 0.2549,
+    "orthogonal": 0.6314,
+    "pc1_restore": 0.1255,
+    "random": 0.0039
+  },
+  "bootstrap_cis": {
+    "full_abl": {
+      "mean": 0.18627450980392157,
+      "ci_lo": 0.15294117647058825,
+      "ci_hi": 0.22156862745098038,
+      "n": 510
+    },
+    "pc1_only": {
+      "mean": 0.2549019607843137,
+      "ci_lo": 0.21764705882352942,
+      "ci_hi": 0.29411764705882354,
+      "n": 510
+    },
+    "orthogonal": {
+      "mean": 0.6313725490196078,
+      "ci_lo": 0.5901960784313726,
+      "ci_hi": 0.6725490196078432,
+      "n": 510
+    },
+    "pc1_restore": {
+      "mean": 0.12549019607843137,
+      "ci_lo": 0.09803921568627451,
+      "ci_hi": 0.15490196078431373,
+      "n": 510
+    },
+    "random": {
+      "mean": 0.00392156862745098,
+      "ci_lo": 0.0,
+      "ci_hi": 0.00980392156862745,
+      "n": 510
+    }
+  },
+  "pc1_concentration": 1.368,
+  "orth_vs_full_ratio": 3.389,
+  "pc1_vs_random_ratio": 65.0,
+  "pc1_restore_recovery": 0.326,
+  "verdict": "PC1_CAUSAL_STRONG"
+}

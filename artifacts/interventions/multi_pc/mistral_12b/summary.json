@@ -1,0 +1,44 @@
+{
+  "cell": "mistral_12b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+  "n_prompts": 800,
+  "n_baseline_correct": 459,
+  "destruction_rates": {
+    "pc1": 0.3094,
+    "pc2": 0.2288,
+    "pc3": 0.1002,
+    "random": 0.0131
+  },
+  "bootstrap_cis": {
+    "pc1": {
+      "mean": 0.3093681917211329,
+      "ci_lo": 0.2679738562091503,
+      "ci_hi": 0.35294117647058826,
+      "n": 459
+    },
+    "pc2": {
+      "mean": 0.22875816993464052,
+      "ci_lo": 0.19172113289760348,
+      "ci_hi": 0.2679738562091503,
+      "n": 459
+    },
+    "pc3": {
+      "mean": 0.10021786492374728,
+      "ci_lo": 0.07407407407407407,
+      "ci_hi": 0.12854030501089325,
+      "n": 459
+    },
+    "random": {
+      "mean": 0.013071895424836602,
+      "ci_lo": 0.004357298474945534,
+      "ci_hi": 0.023965141612200435,
+      "n": 459
+    }
+  },
+  "pc1_vs_pc2": 1.4,
+  "pc1_vs_pc3": 3.1,
+  "pc1_vs_random": 23.7,
+  "pc1_uniquely_causal": false,
+  "verdict": "PC1_NOT_UNIQUE"
+}

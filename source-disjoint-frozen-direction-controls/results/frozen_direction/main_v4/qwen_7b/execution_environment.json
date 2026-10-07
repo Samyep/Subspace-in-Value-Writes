@@ -1,0 +1,17 @@
+{
+  "device": "cuda",
+  "gpu": "NVIDIA GH200 120GB",
+  "config_commit_hash": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "snapshot_commit": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "mistral_regex_fix": null,
+  "tokenizer_class": "Qwen2Tokenizer",
+  "max_memory_allocated": 15269554176,
+  "label_token_ids": {
+    "A": 32,
+    "B": 33,
+    "C": 34,
+    "D": 35,
+    "E": 36,
+    "F": 37
+  }
+}

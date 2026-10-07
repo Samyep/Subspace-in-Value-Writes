@@ -1,0 +1,44 @@
+{
+  "cell": "qwen_14b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "n_prompts": 800,
+  "n_baseline_correct": 601,
+  "destruction_rates": {
+    "pc1": 0.4393,
+    "pc2": 0.2579,
+    "pc3": 0.1364,
+    "random": 0.0017
+  },
+  "bootstrap_cis": {
+    "pc1": {
+      "mean": 0.43926788685524126,
+      "ci_lo": 0.40099833610648916,
+      "ci_hi": 0.47920133111480867,
+      "n": 601
+    },
+    "pc2": {
+      "mean": 0.2579034941763727,
+      "ci_lo": 0.22462562396006655,
+      "ci_hi": 0.2928452579034942,
+      "n": 601
+    },
+    "pc3": {
+      "mean": 0.13643926788685523,
+      "ci_lo": 0.10981697171381032,
+      "ci_hi": 0.16472545757071547,
+      "n": 601
+    },
+    "random": {
+      "mean": 0.0016638935108153079,
+      "ci_lo": 0.0,
+      "ci_hi": 0.004991680532445923,
+      "n": 601
+    }
+  },
+  "pc1_vs_pc2": 1.7,
+  "pc1_vs_pc3": 3.2,
+  "pc1_vs_random": 264.0,
+  "pc1_uniquely_causal": false,
+  "verdict": "PC1_NOT_UNIQUE"
+}

@@ -1,0 +1,17 @@
+{
+  "cell": "mistral_7b",
+  "family": "Mistral",
+  "n_valid": 800,
+  "auc": {
+    "value_write": 0.7702,
+    "residual": 0.815,
+    "value_write_avg": 0.7556
+  },
+  "top2_recovery": {
+    "value_write": 0.2925,
+    "residual": 0.26,
+    "value_write_avg": 0.2888
+  },
+  "value_write_advantage_over_residual": -0.0448,
+  "verdict": "RESIDUAL_SUPERIOR"
+}

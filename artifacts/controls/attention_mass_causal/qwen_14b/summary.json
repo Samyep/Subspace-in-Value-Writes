@@ -1,0 +1,40 @@
+{
+  "cell": "qwen_14b",
+  "family": "Qwen",
+  "n_baseline_correct": 601,
+  "n_agree": 403,
+  "n_disagree": 198,
+  "destruction_rates": {
+    "gold": 0.2063,
+    "pca_selected": 0.193,
+    "attn_mass_selected": 0.203,
+    "random": 0.0083
+  },
+  "disagree_subset": {
+    "n": 198,
+    "pca_dest": 0.202,
+    "attn_dest": 0.2323
+  },
+  "bootstrap_ci": {
+    "pca": {
+      "mean": 0.1930116472545757,
+      "ci_lo": 0.16139767054908485,
+      "ci_hi": 0.22628951747088186,
+      "n": 601
+    },
+    "attn_mass": {
+      "mean": 0.20299500831946754,
+      "ci_lo": 0.1713810316139767,
+      "ci_hi": 0.23627287853577372,
+      "n": 601
+    },
+    "random": {
+      "mean": 0.008319467554076539,
+      "ci_lo": 0.0016638935108153079,
+      "ci_hi": 0.016638935108153077,
+      "n": 601
+    }
+  },
+  "pca_advantage": -0.01,
+  "verdict": "TIE"
+}

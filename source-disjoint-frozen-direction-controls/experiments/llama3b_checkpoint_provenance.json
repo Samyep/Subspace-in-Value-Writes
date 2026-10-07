@@ -1,0 +1,66 @@
+{
+  "canonical_model": "meta-llama/Llama-3.2-3B-Instruct",
+  "canonical_revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+  "loaded_repository": "unsloth/Llama-3.2-3B-Instruct",
+  "loaded_revision": "006f5dcd1393c3add266de40994ba96225e9689d",
+  "files": [
+    {
+      "file": "model-00001-of-00002.safetensors",
+      "official_exists": true,
+      "mirror_exists": true,
+      "official_blob_id": "08a01e1ba553cdcb2222f034a209861d7b54e284",
+      "mirror_blob_id": "08a01e1ba553cdcb2222f034a209861d7b54e284",
+      "same_git_blob": true,
+      "identical_weights": true
+    },
+    {
+      "file": "model-00002-of-00002.safetensors",
+      "official_exists": true,
+      "mirror_exists": true,
+      "official_blob_id": "c8ded1ef1272dbc85d041b5a2f729c055db43f3f",
+      "mirror_blob_id": "c8ded1ef1272dbc85d041b5a2f729c055db43f3f",
+      "same_git_blob": true,
+      "identical_weights": true
+    },
+    {
+      "file": "config.json",
+      "official_exists": true,
+      "mirror_exists": true,
+      "official_blob_id": "a5a40fa6da567ab026a5a2bf37125a90182be07d",
+      "mirror_blob_id": "c9b6f554d5eda244e63d96d82c41696ee99abcb7",
+      "same_git_blob": false
+    },
+    {
+      "file": "tokenizer.json",
+      "official_exists": true,
+      "mirror_exists": true,
+      "official_blob_id": "5cc5f00a5b203e90a27a3bd60d1ec393b07971e8",
+      "mirror_blob_id": "1c1d8d5c9024994f1d3b00f9662b8dd89ca13cf2",
+      "same_git_blob": false
+    },
+    {
+      "file": "tokenizer_config.json",
+      "official_exists": true,
+      "mirror_exists": true,
+      "official_blob_id": "4ff488a165e900e5129cda7c20ab32d568d2a475",
+      "mirror_blob_id": "3dc1faa6025cdb195c0889dd8d3d13ca26af9225",
+      "same_git_blob": false
+    },
+    {
+      "file": "special_tokens_map.json",
+      "official_exists": true,
+      "mirror_exists": true,
+      "official_blob_id": "02ee80b6196926a5ad790a004d9efd6ab1ba6542",
+      "mirror_blob_id": "3c1d04911c269b925af977a3151c9704e990e4d0",
+      "same_git_blob": false
+    },
+    {
+      "file": "generation_config.json",
+      "official_exists": true,
+      "mirror_exists": true,
+      "official_blob_id": "75ae08310d6d23df373ee2644b497192b3cce6d8",
+      "mirror_blob_id": "cabfc63e394c9abfc712a7c6f9a21d4e050fade8",
+      "same_git_blob": false
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "cell": "qwen_14b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "n_prompts": 800,
+  "n_baseline_correct": 601,
+  "destruction_rates": {
+    "full_abl": 0.193,
+    "pc1_only": 0.4376,
+    "orthogonal": 0.8952,
+    "pc1_restore": 0.1498,
+    "random": 0.0033
+  },
+  "bootstrap_cis": {
+    "full_abl": {
+      "mean": 0.1930116472545757,
+      "ci_lo": 0.16139767054908485,
+      "ci_hi": 0.22628951747088186,
+      "n": 601
+    },
+    "pc1_only": {
+      "mean": 0.43760399334442596,
+      "ci_lo": 0.39933444259567386,
+      "ci_hi": 0.47587354409317806,
+      "n": 601
+    },
+    "orthogonal": {
+      "mean": 0.8951747088186356,
+      "ci_lo": 0.870216306156406,
+      "ci_hi": 0.9184692179700499,
+      "n": 601
+    },
+    "pc1_restore": {
+      "mean": 0.1497504159733777,
+      "ci_lo": 0.12146422628951747,
+      "ci_hi": 0.17970049916805325,
+      "n": 601
+    },
+    "random": {
+      "mean": 0.0033277870216306157,
+      "ci_lo": 0.0,
+      "ci_hi": 0.008319467554076539,
+      "n": 601
+    }
+  },
+  "pc1_concentration": 2.267,
+  "orth_vs_full_ratio": 4.638,
+  "pc1_vs_random_ratio": 131.5,
+  "pc1_restore_recovery": 0.224,
+  "verdict": "PC1_CAUSAL_STRONG"
+}

@@ -1,0 +1,125 @@
+{
+  "cell": "qwen_14b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "n_prompts": 800,
+  "prompt_file": "artifacts/prompts/hotpot_400_eval_prompts.jsonl",
+  "example_rank_min": "201",
+  "example_rank_max": "400",
+  "writer_window": "L32-L47",
+  "methods": {
+    "value_write_pca": {
+      "label": "Value-write PCA",
+      "auc_mean": 0.9728125,
+      "auc_ci": {
+        "mean": 0.9728125,
+        "ci_lo": 0.96796875,
+        "ci_hi": 0.97734375,
+        "n": 800
+      },
+      "top2_recovery": 0.83375,
+      "n_prompts": 800,
+      "pc1_auc_mean": 0.866875,
+      "pc1_top2_recovery": 0.5525,
+      "best_pc_counts": {
+        "1": 534,
+        "2": 209,
+        "3": 57
+      }
+    },
+    "attention_mass": {
+      "label": "Attention mass",
+      "auc_mean": 0.94875,
+      "auc_ci": {
+        "mean": 0.94875,
+        "ci_lo": 0.94140625,
+        "ci_hi": 0.955625,
+        "n": 800
+      },
+      "top2_recovery": 0.7525,
+      "n_prompts": 800,
+      "natural_auc_mean": 0.94875,
+      "oriented_auc_mean": 0.94875
+    },
+    "source_residual_pca": {
+      "label": "Source-resid. PCA",
+      "auc_mean": 0.90953125,
+      "auc_ci": {
+        "mean": 0.90953125,
+        "ci_lo": 0.9025,
+        "ci_hi": 0.9165625,
+        "n": 800
+      },
+      "top2_recovery": 0.4925,
+      "n_prompts": 800,
+      "pc1_auc_mean": 0.80046875,
+      "pc1_top2_recovery": 0.25125,
+      "best_pc_counts": {
+        "1": 473,
+        "2": 194,
+        "3": 133
+      }
+    },
+    "value_write_norm": {
+      "label": "Norm",
+      "auc_mean": 0.93203125,
+      "auc_ci": {
+        "mean": 0.93203125,
+        "ci_lo": 0.92328125,
+        "ci_hi": 0.9403125,
+        "n": 800
+      },
+      "top2_recovery": 0.71625,
+      "n_prompts": 800,
+      "natural_auc_mean": 0.93140625,
+      "oriented_auc_mean": 0.93203125
+    },
+    "tfidf": {
+      "label": "TF-IDF",
+      "auc_mean": 0.7984375,
+      "auc_ci": {
+        "mean": 0.7984375,
+        "ci_lo": 0.7846875,
+        "ci_hi": 0.8121875,
+        "n": 800
+      },
+      "top2_recovery": 0.32,
+      "n_prompts": 800,
+      "natural_auc_mean": 0.7984375,
+      "oriented_auc_mean": 0.8184375
+    },
+    "fact_length": {
+      "label": "Length",
+      "auc_mean": 0.5940625,
+      "auc_ci": {
+        "mean": 0.5940625,
+        "ci_lo": 0.5753125,
+        "ci_hi": 0.61265625,
+        "n": 800
+      },
+      "top2_recovery": 0.105,
+      "n_prompts": 800,
+      "natural_auc_mean": 0.5940625,
+      "oriented_auc_mean": 0.7303125
+    },
+    "position": {
+      "label": "Position",
+      "auc_mean": 0.47625,
+      "auc_ci": {
+        "mean": 0.47625,
+        "ci_lo": 0.4571875,
+        "ci_hi": 0.495625,
+        "n": 800
+      },
+      "top2_recovery": 0.05,
+      "n_prompts": 800,
+      "natural_auc_mean": 0.47625,
+      "oriented_auc_mean": 0.72375
+    }
+  },
+  "notes": {
+    "value_write_pca": "Same best-of-top-3 PCA scoring rule as the headline discovery table.",
+    "value_write_norm": "AUC uses the orientation-best convention from the headline norm baseline; top-2 uses high norm.",
+    "scalar_baselines": "Attention mass, TF-IDF, length, and position use their natural high-score ranking."
+  }
+}

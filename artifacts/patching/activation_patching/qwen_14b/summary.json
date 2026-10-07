@@ -1,0 +1,67 @@
+{
+  "cell": "qwen_14b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "n_prompts": 800,
+  "n_clean_correct": 601,
+  "n_usable": 601,
+  "n_skipped": 0,
+  "accuracies": {
+    "clean": 1.0,
+    "corrupted": 0.0,
+    "full_patch": 0.6872,
+    "pc1_replace": 0.0033,
+    "multi_pc": 0.025,
+    "random_replace": 0.0
+  },
+  "rescue_rates": {
+    "n_rescuable": 601,
+    "full_rescued": 0.6872,
+    "pc1_rescued": 0.0033,
+    "multi_pc_rescued": 0.025,
+    "random_rescued": 0.0,
+    "full_vs_random": 687.2,
+    "pc1_vs_random": 3.3
+  },
+  "gold_overlap": {
+    "corrupted": 0.055,
+    "full_patch": 1.687,
+    "pc1_replace": 0.105,
+    "multi_pc": 0.7,
+    "random_replace": 0.055
+  },
+  "bootstrap_cis": {
+    "corrupted": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 601
+    },
+    "full_patch": {
+      "mean": 0.6871880199667221,
+      "ci_lo": 0.6505823627287853,
+      "ci_hi": 0.7237936772046589,
+      "n": 601
+    },
+    "pc1_replace": {
+      "mean": 0.0033277870216306157,
+      "ci_lo": 0.0,
+      "ci_hi": 0.008319467554076539,
+      "n": 601
+    },
+    "multi_pc": {
+      "mean": 0.024958402662229616,
+      "ci_lo": 0.013311148086522463,
+      "ci_hi": 0.03826955074875208,
+      "n": 601
+    },
+    "random_replace": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 601
+    }
+  },
+  "discovery_auc": 0.951,
+  "verdict": "PATCHING_WEAK"
+}

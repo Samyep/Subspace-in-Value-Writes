@@ -1,0 +1,32 @@
+{
+  "cell": "mistral_7b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "n_prompts": 800,
+  "n_baseline_correct": 217,
+  "alphas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "accuracy_by_alpha": {
+    "0.00": 0.9355,
+    "0.25": 0.9816,
+    "0.50": 0.9954,
+    "0.75": 1.0,
+    "1.00": 1.0
+  },
+  "destruction_by_alpha": {
+    "0.00": 0.0645,
+    "0.25": 0.0184,
+    "0.50": 0.0046,
+    "0.75": 0.0,
+    "1.00": 0.0
+  },
+  "spearman_rho": 0.9747,
+  "spearman_p": 0.004818,
+  "monotonic": true,
+  "verdict": "DOSE_RESPONSE_STRONG"
+}

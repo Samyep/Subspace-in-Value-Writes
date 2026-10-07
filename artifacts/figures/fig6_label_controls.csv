@@ -1,0 +1,7 @@
+cell,display,family,global_auc,explained_variance_ratio,projection_status,max_abs_label_cosine,label_perm_original_recovery,label_perm_permuted_recovery,label_perm_drop,label_perm_stable
+llama_3b,Llama-3B,Llama,0.834,0.2514,weak_or_mixed_projection,0.0255,0.49,0.538,-0.04800000000000004,True
+llama_8b,Llama-8B,Llama,0.909,0.2359,largely_nonlabel,0.045,0.7,0.66,0.039999999999999925,True
+qwen_7b,Qwen-7B,Qwen,0.775,0.0327,partially_label_aligned,0.2053,0.77,0.647,0.123,False
+qwen_14b,Qwen-14B,Qwen,0.951,0.2905,partially_label_aligned,0.098,0.67,0.5730000000000001,0.09699999999999998,True
+mistral_7b,Mistral-7B,Mistral,0.725,0.2967,partially_label_aligned,0.2762,0.16666666666666666,0.18333333333333335,-0.01666666666666669,True
+mistral_12b,Mistral-12B,Mistral,0.91,0.2931,largely_nonlabel,0.0449,0.49,0.41200000000000003,0.07799999999999996,True

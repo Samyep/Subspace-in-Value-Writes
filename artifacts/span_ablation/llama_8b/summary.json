@@ -1,0 +1,14 @@
+{
+  "cell": "llama_8b",
+  "family": "Llama",
+  "model_id": "NousResearch/Hermes-3-Llama-3.1-8B",
+  "n_prompts": 800,
+  "n_baseline_correct": 406,
+  "gold_destruction_rate": 0.766,
+  "pca_destruction_rate": 0.675,
+  "random_destruction_rate": 0.062,
+  "pca_gold_ratio": 11.0,
+  "gold_random_ratio": 12.4,
+  "pca_gold_agreement": 0.778,
+  "verdict": "PCA_CAUSAL"
+}

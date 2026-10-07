@@ -1,0 +1,59 @@
+{
+  "run_config": {
+    "data": "data/musique_pooled_rag_confirm.jsonl",
+    "model_id": "BAAI/bge-reranker-v2-m3",
+    "model_commit": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+    "device": "cuda",
+    "dtype": "torch.bfloat16",
+    "batch_size": 8,
+    "max_length": 512,
+    "top_k": 2,
+    "shard_index": 0,
+    "num_shards": 1,
+    "n_rows_in_shard": 400,
+    "timing_warmup_examples": 5,
+    "runtime": {
+      "platform": "Linux-6.4.0-150600.23.53-64kb-aarch64-with-glibc2.38",
+      "python": "3.12.9",
+      "torch": "2.10.0+cu129",
+      "cuda_available": true,
+      "cuda_version": "12.9",
+      "gpu": "NVIDIA GH200 120GB",
+      "transformers": "5.11.0"
+    }
+  },
+  "selection_metrics": {
+    "support_recall": {
+      "mean": 0.4975,
+      "lo": 0.47,
+      "hi": 0.525,
+      "n": 400
+    },
+    "exact_top2": {
+      "mean": 0.155,
+      "lo": 0.12,
+      "hi": 0.19,
+      "n": 400
+    },
+    "auc": {
+      "mean": 0.9582134982264404,
+      "lo": 0.9480194252708274,
+      "hi": 0.9674308151982871,
+      "n": 366
+    }
+  },
+  "timing_metrics_after_warmup": {
+    "score_seconds": {
+      "mean": 0.05914814097901123,
+      "lo": 0.05844637969177205,
+      "hi": 0.059885173066087434,
+      "n": 395
+    },
+    "pair_input_tokens": {
+      "mean": 2748.032911392405,
+      "lo": 2708.928607594937,
+      "hi": 2787.4636708860758,
+      "n": 395
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cell": "mistral_12b",
+  "family": "Mistral",
+  "n_examples": 800,
+  "pca_mean_auc": 0.95515625,
+  "pca_auc_ci": {
+    "mean": 0.95515625,
+    "ci_lo": 0.9496875,
+    "ci_hi": 0.960625,
+    "n": 800
+  },
+  "norm_mean_auc": 0.85859375,
+  "norm_auc_ci": {
+    "mean": 0.85859375,
+    "ci_lo": 0.84671875,
+    "ci_hi": 0.8703125,
+    "n": 800
+  },
+  "pca_top2_recovery": 0.72125,
+  "norm_top2_recovery": 0.50125,
+  "random_baseline": 0.06666666666666667,
+  "pca_vs_random_ratio": 10.81875,
+  "norm_vs_random_ratio": 7.51875,
+  "verdict": "UNSUPERVISED_DISCOVERY"
+}

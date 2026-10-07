@@ -1,0 +1,43 @@
+{
+  "cell": "mistral_7b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "n_prompts": 800,
+  "n_baseline_correct": 217,
+  "rates": {
+    "flip_destruction": 0.2074,
+    "flip_switch": 0.2074,
+    "flip_to_antigold": 0.023,
+    "amp_destruction": 0.0,
+    "rand_destruction": 0.0,
+    "rand_switch": 0.0
+  },
+  "bootstrap_cis": {
+    "flip_destruction": {
+      "mean": 0.2073732718894009,
+      "ci_lo": 0.15668202764976957,
+      "ci_hi": 0.2626728110599078,
+      "n": 217
+    },
+    "flip_switch": {
+      "mean": 0.2073732718894009,
+      "ci_lo": 0.15668202764976957,
+      "ci_hi": 0.2626728110599078,
+      "n": 217
+    },
+    "rand_destruction": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 217
+    },
+    "rand_switch": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 217
+    }
+  },
+  "flip_vs_rand_switch_ratio": 207.37,
+  "verdict": "PC1_STEERING_MODERATE"
+}

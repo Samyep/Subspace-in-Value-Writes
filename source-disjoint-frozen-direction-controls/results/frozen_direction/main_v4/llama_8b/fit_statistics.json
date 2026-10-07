@@ -1,0 +1,10 @@
+{
+  "n_prompts": 800,
+  "n_facts": 4800,
+  "hidden_size": 4096,
+  "component_index": 1,
+  "gold_labels_used": false,
+  "eigenvalue_unnormalized": 1757.6789364809963,
+  "explained_variance_ratio": 0.26176725948033797,
+  "eigen_residual_relative": 2.584433219642618e-15
+}

@@ -1,0 +1,18 @@
+{
+  "cell": "llama_3b",
+  "family": "Llama",
+  "n_valid": 800,
+  "auc": {
+    "pca_centered": 0.8208,
+    "pca_uncentered": 0.8208,
+    "supervised_100pct": 0.9094,
+    "supervised_50pct": 0.8944,
+    "supervised_10pct": 0.8921
+  },
+  "centering_effect": 0.0,
+  "supervised_vs_pca_gap": {
+    "100pct": 0.0886,
+    "50pct": 0.0736,
+    "10pct": 0.0713
+  }
+}

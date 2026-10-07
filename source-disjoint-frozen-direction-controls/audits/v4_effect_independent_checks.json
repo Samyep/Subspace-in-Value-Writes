@@ -1,0 +1,847 @@
+{
+  "draws": 20000,
+  "seed": 29911,
+  "independent_method": "integer per-source outcome totals; explicit source-resample multiplicity matrix; all rates recomputed from integer counts",
+  "all_models_verified": true,
+  "cells": [
+    {
+      "cell": "llama_3b",
+      "eligible": 217,
+      "source_clusters": 200,
+      "eligible_source_clusters": 65,
+      "pc1_counts": {
+        "destroyed": 6,
+        "wrong_distinct_pair": 6,
+        "repeated_label": 0,
+        "distinct_one_gold": 6,
+        "distinct_zero_gold": 0
+      },
+      "random_counts_by_replicate": [
+        [
+          2,
+          2,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          7,
+          0,
+          7,
+          0
+        ]
+      ],
+      "estimates": {
+        "destroyed": {
+          "pc1": 0.027649769585253458,
+          "random_mean": 0.013824884792626729,
+          "difference": 0.013824884792626729,
+          "pc1_ci95": [
+            0.00851063829787234,
+            0.0523814722395508
+          ],
+          "random_mean_ci95": [
+            0.0030581039755351682,
+            0.030175679205851336
+          ],
+          "difference_ci95": [
+            -0.008591805901173125,
+            0.03763497098123898
+          ]
+        },
+        "wrong_distinct_pair": {
+          "pc1": 0.027649769585253458,
+          "random_mean": 0.013824884792626729,
+          "difference": 0.013824884792626729,
+          "pc1_ci95": [
+            0.00851063829787234,
+            0.0523814722395508
+          ],
+          "random_mean_ci95": [
+            0.0030581039755351682,
+            0.030175679205851336
+          ],
+          "difference_ci95": [
+            -0.008591805901173125,
+            0.03763497098123898
+          ]
+        },
+        "repeated_label": {
+          "pc1": 0.0,
+          "random_mean": 0.0,
+          "difference": 0.0,
+          "pc1_ci95": [
+            0.0,
+            0.0
+          ],
+          "random_mean_ci95": [
+            0.0,
+            0.0
+          ],
+          "difference_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "distinct_one_gold": {
+          "pc1": 0.027649769585253458,
+          "random_mean": 0.013824884792626729,
+          "difference": 0.013824884792626729,
+          "pc1_ci95": [
+            0.00851063829787234,
+            0.0523814722395508
+          ],
+          "random_mean_ci95": [
+            0.0030581039755351682,
+            0.030175679205851336
+          ],
+          "difference_ci95": [
+            -0.008591805901173125,
+            0.03763497098123898
+          ]
+        },
+        "distinct_zero_gold": {
+          "pc1": 0.0,
+          "random_mean": 0.0,
+          "difference": 0.0,
+          "pc1_ci95": [
+            0.0,
+            0.0
+          ],
+          "random_mean_ci95": [
+            0.0,
+            0.0
+          ],
+          "difference_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "flagged_rollouts": [],
+      "reassignment": {
+        "lower": 0.013824884792626729,
+        "upper": 0.013824884792626729,
+        "width": 0.0,
+        "lower_ci95": [
+          -0.008591805901173125,
+          0.03763497098123898
+        ],
+        "upper_ci95": [
+          -0.008591805901173125,
+          0.03763497098123898
+        ]
+      },
+      "maximum_absolute_difference_from_aggregator": 3.469446951953614e-18
+    },
+    {
+      "cell": "llama_8b",
+      "eligible": 401,
+      "source_clusters": 200,
+      "eligible_source_clusters": 118,
+      "pc1_counts": {
+        "destroyed": 152,
+        "wrong_distinct_pair": 152,
+        "repeated_label": 0,
+        "distinct_one_gold": 149,
+        "distinct_zero_gold": 3
+      },
+      "random_counts_by_replicate": [
+        [
+          21,
+          21,
+          0,
+          21,
+          0
+        ],
+        [
+          29,
+          29,
+          0,
+          28,
+          1
+        ],
+        [
+          23,
+          23,
+          0,
+          23,
+          0
+        ]
+      ],
+      "estimates": {
+        "destroyed": {
+          "pc1": 0.3790523690773067,
+          "random_mean": 0.060681629260182876,
+          "difference": 0.3183707398171239,
+          "pc1_ci95": [
+            0.29594141301860266,
+            0.4647528775787886
+          ],
+          "random_mean_ci95": [
+            0.04135633591942289,
+            0.08333333333333333
+          ],
+          "difference_ci95": [
+            0.2402701650646218,
+            0.3982222222222222
+          ]
+        },
+        "wrong_distinct_pair": {
+          "pc1": 0.3790523690773067,
+          "random_mean": 0.060681629260182876,
+          "difference": 0.3183707398171239,
+          "pc1_ci95": [
+            0.29594141301860266,
+            0.4647528775787886
+          ],
+          "random_mean_ci95": [
+            0.04135633591942289,
+            0.08333333333333333
+          ],
+          "difference_ci95": [
+            0.2402701650646218,
+            0.3982222222222222
+          ]
+        },
+        "repeated_label": {
+          "pc1": 0.0,
+          "random_mean": 0.0,
+          "difference": 0.0,
+          "pc1_ci95": [
+            0.0,
+            0.0
+          ],
+          "random_mean_ci95": [
+            0.0,
+            0.0
+          ],
+          "difference_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "distinct_one_gold": {
+          "pc1": 0.371571072319202,
+          "random_mean": 0.059850374064837904,
+          "difference": 0.3117206982543641,
+          "pc1_ci95": [
+            0.2885085574572127,
+            0.45618111644264286
+          ],
+          "random_mean_ci95": [
+            0.04047619047619048,
+            0.08260468040653889
+          ],
+          "difference_ci95": [
+            0.2343869908060548,
+            0.3918443099994586
+          ]
+        },
+        "distinct_zero_gold": {
+          "pc1": 0.007481296758104738,
+          "random_mean": 0.0008312551953449709,
+          "difference": 0.006650041562759767,
+          "pc1_ci95": [
+            0.0,
+            0.02426039921322926
+          ],
+          "random_mean_ci95": [
+            0.0,
+            0.002688172043010753
+          ],
+          "difference_ci95": [
+            -0.0023584905660377358,
+            0.023679417122040074
+          ]
+        }
+      },
+      "flagged_rollouts": [],
+      "reassignment": {
+        "lower": 0.3183707398171239,
+        "upper": 0.3183707398171239,
+        "width": 0.0,
+        "lower_ci95": [
+          0.2402701650646218,
+          0.3982222222222222
+        ],
+        "upper_ci95": [
+          0.2402701650646218,
+          0.3982222222222222
+        ]
+      },
+      "maximum_absolute_difference_from_aggregator": 5.551115123125783e-17
+    },
+    {
+      "cell": "qwen_7b",
+      "eligible": 521,
+      "source_clusters": 200,
+      "eligible_source_clusters": 149,
+      "pc1_counts": {
+        "destroyed": 55,
+        "wrong_distinct_pair": 46,
+        "repeated_label": 9,
+        "distinct_one_gold": 44,
+        "distinct_zero_gold": 2
+      },
+      "random_counts_by_replicate": [
+        [
+          3,
+          3,
+          0,
+          3,
+          0
+        ],
+        [
+          3,
+          3,
+          0,
+          3,
+          0
+        ],
+        [
+          3,
+          3,
+          0,
+          3,
+          0
+        ]
+      ],
+      "estimates": {
+        "destroyed": {
+          "pc1": 0.10556621880998081,
+          "random_mean": 0.005758157389635317,
+          "difference": 0.09980806142034548,
+          "pc1_ci95": [
+            0.06355124558497172,
+            0.15280528082916675
+          ],
+          "random_mean_ci95": [
+            0.001996007984031936,
+            0.010376134889753566
+          ],
+          "difference_ci95": [
+            0.05838415394233683,
+            0.14645648547341822
+          ]
+        },
+        "wrong_distinct_pair": {
+          "pc1": 0.08829174664107485,
+          "random_mean": 0.005758157389635317,
+          "difference": 0.08253358925143954,
+          "pc1_ci95": [
+            0.051947427572427575,
+            0.1306122448979592
+          ],
+          "random_mean_ci95": [
+            0.001996007984031936,
+            0.010376134889753566
+          ],
+          "difference_ci95": [
+            0.04686468646864687,
+            0.12403357219266987
+          ]
+        },
+        "repeated_label": {
+          "pc1": 0.01727447216890595,
+          "random_mean": 0.0,
+          "difference": 0.01727447216890595,
+          "pc1_ci95": [
+            0.0019120458891013384,
+            0.0367504835589942
+          ],
+          "random_mean_ci95": [
+            0.0,
+            0.0
+          ],
+          "difference_ci95": [
+            0.0019120458891013384,
+            0.0367504835589942
+          ]
+        },
+        "distinct_one_gold": {
+          "pc1": 0.08445297504798464,
+          "random_mean": 0.005758157389635317,
+          "difference": 0.07869481765834933,
+          "pc1_ci95": [
+            0.04950495049504951,
+            0.12524471565907877
+          ],
+          "random_mean_ci95": [
+            0.001996007984031936,
+            0.010376134889753566
+          ],
+          "difference_ci95": [
+            0.04413678760508655,
+            0.11914154071196302
+          ]
+        },
+        "distinct_zero_gold": {
+          "pc1": 0.003838771593090211,
+          "random_mean": 0.0,
+          "difference": 0.003838771593090211,
+          "pc1_ci95": [
+            0.0,
+            0.0099601593625498
+          ],
+          "random_mean_ci95": [
+            0.0,
+            0.0
+          ],
+          "difference_ci95": [
+            0.0,
+            0.0099601593625498
+          ]
+        }
+      },
+      "flagged_rollouts": [],
+      "reassignment": {
+        "lower": 0.09980806142034548,
+        "upper": 0.09980806142034548,
+        "width": 0.0,
+        "lower_ci95": [
+          0.05838415394233683,
+          0.14645648547341822
+        ],
+        "upper_ci95": [
+          0.05838415394233683,
+          0.14645648547341822
+        ]
+      },
+      "maximum_absolute_difference_from_aggregator": 1.3877787807814457e-17
+    },
+    {
+      "cell": "qwen_14b",
+      "eligible": 636,
+      "source_clusters": 200,
+      "eligible_source_clusters": 165,
+      "pc1_counts": {
+        "destroyed": 45,
+        "wrong_distinct_pair": 45,
+        "repeated_label": 0,
+        "distinct_one_gold": 44,
+        "distinct_zero_gold": 1
+      },
+      "random_counts_by_replicate": [
+        [
+          12,
+          12,
+          0,
+          12,
+          0
+        ],
+        [
+          13,
+          13,
+          0,
+          13,
+          0
+        ],
+        [
+          9,
+          9,
+          0,
+          9,
+          0
+        ]
+      ],
+      "estimates": {
+        "destroyed": {
+          "pc1": 0.07075471698113207,
+          "random_mean": 0.01781970649895178,
+          "difference": 0.05293501048218029,
+          "pc1_ci95": [
+            0.04040363244725119,
+            0.10542168674698796
+          ],
+          "random_mean_ci95": [
+            0.010416666666666666,
+            0.02652124078042705
+          ],
+          "difference_ci95": [
+            0.022809534906104833,
+            0.08630537314515832
+          ]
+        },
+        "wrong_distinct_pair": {
+          "pc1": 0.07075471698113207,
+          "random_mean": 0.01781970649895178,
+          "difference": 0.05293501048218029,
+          "pc1_ci95": [
+            0.04040363244725119,
+            0.10542168674698796
+          ],
+          "random_mean_ci95": [
+            0.010416666666666666,
+            0.02652124078042705
+          ],
+          "difference_ci95": [
+            0.022809534906104833,
+            0.08630537314515832
+          ]
+        },
+        "repeated_label": {
+          "pc1": 0.0,
+          "random_mean": 0.0,
+          "difference": 0.0,
+          "pc1_ci95": [
+            0.0,
+            0.0
+          ],
+          "random_mean_ci95": [
+            0.0,
+            0.0
+          ],
+          "difference_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "distinct_one_gold": {
+          "pc1": 0.06918238993710692,
+          "random_mean": 0.01781970649895178,
+          "difference": 0.051362683438155136,
+          "pc1_ci95": [
+            0.03940849380504553,
+            0.10296464246629562
+          ],
+          "random_mean_ci95": [
+            0.010416666666666666,
+            0.02652124078042705
+          ],
+          "difference_ci95": [
+            0.022017409114183307,
+            0.08412210204796955
+          ]
+        },
+        "distinct_zero_gold": {
+          "pc1": 0.0015723270440251573,
+          "random_mean": 0.0,
+          "difference": 0.0015723270440251573,
+          "pc1_ci95": [
+            0.0,
+            0.004966887417218543
+          ],
+          "random_mean_ci95": [
+            0.0,
+            0.0
+          ],
+          "difference_ci95": [
+            0.0,
+            0.004966887417218543
+          ]
+        }
+      },
+      "flagged_rollouts": [
+        {
+          "prompt_id": "5a827a9f55429940e5e1a8cf::working_set_pack_b",
+          "replicate": 0,
+          "observed_random_destroyed": 0
+        },
+        {
+          "prompt_id": "5ae1c9ea5542997f29b3c103::working_set_pack_a",
+          "replicate": 0,
+          "observed_random_destroyed": 0
+        }
+      ],
+      "reassignment": {
+        "lower": 0.05188679245283019,
+        "upper": 0.05293501048218029,
+        "width": 0.0010482180293501049,
+        "lower_ci95": [
+          0.021761906027597627,
+          0.08547008547008547
+        ],
+        "upper_ci95": [
+          0.022809534906104833,
+          0.08630537314515832
+        ]
+      },
+      "maximum_absolute_difference_from_aggregator": 6.938893903907228e-18
+    },
+    {
+      "cell": "mistral_7b",
+      "eligible": 287,
+      "source_clusters": 200,
+      "eligible_source_clusters": 87,
+      "pc1_counts": {
+        "destroyed": 4,
+        "wrong_distinct_pair": 4,
+        "repeated_label": 0,
+        "distinct_one_gold": 4,
+        "distinct_zero_gold": 0
+      },
+      "random_counts_by_replicate": [
+        [
+          6,
+          6,
+          0,
+          6,
+          0
+        ],
+        [
+          4,
+          4,
+          0,
+          4,
+          0
+        ],
+        [
+          9,
+          9,
+          0,
+          9,
+          0
+        ]
+      ],
+      "estimates": {
+        "destroyed": {
+          "pc1": 0.013937282229965157,
+          "random_mean": 0.022067363530778164,
+          "difference": -0.008130081300813009,
+          "pc1_ci95": [
+            0.0,
+            0.032679738562091505
+          ],
+          "random_mean_ci95": [
+            0.010033444816053512,
+            0.036900478826216825
+          ],
+          "difference_ci95": [
+            -0.027668108484351306,
+            0.01282051282051282
+          ]
+        },
+        "wrong_distinct_pair": {
+          "pc1": 0.013937282229965157,
+          "random_mean": 0.022067363530778164,
+          "difference": -0.008130081300813009,
+          "pc1_ci95": [
+            0.0,
+            0.032679738562091505
+          ],
+          "random_mean_ci95": [
+            0.010033444816053512,
+            0.036900478826216825
+          ],
+          "difference_ci95": [
+            -0.027668108484351306,
+            0.01282051282051282
+          ]
+        },
+        "repeated_label": {
+          "pc1": 0.0,
+          "random_mean": 0.0,
+          "difference": 0.0,
+          "pc1_ci95": [
+            0.0,
+            0.0
+          ],
+          "random_mean_ci95": [
+            0.0,
+            0.0
+          ],
+          "difference_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "distinct_one_gold": {
+          "pc1": 0.013937282229965157,
+          "random_mean": 0.022067363530778164,
+          "difference": -0.008130081300813009,
+          "pc1_ci95": [
+            0.0,
+            0.032679738562091505
+          ],
+          "random_mean_ci95": [
+            0.010033444816053512,
+            0.036900478826216825
+          ],
+          "difference_ci95": [
+            -0.027668108484351306,
+            0.01282051282051282
+          ]
+        },
+        "distinct_zero_gold": {
+          "pc1": 0.0,
+          "random_mean": 0.0,
+          "difference": 0.0,
+          "pc1_ci95": [
+            0.0,
+            0.0
+          ],
+          "random_mean_ci95": [
+            0.0,
+            0.0
+          ],
+          "difference_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "flagged_rollouts": [],
+      "reassignment": {
+        "lower": -0.008130081300813009,
+        "upper": -0.008130081300813009,
+        "width": 0.0,
+        "lower_ci95": [
+          -0.027668108484351306,
+          0.01282051282051282
+        ],
+        "upper_ci95": [
+          -0.027668108484351306,
+          0.01282051282051282
+        ]
+      },
+      "maximum_absolute_difference_from_aggregator": 5.204170427930421e-18
+    },
+    {
+      "cell": "mistral_12b",
+      "eligible": 458,
+      "source_clusters": 200,
+      "eligible_source_clusters": 132,
+      "pc1_counts": {
+        "destroyed": 43,
+        "wrong_distinct_pair": 43,
+        "repeated_label": 0,
+        "distinct_one_gold": 43,
+        "distinct_zero_gold": 0
+      },
+      "random_counts_by_replicate": [
+        [
+          16,
+          16,
+          0,
+          16,
+          0
+        ],
+        [
+          10,
+          10,
+          0,
+          10,
+          0
+        ],
+        [
+          15,
+          15,
+          0,
+          15,
+          0
+        ]
+      ],
+      "estimates": {
+        "destroyed": {
+          "pc1": 0.09388646288209607,
+          "random_mean": 0.029839883551673944,
+          "difference": 0.06404657933042213,
+          "pc1_ci95": [
+            0.05664385250955728,
+            0.13698712460484713
+          ],
+          "random_mean_ci95": [
+            0.017921146953405017,
+            0.04377104377104377
+          ],
+          "difference_ci95": [
+            0.02690467145980803,
+            0.10537646463185302
+          ]
+        },
+        "wrong_distinct_pair": {
+          "pc1": 0.09388646288209607,
+          "random_mean": 0.029839883551673944,
+          "difference": 0.06404657933042213,
+          "pc1_ci95": [
+            0.05664385250955728,
+            0.13698712460484713
+          ],
+          "random_mean_ci95": [
+            0.017921146953405017,
+            0.04377104377104377
+          ],
+          "difference_ci95": [
+            0.02690467145980803,
+            0.10537646463185302
+          ]
+        },
+        "repeated_label": {
+          "pc1": 0.0,
+          "random_mean": 0.0,
+          "difference": 0.0,
+          "pc1_ci95": [
+            0.0,
+            0.0
+          ],
+          "random_mean_ci95": [
+            0.0,
+            0.0
+          ],
+          "difference_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "distinct_one_gold": {
+          "pc1": 0.09388646288209607,
+          "random_mean": 0.029839883551673944,
+          "difference": 0.06404657933042213,
+          "pc1_ci95": [
+            0.05664385250955728,
+            0.13698712460484713
+          ],
+          "random_mean_ci95": [
+            0.017921146953405017,
+            0.04377104377104377
+          ],
+          "difference_ci95": [
+            0.02690467145980803,
+            0.10537646463185302
+          ]
+        },
+        "distinct_zero_gold": {
+          "pc1": 0.0,
+          "random_mean": 0.0,
+          "difference": 0.0,
+          "pc1_ci95": [
+            0.0,
+            0.0
+          ],
+          "random_mean_ci95": [
+            0.0,
+            0.0
+          ],
+          "difference_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "flagged_rollouts": [],
+      "reassignment": {
+        "lower": 0.06404657933042213,
+        "upper": 0.06404657933042213,
+        "width": 0.0,
+        "lower_ci95": [
+          0.02690467145980803,
+          0.10537646463185302
+        ],
+        "upper_ci95": [
+          0.02690467145980803,
+          0.10537646463185302
+        ]
+      },
+      "maximum_absolute_difference_from_aggregator": 6.938893903907228e-18
+    }
+  ]
+}

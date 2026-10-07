@@ -1,0 +1,7 @@
+{
+  "prompt_id": "5a8b57f25542995d1e6f1371::working_set_pack_a",
+  "status": "passed",
+  "relative_l2": 1.6702584559880052e-07,
+  "max_abs": 9.5367431640625e-07,
+  "tolerance_relative_l2": 0.0001
+}

@@ -1,0 +1,57 @@
+{
+  "cell": "mistral_7b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "n_prompts": 800,
+  "n_baseline_correct": 217,
+  "direction_cosine": {
+    "a_vs_b": 0.9664,
+    "a_vs_full": 0.9813,
+    "b_vs_full": 0.9975
+  },
+  "discovery": {
+    "same_set_auc": 0.7189,
+    "crossval_auc": 0.7236,
+    "auc_retention": 1.0065,
+    "same_set_top2": 0.2537,
+    "crossval_top2": 0.2587
+  },
+  "causal": {
+    "xval_destruction": 0.1382,
+    "same_destruction": 0.1475,
+    "random_destruction": 0.0,
+    "xval_vs_random": 138.2,
+    "xval_retention_vs_same": 0.938
+  },
+  "bootstrap_cis": {
+    "xval": {
+      "mean": 0.1382488479262673,
+      "ci_lo": 0.0967741935483871,
+      "ci_hi": 0.18433179723502305,
+      "n": 217
+    },
+    "same": {
+      "mean": 0.14746543778801843,
+      "ci_lo": 0.10138248847926268,
+      "ci_hi": 0.1935483870967742,
+      "n": 217
+    },
+    "rand": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 217
+    }
+  },
+  "paired_test": {
+    "xval_minus_rand_mean": 0.1382,
+    "xval_minus_rand_ci": {
+      "mean": 0.1382488479262673,
+      "ci_lo": 0.0967741935483871,
+      "ci_hi": 0.18433179723502305,
+      "n": 217
+    },
+    "p_value": 0.0
+  },
+  "verdict": "CROSSVAL_STRONG"
+}

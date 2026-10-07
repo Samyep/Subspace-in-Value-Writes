@@ -1,0 +1,140 @@
+{
+  "directions": {
+    "llama_3b": {
+      "model_id": "unsloth/Llama-3.2-3B-Instruct",
+      "writer_window": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "hidden_size": 3072,
+      "artifact": "calibration/llama_3b/frozen_direction.npz",
+      "calibration_dataset": "HotpotQA train",
+      "calibration_examples": 50,
+      "calibration_document_vectors": 500,
+      "selected_component": 1,
+      "sign": 1,
+      "calibration_pooled_auc": 0.8378249999999999,
+      "explained_variance_ratio": [
+        0.1962987981722603,
+        0.07654032018789991,
+        0.056304315845498006,
+        0.04903493132833369,
+        0.03474205751478663,
+        0.031720946491202245,
+        0.03084256541494596,
+        0.02823738467556651,
+        0.02540751552451394,
+        0.02340152229997565
+      ]
+    },
+    "qwen_7b": {
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "writer_window": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "hidden_size": 3584,
+      "artifact": "calibration/qwen_7b/frozen_direction.npz",
+      "calibration_dataset": "HotpotQA train",
+      "calibration_examples": 50,
+      "calibration_document_vectors": 500,
+      "selected_component": 1,
+      "sign": -1,
+      "calibration_pooled_auc": 0.8766,
+      "explained_variance_ratio": [
+        0.10257316793342522,
+        0.06265244646285975,
+        0.058509566836972775,
+        0.045219812048816976,
+        0.04360801933755115,
+        0.0385440645031123,
+        0.03387553704223274,
+        0.03095059258880611,
+        0.029643525626357425,
+        0.027945789063999436
+      ]
+    },
+    "qwen_14b": {
+      "model_id": "Qwen/Qwen2.5-14B-Instruct",
+      "writer_window": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "hidden_size": 5120,
+      "artifact": "calibration/qwen_14b/frozen_direction.npz",
+      "calibration_dataset": "HotpotQA train",
+      "calibration_examples": 50,
+      "calibration_document_vectors": 500,
+      "selected_component": 1,
+      "sign": 1,
+      "calibration_pooled_auc": 0.8856999999999999,
+      "explained_variance_ratio": [
+        0.216443027158123,
+        0.0497407684292376,
+        0.04592673069453419,
+        0.03913317951305356,
+        0.0363774290389261,
+        0.03178028303933141,
+        0.03128873146587764,
+        0.02973062714612131,
+        0.027305143180179455,
+        0.025354637368900725
+      ]
+    },
+    "qwen3_8b": {
+      "model_id": "Qwen/Qwen3-8B",
+      "writer_window": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "hidden_size": 4096,
+      "artifact": "calibration/qwen3_8b/frozen_direction.npz",
+      "calibration_dataset": "HotpotQA train",
+      "calibration_examples": 50,
+      "calibration_document_vectors": 500,
+      "selected_component": 1,
+      "sign": 1,
+      "calibration_pooled_auc": 0.8961499999999999,
+      "explained_variance_ratio": [
+        0.12222752425292864,
+        0.06706459212901918,
+        0.04768980610599332,
+        0.04141242553161313,
+        0.03800091880131096,
+        0.03779040720949726,
+        0.034930345022089054,
+        0.03350778092019926,
+        0.031896800023755015,
+        0.029001199908593886
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "cell": "llama_8b",
+  "family": "Llama",
+  "model_id": "NousResearch/Hermes-3-Llama-3.1-8B",
+  "n_discovery": 400,
+  "n_validation": 400,
+  "n_disc_vectors": 2400,
+  "discovery_best_pc": 0,
+  "discovery_auc": 0.907,
+  "transfer_auc": 0.893,
+  "transfer_recovery": 0.593,
+  "perexample_auc": 0.954,
+  "perexample_recovery": 0.75,
+  "auc_retention": 0.936,
+  "n_validation_examples": 400,
+  "random_baseline": 0.067,
+  "verdict": "STRONG_TRANSFER"
+}

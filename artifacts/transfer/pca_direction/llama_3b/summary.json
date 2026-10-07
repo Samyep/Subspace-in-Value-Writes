@@ -1,0 +1,18 @@
+{
+  "cell": "llama_3b",
+  "family": "Llama",
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "n_discovery": 400,
+  "n_validation": 400,
+  "n_disc_vectors": 2400,
+  "discovery_best_pc": 0,
+  "discovery_auc": 0.835,
+  "transfer_auc": 0.821,
+  "transfer_recovery": 0.375,
+  "perexample_auc": 0.938,
+  "perexample_recovery": 0.632,
+  "auc_retention": 0.875,
+  "n_validation_examples": 400,
+  "random_baseline": 0.067,
+  "verdict": "MODERATE_TRANSFER"
+}

@@ -1,0 +1,225 @@
+{
+  "run_config": {
+    "cell": "qwen3_8b",
+    "model_id": "Qwen/Qwen3-8B",
+    "model_commit": "b968826d9c46dd6066d109eabc6255188de91218",
+    "data": "data/musique_pooled_rag_confirm.jsonl",
+    "reference_results": "reference_results/qwen3_8b/per_example.jsonl",
+    "reranker_selections": "results/reranker/bge_v2_m3/selections.jsonl",
+    "max_new_tokens": 32,
+    "attention_implementation": "transformers_default",
+    "shard_index": 0,
+    "num_shards": 1,
+    "n_rows_in_shard": 400,
+    "timing_warmup_examples": 5,
+    "runtime": {
+      "platform": "Linux-6.4.0-150600.23.53-64kb-aarch64-with-glibc2.38",
+      "python": "3.12.9",
+      "torch": "2.10.0+cu129",
+      "cuda_available": true,
+      "cuda_version": "12.9",
+      "gpu": "NVIDIA GH200 120GB",
+      "transformers": "5.11.0"
+    }
+  },
+  "answer_metrics": {
+    "full20": {
+      "full20_em": {
+        "mean": 0.1575,
+        "lo": 0.1225,
+        "hi": 0.1925,
+        "n": 400
+      },
+      "full20_f1": {
+        "mean": 0.27377830003115927,
+        "lo": 0.2371573193169132,
+        "hi": 0.31177859421177107,
+        "n": 400
+      },
+      "full20_prompt_tokens": {
+        "mean": 2485.005,
+        "lo": 2451.109125,
+        "hi": 2517.7330625,
+        "n": 400
+      }
+    },
+    "value2": {
+      "value2_em": {
+        "mean": 0.1725,
+        "lo": 0.135,
+        "hi": 0.21,
+        "n": 400
+      },
+      "value2_f1": {
+        "mean": 0.2760762733491811,
+        "lo": 0.23814516972874367,
+        "hi": 0.3148201727643767,
+        "n": 400
+      },
+      "value2_prompt_tokens": {
+        "mean": 332.6775,
+        "lo": 322.6175,
+        "hi": 343.035,
+        "n": 400
+      }
+    },
+    "attention2": {
+      "attention2_em": {
+        "mean": 0.1375,
+        "lo": 0.105,
+        "hi": 0.1725,
+        "n": 400
+      },
+      "attention2_f1": {
+        "mean": 0.24175045252330216,
+        "lo": 0.20586324091642588,
+        "hi": 0.2785603097324228,
+        "n": 400
+      },
+      "attention2_prompt_tokens": {
+        "mean": 343.045,
+        "lo": 332.97200000000004,
+        "hi": 353.46268749999996,
+        "n": 400
+      }
+    },
+    "retrieval2": {
+      "retrieval2_em": {
+        "mean": 0.0525,
+        "lo": 0.0325,
+        "hi": 0.075,
+        "n": 400
+      },
+      "retrieval2_f1": {
+        "mean": 0.16140886370998767,
+        "lo": 0.13435953810112428,
+        "hi": 0.19011307575050218,
+        "n": 400
+      },
+      "retrieval2_prompt_tokens": {
+        "mean": 276.205,
+        "lo": 268.814875,
+        "hi": 283.945,
+        "n": 400
+      }
+    },
+    "reranker2": {
+      "reranker2_em": {
+        "mean": 0.13,
+        "lo": 0.0975,
+        "hi": 0.1625,
+        "n": 400
+      },
+      "reranker2_f1": {
+        "mean": 0.22966591385836424,
+        "lo": 0.1956621820992554,
+        "hi": 0.2650228452000006,
+        "n": 400
+      },
+      "reranker2_prompt_tokens": {
+        "mean": 311.195,
+        "lo": 302.674875,
+        "hi": 320.1,
+        "n": 400
+      }
+    }
+  },
+  "timing_after_warmup": {
+    "full20": {
+      "full20_seconds": {
+        "mean": 0.49480489490147017,
+        "lo": 0.46133812901798615,
+        "hi": 0.5300219480233076,
+        "n": 395
+      },
+      "full20_peak_allocated_bytes": {
+        "mean": 17047370866.065823,
+        "lo": 17038970137.21114,
+        "hi": 17055625440.696709,
+        "n": 395
+      }
+    },
+    "value2": {
+      "value2_seconds": {
+        "mean": 0.46589051429432804,
+        "lo": 0.43349270026543424,
+        "hi": 0.49981602067041064,
+        "n": 395
+      },
+      "value2_peak_allocated_bytes": {
+        "mean": 16497143434.69367,
+        "lo": 16494218576.818228,
+        "hi": 16500116934.902279,
+        "n": 395
+      }
+    },
+    "attention2": {
+      "attention2_seconds": {
+        "mean": 0.4583102623041265,
+        "lo": 0.4266024688726307,
+        "hi": 0.49087206426881735,
+        "n": 395
+      },
+      "attention2_peak_allocated_bytes": {
+        "mean": 16500073879.007595,
+        "lo": 16497194674.098228,
+        "hi": 16503000539.5119,
+        "n": 395
+      }
+    },
+    "retrieval2": {
+      "retrieval2_seconds": {
+        "mean": 0.4979943882076429,
+        "lo": 0.46633528780441363,
+        "hi": 0.5312361584165276,
+        "n": 395
+      },
+      "retrieval2_peak_allocated_bytes": {
+        "mean": 16481511110.318987,
+        "lo": 16479517573.89772,
+        "hi": 16483576070.610632,
+        "n": 395
+      }
+    },
+    "reranker2": {
+      "reranker2_seconds": {
+        "mean": 0.4524071316881683,
+        "lo": 0.42072881254693567,
+        "hi": 0.48554155898404955,
+        "n": 395
+      },
+      "reranker2_peak_allocated_bytes": {
+        "mean": 16491004038.805063,
+        "lo": 16488596269.95038,
+        "hi": 16493467869.715443,
+        "n": 395
+      }
+    }
+  },
+  "paired_contrasts": {
+    "value2_minus_full20_em": {
+      "mean": 0.015,
+      "lo": -0.015,
+      "hi": 0.045,
+      "n": 400
+    },
+    "attention2_minus_full20_em": {
+      "mean": -0.02,
+      "lo": -0.0475,
+      "hi": 0.0075,
+      "n": 400
+    },
+    "reranker2_minus_full20_em": {
+      "mean": -0.0275,
+      "lo": -0.06,
+      "hi": 0.005,
+      "n": 400
+    },
+    "reranker2_minus_value2_em": {
+      "mean": -0.0425,
+      "lo": -0.075,
+      "hi": -0.01,
+      "n": 400
+    }
+  }
+}

@@ -1,0 +1,7 @@
+cell,display,family,baseline_acc,gold_drop,pca_drop,random_drop,gold_post_acc_conditional,pca_post_acc_conditional,random_post_acc_conditional,n_prompts,n_baseline_correct
+llama_3b,Llama-3B,Llama,0.28375,0.361,0.26,0.018,0.639,0.74,0.982,800,227
+llama_8b,Llama-8B,Llama,0.5075,0.766,0.675,0.062,0.23399999999999999,0.32499999999999996,0.938,800,406
+qwen_7b,Qwen-7B,Qwen,0.635,0.289,0.179,0.031,0.7110000000000001,0.821,0.969,800,508
+qwen_14b,Qwen-14B,Qwen,0.79125,0.194,0.163,0.013,0.806,0.837,0.987,800,633
+mistral_7b,Mistral-7B,Mistral,0.24625,0.193,0.102,0.0,0.8069999999999999,0.898,1.0,800,197
+mistral_12b,Mistral-12B,Mistral,0.575,0.426,0.385,0.052,0.5740000000000001,0.615,0.948,800,460

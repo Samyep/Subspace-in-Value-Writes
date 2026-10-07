@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Generated experiment outputs are versioned for paper reproducibility.
+# Scheduler logs remain local because they are machine-specific and noisy.
+logs/**
+!logs/.gitkeep
+*.out
+*.err
+
+# Local model and dataset caches
+.cache/
+hf_cache/
+huggingface/
+wandb/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store

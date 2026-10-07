@@ -1,0 +1,25 @@
+{
+  "cell": "qwen_14b",
+  "family": "Qwen",
+  "n_examples": 800,
+  "pca_mean_auc": 0.9728125,
+  "pca_auc_ci": {
+    "mean": 0.9728125,
+    "ci_lo": 0.96796875,
+    "ci_hi": 0.97734375,
+    "n": 800
+  },
+  "norm_mean_auc": 0.93203125,
+  "norm_auc_ci": {
+    "mean": 0.93203125,
+    "ci_lo": 0.92328125,
+    "ci_hi": 0.9403125,
+    "n": 800
+  },
+  "pca_top2_recovery": 0.83375,
+  "norm_top2_recovery": 0.71625,
+  "random_baseline": 0.06666666666666667,
+  "pca_vs_random_ratio": 12.50625,
+  "norm_vs_random_ratio": 10.74375,
+  "verdict": "UNSUPERVISED_DISCOVERY"
+}

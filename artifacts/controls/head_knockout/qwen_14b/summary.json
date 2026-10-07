@@ -1,0 +1,128 @@
+{
+  "cell": "qwen_14b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "n_prompts": 200,
+  "baseline_accuracy": 0.815,
+  "top_heads": [
+    [
+      36,
+      21
+    ],
+    [
+      36,
+      10
+    ],
+    [
+      36,
+      22
+    ],
+    [
+      36,
+      14
+    ],
+    [
+      36,
+      23
+    ]
+  ],
+  "random_heads": [
+    [
+      33,
+      21
+    ],
+    [
+      43,
+      0
+    ],
+    [
+      41,
+      37
+    ],
+    [
+      39,
+      16
+    ],
+    [
+      41,
+      19
+    ]
+  ],
+  "head_results": [
+    {
+      "layer": 36,
+      "head": 21,
+      "type": "top",
+      "accuracy": 0.7,
+      "damage": 0.115
+    },
+    {
+      "layer": 36,
+      "head": 10,
+      "type": "top",
+      "accuracy": 0.79,
+      "damage": 0.025
+    },
+    {
+      "layer": 36,
+      "head": 22,
+      "type": "top",
+      "accuracy": 0.7,
+      "damage": 0.115
+    },
+    {
+      "layer": 36,
+      "head": 14,
+      "type": "top",
+      "accuracy": 0.79,
+      "damage": 0.025
+    },
+    {
+      "layer": 36,
+      "head": 23,
+      "type": "top",
+      "accuracy": 0.7,
+      "damage": 0.115
+    },
+    {
+      "layer": 33,
+      "head": 21,
+      "type": "random",
+      "accuracy": 0.81,
+      "damage": 0.005
+    },
+    {
+      "layer": 43,
+      "head": 0,
+      "type": "random",
+      "accuracy": 0.815,
+      "damage": 0.0
+    },
+    {
+      "layer": 41,
+      "head": 37,
+      "type": "random",
+      "accuracy": 0.81,
+      "damage": 0.005
+    },
+    {
+      "layer": 39,
+      "head": 16,
+      "type": "random",
+      "accuracy": 0.81,
+      "damage": 0.005
+    },
+    {
+      "layer": 41,
+      "head": 19,
+      "type": "random",
+      "accuracy": 0.815,
+      "damage": 0.0
+    }
+  ],
+  "mean_top_damage": 0.079,
+  "mean_random_damage": 0.003,
+  "max_top_damage": 0.115,
+  "top_random_ratio": 26.3,
+  "verdict": "CIRCUIT_CONFIRMED"
+}

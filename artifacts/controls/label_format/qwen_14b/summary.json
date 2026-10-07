@@ -1,0 +1,49 @@
+{
+  "cell": "qwen_14b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "label_formats": {
+    "original_af": {
+      "labels_used": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "n_valid_prompts": 800,
+      "pca_auc": 0.8354,
+      "top2_recovery": 0.55
+    },
+    "numeric_16": {
+      "labels_used": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "n_valid_prompts": 800,
+      "pca_auc": 0.8136,
+      "top2_recovery": 0.4838,
+      "auc_retention": 0.9739
+    },
+    "random_strings": {
+      "labels_used": [
+        "XK7",
+        "PQ3",
+        "MV9",
+        "BN2",
+        "FL8",
+        "TZ4"
+      ],
+      "n_valid_prompts": 800,
+      "pca_auc": 0.9097,
+      "top2_recovery": 0.6763,
+      "auc_retention": 1.0889
+    }
+  },
+  "verdict": "LABEL_FORMAT_ROBUST"
+}

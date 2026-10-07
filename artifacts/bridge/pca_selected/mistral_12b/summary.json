@@ -1,0 +1,46 @@
+{
+  "cell_key": "mistral_12b",
+  "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+  "family": "Mistral",
+  "size": "12B",
+  "writer_window": "L19-L24",
+  "n_prompts": 200,
+  "baseline_gold_cited_mean": 1.7,
+  "baseline_nongold_cited_mean": 0.825,
+  "pca_agrees_gold_rate": 0.185,
+  "gold_drop": {
+    "mean": 0.46,
+    "ci_lo": 0.38,
+    "ci_hi": 0.545,
+    "n": 200,
+    "perm_p": 0.0
+  },
+  "pca_drop": {
+    "mean": 0.285,
+    "ci_lo": 0.215,
+    "ci_hi": 0.355,
+    "n": 200,
+    "perm_p": 0.0
+  },
+  "distractor_drop": {
+    "mean": -0.025,
+    "ci_lo": -0.06,
+    "ci_hi": 0.01,
+    "n": 200,
+    "perm_p": 0.9537
+  },
+  "random_drop": {
+    "mean": 0.49,
+    "ci_lo": 0.375,
+    "ci_hi": 0.605,
+    "n": 200,
+    "perm_p": 0.0
+  },
+  "specificity_ratios": {
+    "pca_over_random": 0.58,
+    "pca_over_distractor": null,
+    "gold_over_random": 0.94,
+    "gold_over_distractor": null
+  },
+  "verdict": "SPOTLIGHT"
+}

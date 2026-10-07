@@ -1,0 +1,14 @@
+{
+  "cell": "llama_3b",
+  "family": "Llama",
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "n_prompts": 800,
+  "n_baseline_correct": 227,
+  "gold_destruction_rate": 0.361,
+  "pca_destruction_rate": 0.26,
+  "random_destruction_rate": 0.018,
+  "pca_gold_ratio": 14.8,
+  "gold_random_ratio": 20.5,
+  "pca_gold_agreement": 0.41,
+  "verdict": "PCA_CAUSAL"
+}

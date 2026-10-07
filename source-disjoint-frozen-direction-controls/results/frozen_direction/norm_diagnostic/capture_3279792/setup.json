@@ -1,0 +1,31 @@
+{
+  "purpose": "single-site numerical diagnosis only",
+  "utc": "2026-09-30T16:49:01.992111+00:00",
+  "run_dir": "results/frozen_direction/main/qwen_14b",
+  "prompt_id": "5a827a9f55429940e5e1a8cf::working_set_pack_b",
+  "example_id": "5a827a9f55429940e5e1a8cf",
+  "completed_prompt_count": 230,
+  "retained_eval_count": 800,
+  "incomplete_tail_bytes_preserved": 0,
+  "cell": "qwen_14b",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "writer_window": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ]
+}

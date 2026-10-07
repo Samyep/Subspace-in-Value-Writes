@@ -1,0 +1,30 @@
+{
+  "cell": "llama_8b",
+  "family": "Llama",
+  "model_id": "NousResearch/Hermes-3-Llama-3.1-8B",
+  "n_prompts": 800,
+  "factors": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    2.0
+  ],
+  "factor_accuracies": {
+    "0.0": 0.121,
+    "0.25": 0.331,
+    "0.5": 0.426,
+    "0.75": 0.475,
+    "1.0": 0.507,
+    "1.25": 0.519,
+    "1.5": 0.516,
+    "2.0": 0.504
+  },
+  "monotonicity_correlation": 0.933,
+  "amplification_boost": 0.012,
+  "ablation_drop": 0.386,
+  "verdict": "STRONG_DOSE_RESPONSE"
+}

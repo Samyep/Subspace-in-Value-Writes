@@ -1,0 +1,43 @@
+{
+  "cell": "llama_8b",
+  "family": "Llama",
+  "model_id": "NousResearch/Hermes-3-Llama-3.1-8B",
+  "n_prompts": 800,
+  "n_baseline_correct": 383,
+  "rates": {
+    "flip_destruction": 0.6684,
+    "flip_switch": 0.6684,
+    "flip_to_antigold": 0.0052,
+    "amp_destruction": 0.094,
+    "rand_destruction": 0.0052,
+    "rand_switch": 0.0052
+  },
+  "bootstrap_cis": {
+    "flip_destruction": {
+      "mean": 0.6684073107049608,
+      "ci_lo": 0.6214099216710183,
+      "ci_hi": 0.7154046997389034,
+      "n": 383
+    },
+    "flip_switch": {
+      "mean": 0.6684073107049608,
+      "ci_lo": 0.6214099216710183,
+      "ci_hi": 0.7154046997389034,
+      "n": 383
+    },
+    "rand_destruction": {
+      "mean": 0.005221932114882507,
+      "ci_lo": 0.0,
+      "ci_hi": 0.013054830287206266,
+      "n": 383
+    },
+    "rand_switch": {
+      "mean": 0.005221932114882507,
+      "ci_lo": 0.0,
+      "ci_hi": 0.013054830287206266,
+      "n": 383
+    }
+  },
+  "flip_vs_rand_switch_ratio": 128.0,
+  "verdict": "PC1_STEERING_STRONG"
+}

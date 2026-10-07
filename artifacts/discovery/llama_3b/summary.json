@@ -1,0 +1,25 @@
+{
+  "cell": "llama_3b",
+  "family": "Llama",
+  "n_examples": 800,
+  "pca_mean_auc": 0.94765625,
+  "pca_auc_ci": {
+    "mean": 0.94765625,
+    "ci_lo": 0.9415625,
+    "ci_hi": 0.9534375,
+    "n": 800
+  },
+  "norm_mean_auc": 0.84890625,
+  "norm_auc_ci": {
+    "mean": 0.84890625,
+    "ci_lo": 0.838125,
+    "ci_hi": 0.85984375,
+    "n": 800
+  },
+  "pca_top2_recovery": 0.67375,
+  "norm_top2_recovery": 0.40375,
+  "random_baseline": 0.06666666666666667,
+  "pca_vs_random_ratio": 10.10625,
+  "norm_vs_random_ratio": 6.05625,
+  "verdict": "UNSUPERVISED_DISCOVERY"
+}

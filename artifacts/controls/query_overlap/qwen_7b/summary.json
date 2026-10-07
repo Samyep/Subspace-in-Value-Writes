@@ -1,0 +1,22 @@
+{
+  "cell": "qwen_7b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "writer_window": [
+    24,
+    25,
+    26,
+    27
+  ],
+  "n_matched_examples": 800,
+  "matched_distractor_pca_auc_mean": 0.945,
+  "matched_distractor_norm_auc_mean": 0.91796875,
+  "matched_distractor_pca_top2_recovery": 0.70375,
+  "matched_distractor_norm_top2_recovery": 0.6475,
+  "random_baseline": 0.06666666666666667,
+  "pca_vs_random_ratio": 10.55625,
+  "target_overlap_mean": 0.18813472622540162,
+  "matched_overlap_mean": 0.05662474724766372,
+  "verdict": "UNSUPERVISED_DISCOVERY_SURVIVES",
+  "decision_rule_note": "matched_distractor_pca_auc > 0.85 -> UNSUPERVISED_DISCOVERY_SURVIVES; 0.70-0.85 -> PARTIAL_OVERLAP_CORRELATE; <0.70 -> OVERLAP_DRIVEN_DOWNGRADE. Per paper_compaction_plan.md §4.1."
+}

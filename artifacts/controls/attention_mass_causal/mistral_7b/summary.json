@@ -1,0 +1,40 @@
+{
+  "cell": "mistral_7b",
+  "family": "Mistral",
+  "n_baseline_correct": 217,
+  "n_agree": 89,
+  "n_disagree": 128,
+  "destruction_rates": {
+    "gold": 0.2028,
+    "pca_selected": 0.1613,
+    "attn_mass_selected": 0.1336,
+    "random": 0.0138
+  },
+  "disagree_subset": {
+    "n": 128,
+    "pca_dest": 0.1953,
+    "attn_dest": 0.1484
+  },
+  "bootstrap_ci": {
+    "pca": {
+      "mean": 0.16129032258064516,
+      "ci_lo": 0.1152073732718894,
+      "ci_hi": 0.2119815668202765,
+      "n": 217
+    },
+    "attn_mass": {
+      "mean": 0.1336405529953917,
+      "ci_lo": 0.08755760368663594,
+      "ci_hi": 0.17972350230414746,
+      "n": 217
+    },
+    "random": {
+      "mean": 0.013824884792626729,
+      "ci_lo": 0.0,
+      "ci_hi": 0.03225806451612903,
+      "n": 217
+    }
+  },
+  "pca_advantage": 0.0276,
+  "verdict": "PCA_CAUSAL_ADVANTAGE"
+}

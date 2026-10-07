@@ -1,0 +1,17 @@
+{
+  "cell": "qwen_14b",
+  "family": "Qwen",
+  "n_valid": 800,
+  "auc": {
+    "value_write": 0.8354,
+    "residual": 0.8173,
+    "value_write_avg": 0.8095
+  },
+  "top2_recovery": {
+    "value_write": 0.55,
+    "residual": 0.2175,
+    "value_write_avg": 0.5075
+  },
+  "value_write_advantage_over_residual": 0.0181,
+  "verdict": "COMPARABLE"
+}

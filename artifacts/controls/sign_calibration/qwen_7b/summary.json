@@ -1,0 +1,24 @@
+{
+  "cell": "qwen_7b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "n_valid_prompts": 800,
+  "n_model_correct": 510,
+  "auc": {
+    "gold": 0.6973,
+    "h1_per_prompt": 0.6548,
+    "h2_global": 0.5947
+  },
+  "top2_recovery": {
+    "gold": 0.1537,
+    "h1_per_prompt": 0.1338,
+    "h2_global": 0.115
+  },
+  "h1_sign_agreement_with_gold": 0.9187,
+  "h2_global_sign": -1,
+  "h2_positive_count": 205,
+  "h2_negative_count": 595,
+  "h1_auc_retention": 0.9391,
+  "h2_auc_retention": 0.8529,
+  "verdict": "CALIBRATION_FREE_INSUFFICIENT"
+}

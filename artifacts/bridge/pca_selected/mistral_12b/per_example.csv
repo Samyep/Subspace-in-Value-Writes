@@ -1,0 +1,1793 @@
+prompt_id,example_id,gold_labels,pca_top2,pca_agrees_gold,dist_sample,bl_text,g_text,p_text,d_text,r_text,bl_gold_cited,g_gold_cited,p_gold_cited,d_gold_cited,r_gold_cited,bl_nongold_cited,g_nongold_cited,p_nongold_cited,d_nongold_cited,r_nongold_cited
+5aba6de555429955dce3ee1d::active_set_pack_a,5aba6de555429955dce3ee1d,"['A', 'C']","['A', 'C']",True,"['D', 'E']","CITED: C
+
+ANSWER: Big Data","CITED: C
+
+ANSWER: Big Data","CITED: C
+
+ANSWER: Big Data","CITED: C
+
+ANSWER: Big Data","CITED: C
+
+ANSWER: Big Data",2,2,2,2,2,0,0,0,0,0
+5ae0abf655429945ae95940d::active_set_pack_a,5ae0abf655429945ae95940d,"['B', 'D']","['B', 'F']",False,"['C', 'E']","CITED: B, E
+
+ANSWER: No, David Gordon Green and Larry Hagman are not both actors. Larry Hagman was an actor, as stated in fact B, but David Gordon Green is a filmmaker, as mentioned in fact E.","CITED: E
+ANSWER: No, David Gordon Green is not an actor. He is a filmmaker known for directing and writing dramas and thrillers.","CITED: E, F
+
+ANSWER: No, David Gordon Green is not an actor. He is a filmmaker known for directing and writing dramas and thrillers. Larry Hagman, on the other hand, was an actor who portrayed the character J. R. Ewing in the TV series ""Dallas"".","CITED: B, E
+
+ANSWER: No, David Gordon Green and Larry Hagman are not both actors. Larry Hagman was an actor, as stated in fact B, but David Gordon Green is a filmmaker, as mentioned in fact E.","No, David Gordon Green is not an actor. He is a filmmaker.
+
+CITED: E
+ANSWER: David Gordon Green is a filmmaker, known for directing and writing films such as ""George Washington"" and ""All the Real Girls"". Larry Hagman, on the other hand, was an actor best known for his iconic role as J.R. Ewing in ""D",1,0,0,1,0,2,2,3,2,2
+5a7ba64c5542995eb53be97b::active_set_pack_a,5a7ba64c5542995eb53be97b,"['A', 'B']","['B', 'D']",False,"['E', 'F']","CITED: B, A
+
+ANSWER: Jack Baldwin drives a Porsche Cayman S in the Pirelli World Challenge, which was launched by the Sports Car Club of America.","CITED: A, E
+
+ANSWER: Jack Baldwin drives a Porsche Cayman S in the Pirelli World Challenge, which was launched by the Sports Car Club of America.","CITED: A, E
+
+ANSWER: Jack Baldwin drives a Porsche Cayman S in the Pirelli World Challenge, which was launched by the Sports Car Club of America.","CITED: B, A
+
+ANSWER: Jack Baldwin drives a Porsche Cayman S in the Pirelli World Challenge, which was launched by the Sports Car Club of America.","Facts used: A, B
+
+Answer: Jack Baldwin drives a Porsche Cayman S in the Pirelli World Challenge, which was launched by the Sports Car Club of America.",2,1,1,2,2,0,1,1,0,0
+5a8f20d655429924144829dc::active_set_pack_a,5a8f20d655429924144829dc,"['A', 'B']","['A', 'B']",True,"['C', 'F']","CITED: A, B
+
+ANSWER: Hugh Grant, the English actor and film producer who starred in the adaptation of ""Bridget Jones's Diary"" with Renée Zellweger, was born in 1960.","CITED: A, E
+
+ANSWER: Hugh Grant, the English actor and film producer who starred in the 2001 film ""Bridget Jones's Diary"" with Renée Zellweger, was born in 1960.","CITED: A, E
+
+ANSWER: Hugh Grant, the English actor and film producer who starred in the 2001 film ""Bridget Jones's Diary"" with Renée Zellweger, was born in 1960.","CITED: A, B
+
+ANSWER: Hugh Grant, the English actor and film producer who starred in the adaptation of ""Bridget Jones's Diary"" with Renée Zellweger, was born in 1960.","CITED: A, B
+
+ANSWER: Hugh Grant was born in 1960.",2,1,1,2,2,0,1,1,0,0
+5ae70f035542991bbc9761b1::active_set_pack_a,5ae70f035542991bbc9761b1,"['D', 'E']","['A', 'C']",False,"['A', 'B']","CITED: D
+ANSWER: Frank Darabont","CITED: D
+ANSWER: Frank Darabont","CITED: D
+ANSWER: Frank Darabont","CITED: D
+ANSWER: Frank Darabont","CITED: D
+ANSWER: Frank Darabont",1,1,1,1,1,1,1,1,1,1
+5ae0af9a5542993d6555ec17::active_set_pack_a,5ae0af9a5542993d6555ec17,"['E', 'F']","['E', 'F']",True,"['A', 'D']","CITED: A, C, D, F
+ANSWER: Yes, both Grasshopper and Sake bomb are types of drinks. Fact A and C describe a soda gun as a device used to serve various types of drinks, including both carbonated and non-carbonated ones. Fact D and F specifically mention that a Grasshopper is a type of drink. While not","CITED: A, C
+ANSWER: Yes, both Grasshopper and Sake bomb are types of drinks. Fact A states that a soda gun can serve various types of drinks, including non-carbonated ones like the Grasshopper. Fact C confirms that a soda gun can serve both carbonated and non-carbonated drinks, which includes the Sa","CITED: A, C
+ANSWER: Yes, both Grasshopper and Sake bomb are types of drinks. Fact A states that a soda gun can serve various types of drinks, including non-carbonated ones like the Grasshopper. Fact C confirms that a soda gun can serve both carbonated and non-carbonated drinks, which includes the Sa","CITED: A, C, F
+ANSWER: Yes, both Grasshopper and Sake bomb are types of drinks. Fact A and C describe a soda gun as a device used to serve various types of drinks, including both carbonated and non-carbonated ones. Fact F specifically states that a Grasshopper is a type of drink. Although not explic","CITED: A, C, D, F
+
+ANSWER: Yes, both Grasshopper and Sake bomb are types of drinks. A and C define a soda gun as a device used to serve various types of drinks, including both carbonated and non-carbonated ones. D and F describe the Grasshopper as a drink, and while the Sake bomb is not explicitly",1,0,0,1,1,3,2,2,2,3
+5a76b649554299373536017f::active_set_pack_a,5a76b649554299373536017f,"['C', 'D']","['D', 'E']",False,"['B', 'E']",CITED: D\nANSWER: Donington,"CITED: D\nANSWER: Donington School F.C. was based in Donington, a large village and civil parish in the South Holland district of Lincolnshire, England.","CITED: D\nANSWER: Donington School F.C. was based in Donington, a large village and civil parish in the South Holland district of Lincolnshire, England.",CITED: D\nANSWER: Donington,"CITED: D, C
+
+ANSWER: Donington School F.C. was based in Donington, a large village and civil parish in the South Holland district of Lincolnshire, England.",1,1,1,1,2,0,0,0,0,1
+5a778e1b5542995d831811c5::active_set_pack_a,5a778e1b5542995d831811c5,"['B', 'F']","['B', 'F']",True,"['A', 'D']",CITED: F\nANSWER: Tom Wopat,"CITED: D, F
+
+ANSWER: Tom Wopat","CITED: D, F
+
+ANSWER: Tom Wopat",CITED: F\nANSWER: Tom Wopat,"CITED: F, B
+
+ANSWER: Tom Wopat and John Schneider both achieved fame starring together in ""The Dukes of Hazzard"".",1,1,1,1,2,0,2,2,0,1
+5a7a0d665542990783324e14::active_set_pack_a,5a7a0d665542990783324e14,"['A', 'F']","['A', 'D']",False,"['C', 'E']","CITED: A, F
+
+ANSWER: Kirk Kerkorian was born first. He was born on June 6, 1917, while Joe Manganiello was born on December 28, 1976.","CITED: A, F
+ANSWER: Kirk Kerkorian was born first. Joe Manganiello was born in 1976, while Kirk Kerkorian was born in 1917.","CITED: A, F
+ANSWER: Kirk Kerkorian was born first. Joe Manganiello was born in 1976, while Kirk Kerkorian was born in 1917.","CITED: A, F
+ANSWER: Kirk Kerkorian was born first. He was born on June 6, 1917, while Joe Manganiello was born on December 28, 1976.","CITED: A, F
+
+ANSWER: Kirk Kerkorian was born first. Joe Manganiello was born on December 28, 1976, while Kirk Kerkorian was born on June 6, 1917.",2,2,2,2,2,0,0,0,0,0
+5a82411055429940e5e1a815::active_set_pack_a,5a82411055429940e5e1a815,"['B', 'F']","['B', 'F']",True,"['C', 'E']","CITED: F
+
+ANSWER: Lee Il-hyung's first feature film, ""A Violent Prosecutor"", was released by Showbox.","CITED: F
+ANSWER: Lee Il-hyung's first feature film, ""A Violent Prosecutor"", was released by Showbox.","CITED: F
+ANSWER: Lee Il-hyung's first feature film, ""A Violent Prosecutor"", was released by Showbox.","CITED: F
+ANSWER: Showbox","Cited: F
+
+Lee Il-hyung's first feature film ""A Violent Prosecutor"" was released by Showbox.",1,1,1,1,1,1,1,1,1,0
+5a7c7a8f55429907fabeef9c::active_set_pack_a,5a7c7a8f55429907fabeef9c,"['C', 'E']","['A', 'B']",False,"['A', 'B']","CITED: C
+ANSWER: Katelyn Tarver","CITED: C
+ANSWER: Katelyn Tarver","CITED: C
+ANSWER: Katelyn Tarver","CITED: C
+ANSWER: Katelyn Tarver","CITED: C
+
+ANSWER: Katelyn Tarver",1,1,1,1,1,1,1,1,1,1
+5a73589d55429901807dafd1::active_set_pack_a,5a73589d55429901807dafd1,"['B', 'D']","['E', 'F']",False,"['C', 'F']","CITED: B
+
+ANSWER: The band that wrote ""The Drug in Me Is You"" is based in Las Vegas, Nevada.","CITED: A, D
+ANSWER: The band that wrote ""The Drug in Me Is You"" is based in Las Vegas, Nevada.","CITED: B
+ANSWER: The band Falling in Reverse, which wrote ""The Drug in Me Is You"", is based in Las Vegas, Nevada.","CITED: B
+ANSWER: The band Falling in Reverse, which wrote ""The Drug in Me Is You"", is based in Las Vegas, Nevada.","CITED: B
+
+ANSWER: The band that wrote ""The Drug in Me Is You"" is based in Las Vegas, Nevada.",1,1,1,1,1,1,1,1,1,1
+5add624c5542992200553adf::active_set_pack_a,5add624c5542992200553adf,"['C', 'E']","['C', 'F']",False,"['B', 'D']","CITED: C, E
+
+ANSWER: David Ayer wrote and directed the film ""Suicide Squad"" in which Adam Beach played Slipknot.","CITED: C\nANSWER: The film in which Adam Beach played Slipknot is ""Suicide Squad"", and it was written and directed by David Ayer.",CITED: E\nANSWER: David Ayer,"CITED: C, E
+
+ANSWER: David Ayer wrote and directed the film ""Suicide Squad"" in which Adam Beach played Slipknot.","CITED: C, E
+
+ANSWER: David Ayer wrote and directed the film ""Suicide Squad"" in which Adam Beach played Slipknot.",2,1,1,2,2,1,0,0,1,1
+5ade14735542990dbb2f7f49::active_set_pack_a,5ade14735542990dbb2f7f49,"['E', 'F']","['D', 'F']",False,"['A', 'D']","CITED: E
+
+ANSWER: Alamgir joined Meesha Shafi, Strings, Ali Azmat and Shahzad Hasan as a judge on the popular singing talent show ""Music Icons"".","CITED: E
+
+ANSWER: Alamgir joined Meesha Shafi, Strings, Ali Azmat and Shahzad Hasan as a judge on ""Music Icons"".","CITED: E
+
+ANSWER: Alamgir joined Meesha Shafi, Strings, Ali Azmat and Shahzad Hasan as a judge on the popular singing talent show ""Music Icons"".","CITED: E
+
+ANSWER: Alamgir joined Meesha Shafi, Strings, Ali Azmat and Shahzad Hasan as a judge on the popular show ""Music Icons"".","CITED: E
+
+ANSWER: Alamgir joined Meesha Shafi, Strings, Ali Azmat and Shahzad Hasan as a judge on the popular singing talent show ""Music Icons"".",1,1,1,1,1,1,1,1,1,1
+5ade18635542997c77aded3e::active_set_pack_a,5ade18635542997c77aded3e,"['A', 'E']","['A', 'B']",False,"['B', 'D']","CITED: E, F
+
+ANSWER: The reality TV show that features Barry Bonds is ""Bonds on Bonds,"" which aired on ESPN.","CITED: E, F
+
+ANSWER: The reality TV show that features Barry Bonds is on ESPN.","CITED: E, F
+
+ANSWER: The reality TV show that features Barry Bonds is ""Bonds on Bonds,"" which aired on ESPN.","CITED: E, F
+
+ANSWER: The reality TV show that features Barry Bonds is ""Bonds on Bonds,"" which aired on ESPN.","CITED: E, F
+
+ANSWER: The reality TV show that features Barry Bonds is on ESPN.",2,2,2,2,2,1,1,1,1,1
+5ab1c5cb554299722f9b4c61::active_set_pack_a,5ab1c5cb554299722f9b4c61,"['D', 'F']","['D', 'E']",False,"['B', 'C']","CITED: D, F
+
+ANSWER: Julie Cooper of the Labour Party represents the district that Gawthorpe is in.","CITED: E, F
+ANSWER: Gawthorpe is in the Kirklees District, and the UK Parliament constituency for this area is represented by Thelma Walker of the Labour Party.",CITED: F\nANSWER: Julie Cooper of the Labour Party,"CITED: D, F
+
+ANSWER: Julie Cooper of the Labour Party represents the district that Gawthorpe is in.","CITED: D, F
+
+ANSWER: Julie Cooper represents the district that Gawthorpe is in.",2,1,1,2,2,1,2,0,1,1
+5ae73a195542991e8301cbfd::active_set_pack_a,5ae73a195542991e8301cbfd,"['B', 'F']","['B', 'F']",True,"['A', 'D']","CITED: B, F
+
+ANSWER: George Palmer Putnam was an American publisher, author and explorer, known for his marriage to Amelia Earhart, who was an American aviation pioneer and author, and was the first female aviator to fly solo across the Atlantic Ocean.","CITED: A, B
+
+ANSWER: George Palmer Putnam was an American publisher, author, and explorer, known for his marriage to Amelia Earhart, who was the first female aviator to fly solo across the Atlantic Ocean.","CITED: A, B
+
+ANSWER: George Palmer Putnam was an American publisher, author, and explorer, known for his marriage to Amelia Earhart, who was the first female aviator to fly solo across the Atlantic Ocean.","CITED: B, F
+
+ANSWER: George Palmer Putnam was an American publisher, author, and explorer, known for his marriage to Amelia Earhart, who was an American aviation pioneer and author, and was the first female aviator to fly solo across the Atlantic Ocean.","CITED: B, F
+
+ANSWER: George Palmer Putnam was an American publisher, author and explorer, known for his marriage to Amelia Mary Earhart, who was an American aviation pioneer and author, and was the first female aviator to fly solo across the Atlantic Ocean.",2,1,1,2,2,1,1,1,1,1
+5ab55478554299488d4d993d::active_set_pack_a,5ab55478554299488d4d993d,"['A', 'E']","['A', 'C']",False,"['B', 'D']","CITED: A, E
+
+ANSWER: Hosni Mubarak, who changed the Hamayouni Decree, was born in 1928.","CITED: E, F
+
+ANSWER: Hosni Mubarak, who changed the Hamayouni Decree, was born in 1928.","CITED: E, F
+
+ANSWER: Hosni Mubarak, who changed the Hamayouni Decree, was born in 1928.","CITED: A, E
+
+ANSWER: Hosni Mubarak, who changed the Hamayouni Decree, was born in 1928.","The President of Egypt that changed the Hamayouni Decree was born in 1928.
+
+Facts used:
+A: [Hosni Mubarak] Muhammad Hosni El Sayed Mubarak (Arabic: محمد حسني السيد مبارك‎ ‎ , ] , ""Muḥammad Ḥusnī Sayyid Mubārak",2,2,2,2,0,0,1,1,0,0
+5ab373d6554299233954ff53::active_set_pack_a,5ab373d6554299233954ff53,"['A', 'C']","['A', 'C']",True,"['D', 'E']","CITED: A, C
+
+ANSWER: No, Lysichiton and Ageratum are not in the same family. Ageratum belongs to the Asteraceae family (fact A), while Lysichiton is in the Araceae family (fact C).","CITED: A, B
+
+ANSWER: No, Lysichiton and Ageratum are not in the same family. Ageratum belongs to the Asteraceae family, while Lysichiton belongs to the Araceae family.","CITED: A, B
+
+ANSWER: No, Lysichiton and Ageratum are not in the same family. Ageratum belongs to the Asteraceae family, while Lysichiton belongs to the Araceae family.","CITED: A, C
+
+ANSWER: No, Lysichiton and Ageratum are not in the same family. Ageratum belongs to the Asteraceae family (fact A), while Lysichiton is in the Araceae family (fact C).","CITED: A, C
+
+ANSWER: No, Lysichiton and Ageratum are not in the same family. Ageratum belongs to the Asteraceae family, while Lysichiton is in the Araceae family.",2,1,1,2,2,0,1,1,0,0
+5a7a8dab554299042af8f66a::active_set_pack_a,5a7a8dab554299042af8f66a,"['A', 'B']","['D', 'E']",False,"['D', 'F']","CITED: A, B
+
+ANSWER: The Huddersfield Giants play their home games at the Kirklees Stadium in Huddersfield, West Yorkshire, England.","CITED: B, E
+
+ANSWER: The Huddersfield Giants play their home games at the Kirklees Stadium in Huddersfield, West Yorkshire, England.","CITED: A, B
+
+ANSWER: The Huddersfield Giants play their home games at the Kirklees Stadium in Huddersfield, West Yorkshire, England.","CITED: A, B
+
+ANSWER: The Huddersfield Giants play their home games at the Kirklees Stadium in Huddersfield, West Yorkshire, England.","CITED: A, B
+
+ANSWER: England",2,2,2,2,2,0,1,0,0,0
+5ab3020e55429976abd1bc1a::active_set_pack_a,5ab3020e55429976abd1bc1a,"['C', 'F']","['A', 'F']",False,"['A', 'E']","CITED: C, F
+
+ANSWER: Javier Mora was defeated by Alexander Povetkin in Germany.","CITED: C
+ANSWER: Germany","CITED: C
+ANSWER: Germany","CITED: C, F
+
+ANSWER: Javier Mora was defeated by Alexander Povetkin in Germany.","CITED: C, F
+
+ANSWER: Javier Mora was defeated by Alexander Povetkin in Germany.",2,1,1,2,2,1,1,1,1,1
+5ae726a1554299572ea54738::active_set_pack_a,5ae726a1554299572ea54738,"['A', 'D']","['B', 'D']",False,"['C', 'F']","CITED: A, D
+
+ANSWER: Dixit Dominus is a psalm setting by George Frideric Handel, who was a German, later British, baroque composer known for his operas, oratorios, anthems, and organ concertos.","CITED: A, D
+
+ANSWER: Dixit Dominus is a psalm setting by George Frideric Handel, who was a German, later British, baroque composer known for his operas, oratorios, anthems, and organ concertos.","CITED: A, D
+
+ANSWER: Dixit Dominus is a psalm setting by George Frideric Handel, who was a German, later British, baroque composer known for his operas, oratorios, anthems, and organ concertos.","CITED: A, D
+
+ANSWER: Dixit Dominus is a psalm setting by George Frideric Handel, who was a German, later British, baroque composer known for his operas, oratorios, anthems, and organ concertos.","The relevant facts are:
+
+A. [Dixit Dominus (Handel)] Dixit Dominus is a psalm setting by George Frideric Handel (catalogued as HWV 232).
+D. [George Frideric Handel] George Frideric (or Frederick) Handel was a German, later British, baroque composer who spent the bulk of his career in London,",2,2,2,2,0,0,0,0,0,0
+5a8b10c655429949d91db49c::active_set_pack_a,5a8b10c655429949d91db49c,"['C', 'E']","['B', 'E']",False,"['A', 'F']","CITED: C, E
+
+ANSWER: Ekaterina Gordeeva","CITED: A, C
+
+ANSWER: Ekaterina Gordeeva","CITED: C
+ANSWER: Ekaterina Gordeeva","CITED: C, E
+
+ANSWER: Ekaterina Gordeeva","CITED: C, E
+ANSWER: Ekaterina Gordeeva",2,1,1,2,2,1,1,1,1,1
+5ab3f9b95542992ade7c6f09::active_set_pack_a,5ab3f9b95542992ade7c6f09,"['A', 'E']","['E', 'F']",False,"['C', 'D']","CITED: E, F
+
+ANSWER: It Takes a Family is a response to the 1996 book ""It Takes a Village"" by Hillary Clinton, and it was published by Bill Clinton in the same year.","CITED: E, F
+
+ANSWER: It Takes a Family is a response to the 1996 book ""It Takes a Village"" by Hillary Clinton, and it was published by Bill Clinton in the same year.","CITED: A, E
+
+ANSWER: ""It Takes a Family"" is a response to the 1996 book ""It Takes a Village"" by Hillary Clinton.","CITED: E, F
+
+ANSWER: It Takes a Family is a response to the 1996 book ""It Takes a Village"" by Hillary Clinton, and it was published by her husband, then-President Bill Clinton.","The relevant facts are:
+
+A. [It Takes a Family] The title is a response to the 1996 book ""It Takes a Village"" by then-First Lady Hillary Clinton.
+E. [It Takes a Village] It Takes a Village: And Other Lessons Children Teach Us is a 1996 book published by First Lady of the United States Hillary Rodham",2,2,2,2,0,1,1,0,1,0
+5ade45ed554299728e26c699::active_set_pack_a,5ade45ed554299728e26c699,"['B', 'C']","['A', 'B']",False,"['A', 'F']","CITED: C, B
+
+ANSWER: The 2016 Washington State Cougars were led by coach Mike Leach, who previously helmed the Texas Tech Red Raiders football team.","CITED: C
+ANSWER: The 2016 Washington State Cougars were led by Mike Leach, who previously coached the Texas Tech Red Raiders.","CITED: C
+ANSWER: The 2016 Washington State Cougars were led by coach Mike Leach, who previously helmed the Texas Tech Red Raiders.","CITED: C, B
+
+ANSWER: The 2016 Washington State Cougars were led by coach Mike Leach, who previously helmed the Texas Tech Red Raiders football team.","CITED: C, B
+
+ANSWER: The 2016 Washington State Cougars were led by coach Mike Leach, who previously helmed the Texas Tech Red Raiders.",2,1,1,2,2,1,1,1,1,1
+5adc432d55429944faac24a1::active_set_pack_a,5adc432d55429944faac24a1,"['C', 'F']","['C', 'D']",False,"['A', 'D']","CITED: C, F
+ANSWER: The San Diego Gulls play their home games at the Valley View Casino Center located at Sports Arena Blvd in Point Loma, San Diego.","CITED: C
+ANSWER: The San Diego Gulls play their home games at the Valley View Casino Center located at Sports Arena Blvd in Point Loma, San Diego.","CITED: C, F
+ANSWER: The San Diego Gulls play their home games at Valley View Casino Center, located at Sports Arena Blvd in Point Loma, San Diego.","CITED: C, F
+ANSWER: The San Diego Gulls play their home games at the Valley View Casino Center located at Sports Arena Blvd in Point Loma, San Diego.","CITED: C, F
+
+ANSWER: The San Diego Gulls play their home games at the Valley View Casino Center located at Sports Arena Blvd in Point Loma, San Diego, California.",2,1,2,2,2,1,1,1,1,1
+5adcf98255429947343537e9::active_set_pack_a,5adcf98255429947343537e9,"['A', 'C']","['B', 'C']",False,"['B', 'E']","CITED: C, F
+
+ANSWER: ""Doctor Who""","CITED: C, F
+
+ANSWER: ""Doctor Who""","CITED: A, C
+
+ANSWER: ""Doctor Who""","CITED: C, F
+
+ANSWER: ""Doctor Who""","CITED: C, F
+
+ANSWER: ""Doctor Who"" connects Arthur Darvill and Matt Smith.",2,2,2,2,2,1,1,0,1,1
+5ab285d0554299340b5254fa::active_set_pack_a,5ab285d0554299340b5254fa,"['A', 'E']","['C', 'E']",False,"['B', 'D']","CITED: E, A
+
+ANSWER: John ""Bradshaw"" Layfield (JBL), born November 29, 1966.","CITED: E, A
+
+ANSWER: The Acolytes Protection Agency consisted of John Layfield, who was born on November 29, 1966.","CITED: A, E
+
+ANSWER: John ""Bradshaw"" Layfield (JBL), born November 29, 1966, was part of the professional wrestling tag team The Acolytes Protection Agency.","CITED: A, E
+
+ANSWER: John ""Bradshaw"" Layfield (JBL), born November 29, 1966, was part of the Acolytes Protection Agency.","The Acolytes Protection Agency consisted of John ""Bradshaw"" Layfield, who was born on November 29, 1966.",2,2,2,2,0,0,0,0,0,0
+5a7317535542994cef4bc450::active_set_pack_a,5a7317535542994cef4bc450,"['C', 'E']","['C', 'F']",False,"['D', 'F']","CITED: C, D
+
+ANSWER: Twenty One Pilots","CITED: C, D
+
+ANSWER: Twenty One Pilots","CITED: C, D
+
+ANSWER: Twenty One Pilots","CITED: C, E
+
+ANSWER: Twenty One Pilots","Cited: C, D
+
+ANSWER: Twenty One Pilots",1,1,1,2,1,2,2,2,1,2
+5a8d15b75542994ba4e3dbea::active_set_pack_a,5a8d15b75542994ba4e3dbea,"['B', 'F']","['D', 'F']",False,"['C', 'D']","CITED: E, F
+
+ANSWER: Reggie Yates","CITED: E, F
+
+ANSWER: Reggie Yates","CITED: E, F
+
+ANSWER: Reggie Yates","CITED: E, F
+
+ANSWER: Reggie Yates","The host of The Voice UK in series 2 was Reggie Yates, who is also known for his role as Leo Jones in ""Doctor Who"".",1,1,1,1,0,2,2,2,2,0
+5a903a4855429933b8a204a9::active_set_pack_a,5a903a4855429933b8a204a9,"['D', 'E']","['E', 'F']",False,"['C', 'F']","CITED: E, D
+
+ANSWER: The man associated with Fanny Talbot, John Ruskin, was the leading art critic of the Victorian era.","CITED: D, E
+
+ANSWER: The man associated with Fanny Talbot, John Ruskin, was the leading art critic of the Victorian era.","CITED: D, E
+
+ANSWER: The man associated with Fanny Talbot, John Ruskin, was the leading art critic of the Victorian era.","CITED: E, D
+
+ANSWER: The man associated with Fanny Talbot, John Ruskin, was the leading art critic of the Victorian era.",The man associated with Fanny Talbot was the leading art critic of the Victorian era.,2,2,2,2,0,1,1,1,1,0
+5abae247554299660624165c::active_set_pack_a,5abae247554299660624165c,"['E', 'F']","['D', 'F']",False,"['B', 'C']","CITED: E, F
+
+ANSWER: Prodigy","CITED: E, F
+ANSWER: Prodigy","CITED: E, F
+
+ANSWER: Prodigy","CITED: E, F
+
+ANSWER: Prodigy","CITED: E, F
+
+ANSWER: Prodigy was born with the name Albert Johnson.",2,2,2,2,2,1,1,1,1,1
+5a8113ca55429938b61422ab::active_set_pack_a,5a8113ca55429938b61422ab,"['B', 'C']","['A', 'C']",False,"['E', 'F']","CITED: C, D
+
+ANSWER: Prochlorococcus contains chlorophyll, which is essential for photosynthesis.","CITED: C, D
+
+ANSWER: Prochlorococcus contains chlorophyll, which is essential for photosynthesis.","CITED: C, D
+
+ANSWER: Prochlorococcus contains chlorophyll, which is essential for photosynthesis.","CITED: C, D
+
+ANSWER: Prochlorococcus contains chlorophyll, which is essential for photosynthesis.","CITED: C, D
+
+ANSWER: Prochlorococcus contains an unusual pigmentation, including chlorophyll ""a2"" and ""b2"", which is essential for photosynthesis.",1,1,1,1,1,2,2,2,2,2
+5abb1cc55542992ccd8e7f16::active_set_pack_a,5abb1cc55542992ccd8e7f16,"['B', 'E']","['A', 'E']",False,"['C', 'D']","CITED: B, E
+
+ANSWER: Brian Keith ""Herbie"" Flowers, an English musician specialising in electric bass, double bass, and tuba, has contributed to the recording of ""Give My Regards to Broad Street"", which is the fifth studio album by Paul McCartney, as well as the soundtrack album to his 1984 film of t","CITED: A, B
+
+ANSWER: Brian Keith ""Herbie"" Flowers, an English musician specialising in electric bass, double bass, and tuba, has contributed to the recording of ""Give My Regards to Broad Street"", which is the fifth studio album by Paul McCartney, as well as the soundtrack album to his 1984 film of t","CITED: B
+ANSWER: Brian Keith ""Herbie"" Flowers, an English musician specialising in electric bass, double bass and tuba, has contributed to the recording of ""Give My Regards to Broad Street"", which is the fifth studio album by Paul McCartney, as well as the soundtrack album to his 1984 film of the sa","CITED: B, E
+
+ANSWER: Brian Keith ""Herbie"" Flowers, an English musician specialising in electric bass, double bass, and tuba, has contributed to the recording of ""Give My Regards to Broad Street"", which is the fifth studio album by Paul McCartney, as well as the soundtrack album to his 1984 film of t","CITED: A, B
+
+ANSWER: Brian Keith ""Herbie"" Flowers, an English musician specialising in electric bass, double bass and tuba, has contributed to the recording of ""Give My Regards to Broad Street"", which is the fifth studio album by Paul McCartney, as well as the soundtrack album to his 1984 film of th",2,1,1,2,1,1,1,1,1,1
+5a80df91554299260e20a198::active_set_pack_a,5a80df91554299260e20a198,"['B', 'F']","['B', 'F']",True,"['A', 'C']","CITED: B, F
+
+ANSWER: The First Silesian War was fought against Frederick the Great, King of Prussia, who died in 1786.","CITED: E, F
+ANSWER: The First Silesian War was fought against Frederick the Great, who died in 1786.","CITED: E, F
+ANSWER: The First Silesian War was fought against Frederick the Great, who died in 1786.","CITED: B, F
+
+ANSWER: The First Silesian War was fought against Frederick the Great, King of Prussia, who died in 1786.","The First Silesian War was fought against Frederick the Great, King of Prussia. He died in 1786.
+
+CITED: F
+ANSWER: 1786",2,1,1,2,1,1,2,2,1,1
+5a7d549f5542991319bc93ad::active_set_pack_a,5a7d549f5542991319bc93ad,"['B', 'E']","['B', 'C']",False,"['C', 'F']","CITED: B
+ANSWER: Trevor Prangley also fought in the Middleweight division.","CITED: A, B
+ANSWER: Trevor Prangley also fought in the Middleweight division.","CITED: A, B
+ANSWER: Trevor Prangley also fought in the Middleweight division.","CITED: B
+ANSWER: Trevor Prangley also fought in the Middleweight division.","CITED: B
+ANSWER: Trevor Prangley also fought in the Middleweight division.",1,1,1,1,1,1,1,1,1,1
+5ae68e9d55429908198fa60e::active_set_pack_a,5ae68e9d55429908198fa60e,"['A', 'F']","['A', 'B']",False,"['C', 'E']","CITED: A, F
+
+ANSWER: Owen Wilson acted in ""Shanghai Knights"" and voiced Lightning McQueen in the ""Cars"" franchise.","CITED: A, D
+
+ANSWER: Owen Wilson acted in ""Shanghai Knights"" and voiced Lightning McQueen in the ""Cars"" franchise.","CITED: A, F
+
+ANSWER: Owen Wilson acted in ""Shanghai Knights"" and voiced Lightning McQueen in the ""Cars"" franchise.","CITED: A, F
+
+ANSWER: Owen Wilson acted in ""Shanghai Knights"" and voiced Lightning McQueen in the ""Cars"" franchise.","CITED: A, F
+
+ANSWER: Owen Wilson acted in ""Shanghai Knights"" and voiced Lightning McQueen in the ""Cars"" franchise.",2,1,2,2,2,0,1,0,0,0
+5a8285be55429966c78a6a41::active_set_pack_a,5a8285be55429966c78a6a41,"['B', 'F']","['C', 'D']",False,"['C', 'D']","CITED: B, F
+
+ANSWER: The attack on Pearl Harbor","CITED: B, F
+
+ANSWER: The attack on Pearl Harbor","CITED: B, F
+
+ANSWER: The attack on Pearl Harbor","CITED: B, F
+
+ANSWER: The attack on Pearl Harbor","CITED: B, F
+
+ANSWER: The attack on Pearl Harbor was a surprise military strike by the Imperial Japanese Navy Air Service while Magruder Hill Tuttle was a senior officer in the United States Navy.",2,2,2,2,2,1,1,1,1,1
+5a8e58cb5542990e94052ae0::active_set_pack_a,5a8e58cb5542990e94052ae0,"['A', 'F']","['B', 'E']",False,"['B', 'D']","CITED: C, F
+
+ANSWER: Simone Kirby played Tracey Moynihan in the Irish dramatic television series ""Love/Hate"", which aired on RTÉ Television between 2010 and 2014.","CITED: C, F
+
+ANSWER: Simone Kirby played the role of Tracey Moynihan in the Irish dramatic television series ""Love/Hate"", which aired on RTÉ Television between 2010 and 2014.","CITED: C, F
+
+ANSWER: Simone Kirby played Tracey Moynihan in the Irish dramatic television series ""Love/Hate"", which aired on RTÉ Television between 2010 and 2014.","CITED: C, F
+
+ANSWER: Simone Kirby played Tracey Moynihan in the Irish dramatic television series ""Love/Hate"", which aired on RTÉ Television between 2010 and 2014.","CITED: C, F
+
+ANSWER: Simone Kirby played Tracey Moynihan in the Irish dramatic television series ""Love/Hate"", which aired on RTÉ Television between 2010 and 2014.",2,2,2,2,2,1,1,1,1,1
+5a72d90d55429901807daf53::active_set_pack_a,5a72d90d55429901807daf53,"['A', 'B']","['A', 'C']",False,"['E', 'F']","CITED: A, B
+
+ANSWER: Rafael Nadal, currently ranked World No. 1 in men's singles, defeated Dominic Thiem in the 2017 Barcelona Open Banco Sabadell - Singles.","CITED: A, B
+
+ANSWER: Rafael Nadal, the current World No. 1 in men's singles, defeated Dominic Thiem in the 2017 Barcelona Open Banco Sabadell - Singles.",CITED: B\nANSWER: Rafael Nadal defeated Dominic Thiem in the 2017 Barcelona Open Banco Sabadell - Singles.,"CITED: A, B
+
+ANSWER: Rafael Nadal, currently ranked World No. 1 in men's singles, defeated Dominic Thiem in the 2017 Barcelona Open Banco Sabadell - Singles.","Facts used: A (for identifying the player), B (for the specific tournament and its result)
+
+Answer: Rafael Nadal defeated Dominic Thiem in the 2017 Barcelona Open Banco Sabadell - Singles.",2,2,1,2,0,0,0,0,0,0
+5ab6a327554299110f219a45::active_set_pack_a,5ab6a327554299110f219a45,"['A', 'E']","['E', 'F']",False,"['B', 'F']","CITED: E, F
+
+ANSWER: June Jones, the head coach of the SMU Mustangs in 2010, currently coaches in the Canadian Football League (CFL) as the head coach of the Hamilton Tiger-Cats.","CITED: E, F
+
+ANSWER: June Jones, the head coach of the SMU Mustangs in 2010, currently coaches in the Canadian Football League (CFL).","CITED: E, F
+
+ANSWER: June Jones, the head coach of the SMU Mustangs in 2010, currently coaches in the Canadian Football League (CFL).",CITED: E\nANSWER: The Canadian Football League (CFL),"CITED: E, F
+
+ANSWER: The 2010 head coach of the SMU Mustangs football team, June Jones, currently coaches in the Canadian Football League (CFL).",2,2,2,1,2,1,1,1,0,1
+5adc0856554299438c868d0d::active_set_pack_a,5adc0856554299438c868d0d,"['B', 'D']","['B', 'E']",False,"['C', 'F']","CITED: B, E
+
+ANSWER: Device – Voice – Drum is the fourth live album by Kansas, a band that has produced eight gold albums.","CITED: E, B
+
+ANSWER: Device – Voice – Drum is the fourth live album by a band that produced eight gold albums.","CITED: E, D
+
+ANSWER: Device – Voice – Drum is the fourth live album by Kansas, a band that has produced eight gold albums.","CITED: B, E
+
+ANSWER: Device – Voice – Drum is the fourth live album by Kansas, a band that has produced eight gold albums.","The relevant facts are:
+
+C. [Open the Window – Close the Door: Live in Japan] - This fact states that ""Open the Window – Close the Door: Live in Japan"" is the fourth live album by English hard rock band Thunder.
+
+D. [Device – Voice – Drum] - This fact states that ""Device – Voice – Drum"" is the fourt",1,1,1,1,0,2,2,2,2,0
+5a7fb04d55429969796c1b24::active_set_pack_a,5a7fb04d55429969796c1b24,"['A', 'D']","['B', 'D']",False,"['B', 'F']","CITED: A, D
+ANSWER: The band Sleeping with Sirens, which released the album ""Let's Cheers to This"", is from Orlando, Florida.","CITED: A, D
+
+ANSWER: The band that released the album ""Let's Cheers to This"" is from Orlando, Florida.","CITED: A, D
+
+ANSWER: The band that released the album ""Let's Cheers to This"" is from Orlando, Florida.","CITED: A, D
+ANSWER: The band Sleeping with Sirens, which released the album ""Let's Cheers to This"", is from Orlando, Florida.","CITED: A, D
+ANSWER: The band Sleeping with Sirens, which released the album ""Let's Cheers to This"", is from Orlando, Florida.",2,2,2,2,2,0,0,0,0,0
+5a790e91554299078472779e::active_set_pack_a,5a790e91554299078472779e,"['A', 'B']","['B', 'D']",False,"['E', 'F']","CITED: A, E
+
+ANSWER: Scott Joplin co-wrote ""Air"" with Henry Threadgill and Steve McCall for the album ""Air Lore"".","CITED: A, E
+
+ANSWER: Scott Joplin co-wrote Air.","CITED: A, E
+
+ANSWER: Scott Joplin co-wrote ""Air"" with Jelly Roll Morton.","CITED: A, B
+
+ANSWER: Scott Joplin co-wrote ""Air"" with Jelly Roll Morton.","The African-American composer who co-wrote ""Air"" is Scott Joplin.",1,1,1,2,0,1,1,1,0,0
+5a759ce25542996c70cfaf0e::active_set_pack_a,5a759ce25542996c70cfaf0e,"['A', 'F']","['C', 'F']",False,"['C', 'E']","CITED: C, F
+ANSWER: Anil V. Kumar, a television and film director and producer in India, his production house, Flying Turtle Films co-produced the movie ""Zanjeer"" starring Priyanka Chopra and Ram Charan.","CITED: C, F
+
+ANSWER: Anil V. Kumar, a television and film director and producer in India, co-produced the movie ""Zanjeer"" starring Priyanka Chopra and Ram Charan, who is also an entrepreneur working in Telugu cinema.","CITED: C, F
+ANSWER: Anil V. Kumar, a television and film director and producer in India, co-produced the movie ""Zanjeer"" starring Priyanka Chopra and Ram Charan.","CITED: C, F
+ANSWER: Anil V. Kumar, a television and film director and producer in India, his production house, Flying Turtle Films co-produced the movie ""Zanjeer"" starring Priyanka Chopra and Ram Charan.","CITED: C, F
+
+ANSWER: Anil V. Kumar, a television and film director and producer in India, his production house, Flying Turtle Films co-produced the movie ""Zanjeer"" starring Priyanka Chopra and Ram Charan.",2,2,2,2,2,1,1,1,1,1
+5ae3e9995542995dadf24247::active_set_pack_a,5ae3e9995542995dadf24247,"['A', 'F']","['B', 'F']",False,"['B', 'E']","CITED: F, A
+
+ANSWER: Jagmeet Singh, born on January 2, 1979, succeeded as leader of the New Democratic Party on October 1, 2017.","CITED: B, F
+
+ANSWER: The Canadian politician born on January 2, 1979, succeeded as leader of the New Democratic Party in Canada on October 1, 2017.","CITED: A\nANSWER: October 1, 2017","CITED: F, A
+
+ANSWER: Jagmeet Singh, born on January 2, 1979, succeeded as leader of the New Democratic Party on October 1, 2017.","The relevant facts are:
+
+A. He was succeeded as leader by Jagmeet Singh, who won the 2017 leadership election on October 1st, with 53.8% of the vote.
+
+F. Jagmeet Singh (born January 2, 1979), known professionally as Jagmeet Singh, is a Canadian politician who is leader of the",2,2,1,2,0,0,1,0,0,0
+5a73668e55429901807db02e::active_set_pack_a,5a73668e55429901807db02e,"['B', 'D']","['A', 'D']",False,"['A', 'F']","CITED: B, D
+
+ANSWER: The phrase that is commonly used on the day observed on 25 April each year is ""Lest we forget"".","CITED: D
+ANSWER: The phrase that is commonly used on the day observed on 25 April each year is ""Anzac Day"".","CITED: B, D
+
+ANSWER: The phrase that is commonly used on the day observed on 25 April each year is ""Lest we forget"".","CITED: B, D
+ANSWER: The phrase that is commonly used on the day observed on 25 April each year is ""Lest we forget"".","The phrase that is commonly used on the day which is observed on 25 April each year is ""Lest we forget"".",2,1,2,2,0,1,1,1,1,0
+5a8ba093554299240d9c203f::active_set_pack_a,5a8ba093554299240d9c203f,"['A', 'C']","['A', 'C']",True,"['B', 'D']","CITED: C, A
+
+ANSWER: The Colts' first ever draft pick was a halfback named Billy Vessels, who won the Heisman Trophy in 1952.",CITED: C\nANSWER: The Colts' first ever draft pick was a halfback who won the Heisman Trophy in 1952.,CITED: C\nANSWER: The Colts' first ever draft pick was a halfback who won the Heisman Trophy in 1952.,"CITED: C, A
+
+ANSWER: The Colts' first ever draft pick was a halfback named Billy Vessels, who won the Heisman Trophy in 1952.","CITED: A, C
+
+ANSWER: The Colts' first ever draft pick was a halfback who won the Heisman Trophy in 1952.",2,1,1,2,2,0,0,0,0,0
+5ab6ea2955429954757d33b8::active_set_pack_a,5ab6ea2955429954757d33b8,"['C', 'E']","['A', 'E']",False,"['A', 'F']","CITED: C, E
+
+ANSWER: The Grand Lodge of the Republic of Liberia is based on Prince Hall Freemasonry, which was founded on September 29, 1784.","CITED: C\nANSWER: The Grand Lodge of the Republic of Liberia is based on a branch of North American Freemasonry founded on September 29, 1784.","CITED: C\nANSWER: The Grand Lodge of the Republic of Liberia is based on the principles of Prince Hall Freemasonry, which was founded on September 29, 1784.","CITED: C, E
+
+ANSWER: The Grand Lodge of the Republic of Liberia is based on Prince Hall Freemasonry, which was founded on September 29, 1784.","CITED: C, E
+
+ANSWER: The Grand Lodge of the Republic of Liberia is based on Prince Hall Freemasonry, which was founded on September 29, 1784.",2,1,1,2,2,1,0,0,1,1
+5ac04545554299294b218f6a::active_set_pack_a,5ac04545554299294b218f6a,"['B', 'E']","['B', 'C']",False,"['D', 'F']","CITED: E, C
+
+ANSWER: Enemy of the State","CITED: C, E
+
+ANSWER: Enemy of the State","CITED: E, C
+
+ANSWER: Enemy of the State","CITED: E, C
+
+ANSWER: Enemy of the State","The 1998 film with Arthur Nascarella that was directed by Tony Scott is ""Enemy of the State"".",1,1,1,1,0,2,2,2,2,0
+5abba5e75542992ccd8e7f64::active_set_pack_a,5abba5e75542992ccd8e7f64,"['A', 'E']","['A', 'B']",False,"['C', 'D']","CITED: A, E
+
+ANSWER: Josh Jackson","CITED: B, E
+
+ANSWER: Josh Jackson",CITED: E\nANSWER: Josh Jackson,"CITED: A, E
+
+ANSWER: Josh Jackson","Cited: E
+Answer: Josh Jackson",2,2,1,2,2,0,1,0,0,0
+5a764234554299109176e6e6::active_set_pack_a,5a764234554299109176e6e6,"['B', 'D']","['A', 'D']",False,"['C', 'E']","CITED: D\nANSWER: The weapon BFG is found in the ""Doom"" series.","CITED: D
+ANSWER: The weapon BFG is found in the Doom series, which was developed by id Software.","CITED: D, B
+
+ANSWER: The BFG is found in the Doom series, developed by id Software.","CITED: D\nANSWER: The weapon BFG is found in the ""Doom"" series.","CITED: D\nANSWER: The weapon BFG is found in the ""Doom"" series, developed by id Software.",1,1,2,1,1,0,1,1,0,0
+5a8b21cb55429971feec4647::active_set_pack_a,5a8b21cb55429971feec4647,"['D', 'F']","['D', 'F']",True,"['B', 'C']","CITED: F, D
+
+ANSWER: The 2016 Liberty Bowl was sponsored by AutoZone, which is based in Memphis, Tennessee.",CITED: F\nANSWER: Memphis,CITED: F\nANSWER: Memphis,"CITED: F, D
+
+ANSWER: The 2016 Liberty Bowl was sponsored by AutoZone, which is based in Memphis, Tennessee.","CITED: F, D
+
+ANSWER: The 2016 Liberty Bowl was sponsored by AutoZone, which is based in Memphis, Tennessee.",2,1,1,2,2,1,0,0,1,1
+5a8e8fc75542990e94052b57::active_set_pack_a,5a8e8fc75542990e94052b57,"['A', 'E']","['A', 'D']",False,"['C', 'D']","CITED: E\nANSWER: Andrés D'Alessandro, an attacking midfielder, was signed by Wolfsburg from River Plate in the 2003-04 season.",CITED: E\nANSWER: The 2003-04 Wolfsburg signed a starlet from River Plate who plays in the midfield position.,"CITED: E\nANSWER: Andrés D'Alessandro, a starlet from River Plate, was signed by Wolfsburg in the 2003-04 season. He plays as an attacking midfielder.","CITED: E\nANSWER: Andrés D'Alessandro, an attacking midfielder, was signed by Wolfsburg from River Plate in the 2003-04 season.","CITED: E, A
+
+ANSWER: The 2003-04 Wolfsburg signed a starlet from River Plate who plays as an attacking midfielder.",1,1,1,1,2,0,0,0,0,0
+5ae1d33a554299492dc91b9d::active_set_pack_a,5ae1d33a554299492dc91b9d,"['D', 'F']","['A', 'B']",False,"['A', 'E']","CITED: E, F
+ANSWER: Arthur Noss won a Military Cross as the gunner of Keith Park, who was born in 1892.","CITED: D, F
+ANSWER: Arthur Noss won a Military Cross as the gunner of Keith Park, who was born in 1892.","CITED: E, F
+ANSWER: Arthur Noss won a Military Cross as the gunner of Keith Park, who was born in 1892.","CITED: D, F
+
+ANSWER: Arthur Noss won a Military Cross as the gunner of Keith Park, who was born in 1892.","CITED: E, F
+
+ANSWER: Arthur Noss won a Military Cross as the gunner of Keith Park, who was born in 1892.",1,2,1,2,1,2,1,2,1,2
+5a81e73f554299676cceb14d::active_set_pack_a,5a81e73f554299676cceb14d,"['B', 'C']","['A', 'D']",False,"['E', 'F']","CITED: B, C
+
+ANSWER: DreamWorks Animation produced the movie that ""Puss in Boots: The Three Diablos"" is the sequel of.","CITED: A, B
+
+ANSWER: The movie that ""Puss in Boots: The Three Diablos"" is the sequel of is ""Puss in Boots"" (2011 film), which was produced by DreamWorks Animation.","CITED: B, C
+
+ANSWER: DreamWorks Animation produced the movie that ""Puss in Boots: The Three Diablos"" is the sequel of.","CITED: B, C
+
+ANSWER: DreamWorks Animation produced the movie that ""Puss in Boots: The Three Diablos"" is the sequel of.","Cited: B, C
+
+Answer: DreamWorks Animation produced the movie that ""Puss in Boots: The Three Diablos"" is the sequel of.",2,1,2,2,2,1,1,1,1,1
+5ae8256355429952e35eaa59::active_set_pack_a,5ae8256355429952e35eaa59,"['E', 'F']","['A', 'B']",False,"['C', 'D']","CITED: E, F
+
+ANSWER: Dischord Records is based in Washington, D.C.","CITED: D, E
+
+ANSWER: The record company is based in Washington, D.C.","CITED: E, F
+
+ANSWER: Dischord Records is based in Washington, D.C.","CITED: E, F
+
+ANSWER: Dischord Records is based in Washington, D.C.","The record company is based in Washington, D.C.",2,1,2,2,0,1,2,1,1,0
+5a827a9f55429940e5e1a8cf::active_set_pack_a,5a827a9f55429940e5e1a8cf,"['A', 'D']","['C', 'D']",False,"['E', 'F']","CITED: A, D
+ANSWER: ""Rhapsody in Blue""","CITED: B, D
+ANSWER: George Gershwin, the composer of ""Porgy and Bess,"" is best known for his 1924 orchestral composition ""Rhapsody in Blue.""","CITED: A, B
+
+ANSWER: Kiawah Island, South Carolina was mentioned in ""Porgy and Bess,"" composed by George Gershwin, who is best known for his 1924 orchestral composition ""Rhapsody in Blue.""","CITED: A, D
+ANSWER: ""Rhapsody in Blue""","CITED: A, D
+
+ANSWER: Kiawah Island, South Carolina was mentioned in ""Porgy and Bess,"" composed by George Gershwin, who is best known for his 1924 orchestral composition ""Rhapsody in Blue.""",2,2,1,2,2,0,1,1,0,0
+5a8d32ae5542994ba4e3dc1d::active_set_pack_a,5a8d32ae5542994ba4e3dc1d,"['D', 'E']","['A', 'E']",False,"['B', 'C']","CITED: E, D
+ANSWER: Italo Calvino's best known work of the same genre as Richard Yates' ""Eleven Kinds of Loneliness"" is ""Invisible Cities"".","CITED: E, F
+ANSWER: Italo Calvino's best known work of the same genre as Richard Yates' ""Eleven Kinds of Loneliness"" is ""Invisible Cities"".","CITED: E, D
+ANSWER: Italo Calvino's best known work of the same genre as Richard Yates' ""Eleven Kinds of Loneliness"" is ""Invisible Cities"".","CITED: E, D
+ANSWER: Italo Calvino's best known work of the same genre as Richard Yates' ""Eleven Kinds of Loneliness"" is ""Invisible Cities"".","Cited: D, F
+
+Answer: Italo Calvino's best known work of the same genre as Richard Yates' ""Eleven Kinds of Loneliness"" was ""Invisible Cities"".",2,1,2,2,1,1,2,1,1,2
+5a8634195542991e771815ba::active_set_pack_a,5a8634195542991e771815ba,"['C', 'D']","['D', 'F']",False,"['A', 'B']","CITED: C, D
+
+ANSWER: Ricky Dene Gervais was born on 25 June 1961.","CITED: A, C
+ANSWER: Extras, a British sitcom about extras working in television, film, and theatre, was co-produced by the BBC and HBO and was created, written, and directed by Ricky Dene Gervais. Ricky Gervais was born on 25 June 1961.","CITED: C, D\nANSWER: Ricky Gervais, the creator and director of ""Extras"", was born on 25 June 1961.","CITED: C, D
+
+ANSWER: Ricky Dene Gervais was born on 25 June 1961.","Facts used: A, C, D
+
+ANSWER: Ricky Dene Gervais was born on 25 June 1961.",2,1,2,2,1,1,1,0,1,1
+5ae1fc135542997283cd2309::active_set_pack_a,5ae1fc135542997283cd2309,"['A', 'C']","['A', 'C']",True,"['E', 'F']","CITED: A, C
+ANSWER: Yes, both Katherine Anne Porter and Patrick White are writers. Katherine Anne Porter was an American journalist, essayist, short story writer, novelist, and political activist (A), while Patrick White was an Australian writer who is widely regarded as one of the most important En","CITED: A, E
+
+ANSWER: Yes, both Patrick White and Katherine Anne Porter are writers. Katherine Anne Porter is known for her journalism, essays, short stories, and novels, while Patrick White is renowned for his novels, short-story collections, and plays.","CITED: A, E
+
+ANSWER: Yes, both Patrick White and Katherine Anne Porter are writers. Katherine Anne Porter is known for her journalism, essays, short stories, and novels, while Patrick White is renowned for his novels, short-story collections, and plays.","CITED: A, C
+ANSWER: Yes, both Katherine Anne Porter and Patrick White are writers. Katherine Anne Porter was an American journalist, essayist, short story writer, novelist, and political activist (A), while Patrick White was an Australian writer widely regarded as one of the most important English-l","The relevant facts are:
+
+C. [Patrick White] Patrick Victor Martindale White (28 May 1912 – 30 September 1990) was an Australian writer who is widely regarded as one of the most important English-language novelists of the 20th century.
+A. Katherine Anne Porter (May 15, 1890 –",2,1,1,2,0,0,1,1,0,0
+5a8844135542994846c1ce77::active_set_pack_a,5a8844135542994846c1ce77,"['A', 'E']","['A', 'B']",False,"['B', 'C']","CITED: A, E
+
+ANSWER: John Carney directed the 2016 musical ""Sing Street"", which was filmed in Howth.","CITED: B, E
+
+ANSWER: John Carney directed the 2016 musical ""Sing Street"", which was filmed in Howth.","CITED: A, E
+
+ANSWER: John Carney directed the 2016 musical ""Sing Street"", which was filmed in Howth.","CITED: A, E
+
+ANSWER: John Carney directed the 2016 musical ""Sing Street"", which was filmed in Howth.","CITED: A, E
+
+ANSWER: John Carney directed the 2016 musical ""Sing Street"", which was filmed in Howth.",2,2,2,2,2,0,1,0,0,0
+5ac0d9e55542992a796ded92::active_set_pack_a,5ac0d9e55542992a796ded92,"['A', 'C']","['A', 'F']",False,"['B', 'D']","CITED: A, C
+ANSWER: American","CITED: F
+ANSWER: American","CITED: C, F
+
+ANSWER: Bob Hope, the comedian and vaudevillian who starred in ""Son of Paleface"", is American.","CITED: A, C
+ANSWER: American","CITED: A
+
+ANSWER: American",2,1,2,2,1,0,1,1,0,0
+5a8a30ad5542992d82986eec::active_set_pack_a,5a8a30ad5542992d82986eec,"['C', 'E']","['B', 'E']",False,"['A', 'F']","CITED: D, E, C
+ANSWER: Johnny Depp starred in ""21 Jump Street"" and subsequently became a teen idol.","CITED: D, E
+ANSWER: Johnny Depp starred in the television series ""21 Jump Street"" and subsequently became a teen idol.","CITED: D, C
+ANSWER: Johnny Depp starred in ""21 Jump Street"" and became a teen idol.","CITED: D, E, C
+ANSWER: Johnny Depp starred in ""21 Jump Street"" and subsequently became a teen idol.","CITED: D, E, C
+
+ANSWER: Johnny Depp starred in ""21 Jump Street"" and subsequently became a teen idol.",2,1,1,2,2,2,2,2,2,2
+5a8deeb455429917b4a5bce2::active_set_pack_a,5a8deeb455429917b4a5bce2,"['A', 'B']","['A', 'F']",False,"['C', 'D']","CITED: B, A
+
+ANSWER: The show on which Kim Roberts played Neeva, ""The Strain"", aired on FX.","CITED: A, E
+
+ANSWER: The show on which Kim Roberts played Neeva, ""The Strain"", aired on FX.","CITED: B, E
+
+ANSWER: The show on which Kim Roberts played Neeva, ""The Strain"", aired on FX.","CITED: B, A
+
+ANSWER: The show on which Kim Roberts played Neeva, ""The Strain"", aired on FX.","The network that aired the show on which Kim Roberts played Neeva is FX.
+
+CITED: B",2,1,2,2,1,0,1,1,0,0
+5a73035d5542992359bc31fd::active_set_pack_a,5a73035d5542992359bc31fd,"['E', 'F']","['E', 'F']",True,"['A', 'D']","CITED: E, F
+ANSWER: Dirkie Chamberlain represented her country in the 2012 Summer Olympics.","CITED: E, F
+ANSWER: Dirkie Chamberlain represented her country in the 2012 Summer Olympics.","CITED: E, F
+ANSWER: Dirkie Chamberlain represented her country in the 2012 Summer Olympics.","CITED: E, F
+ANSWER: Dirkie Chamberlain represented her country in the 2012 Summer Olympics.","The relevant facts are:
+
+C. Dirkie Chamberlain is a South African field hockey player.
+E. The 2012 Summer Olympics is a major international multi-sport event.
+
+Dirkie Chamberlain represented her country in field hockey at the 2012 Summer Olympics.",2,2,2,2,0,1,1,1,1,0
+5ade4b7f55429939a52fe877::active_set_pack_a,5ade4b7f55429939a52fe877,"['A', 'D']","['A', 'B']",False,"['C', 'E']","CITED: A, D
+
+ANSWER: Irma P. Hall is best known for playing matriarchal figures in various films, including the 2004 American black comedy thriller film ""The Ladykillers"" directed by Joel and Ethan Coen.","CITED: A, F
+ANSWER: Irma P. Hall is best known for playing matriarchal figures in various films, including the 2004 American black comedy thriller film ""The Ladykillers"" directed by Joel and Ethan Coen.","CITED: A, D
+
+ANSWER: Irma P. Hall is best known for playing matriarchal figures in various films, including the 2004 American black comedy thriller film ""The Ladykillers"" directed by Joel and Ethan Coen.","CITED: A, D
+
+ANSWER: Irma P. Hall is best known for playing matriarchal figures in various films, including the 2004 American black comedy thriller ""The Ladykillers"" directed by Joel and Ethan Coen.","CITED: A, D
+
+ANSWER: Irma P. Hall is best known for playing matriarchal figures in various films, including the 2004 American black comedy thriller ""The Ladykillers"" directed by Joel and Ethan Coen.",2,1,2,2,2,0,1,0,0,0
+5a7bc8b1554299294a54aad0::active_set_pack_a,5a7bc8b1554299294a54aad0,"['B', 'D']","['B', 'C']",False,"['C', 'E']","CITED: D
+ANSWER: The actual events upon which the Andrey Zvyagintsev drama ""Leviathan"" is based took place in Granby, Colorado.","CITED: D
+ANSWER: The actual events upon which the Andrey Zvyagintsev drama ""Leviathan"" is based took place in Granby, Colorado.","CITED: D
+ANSWER: The actual events upon which the Andrey Zvyagintsev drama ""Leviathan"" is based took place in Granby, Colorado.","CITED: D
+ANSWER: The actual events upon which the Andrey Zvyagintsev drama ""Leviathan"" is based took place in Granby, Colorado.","CITED: D
+
+ANSWER: The actual events upon which the Andrey Zvyagintsev drama ""Leviathan"" is based took place in Granby, Colorado.",1,1,1,1,1,1,1,1,1,1
+5abc2e3d554299114383a0f6::active_set_pack_a,5abc2e3d554299114383a0f6,"['A', 'E']","['A', 'E']",True,"['B', 'D']","CITED: A, E
+
+ANSWER: Alan Furst and Lee Child are both authors of thriller novels.","CITED: A, B, D, E, F
+ANSWER: Alan Furst and Lee Child are both authors known for their spy and thriller novels. Furst's works, such as ""The Spies of Warsaw"" and ""Kingdom of Shadows,"" often focus on espionage and political intrigue in the years leading up to World War II. Child, on the other","CITED: A, B, D, E, F
+ANSWER: Alan Furst and Lee Child are both authors known for their spy and thriller novels. Furst's works, such as ""The Spies of Warsaw"" and ""Kingdom of Shadows,"" often focus on espionage and political intrigue in the years leading up to World War II. Child, on the other","CITED: A, E
+
+ANSWER: Alan Furst and Lee Child are both authors of thriller novels.",Alan Furst and Lee Child are both authors of thriller novels.,2,2,2,2,0,0,3,3,0,0
+5a7929cf554299029c4b5f12::active_set_pack_a,5a7929cf554299029c4b5f12,"['C', 'D']","['A', 'C']",False,"['B', 'E']","CITED: C, D
+
+ANSWER: ""Tenth Avenue Freeze-Out"" is the second song on Bruce Springsteen's breakthrough album ""Born to Run"", which is his third studio album.","CITED: C, D
+
+ANSWER: ""Born to Run""","CITED: C, D
+
+ANSWER: ""Born to Run""","CITED: C, D
+
+ANSWER: ""Tenth Avenue Freeze-Out"" is the second song on Bruce Springsteen's breakthrough album ""Born to Run"", which is his third studio album.","CITED: C, D
+
+ANSWER: ""Tenth Avenue Freeze-Out"" is the second song on Bruce Springsteen's breakthrough album ""Born to Run"", which is his third studio album.",2,2,2,2,2,1,1,1,1,1
+5ab964ae5542996be20204c0::active_set_pack_a,5ab964ae5542996be20204c0,"['B', 'F']","['B', 'F']",True,"['A', 'D']","CITED: E, F
+ANSWER: Hartland Swamp Wildlife Management Area is located in Niagara County, New York.","CITED: E, F
+ANSWER: The Hartland Swamp Wildlife Management Area is located in Niagara County, New York.","CITED: E, F
+ANSWER: The Hartland Swamp Wildlife Management Area is located in Niagara County, New York.","CITED: E, F
+ANSWER: Hartland Swamp Wildlife Management Area is located in Niagara County, New York.","CITED: E, F
+
+ANSWER: Hartland Swamp Wildlife Management Area is located in Niagara County, New York.",1,1,1,1,1,2,2,2,2,2
+5add44235542995b365faae2::active_set_pack_a,5add44235542995b365faae2,"['D', 'F']","['B', 'F']",False,"['B', 'C']","CITED: D, F
+ANSWER: Bookmarks is published more often than Modern Drummer. Bookmarks is a bimonthly magazine, which means it is published twice a month, while Modern Drummer is a monthly publication, meaning it is published once a month.","CITED: E, F
+ANSWER: Bookmarks is published more often than Modern Drummer. While Modern Drummer is published monthly, Bookmarks is published bimonthly, which means it comes out twice as often.","CITED: D, E\nANSWER: Modern Drummer is published more often than Bookmarks. Modern Drummer is a monthly publication, while Bookmarks is a bimonthly magazine.","CITED: D, F
+ANSWER: Bookmarks is published more often than Modern Drummer. Modern Drummer is a monthly publication (D), while Bookmarks is a bimonthly magazine (F), meaning it is published twice as often as Modern Drummer.","CITED: D, F
+
+ANSWER: Bookmarks is published more often. It is a bimonthly magazine, which means it is published twice as often as Modern Drummer, which is a monthly publication.",2,1,1,2,2,1,2,1,1,1
+5a8a662755429930ff3c0dc5::active_set_pack_a,5a8a662755429930ff3c0dc5,"['D', 'F']","['C', 'F']",False,"['A', 'E']","CITED: E, D
+
+ANSWER: Both Mindless Self Indulgence and Tappi Tíkarrass are known for incorporating diverse musical styles into their work, moving beyond traditional punk rock. MSI blends punk rock with elements like electronica, techno, industrial, hip hop, and breakbeat hardcore, while Tappi Tíkarr","CITED: E, F
+
+ANSWER: Both Mindless Self Indulgence and Tappi Tíkarrass are bands with a mixed musical style that incorporates elements of punk rock.","CITED: E, D
+
+ANSWER: Both Mindless Self Indulgence and Tappi Tíkarrass are known for incorporating diverse musical styles into their work, marking a difference from traditional bands. While MSI blends punk rock, alternative rock, electronica, techno, industrial, hip hop, and breakbeat hardcore, Tapp","CITED: E, D
+
+ANSWER: Both Mindless Self Indulgence and Tappi Tíkarrass are bands that blend multiple genres in their music. MSI combines elements like punk, rock, electronica, and hip hop (E), while Tappi Tíkarrass mixes punk with funk, rock, and jazz (D).","CITED: E, F
+
+ANSWER: Mindless Self Indulgence and Tappi Tíkarrass are both bands.",1,1,1,1,1,2,2,2,2,2
+5ae750175542997b22f6a6b6::active_set_pack_a,5ae750175542997b22f6a6b6,"['C', 'E']","['C', 'F']",False,"['B', 'D']","CITED: C, E
+ANSWER: Tothill Fields was an 18th-century area of Westminster in the county of Middlesex, a historic county in south-east England.","CITED: C, F
+ANSWER: Tothill Fields was an 18th-century area of Westminster in the county of Middlesex, a historic county in south-east England.","CITED: C, E
+ANSWER: Tothill Fields was an 18th-century area of Westminster in the county of Middlesex, a historic county in south-east England.","CITED: C, E
+ANSWER: Tothill Fields was an 18th-century area of Westminster in the county of Middlesex, a historic county in south-east England.","CITED: C, E
+
+ANSWER: Tothill Fields was an 18th-century area of Westminster in the county of Middlesex, a historic county in south-east England.",2,1,2,2,2,1,2,1,1,1
+5a7794525542995d831811f3::active_set_pack_a,5a7794525542995d831811f3,"['C', 'E']","['C', 'E']",True,"['A', 'B']","CITED: E, F
+
+ANSWER: Trevor Knight","CITED: E, F
+
+ANSWER: Trevor Knight","CITED: E, F
+
+ANSWER: Trevor Knight","CITED: E, F
+
+ANSWER: Trevor Knight","CITED: E
+
+ANSWER: Trevor Knight",1,1,1,1,1,2,2,2,2,1
+5ab542875542997d4ad1f0e1::active_set_pack_a,5ab542875542997d4ad1f0e1,"['A', 'F']","['A', 'F']",True,"['C', 'E']","CITED: F
+ANSWER: Terenzo is located in the Italian region of Emilia-Romagna.","CITED: F
+ANSWER: Terenzo is located in the Emilia-Romagna region of Italy.","CITED: F
+ANSWER: Terenzo is located in the Emilia-Romagna region of Italy.","CITED: F
+ANSWER: Terenzo is located in the Italian region of Emilia-Romagna.","The relevant facts are:
+
+A. [Parma] Parma is a city in the northern Italian region of Emilia-Romagna...
+
+F. [Terenzo] Terenzo is a ""comune"" (municipality) in the Province of Parma in the Italian region Emilia-Romagna...
+
+Terenzo is located in the Emilia-Romagna region of Italy.",2,2,2,2,0,0,0,0,0,0
+5ae1c9ea5542997f29b3c103::active_set_pack_a,5ae1c9ea5542997f29b3c103,"['B', 'D']","['B', 'F']",False,"['C', 'E']","CITED: B, D
+
+ANSWER: V. K. Krishna Menon was regarded as the second most powerful man in India after Jawaharlal Nehru, who was the first Prime Minister of India. Nehru was born on 14 November 1889.","CITED: B, F
+
+ANSWER: V. K. Krishna Menon was regarded as the second most powerful man in India after Jawaharlal Nehru, who was the Prime Minister of India from 1947 until his death in 1964. Therefore, V. K. Krishna Menon was born before 1947.","CITED: B, D
+
+ANSWER: V. K. Krishna Menon was regarded as the second most powerful man in India after Jawaharlal Nehru, who was the first Prime Minister of India. Nehru was born on 14 November 1889.","CITED: B, D
+
+ANSWER: V. K. Krishna Menon was regarded as the second most powerful man in India after Jawaharlal Nehru, who was the first Prime Minister of India. Nehru was born on 14 November 1889.",The Prime Minister of India after which V. K. Krishna Menon was regarded as the second most powerful man in India was Jawaharlal Nehru.,2,1,2,2,0,1,2,1,1,0
+5ab61c7f554299710c8d1e64::active_set_pack_a,5ab61c7f554299710c8d1e64,"['B', 'C']","['B', 'C']",True,"['A', 'D']","CITED: A, C
+ANSWER: The approximate population of the country that Koularo lies in is 1 million.","CITED: A, B
+ANSWER: Koularo is located in Togo. According to fact A, Togo has a population of approximately 1 million.","CITED: A, B
+ANSWER: Koularo is located in Togo. According to fact A, Togo has a population of approximately 1 million.","CITED: B, C
+
+ANSWER: The country that Koularo lies in is Togo, which has an approximate population of 1 million.","CITED: A, C
+
+ANSWER: The approximate population of Togo, the country that Koularo lies in, is around 1 million.",1,1,1,2,1,1,1,1,1,1
+5a88b8e755429946c8d6e899::active_set_pack_a,5a88b8e755429946c8d6e899,"['E', 'F']","['D', 'F']",False,"['A', 'D']","CITED: E\nANSWER: Oliver Reed, the English actor from the film ""The System"", died on 2 May 1999.","CITED: F
+ANSWER: Oliver Reed, the English actor from the film ""The System"", died in 2004.","CITED: E\nANSWER: Oliver Reed, the English actor from the film ""The System"", died on 2 May 1999.","CITED: E\nANSWER: Oliver Reed, the English actor from the film ""The System"", died in 1999.","The English actor from the film ""The System"" is Oliver Reed. He died in 1999.
+
+Facts used:
+E. [Oliver Reed] Robert Oliver Reed (13 February 1938 – 2 May 1999) was an English actor known for his upper-middle class, macho image, hellraiser lifestyle, and ""tough guy",1,1,1,1,0,0,1,0,0,0
+5ac3de5c5542995c82c4ac68::active_set_pack_a,5ac3de5c5542995c82c4ac68,"['B', 'E']","['A', 'B']",False,"['A', 'F']","CITED: B, E
+
+ANSWER: Yes, both Simon Wincer and Patrice Leconte are film directors.","CITED: A, E
+
+ANSWER: Yes, both Simon Wincer and Patrice Leconte are film directors.","CITED: A, E
+
+ANSWER: Yes, both Simon Wincer and Patrice Leconte are film directors.","CITED: B, E
+
+ANSWER: Yes, both Simon Wincer and Patrice Leconte are film directors.","CITED: B, E
+
+ANSWER: Yes, both Simon Wincer and Patrice Leconte are film directors.",2,1,1,2,2,1,1,1,1,1
+5aba7995554299232ef4a2e2::active_set_pack_a,5aba7995554299232ef4a2e2,"['D', 'F']","['C', 'D']",False,"['B', 'C']","CITED: C, F
+
+ANSWER: Square","CITED: C, F
+
+ANSWER: Square","CITED: C, F
+
+ANSWER: Square","CITED: C, F
+
+ANSWER: Square Enix","CITED: C, F
+
+ANSWER: Square (Nintendo published the game, but the music was composed for Square's game).",1,1,1,1,1,2,2,2,2,2
+5a7db8d95542995ed0d16665::active_set_pack_a,5a7db8d95542995ed0d16665,"['C', 'E']","['A', 'C']",False,"['D', 'F']","CITED: C
+ANSWER: The 2011 population of the unitary authority area that includes the village Eastoft was 167,446.","CITED: C
+ANSWER: The 2011 population of the unitary authority area that includes the village Eastoft was 167,446.","CITED: C
+ANSWER: The 2011 population of the unitary authority area that includes the village Eastoft was 167,446.","CITED: C
+ANSWER: The 2011 population of the unitary authority area that includes the village Eastoft was 167,446.","CITED: C
+ANSWER: The 2011 population of the unitary authority area that includes the village Eastoft was 167,446.",1,1,1,1,1,1,1,1,1,1
+5ab488f85542990594ba9c58::active_set_pack_a,5ab488f85542990594ba9c58,"['D', 'F']","['E', 'F']",False,"['B', 'C']","CITED: F, D
+
+ANSWER: Both Robinsons and Pocari Sweat are drink products.","CITED: A, B
+
+ANSWER: Robinsons and Pocari Sweat are both drink products.","CITED: D, E
+ANSWER: Both Robinsons and Pocari Sweat are fruit drinks.","CITED: F, D
+
+ANSWER: Both Robinsons and Pocari Sweat are drink products.","CITED: F, D
+
+ANSWER: Robinsons and Pocari Sweat are both drink products.",2,0,1,2,2,1,2,2,1,1
+5a82a59855429940e5e1a909::active_set_pack_a,5a82a59855429940e5e1a909,"['B', 'D']","['A', 'B']",False,"['A', 'F']","CITED: A, B, F
+ANSWER: Rani Silautia is an Indian politician from the Bharatiya Janata Party, which has close ideological and organizational links to the Hindu nationalist Rashtriya Swayamsevak Sangh.","CITED: A, F
+
+ANSWER: Rani Silautia is an Indian politician from the Bharatiya Janata Party, which has links with the Hindu Sena, a Hindu nationalist organization.","CITED: D, F
+
+ANSWER: Rani Silautia is an Indian politician from the Bharatiya Janata Party, which has links with the Hindu Sena, a Hindu nationalist organization.","CITED: B, D
+
+ANSWER: Rani Silautia is an Indian politician from the Bharatiya Janata Party (BJP), which has close ideological and organizational links to the Hindu nationalist Rashtriya Swayamsevak Sangh (RSS).","The relevant facts are:
+
+A. The Bharatiya Janata Party (BJP) is one of the two major political parties in India.
+B. The BJP is a right-wing party, with close ideological and organisational links to the Hindu nationalist Rashtriya Swayamsevak Sangh (RSS).
+
+Rani Silautia is an Indian politician from t",1,0,1,2,0,2,2,2,1,0
+5a7e8a9c55429949594199fb::active_set_pack_a,5a7e8a9c55429949594199fb,"['E', 'F']","['A', 'C']",False,"['C', 'D']","CITED: E, F
+
+ANSWER: Mar-a-Lago is a resort and National Historic Landmark in Palm Beach, Florida, built from 1924 to 1927 by cereal-company heiress and socialite Marjorie Merriweather Post. Magazines, including Trump Style, are available for free to members of the resort.","CITED: E, F
+
+ANSWER: Mar-a-Lago","CITED: E, F
+
+ANSWER: Mar-a-Lago is a resort and National Historic Landmark in Palm Beach, Florida, built from 1924 to 1927 by cereal-company heiress and socialite Marjorie Merriweather Post. Magazines, including Trump Style, are available for free to members of the resort.","CITED: E, F
+
+ANSWER: Mar-a-Lago is a resort and National Historic Landmark in Palm Beach, Florida, built from 1924 to 1927 by cereal-company heiress and socialite Marjorie Merriweather Post. Magazines, including Trump Style, are available for free to members of the resort.","CITED: E, F
+
+ANSWER: Mar-a-Lago is a resort and National Historic Landmark in Palm Beach, Florida, built from 1924 to 1927 by cereal-company heiress and socialite Marjorie Merriweather Post. Magazines, including Trump Style, were available for free to members of the Mar-a-Lago club",2,2,2,2,2,1,1,1,1,1
+5a8c94a25542995e66a47628::active_set_pack_a,5a8c94a25542995e66a47628,"['D', 'F']","['B', 'F']",False,"['A', 'E']","CITED: D, E, F
+
+ANSWER: Yes, both Carl Boese and Franco Zeffirelli directed and produced films. Carl Boese directed 158 films between 1917 and 1957, while Franco Zeffirelli is known for directing and producing operas, films, and television shows.","CITED: E, F
+
+ANSWER: Yes, both Carl Boese and Franco Zeffirelli directed and produced films. Carl Boese directed 158 films between 1917 and 1957, while Franco Zeffirelli has directed and produced numerous films and operas throughout his career.","CITED: D, E
+ANSWER: Yes, Carl Boese directed and produced films. He directed 158 films between 1917 and 1957. However, the information provided does not include any details about Franco Zeffirelli directing and producing films.","CITED: D, E, F
+
+ANSWER: Yes, both Carl Boese and Franco Zeffirelli directed and produced films. Carl Boese directed and produced 158 films between 1917 and 1957, while Franco Zeffirelli is known for directing and producing operas, films, and television.","The fact that Carl Boese directed and produced 158 films between 1917 and 1957 supports the statement for Carl Boese. However, there is no information provided about Franco Zeffirelli directing and producing films. Therefore, the statement is true for Carl Boese but cannot be confirmed for Franco Ze",2,1,1,2,0,2,2,2,2,0
+5a7cbb6d554299452d57b9d2::active_set_pack_a,5a7cbb6d554299452d57b9d2,"['A', 'D']","['A', 'E']",False,"['E', 'F']","CITED: A, D
+
+ANSWER: The Republican ticket of businessman Donald Trump and Indiana Governor Mike Pence won the 2016 U.S. presidential election, which ran concurrently with the North Dakota gubernatorial election in 2016.","CITED: A, D
+
+ANSWER: Donald Trump won the election that ran concurrently with the North Dakota gubernatorial election, 2016.","CITED: D
+
+ANSWER: The Republican ticket of businessman Donald Trump and Indiana Governor Mike Pence won the 2016 U.S. presidential election.","CITED: A, D
+
+ANSWER: The Republican ticket of businessman Donald Trump and Indiana Governor Mike Pence won the 2016 U.S. presidential election, which ran concurrently with the North Dakota gubernatorial election in 2016.","The 2016 North Dakota gubernatorial election was held concurrently with the 2016 U.S. presidential election. Therefore, the winner of the 2016 U.S. presidential election is the one who won the election that ran concurrently with the North Dakota gubernatorial election, 2016.
+
+Facts used:
+A (mentions",2,2,2,2,0,0,0,0,0,0
+5ac2ac4d554299218029daf1::active_set_pack_a,5ac2ac4d554299218029daf1,"['D', 'E']","['B', 'D']",False,"['A', 'F']","CITED: D, F
+
+ANSWER: The official name for the draft that Thomas E. O'Donnell was a public opponent of is not explicitly stated in the provided facts. However, we know that he was involved in the New York City draft riots in 1863, which were a response to the Enrollment Act of 1863, also known as","CITED: F
+ANSWER: The draft that Thomas E. O'Donnell was a public opponent of is not specified by name in the provided facts.","CITED: F
+ANSWER: The draft that Thomas E. O'Donnell was a public opponent of is not specified by name in the provided facts. However, it is mentioned that he was involved in the New York City draft riots at the age of 22, which suggests it could be the draft during the American Civil War.","CITED: D, E
+
+ANSWER: The official name for the draft that Thomas E. O'Donnell was a public opponent of is ""Conscription in the United States"".","CITED: D
+ANSWER: The official name for the draft that Thomas E. O'Donnell was a public opponent of is ""conscription.""",1,0,0,2,1,2,2,2,1,1
+5a832ee355429954d2e2ec4d::active_set_pack_a,5a832ee355429954d2e2ec4d,"['E', 'F']","['C', 'F']",False,"['C', 'D']","CITED: E, F
+ANSWER: The creation of Fontana Lake submerged Proctor, North Carolina and Judson, North Carolina.","CITED: E, F
+ANSWER: The creation of Fontana Lake submerged Proctor, North Carolina and Judson, North Carolina.","CITED: E, F
+ANSWER: The creation of Fontana Lake submerged Proctor, North Carolina and Judson, North Carolina.","CITED: E, F
+ANSWER: The creation of Fontana Lake submerged Proctor, North Carolina and Judson, North Carolina.","CITED: F, C
+
+ANSWER: The creation of Fontana Lake submerged Proctor, North Carolina and Judson, North Carolina.",2,2,2,2,1,1,1,1,1,2
+5abf82965542997719eab694::active_set_pack_a,5abf82965542997719eab694,"['D', 'E']","['B', 'C']",False,"['A', 'B']","CITED: D, E
+
+ANSWER: The company that publishes the journal Magnetic Resonance Imaging, Elsevier, was established in 1880.","CITED: D, E
+ANSWER: The company that publishes the journal Magnetic Resonance Imaging, Elsevier, was established in 1880.","CITED: D, E
+
+ANSWER: The company that publishes the journal Magnetic Resonance Imaging, Elsevier, was established in 1880.","CITED: D, E
+
+ANSWER: The company that publishes the journal Magnetic Resonance Imaging, Elsevier, was established in 1880.","CITED: D
+ANSWER: The company that publishes the journal Magnetic Resonance Imaging was established in 1880.",2,2,2,2,1,1,1,1,1,1
+5a76c13555429937353601a0::active_set_pack_a,5a76c13555429937353601a0,"['C', 'E']","['C', 'E']",True,"['A', 'D']","CITED: C, E
+
+ANSWER: Both Ian Hunter and Stuart Murdoch are lead singers and songwriters.","CITED: C, F
+
+ANSWER: Both Ian Hunter and Stuart Murdoch are musicians and songwriters.","CITED: C, F
+
+ANSWER: Both Ian Hunter and Stuart Murdoch are musicians and songwriters.","CITED: C, E
+
+ANSWER: Both Ian Hunter and Stuart Murdoch are lead singers and songwriters.","CITED: C, E
+
+ANSWER: Ian Hunter and Stuart Murdoch both have the musical occupation of being lead singers in their respective bands.",2,1,1,2,2,1,2,2,1,1
+5adecc6355429975fa854f9c::active_set_pack_a,5adecc6355429975fa854f9c,"['B', 'F']","['B', 'C']",False,"['C', 'D']","CITED: F\nANSWER: Signet Jewelers owns Zales, along with Kay and Jared.","CITED: F
+ANSWER: Signet Jewelers owns Zales, along with Kay and Jared.","CITED: F\nANSWER: Signet Jewelers owns Zales, along with Kay and Jared.","CITED: F\nANSWER: Signet Jewelers owns Zales, along with Kay and Jared.","CITED: F
+ANSWER: Signet Jewelers owns Zales, Kay Jewelers, and Jared.",1,1,1,1,1,0,1,0,0,1
+5abb89fc5542993f40c73b19::active_set_pack_a,5abb89fc5542993f40c73b19,"['A', 'D']","['C', 'D']",False,"['B', 'F']","CITED: D, A
+
+ANSWER: Bart Conner","CITED: D, E
+ANSWER: Bart Conner","CITED: A, D
+
+ANSWER: Bart Conner","CITED: D, A
+
+ANSWER: Bart Conner","CITED: D, A
+
+ANSWER: Bart Conner is the husband of Nadia Comăneci, who was the first gymnast to be awarded a perfect score of 10.0 at the 1976 Olympics.",2,2,2,2,2,0,1,0,0,0
+5aba8f7b55429901930fa832::active_set_pack_a,5aba8f7b55429901930fa832,"['B', 'E']","['A', 'E']",False,"['C', 'D']","CITED: B, E
+
+ANSWER: Tommy Morrison",CITED: F\nANSWER: Tommy Morrison,"CITED: B, E
+
+ANSWER: Tommy Morrison","CITED: B, E
+
+ANSWER: Tommy Morrison","CITED: B, E
+
+ANSWER: Mike Williams acted with Tommy Morrison in Rocky V.",2,0,2,2,2,1,1,1,1,1
+5ab413e55542996a3a969f1b::active_set_pack_a,5ab413e55542996a3a969f1b,"['B', 'F']","['E', 'F']",False,"['C', 'E']","CITED: B, F
+
+ANSWER: Dick Van Patten","CITED: D, F
+
+ANSWER: Dick Van Patten","CITED: B, F
+
+ANSWER: Dick Van Patten","CITED: B, F
+
+ANSWER: Dick Van Patten","CITED: B, F
+
+ANSWER: Dick Van Patten",2,1,2,2,2,1,2,1,1,1
+5a721dff55429971e9dc928c::active_set_pack_a,5a721dff55429971e9dc928c,"['C', 'D']","['B', 'D']",False,"['B', 'F']","CITED: C, D
+
+ANSWER: Richard Bedford collaborated with Armin van Buuren on the album ""Intense"".","CITED: C, B
+ANSWER: Richard Bedford collaborated with Armin van Buuren on the album ""Intense"".","CITED: C, D
+
+ANSWER: Richard Bedford collaborated with Armin van Buuren on the album ""Intense"".","CITED: C, D
+
+ANSWER: Richard Bedford collaborated with Armin van Buuren on the album ""Intense"".","CITED: C, D
+
+ANSWER: Richard Bedford collaborated with Armin van Buuren on the album ""Intense"".",2,1,2,2,2,1,2,1,1,1
+5ab395c4554299233954ff5a::active_set_pack_a,5ab395c4554299233954ff5a,"['B', 'E']","['A', 'E']",False,"['A', 'C']","CITED: E, B
+
+ANSWER: Advanced Micro Devices is headquartered further west than Level 3 Communications. AMD is based in Sunnyvale, California, while Level 3 Communications is headquartered in Broomfield, Colorado.","CITED: A, B
+
+ANSWER: Level 3 Communications is headquartered further west than Advanced Micro Devices. AMD is based in Sunnyvale, California, while Level 3 Communications is based in Broomfield, Colorado, which is further west.","CITED: A, B
+
+ANSWER: Level 3 Communications is headquartered in Broomfield, Colorado, which is further west than Advanced Micro Devices' headquarters in Sunnyvale, California.","CITED: E, B
+
+ANSWER: Advanced Micro Devices is headquartered further west than Level 3 Communications. AMD is based in Sunnyvale, California, while Level 3 Communications is headquartered in Broomfield, Colorado.","CITED: E, B
+
+ANSWER: Advanced Micro Devices is headquartered further west than Level 3 Communications. AMD is based in Sunnyvale, California, while Level 3 Communications is based in Broomfield, Colorado.",2,1,1,2,2,1,1,1,1,1
+5ae33c6b5542992f92d82263::active_set_pack_a,5ae33c6b5542992f92d82263,"['B', 'D']","['D', 'F']",False,"['C', 'F']","CITED: B, D
+
+ANSWER: Chris Farley, who was a member of Chicago's Second City Theatre, appeared in Wayne's World.","CITED: B, D
+
+ANSWER: Chris Farley, who was a member of the comedy troupe ""The Second City"" in Chicago, appeared in the film ""Wayne's World"".","CITED: B, D
+
+ANSWER: Chris Farley, who was a member of the comedy troupe ""The Second City"" in Chicago, appeared in the film ""Wayne's World"".","CITED: B, D
+
+ANSWER: Chris Farley, who was a member of Chicago's Second City Theatre, appeared in Wayne's World.","Cited: B, D
+
+Answer: Wayne's World featured the actor Chris Farley, who was a member of Chicago's Second City Theatre.",2,2,2,2,2,1,1,1,1,1
+5ae2aa155542996483e64a23::active_set_pack_a,5ae2aa155542996483e64a23,"['B', 'D']","['D', 'F']",False,"['E', 'F']","CITED: B, D
+
+ANSWER: Tulapur is a village in Pune, which is the second largest city in Maharashtra.","CITED: B, F
+
+ANSWER: Tulapur is a village in Pune, which is the second largest city in Maharashtra.","CITED: B, D
+
+ANSWER: Tulapur is a village in Pune, which is the second largest city in Maharashtra.","CITED: B, D
+
+ANSWER: Tulapur is a village in Pune, which is the second largest city in Maharashtra.","The relevant facts are B and D:
+
+B. Tulapur is a village in Pune district, Maharashtra, India...
+D. Pune is the second largest city in the Indian state of Maharashtra...
+
+Tulapur is a village in the Pune district, which is the second largest city in Maharashtra.",2,1,2,2,2,1,2,1,1,0
+5ab8a17955429916710eb09e::active_set_pack_a,5ab8a17955429916710eb09e,"['B', 'E']","['B', 'C']",False,"['A', 'F']","CITED: E, F
+ANSWER: Peter Bakovic played for the Vancouver Canucks.","CITED: E, F
+ANSWER: Peter Bakovic played for the Vancouver Canucks.","CITED: E, F
+ANSWER: Peter Bakovic played for the Vancouver Canucks.",CITED: E\nANSWER: Peter Bakovic played for the Vancouver Canucks.,"Cited: E
+Answer: Peter Bakovic played for the Vancouver Canucks.",1,1,1,1,1,2,2,2,0,1
+5a7bb84d554299294a54aaa1::active_set_pack_a,5a7bb84d554299294a54aaa1,"['A', 'B']","['A', 'B']",True,"['C', 'F']","CITED: A, B
+
+ANSWER: David Usher is older than Vincent Walker. David Usher was born on April 24, 1966, while Vincent Walker was born on March 2, 1980.","CITED: A, B
+
+ANSWER: David Usher is older than Vincent Walker. David Usher was born on April 24, 1966, while Vincent Walker was born on March 2, 1980.","CITED: A, B
+
+ANSWER: David Usher is older than Vincent Walker. David Usher was born on April 24, 1966, while Vincent Walker was born on March 2, 1980.","CITED: A, B
+
+ANSWER: David Usher is older than Vincent Walker. David Usher was born on April 24, 1966, while Vincent Walker was born on March 2, 1980.","CITED: A, B
+
+ANSWER: David Usher is older than Vincent Walker. David Usher was born on April 24, 1966, making him 36 years old in 2016. Vincent Walker was born on March 2, 1980, making him 30 years old in 2016",2,2,2,2,2,0,0,0,0,0
+5adf97ae5542995534e8c800::active_set_pack_a,5adf97ae5542995534e8c800,"['A', 'F']","['A', 'F']",True,"['B', 'D']","CITED: A, F
+
+ANSWER: No, Yukio Mishima was Japanese, and Roberto Bolaño was Chilean.","CITED: E, F
+
+ANSWER: No, Yukio Mishima was Japanese and Roberto Bolaño was Chilean.","CITED: E, F
+
+ANSWER: No, Yukio Mishima was Japanese and Roberto Bolaño was Chilean.","CITED: A, F
+
+ANSWER: No, Yukio Mishima was Japanese, and Roberto Bolaño was Chilean.","The relevant facts are:
+
+A. [Yukio Mishima] Yukio Mishima is the pen name of Kimitake Hiraoka, a Japanese author...
+F. Roberto Bolaño was a Chilean...
+
+Answer: No, Yukio Mishima was not Chilean. Roberto Bolaño was the Chilean one.",2,2,2,2,0,0,1,1,0,0
+5ac3231a5542995ef918c11a::active_set_pack_a,5ac3231a5542995ef918c11a,"['D', 'E']","['A', 'D']",False,"['A', 'F']","CITED: D, E
+
+ANSWER: The telenovela ""Quinceañera"" (1987) inspired the TV show ""Miss XV"" (2012), on which the band Eme 15 was formed.","CITED: D, E
+
+ANSWER: The telenovela ""Quinceañera"" inspired the TV show ""Miss XV"", on which the band Eme 15 was formed in 2012.","CITED: D, E
+
+ANSWER: The telenovela ""Quinceañera"" inspired the TV show ""Miss XV"", on which the band Eme 15 was formed in 2012.","CITED: D, E
+
+ANSWER: The telenovela ""Quinceañera"" (1987) inspired the TV show ""Miss XV"" (2012), on which the band Eme 15 was formed.","The telenovela that inspired the TV show that Eme 15 was formed on in 2012 is ""Quinceañera"".",2,2,2,2,0,1,1,1,1,0
+5a760de1554299109176e63c::active_set_pack_a,5a760de1554299109176e63c,"['D', 'F']","['A', 'B']",False,"['A', 'B']","CITED: F, D
+
+ANSWER: Stacey Kent is married to Jim Tomlinson and released an album entitled ""Raconte-moi..."" in 2010.","CITED: F, D
+
+ANSWER: Stacey Kent is married to Jim Tomlinson and released an album entitled ""Raconte-moi..."".","CITED: F, D
+ANSWER: Stacey Kent","CITED: F, D
+ANSWER: Stacey Kent","CITED: F, D
+
+ANSWER: Stacey Kent is married to Jim Tomlinson and released an album entitled ""Raconte-moi..."" in 2010.",2,2,2,2,2,1,1,1,1,1
+5ab31d43554299233954ff0e::active_set_pack_a,5ab31d43554299233954ff0e,"['C', 'F']","['C', 'E']",False,"['B', 'D']","CITED: B, F
+
+ANSWER: Jack Sock and Raffaella Reggi played tennis.","CITED: B, E
+
+ANSWER: Jack Sock and Raffaella Reggi played tennis.","CITED: B, F
+
+ANSWER: Jack Sock and Raffaella Reggi played tennis.","CITED: C, F
+
+ANSWER: Jack Sock and Raffaella Reggi played tennis.","CITED: B, F
+
+ANSWER: Jack Sock and Raffaella Reggi played tennis.",1,0,1,2,1,2,3,2,1,2
+5ab4330b55429942dd415edc::active_set_pack_a,5ab4330b55429942dd415edc,"['A', 'C']","['A', 'E']",False,"['D', 'F']","CITED: A, B, C
+ANSWER: The University of Alabama, led to six national championships by Paul ""Bear"" Bryant, had its first ever Heisman Trophy winner, Mark Ingram Jr., drafted by the New Orleans Saints.","CITED: A, B
+
+ANSWER: The University of Alabama, led to six national championships by Paul ""Bear"" Bryant, had its first ever Heisman Trophy winner, Mark Ingram Jr., drafted by the Baltimore Ravens.","CITED: A, B, C
+ANSWER: The University of Alabama, led to six national championships by Paul ""Bear"" Bryant, had its first ever Heisman Trophy winner, Mark Ingram Jr., drafted by the Atlanta Falcons.","CITED: A, B, C
+ANSWER: The University of Alabama, led to six national championships by Paul ""Bear"" Bryant, had its first ever Heisman Trophy winner, Mark Ingram Jr., drafted by the New Orleans Saints.","CITED: A, B, C
+
+ANSWER: The University of Alabama, led by Paul ""Bear"" Bryant, had its first Heisman Trophy winner in Mark Ingram Jr., who was drafted by the Baltimore Ravens.",2,1,2,2,2,1,1,1,1,1
+5a7626bd554299109176e678::active_set_pack_a,5a7626bd554299109176e678,"['C', 'E']","['C', 'D']",False,"['A', 'B']","CITED: E
+ANSWER: Laura Kirk","CITED: E
+ANSWER: Laura Kirk","CITED: E
+ANSWER: Laura Kirk","CITED: E
+ANSWER: Laura Kirk","CITED: E
+ANSWER: Laura Kirk",1,1,1,1,1,1,1,1,1,1
+5a7150665542994082a3e7bb::active_set_pack_a,5a7150665542994082a3e7bb,"['A', 'F']","['C', 'F']",False,"['B', 'C']",CITED: A\nANSWER: Steyr Mannlicher,"CITED: A
+
+ANSWER: Steyr Mannlicher is based in Sankt Ulrich bei Steyr, Austria.","CITED: A
+
+ANSWER: Steyr Mannlicher is based in Sankt Ulrich bei Steyr, Austria.","CITED: A
+
+ANSWER: Steyr Mannlicher is based in Sankt Ulrich bei Steyr, Austria.",The answer is a firearms manufacturer.,1,1,1,1,0,0,0,0,0,0
+5abe96e15542993f32c2a172::active_set_pack_a,5abe96e15542993f32c2a172,"['B', 'D']","['E', 'F']",False,"['A', 'C']","CITED: C, D
+
+ANSWER: The German Football Association (DFB)","CITED: C, D
+
+ANSWER: The German Football Association (DFB)","CITED: C, D
+
+ANSWER: The German Football Association (DFB)","CITED: C, D
+
+ANSWER: The German Football Association (DFB)","The name for the regulatory body of over 25,000 football clubs in Germany is the German Football Association (DFB).",1,1,1,1,0,2,2,2,2,0
+5a8b3d1855429949d91db4fe::active_set_pack_a,5a8b3d1855429949d91db4fe,"['B', 'F']","['D', 'F']",False,"['A', 'C']","CITED: B\nANSWER: Vodafone New Zealand was formed when Vodafone purchased BellSouth's New Zealand operations. Therefore, BellSouth, which was based in Atlanta, Georgia, sold its New Zealand operations to Vodafone.","CITED: C
+ANSWER: Vodafone New Zealand was sold its operations by BellSouth, which is based in the United States.","CITED: B\nANSWER: Vodafone New Zealand was formed when Vodafone purchased BellSouth's New Zealand operations. Therefore, BellSouth, which was based in the United States, sold its New Zealand operations to Vodafone.","CITED: B\nANSWER: Vodafone New Zealand was formed when Vodafone purchased BellSouth's New Zealand operations. Therefore, BellSouth, which was based in Atlanta, Georgia, sold its New Zealand operations to Vodafone.","Cited: B, F
+
+Answer: The company based in Atlanta, Georgia, USA that sold Vodafone its New Zealand operations is BellSouth Corporation.",1,0,1,1,2,0,2,0,0,1
+5a804d725542995d8a8ddf60::active_set_pack_a,5a804d725542995d8a8ddf60,"['C', 'D']","['A', 'B']",False,"['B', 'E']","CITED: C, D
+
+ANSWER: Country music. Fact C mentions that ""The Twentieth Century is Almost Over"" was re-recorded by Johnny Cash, Waylon Jennings, Willie Nelson, and Kris Kristofferson, collectively known as The Highwaymen, who were all prominent country music artists. Fact D further supports this by ","CITED: C, F
+
+ANSWER: Country music","CITED: C, D
+
+ANSWER: Country music. Fact C mentions that ""The Twentieth Century is Almost Over"" was re-recorded by Johnny Cash, Waylon Jennings, Willie Nelson, and Kris Kristofferson, collectively known as The Highwaymen, who were all prominent figures in country music. Fact D further supports this ","CITED: C, D
+
+ANSWER: Country music. Fact C mentions that ""The Twentieth Century is Almost Over"" was re-recorded by Johnny Cash, Waylon Jennings, Willie Nelson, and Kris Kristofferson, collectively known as The Highwaymen, who were all prominent country music artists. Fact D further supports this by ","CITED: C, D
+
+ANSWER: Country music",2,1,2,2,2,1,2,1,1,1
+5ab30cc755429976abd1bc3a::active_set_pack_a,5ab30cc755429976abd1bc3a,"['E', 'F']","['A', 'E']",False,"['A', 'D']","CITED: D, F
+ANSWER: Both Charles Hutchison and Reginald Barker were directors in the film industry.","CITED: D, E
+ANSWER: Both Charles Hutchison and Reginald Barker were directors.","CITED: D, F
+ANSWER: Both Charles Hutchison and Reginald Barker were directors in the film industry.","CITED: E, F
+ANSWER: Both Charles Hutchison and Reginald Barker were film directors.","Cited: F
+ANSWER: Charles Hutchison and Reginald Barker both worked as directors in the film industry.",1,1,1,2,1,2,2,2,1,1
+5a89eca455429946c8d6ea11::active_set_pack_a,5a89eca455429946c8d6ea11,"['A', 'D']","['A', 'E']",False,"['B', 'F']","CITED: A, D
+
+ANSWER: Jesus Camp was released first.",CITED: E\nANSWER: Jesus Camp was released first.,"CITED: E, D
+
+ANSWER: Jesus Camp was released first in 2006, while Beyond the Gates of Splendor was released in 2004.","CITED: A, D
+ANSWER: Jesus Camp was released first in 2006, while Beyond the Gates of Splendor was released in 2004.","The relevant facts are:
+
+A. Beyond the Gates of Splendor was released in 2004.
+D. Jesus Camp was released in 2006.
+
+Therefore, Beyond the Gates of Splendor was released first.",2,0,2,2,0,0,1,1,0,0
+5abaf3385542996cc5e49f2f::active_set_pack_a,5abaf3385542996cc5e49f2f,"['A', 'F']","['C', 'F']",False,"['C', 'D']","CITED: A, B, F
+ANSWER: Tura Beach, New South Wales is a suburb of Merimbula, which had a population of 3,544 at the 2016 census.","CITED: A, B
+ANSWER: Tura Beach, New South Wales is a suburb of Merimbula, which had a population of 3,544 at the 2016 census.","CITED: A, B
+ANSWER: Tura Beach, New South Wales is a suburb of Merimbula, which had a population of 3,544 at the 2016 census.","CITED: A, B, F
+ANSWER: Tura Beach, New South Wales is a suburb of Merimbula, which had a population of 3,544 at the 2016 census.","CITED: A, B, F
+
+ANSWER: Tura Beach, New South Wales is a suburb of Merimbula, which had a population of 3,544 at the 2016 census.",2,1,1,2,2,1,1,1,1,1
+5ae55c2b5542992663a4f1e4::active_set_pack_a,5ae55c2b5542992663a4f1e4,"['D', 'F']","['A', 'D']",False,"['B', 'C']","CITED: D, F
+
+ANSWER: The major shopping centre served by the Garden City bus station is Westfield Garden City, which has 440 specialty stores, cafes, restaurants, and other services and food vendors.","CITED: D, F
+ANSWER: The major shopping centre served by the Garden City bus station has 440 stores.","CITED: D, F
+
+ANSWER: The major shopping centre served by the Garden City bus station is Westfield Garden City, which has 440 specialty stores, cafes, restaurants, and other services and food vendors.","CITED: D, F
+
+ANSWER: The major shopping centre served by the Garden City bus station is Westfield Garden City, which has 440 specialty stores, cafes, restaurants, and other services and food vendors.","CITED: D, F
+
+ANSWER: The major shopping centre served by the Garden City bus station is Westfield Garden City, which has 440 specialty stores, cafes, restaurants, and other services and food vendors.",2,2,2,2,2,1,1,1,1,1
+5a8ce61555429941ae14df36::active_set_pack_a,5a8ce61555429941ae14df36,"['D', 'F']","['B', 'D']",False,"['A', 'B']","CITED: D, F
+
+ANSWER: Yes, both Randal Kleiser and Kyle Schickner are American.","CITED: D, E
+
+ANSWER: Yes, both Randal Kleiser and Kyle Schickner are American.","CITED: D, E
+
+ANSWER: Yes, both Randal Kleiser and Kyle Schickner are American.","CITED: D, F
+
+ANSWER: Yes, both Randal Kleiser and Kyle Schickner are American.","CITED: D, F
+
+ANSWER: Yes, both Randal Kleiser and Kyle Schickner are American.",2,1,1,2,2,1,2,2,1,1
+5aba8365554299232ef4a319::active_set_pack_a,5aba8365554299232ef4a319,"['A', 'C']","['C', 'F']",False,"['B', 'D']","CITED: A, C
+
+ANSWER: Barbara Jordan and Mark Knowles are both former professional tennis players.","CITED: A, E
+
+ANSWER: Barbara Jordan and Mark Knowles are both tennis players.","CITED: A, E
+
+ANSWER: Barbara Jordan and Mark Knowles are both former professional tennis players.","CITED: A, C
+
+ANSWER: Barbara Jordan and Mark Knowles are both former tennis players.","CITED: A, C
+
+ANSWER: Barbara Jordan and Mark Knowles are both former professional tennis players.",2,1,1,2,2,0,1,1,0,0
+5abcff77554299700f9d794f::active_set_pack_a,5abcff77554299700f9d794f,"['B', 'F']","['B', 'C']",False,"['A', 'E']","CITED: B, C, F
+
+ANSWER: The president who appointed Thomas C. Mann was a Democrat. Facts B and C mention Mann's appointment by a U.S. president, and fact F identifies Lyndon B. Johnson, the president in question, as a Democrat.","CITED: C, F
+
+ANSWER: The president who appointed Thomas C. Mann was a Democrat. Fact C states that Mann was appointed during the presidency of Lyndon B. Johnson, who was a Democrat, as confirmed by fact F.","CITED: F
+
+ANSWER: The president who appointed Thomas C. Mann was a Democrat.","CITED: B, C, F
+
+ANSWER: The president who appointed Thomas C. Mann was a Democrat. Facts B and C mention Mann's appointment by a U.S. president, and fact F identifies Lyndon B. Johnson, the president in question, as a Democrat.","CITED: C, F
+
+ANSWER: The president who appointed Thomas C. Mann was a Democrat.",2,1,1,2,1,2,2,1,2,2
+5ab56b71554299637185c586::active_set_pack_a,5ab56b71554299637185c586,"['C', 'E']","['A', 'E']",False,"['B', 'F']","CITED: C, E
+ANSWER: Elyes Gabel","CITED: C, F
+
+ANSWER: Elyes Gabel","CITED: C, F
+
+ANSWER: Elyes Gabel","CITED: C, E
+
+ANSWER: Elyes Gabel","CITED: E, F
+
+ANSWER: Elyes Gabel",2,1,1,2,1,1,2,2,1,2
+5a7ea5125542994959419a40::active_set_pack_a,5a7ea5125542994959419a40,"['A', 'C']","['A', 'D']",False,"['E', 'F']","CITED: A, C
+
+ANSWER: American Pie","CITED: A, B\nANSWER: American Pie","CITED: A, C
+
+ANSWER: American Pie","CITED: A, C
+
+ANSWER: American Pie","CITED: A, C
+
+ANSWER: American Pie",2,1,2,2,2,0,1,0,0,0
+5ab90c2655429916710eb0ed::active_set_pack_a,5ab90c2655429916710eb0ed,"['C', 'E']","['D', 'E']",False,"['B', 'F']","CITED: E, C\nANSWER: ""A Long Way Home"" by Saroo Brierley with Larry Buttrose.","CITED: E\nANSWER: The Sia song ""Never Give Up"" is from the soundtrack of a film that is based on the non-fiction book ""A Long Way Home"" by Saroo Brierley with Larry Buttrose.","CITED: C, E
+
+ANSWER: The Sia song ""Never Give Up"" is from the soundtrack of the film ""Lion"", which is based on the non-fiction book ""A Long Way Home"" by Saroo Brierley with Larry Buttrose.","CITED: E, C\nANSWER: ""A Long Way Home"" by Saroo Brierley with Larry Buttrose.","The Sia song ""Never Give Up"" is from the soundtrack of a film that is based on the non-fiction book ""A Long Way Home"" by Saroo Brierley with Larry Buttrose.",2,1,2,2,0,0,0,1,0,0
+5abc2d7755429959677d6a29::active_set_pack_a,5abc2d7755429959677d6a29,"['E', 'F']","['A', 'F']",False,"['B', 'C']","CITED: E, F
+
+ANSWER: Both Lee Hong-gi and Dee Snider are singers.","CITED: B, E
+
+ANSWER: Both Lee Hong-gi and Dee Snider are singers.","CITED: E, F
+
+ANSWER: Both Lee Hong-gi and Dee Snider are singers.","CITED: E, F
+
+ANSWER: Both Lee Hong-gi and Dee Snider are singers.","CITED: E, F
+
+ANSWER: Both Lee Hong-gi and Dee Snider are singers.",2,1,2,2,2,1,2,1,1,1
+5a83143655429954d2e2ec0a::active_set_pack_a,5a83143655429954d2e2ec0a,"['A', 'C']","['A', 'B']",False,"['B', 'E']","CITED: A, C
+
+ANSWER: The species of Spruce native to the area where it can be found on the Rensselaer Plateau is Red Spruce (Picea rubens).","CITED: A, E
+
+ANSWER: The species of Spruce native to the Rensselaer Plateau is Picea rubens, commonly known as red spruce.","CITED: A, C
+
+ANSWER: The species of Spruce native to the area where it can be found in the Rensselaer Plateau is Picea rubens, commonly known as Red Spruce.","CITED: A, C
+
+ANSWER: The species of Spruce native to the area where the Rensselaer Plateau is located is Red Spruce (Picea rubens).","CITED: A, E
+
+ANSWER: The species of Spruce native to the Rensselaer Plateau is red spruce (Picea rubens).",2,1,2,2,1,0,1,0,0,1
+5ab691c5554299710c8d1ed3::active_set_pack_a,5ab691c5554299710c8d1ed3,"['B', 'E']","['B', 'D']",False,"['C', 'D']","CITED: B, E
+
+ANSWER: Both ""300"" and ""United 300"" were made in the United States.","CITED: A, E
+
+ANSWER: United 300 and 300 were both made in the United States.","CITED: A, B
+
+ANSWER: Both ""United 300"" and ""300"" were made in the United States.","CITED: B, E
+
+ANSWER: Both ""300"" and ""United 300"" were made in the United States.","CITED: B, E
+
+ANSWER: United 300 and 300 were both made in the United States.",2,1,1,2,2,1,1,1,1,1
+5a7528e75542996c70cfaea0::active_set_pack_a,5a7528e75542996c70cfaea0,"['E', 'F']","['E', 'F']",True,"['B', 'D']","CITED: E, F
+
+ANSWER: ""1979""","CITED: C, E
+
+ANSWER: ""Mellon Collie and the Infinite Sadness""","CITED: C, E
+
+ANSWER: ""Mellon Collie and the Infinite Sadness""","CITED: E, F
+
+ANSWER: ""1979""","CITED: E, F
+
+ANSWER: ""1979""",2,1,1,2,2,1,2,2,1,1
+5ab4280b554299233955003a::active_set_pack_a,5ab4280b554299233955003a,"['A', 'C']","['A', 'E']",False,"['E', 'F']","CITED: C
+ANSWER: The globe that succeeded the Globe of Peace as the world's largest rotating globe is located within the headquarters of the DeLorme mapping corporation in Yarmouth, Maine.","CITED: A, B\nANSWER: The globe that succeeded the Globe of Peace as the world's largest rotating globe is located in Yarmouth, Maine.","CITED: C
+ANSWER: The globe that succeeded the Globe of Peace as the world's largest rotating globe is located within the headquarters of the DeLorme mapping corporation in Yarmouth, Maine.","CITED: C
+ANSWER: The globe that succeeded the Globe of Peace as the world's largest rotating globe is located within the headquarters of the DeLorme mapping corporation in Yarmouth, Maine.","The globe that succeeded the Globe of Peace as the world's largest rotating globe is located in Yarmouth, Maine.
+
+CITED: C",2,1,2,2,1,0,1,0,0,0
+5ae3916d5542994393b9e708::active_set_pack_a,5ae3916d5542994393b9e708,"['C', 'D']","['C', 'D']",True,"['A', 'E']",CITED: D\nANSWER: Bath Spa University's main campus is based at Newton Park on Duchy of Cornwall land.,"CITED: F
+ANSWER: Bath School of Art and Design is an art college in Bath, England, and it forms part of Bath Spa University, which has its main campus based at Newton Park, near Corston, Somerset.","CITED: F
+ANSWER: Bath School of Art and Design is an art college in Bath, England, and it forms part of Bath Spa University, which has its main campus based at Newton Park, near Corston, Somerset.",CITED: D\nANSWER: Bath Spa University's main campus is based at Newton Park on Duchy of Cornwall land.,CITED: D\nANSWER: Bath Spa University's main campus is based at Newton Park on Duchy of Cornwall land.,1,0,0,1,1,0,2,2,0,0
+5adc32805542994650320cad::active_set_pack_a,5adc32805542994650320cad,"['A', 'E']","['B', 'D']",False,"['C', 'F']","CITED: A, E
+
+ANSWER: No, Nasdaq, Inc. and Citrix Systems are not catering to the same customer bases. Nasdaq, Inc. operates stock exchanges and provides market services, primarily serving financial institutions, investors, and listed companies. In contrast, Citrix Systems specializes in software sol","CITED: A, E
+
+ANSWER: No, Nasdaq, Inc. and Citrix Systems are not catering to the same customer bases. Nasdaq, Inc. operates stock exchanges and provides market data and technology solutions to financial institutions, investors, and corporations (Fact A). In contrast, Citrix Systems specializes in vi","CITED: A, E
+
+ANSWER: No, Nasdaq, Inc. and Citrix Systems are not catering to the same customer bases. Nasdaq, Inc. operates stock exchanges and provides market services, targeting primarily financial institutions, investors, and listed companies. In contrast, Citrix Systems specializes in software s","CITED: A, E
+
+ANSWER: No, Nasdaq, Inc. and Citrix Systems are not catering to the same customer bases. Nasdaq, Inc. operates stock exchanges and provides market services, primarily serving financial institutions, investors, and listed companies. In contrast, Citrix Systems specializes in software sol","The answer to the question is no, Nasdaq, Inc. and Citrix Systems are not catering to the same customer bases.
+
+Here's why:
+
+- Nasdaq, Inc. is a financial services corporation that operates stock exchanges. Its primary customers are financial institutions, investors, and companies seeking to list th",2,2,2,2,1,0,0,0,0,0
+5a7a1bb25542996a35c170d2::active_set_pack_a,5a7a1bb25542996a35c170d2,"['C', 'D']","['C', 'D']",True,"['A', 'B']","CITED: C, D
+
+ANSWER: No, George Avakian is a record producer, but Bobby Managoff was a professional wrestler.","CITED: C, D
+
+ANSWER: No, George Avakian is a record producer, but Bobby Managoff is not. Bobby Managoff was a professional wrestler, not a record producer.","CITED: C, D
+
+ANSWER: No, George Avakian is a record producer, but Bobby Managoff is not. Bobby Managoff was a professional wrestler, not a record producer.","CITED: C, D
+
+ANSWER: No, George Avakian is a record producer, but Bobby Managoff was a professional wrestler.","The fact that George Avakian is a record producer is stated directly in fact C. However, there is no information provided about Bobby Managoff being a record producer. Therefore, while George Avakian is a record producer, there is no evidence to suggest that Bobby Managoff is one.
+
+Answer: No, Georg",2,2,2,2,1,1,1,1,1,0
+5adc36475542996e685252e1::active_set_pack_a,5adc36475542996e685252e1,"['A', 'D']","['E', 'F']",False,"['C', 'E']","CITED: A, D
+
+ANSWER: Benji is an upcoming American drama film written, co-produced and directed by Brandon Camp, and is a reboot of the 1974 film of the same name.","CITED: A, E
+
+ANSWER: Benji is an upcoming American drama film written, co-produced and directed by Brandon Camp, and is a reboot of the 1974 film of the same name.","CITED: A, D
+
+ANSWER: Benji is an upcoming American drama film written, co-produced and directed by Brandon Camp, and is a reboot of the 1974 film of the same name.","CITED: A, D
+
+ANSWER: Benji is an upcoming American drama film written, co-produced and directed by Brandon Camp, and is a reboot of the 1974 film of the same name.","CITED: A, D
+
+ANSWER: Benji is an upcoming American drama film written, co-produced and directed by Brandon Camp, and is a reboot of the 1974 film of the same name.",2,1,2,2,2,0,1,0,0,0
+5a7af39755429931da12c99d::active_set_pack_a,5a7af39755429931da12c99d,"['B', 'D']","['B', 'C']",False,"['C', 'E']","CITED: D\nANSWER: Tess Asplund fought against the Neo-Nazi movement that existed in Sweden, Finland, and Norway.","CITED: D\nANSWER: Tess Asplund fought against the Neo-Nazi movement that existed in Sweden, Finland, and Norway.","CITED: D
+ANSWER: Tess Asplund fought against the Neo-Nazi movement that existed in Sweden, Finland, and Norway.","CITED: D
+ANSWER: Tess Asplund fought against the Neo-Nazi movement that existed in Sweden, Finland, and Norway.","The relevant facts are:
+
+D. [Nordic Resistance Movement] The Nordic Resistance Movement (Swedish: ""Nordiska Motståndsrörelsen; NMR"" , Norwegian: ""Nordiske motstandsbevegelsen; NMB"" , Finnish: ""Pohjoismainen vastarintaliike; PVL"" , Danish: ""Nordiske modstandsbevægelse;",1,1,1,1,0,0,0,1,1,0
+5ade2af055429939a52fe84b::active_set_pack_a,5ade2af055429939a52fe84b,"['B', 'D']","['B', 'E']",False,"['C', 'E']","CITED: D, B
+
+ANSWER: The Pantanal is a mid-size pickup truck made by the Brazilian off-road vehicle manufacturer Troller Veículos Especiais S/A, a manufacturer of off-road vehicles in Brazil, from 2006 to 2008.","CITED: D
+ANSWER: The Pantanal is a mid-size pickup truck made by the Brazilian off-road vehicle manufacturer Troller Veículos Especiais S/A, a manufacturer of off-road vehicles in Brazil, from 2006 to 2008.","CITED: D
+ANSWER: The Pantanal is a mid-size pickup truck made by the Brazilian off-road vehicle manufacturer Troller Veículos Especiais S/A, a manufacturer of off-road vehicles in Brazil, from 2006 to 2008.","CITED: D, B
+
+ANSWER: The Pantanal is a mid-size pickup truck made by the Brazilian off-road vehicle manufacturer Troller Veículos Especiais S/A, a manufacturer of off-road vehicles in Brazil, from 2006 to 2008.","CITED: D, B
+
+ANSWER: The Pantanal is a mid-size pickup truck made by Troller Veículos Especiais S/A, a manufacturer of off-road vehicles in Brazil, from 2006 to 2008.",2,1,1,2,2,1,1,1,1,1
+5ab907c555429916710eb0e3::active_set_pack_a,5ab907c555429916710eb0e3,"['A', 'D']","['A', 'D']",True,"['B', 'F']","CITED: A, C, D
+ANSWER: There is a small medieval castle at Kisimul Castle, located on a small island off Castlebay, Barra, in the Outer Hebrides, Scotland.","CITED: A, C
+ANSWER: There is a small medieval castle located on a small island off Castlebay, Barra, in the Outer Hebrides, Scotland. This castle is known as Kisimul Castle and gets its name from the Gaelic ""cìosamul"" meaning ""castle island"".","CITED: A, C
+ANSWER: There is a small medieval castle located on a small island off Castlebay, Barra, in the Outer Hebrides, Scotland. This castle is known as Kisimul Castle and gets its name from the Gaelic ""cìosamul"" meaning ""castle island"".","CITED: A, D
+ANSWER: There is a small medieval castle at Kisimul Castle, located on a small island off Castlebay, Barra, in the Outer Hebrides, Scotland.",The small medieval castle is located in Scotland.,2,1,1,2,0,1,1,1,0,0
+5a73630855429901807db021::active_set_pack_a,5a73630855429901807db021,"['D', 'F']","['E', 'F']",False,"['A', 'B']","CITED: D, F
+
+ANSWER: Anita Lane was older than Nick Cave. While Nick Cave was born on 22 September 1957, Anita Lane was born around 1959.","CITED: D, F
+
+ANSWER: Nick Cave is older than Anita Lane. Nick Cave was born in 1957, while Anita Lane was born around 1959.","CITED: D, F
+
+ANSWER: Anita Lane was older than Nick Cave. While Nick Cave was born in 1957, Anita Lane was born around 1959.","CITED: D, F
+
+ANSWER: Nick Cave is older than Anita Lane. Nick Cave was born on 22 September 1957, while Anita Lane was born around 1959.","CITED: D, F
+
+ANSWER: Nick Cave is older than Anita Lane. Nick Cave was born on 22 September 1957, while Anita Lane was born around 1959.",2,2,2,2,2,1,1,1,1,1
+5abae0265542996cc5e49ec3::active_set_pack_a,5abae0265542996cc5e49ec3,"['B', 'F']","['B', 'F']",True,"['A', 'E']","CITED: B, F
+
+ANSWER: John Severin was an American comics artist who had a 45-year stint with the magazine Cracked, which was founded in 1958.","CITED: B, F
+
+ANSWER: John Severin was an American comics artist who had a 45-year stint with the magazine Cracked, which was founded in 1958.","CITED: B, F
+
+ANSWER: John Severin was an American comics artist who had a 45-year stint with the magazine Cracked, which was founded in 1958.","CITED: B, F
+
+ANSWER: John Severin was an American comics artist who had a 45-year stint with the magazine Cracked, which was founded in 1958.","Cited: B, F
+
+John Severin was an American comics artist who had a 45-year stint with the magazine Cracked that was founded in 1958.",2,2,2,2,2,1,1,1,1,0
+5ae061705542993d6555eb26::active_set_pack_a,5ae061705542993d6555eb26,"['B', 'E']","['A', 'C']",False,"['A', 'F']","CITED: E
+
+ANSWER: Rags Ragland died 1 year after starring in Meet the People.","CITED: E
+ANSWER: Rags Ragland died 1 year after starring in Meet the People.","CITED: E
+
+ANSWER: Rags Ragland died 1 year after starring in Meet the People.",CITED: E\nANSWER: Rags Ragland died 1 year after starring in Meet the People.,"The relevant facts are:
+
+C. [The Society of Floristry Limited] The Society of Floristry Limited was formed in 1951...
+D. [Meet the People] The film takes its title from a successful Los Angeles stage revue, which ran on Broadway from December 25, 1940 to May 10, 1941.
+
+Rags Rag",1,1,1,1,0,1,1,1,0,0
+5a835bb5554299123d8c2102::active_set_pack_a,5a835bb5554299123d8c2102,"['B', 'C']","['B', 'E']",False,"['A', 'D']","CITED: B, C
+
+ANSWER: No, Chris Carter and Theo van Gogh do not share the same nationality. Chris Carter is American, as stated in fact B, while Theo van Gogh was Dutch, as mentioned in fact C.","CITED: F
+ANSWER: No, Chris Carter and Theo van Gogh do not share the same nationality. Chris Carter was born in Bellflower, California, USA, while Theo van Gogh was born in the Netherlands.","CITED: A, C
+
+ANSWER: No, Chris Carter and Theo van Gogh do not share the same nationality. Chris Carter is American, while Theo van Gogh was Dutch.","CITED: B, C
+
+ANSWER: No, Chris Carter and Theo van Gogh do not share the same nationality. Chris Carter is American, as stated in fact B, while Theo van Gogh was Dutch, as mentioned in fact C.","The relevant facts for this question are:
+
+C. [Theo van Gogh (film director)] Theodoor ""Theo"" van Gogh (born 23 July 1957 - died 2 November 2004) was a Dutch film director, film producer, television director, television producer, television presenter, screenwriter, actor, critic and author.
+
+B. [Chr",2,0,1,2,0,1,2,1,1,0
+5ae05c3155429924de1b70b0::active_set_pack_a,5ae05c3155429924de1b70b0,"['A', 'D']","['D', 'F']",False,"['B', 'C']","CITED: A, D
+
+ANSWER: Brutti di notte is a parody of the film ""Belle de Jour"", which stars Catherine Deneuve.","CITED: A, C
+
+ANSWER: Brutti di notte is a parody of the film starring Catherine Deneuve, as it is a parody of ""Belle de Jour"" (Fact A), and Catherine Deneuve is the lead actress in ""Belle de Jour"" (Fact C).","CITED: A, C
+
+ANSWER: Brutti di notte is a parody of the film starring Catherine Deneuve, as it is a parody of Luis Buñuel's film ""Belle de Jour"", which stars Catherine Deneuve.","CITED: A, D
+
+ANSWER: Brutti di notte is a parody of the film ""Belle de Jour"", which stars Catherine Deneuve.","CITED: A, D
+
+ANSWER: Brutti di notte is a parody of the film ""Belle de Jour"", which stars Catherine Deneuve.",2,1,1,2,2,0,1,1,0,0
+5ae225fb554299234fd043f8::active_set_pack_a,5ae225fb554299234fd043f8,"['C', 'E']","['E', 'F']",False,"['A', 'B']","CITED: E, C
+
+ANSWER: Both Rhodochiton and Platystemon are genuses of flowering plants.","CITED: A, B
+
+ANSWER: Both Rhodochiton and Platystemon are genuses of moss.","CITED: A, B
+
+ANSWER: Both Rhodochiton and Platystemon are genuses of plants.","CITED: E, D
+
+ANSWER: Rhodochiton and Platystemon are both genera of flowering plants.","CITED: E, C
+
+ANSWER: Rhodochiton and Platystemon are both genuses of flowering plants.",2,0,0,1,2,1,2,2,2,1
+5ae513225542993aec5ec12e::active_set_pack_a,5ae513225542993aec5ec12e,"['B', 'C']","['B', 'C']",True,"['D', 'F']","CITED: B, C
+
+ANSWER: James Mulgrew, known professionally as Jimmy Cricket, is the star of the comedy sketch show ""And There's More"".","CITED: F
+ANSWER: ""Spoons""","CITED: F
+ANSWER: ""Spoons""","CITED: B, C
+
+ANSWER: James Mulgrew, known professionally as Jimmy Cricket, is the star of the comedy sketch show ""And There's More"".","CITED: C, F
+
+ANSWER: James Mulgrew, known professionally as Jimmy Cricket, is the star of ""Spoons"", a comedy sketch show first broadcast on the United Kingdom's Channel 4 from 30 September 2005.",2,0,0,2,1,1,2,2,1,2
+5abd0749554299700f9d796f::active_set_pack_a,5abd0749554299700f9d796f,"['D', 'F']","['D', 'F']",True,"['A', 'C']",CITED: D\nANSWER: UEFA EURO 2020,"CITED: D
+ANSWER: Elkhan Mammadov is the project leader for the bid for UEFA Euro 2020.","CITED: D
+ANSWER: Elkhan Mammadov is the project leader for the bid for UEFA Euro 2020.",CITED: D\nANSWER: UEFA EURO 2020,"CITED: D
+ANSWER: Elkhan Mammadov is the Project Leader for UEFA EURO 2020 Baku Bid.",1,1,1,1,1,0,1,1,0,1
+5a8a28505542996c9b8d5e22::active_set_pack_a,5a8a28505542996c9b8d5e22,"['B', 'C']","['B', 'C']",True,"['A', 'E']","CITED: C
+ANSWER: The Royal Opera House, also known as the ""Convent Garden,"" is the venue where Adrian Boult conducted.",CITED: B\nANSWER: The Royal Opera House,CITED: B\nANSWER: The Royal Opera House,"CITED: C
+ANSWER: The Royal Opera House, also known as the ""Convent Garden,"" is the venue where Adrian Boult conducted.","CITED: C
+ANSWER: The Royal Opera House, also known as the ""Convent Garden,"" was one of the venues where Adrian Boult conducted.",1,1,1,1,1,1,0,0,1,1
+5a727bb95542991f9a20c48d::active_set_pack_a,5a727bb95542991f9a20c48d,"['A', 'E']","['A', 'B']",False,"['C', 'F']","CITED: E, B
+ANSWER: Jess Weixler starred in ""Teeth"", a 2007 black comedy horror film directed by Mitchell Lichtenstein.","CITED: B, E
+
+ANSWER: Jess Weixler starred in ""Teeth"" directed by Mitchell Lichtenstein.",CITED: E\nANSWER: Teeth,"CITED: E\nANSWER: Jess Weixler starred in ""Teeth"" directed by Mitchell Lichtenstein.","CITED: E, B
+
+ANSWER: Jess Weixler starred in ""Teeth"", a 2007 black comedy horror film directed by Mitchell Lichtenstein.",2,2,1,1,2,1,1,0,0,1
+5ae754725542995703ce8bf2::active_set_pack_a,5ae754725542995703ce8bf2,"['B', 'E']","['C', 'E']",False,"['A', 'F']","CITED: B, E
+
+ANSWER: ""A Mother's Gift"" is the 2001 novel by Britney Spears and her mother, Lynne Spears.","CITED: B, E
+
+ANSWER: ""A Mother's Gift"" is the 2001 novel co-authored by Britney Spears and dedicated to her mother, Lynne Spears, who is also the mother of film and television producer Bryan Spears and country singer Jamie Lynn Spears.","CITED: B, E
+
+ANSWER: ""A Mother's Gift"" is the 2001 novel by Britney Spears and her mother, Lynne Spears.","CITED: B, E
+
+ANSWER: ""A Mother's Gift"" is the 2001 novel by Britney Spears and her mother, Lynne Spears.","The relevant facts are:
+
+A. [Britney Spears Live: The Femme Fatale Tour] - This fact is not relevant to the question as it pertains to a concert special, not a novel.
+
+B. [A Mother's Gift] - This fact is relevant as it mentions the 2001 novel ""A Mother's Gift"" by Britney Spears and her mother, Lynne",2,2,2,2,0,1,1,1,1,0
+5a740aa955429974ef308ba3::active_set_pack_a,5a740aa955429974ef308ba3,"['B', 'C']","['D', 'F']",False,"['A', 'E']","CITED: C, F
+
+ANSWER: Rob Jenkins was in the 2014 science fiction thriller film ""Predestination"".","CITED: C, F
+
+ANSWER: Rob Jenkins was in the 2014 science fiction thriller film ""Predestination"".","CITED: C, F
+
+ANSWER: Rob Jenkins was in the 2014 science fiction thriller film ""Predestination"".","CITED: C, F
+
+ANSWER: Rob Jenkins was in the 2014 science fiction thriller film ""Predestination"".","CITED: B, F
+
+ANSWER: Rob Jenkins was in ""Predestination"" (2014), a science fiction thriller film.",1,1,1,1,1,2,2,2,2,2
+5ae331f955429928c423966f::active_set_pack_a,5ae331f955429928c423966f,"['E', 'F']","['E', 'F']",True,"['B', 'C']","CITED: E, F
+
+ANSWER: The Centralia Massacre was committed by William T. Anderson, also known as ""Bloody Bill"" Anderson.","CITED: E\nANSWER: The Centralia Massacre was committed by William T. Anderson, also known as ""Bloody Bill"" Anderson.","CITED: E\nANSWER: The Centralia Massacre was committed by William T. Anderson, also known as ""Bloody Bill"" Anderson.","CITED: E, F
+
+ANSWER: The Centralia Massacre was committed by William T. Anderson, also known as ""Bloody Bill"" Anderson.","The Centralia Massacre was committed by William T. Anderson, also known as ""Bloody Bill"" Anderson.
+
+Facts used:
+E. [Centralia Massacre (Missouri)] The Centralia Massacre was an incident during the American Civil War in which twenty-four unarmed Union soldiers were captured and executed at Centralia,",2,1,1,2,0,1,0,0,1,0
+5ade4e43554299728e26c6bb::active_set_pack_a,5ade4e43554299728e26c6bb,"['B', 'E']","['C', 'F']",False,"['A', 'F']","CITED: A, E
+
+ANSWER: Both Garth Jennings and Lee Cheol-ha are film directors.","CITED: A, F
+
+ANSWER: Both Garth Jennings and Lee Cheol-ha are directors.","CITED: A, E
+
+ANSWER: Both Garth Jennings and Lee Cheol-ha are film directors.","CITED: A, E
+
+ANSWER: Both Garth Jennings and Lee Cheol-ha are film directors.","CITED: A, E
+
+ANSWER: Both Garth Jennings and Lee Cheol-ha are film directors.",1,0,1,1,1,1,2,1,1,1
+5ac25c4a55429951e9e6857f::active_set_pack_a,5ac25c4a55429951e9e6857f,"['D', 'E']","['B', 'E']",False,"['A', 'B']","CITED: E\nANSWER: Peter Asher, who produced ""Love Has Come for You"", was born on 22 June 1944.","CITED: D, E\nANSWER: Peter Asher, the record producer of ""Love Has Come for You"", was born on June 22, 1944.","CITED: D, E
+ANSWER: Peter Asher, the record producer of ""Love Has Come for You"", was born on June 22, 1944.","CITED: E
+ANSWER: Peter Asher, the record producer who produced ""Love Has Come for You"", was born on 22 June 1944.","CITED: E
+ANSWER: Peter Asher, the record producer of ""Love Has Come for You"", was born on 22 June 1944.",1,2,2,1,1,0,0,1,1,1
+5ae79c2b5542993210983eae::active_set_pack_a,5ae79c2b5542993210983eae,"['C', 'E']","['B', 'E']",False,"['A', 'D']","CITED: F\nANSWER: The lead single from Culture Beat's second studio album, ""Mr. Vain"", spent ten weeks at number one on the ""RPM"" Dance chart in Canada.","CITED: F\nANSWER: The lead single from Culture Beat's second studio album, ""Mr. Vain"", spent 10 weeks at number one on the ""RPM"" Dance chart in Canada.","CITED: F\nANSWER: The lead single from Culture Beat's second studio album, ""Mr. Vain"", spent 10 weeks at number one on the ""RPM"" Dance chart in Canada.","CITED: F\nANSWER: The lead single from Culture Beat's second studio album, ""Mr. Vain"", spent ten weeks at number one on the ""RPM"" Dance chart in Canada.","CITED: F
+ANSWER: The lead single from Culture Beat's second studio album, ""Mr. Vain"", spent ten weeks at number one on the ""RPM"" Dance chart in Canada.",0,0,0,0,0,1,1,1,1,2
+5a73e07655429905862fe0ea::active_set_pack_a,5a73e07655429905862fe0ea,"['C', 'E']","['C', 'F']",False,"['B', 'F']","CITED: B, E
+
+ANSWER: World War II","CITED: B, C
+
+ANSWER: The Walloon Legion, a collaborationist volunteer unit, served on the Eastern Front during World War II.",CITED: E\nANSWER: World War II,"CITED: E, C
+
+ANSWER: The Walloon Legion, a collaborationist volunteer unit, served on the Eastern Front during World War II.","The Walloon Legion, a collaborationist volunteer unit, that served on the Eastern Front, in which war?
+
+ANSWER: World War II",1,1,1,2,0,2,2,0,1,0
+5a8885b4554299206df2b2e4::active_set_pack_a,5a8885b4554299206df2b2e4,"['C', 'F']","['C', 'F']",True,"['A', 'E']","CITED: C, F
+
+ANSWER: Planes was released second. Charley and the Angel was released in 1973, while Planes was released in 2013.","CITED: B, C
+
+ANSWER: Charley and the Angel was released second. The film was based on a 1971 novel and was released in the 1970s, while Planes was released in 2013.","CITED: B, C
+
+ANSWER: Charley and the Angel was released second. The film was based on a 1971 novel and was released in the 1970s, while Planes was released in 2013.","CITED: C, F
+
+ANSWER: Planes was released second. Charley and the Angel was released in 1973, while Planes was released in 2013.","The second release was ""Planes"".",2,1,1,2,0,1,2,2,1,0
+5a7d20b055429909bec76973::active_set_pack_a,5a7d20b055429909bec76973,"['A', 'C']","['A', 'D']",False,"['B', 'D']","CITED: C
+ANSWER: Silent Möbius is heavily influenced by the movie ""Blade Runner"", which was directed by Ridley Scott.","CITED: C
+ANSWER: Silent Möbius is heavily influenced by the movie directed by Ridley Scott.","CITED: C
+ANSWER: The movie ""Blade Runner""","CITED: C\nANSWER: Silent Möbius is heavily influenced by the movie ""Blade Runner"", which was directed by Ridley Scott.","The relevant fact is:
+
+C. [Silent Möbius] It is heavily influenced by the film ""Blade Runner"" and is centered on the lives of a dedicated group of all-female police officers with protecting Tokyo from an invasion of extra-dimensional creatures called Lucifer Hawks.
+
+Answer: Silent Möbius is heavily ",2,2,2,1,0,0,0,0,0,0
+5a793e77554299029c4b5f36::active_set_pack_a,5a793e77554299029c4b5f36,"['C', 'F']","['C', 'F']",True,"['B', 'E']","CITED: C, F
+ANSWER: Martin Heidegger was born first. He was born on September 26, 1889, while Lydia Davis was born on July 15, 1947.","CITED: A, D
+ANSWER: Martin Heidegger was born first. He was born in 1889, while Lydia Davis was born in 1947.","CITED: A, D
+ANSWER: Martin Heidegger was born first. He was born in 1889, while Lydia Davis was born in 1947.","CITED: C, F
+ANSWER: Martin Heidegger was born first. He was born on September 26, 1889, while Lydia Davis was born on July 15, 1947.","CITED: C, F
+
+ANSWER: Martin Heidegger was born on September 26, 1889, while Lydia Davis was born on July 15, 1947. Therefore, Martin Heidegger was born first.",2,0,0,2,2,1,2,2,1,1
+5a8906515542993b751ca8f0::active_set_pack_a,5a8906515542993b751ca8f0,"['B', 'D']","['C', 'D']",False,"['A', 'C']","CITED: B, D
+
+ANSWER: No, Thums Up and Mott's are not based in the same country. Mott's is an American company (Fact B), while Thums Up is the leader in the cola segment in India (Fact D).","CITED: A, B
+
+ANSWER: No, Thums Up and Mott's are not based in the same country. Mott's was founded in Bouckville, New York (Fact A) and is primarily involved in producing apple-based products in the United States (Fact B). Thums Up, on the other hand, is based in India, as it is a","CITED: B, E
+
+ANSWER: No, Thums Up and Mott's are not based in the same country. Mott's is an American company (B), while C.S. Mott Children's Hospital, which is associated with Thums Up (as Thums Up's founder, C.S. Mott, donated to its establishment), is located in Ann Arbor","CITED: B, D
+
+ANSWER: No, Thums Up and Mott's are not based in the same country. Mott's is an American company (Fact B), while Thums Up is the leader in the cola segment in India (Fact D).","Facts used: B (Mott's is an American company), D (Thums Up is the leader in the cola segment in India)
+
+ANSWER: No, Thums Up and Mott's are not based in the same country. Mott's is an American company, while Thums Up is based in India.",2,1,1,2,0,1,1,2,1,0
+5adf6abe5542993344016c8c::active_set_pack_a,5adf6abe5542993344016c8c,"['B', 'F']","['B', 'F']",True,"['A', 'C']","CITED: B, F
+
+ANSWER: Barbara Nichols, who made her motion picture debut in the 1956 film ""Manfish"", often played brassy or comic roles in films in the 1950s and 1960s.",CITED: F\nANSWER: Barbara Nichols,CITED: F\nANSWER: Barbara Nichols,"CITED: B, F
+
+ANSWER: Barbara Nichols, who made her motion picture debut in the 1956 film ""Manfish"", often played brassy or comic roles in films in the 1950s and 1960s.","Cited: B, F
+
+Barbara Nichols, an American actress, made her motion picture debut in the 1956 film ""Manfish"".",2,1,1,2,2,1,0,0,1,1
+5ab51c455542990594ba9d0a::active_set_pack_a,5ab51c455542990594ba9d0a,"['A', 'E']","['B', 'C']",False,"['B', 'C']","CITED: A, E
+ANSWER: Fir (Abies) has more species, with 48-56 species, compared to Chelone, which has only 4 species.","CITED: A, E
+
+ANSWER: Fir (Abies) has more species than Chelone. Fir has 48-56 species, while Chelone has only 4 species.","CITED: A, E
+ANSWER: Fir (Abies) has more species, with 48-56 species, compared to Chelone, which has only 4 species.","CITED: A, E
+ANSWER: Fir (Abies) has more species, with 48-56 species, compared to Chelone, which has only 4 species.","CITED: A, E
+
+ANSWER: Fir (Abies) has more species than Chelone. Fir has 48-56 species, while Chelone has only 4 species.",2,2,2,2,2,0,0,0,0,0
+5ae12f915542997b2ef7d11f::active_set_pack_a,5ae12f915542997b2ef7d11f,"['C', 'E']","['E', 'F']",False,"['D', 'F']","CITED: E, C
+
+ANSWER: No, John Kassir and Tom Kenny do not both voice the same character. John Kassir voices the Ice King in Adventure Time, while Tom Kenny voices the Ice King in Secrets of the Cryptkeeper’s Haunted House.","CITED: C, E
+ANSWER: No, John Kassir and Tom Kenny do not both voice the same character. John Kassir voices the Ice King in Adventure Time, while Tom Kenny voices the Ice King in Secrets of the Cryptkeeper’s Haunted House.","CITED: C, E
+ANSWER: No, John Kassir and Tom Kenny do not both voice the same character. John Kassir voices the Ice King in Adventure Time, while Tom Kenny voices the Ice King in Secrets of the Cryptkeeper’s Haunted House.","CITED: C, E
+ANSWER: No, John Kassir and Tom Kenny do not both voice the same character. John Kassir voices the Ice King in Adventure Time, while Tom Kenny voices the Ice King in Secrets of the Cryptkeeper’s Haunted House.","CITED: C, E
+
+ANSWER: No, John Kassir and Tom Kenny do not both voice the same character. John Kassir voices the Ice King in Adventure Time, while Tom Kenny voices the Ice King in Secrets of the Cryptkeeper’s Haunted House.",2,2,2,2,2,1,1,1,1,1
+5adbdb8955429944faac2389::active_set_pack_a,5adbdb8955429944faac2389,"['D', 'F']","['B', 'E']",False,"['B', 'C']","CITED: D\nANSWER: Brabus specializes in Mercedes-Benz, Smart, Tesla, and Maybach vehicles.",CITED: D\nANSWER: Brabus specializes in tuning vehicles for the Smart marque.,"CITED: D\nANSWER: Brabus specializes in Mercedes-Benz, Smart, Tesla, and Maybach vehicles.","CITED: D\nANSWER: Brabus specializes in Mercedes-Benz, Smart, Tesla, and Maybach vehicles.","Cited: D
+
+Brabus specializes in Mercedes-Benz, Smart, Tesla and Maybach vehicles.",1,1,1,1,1,0,0,0,0,1
+5a74a7bf55429929fddd8494::active_set_pack_a,5a74a7bf55429929fddd8494,"['D', 'F']","['A', 'D']",False,"['C', 'E']","CITED: E, F
+
+ANSWER: Deadpool 2","CITED: E, F
+
+ANSWER: Deadpool 2","CITED: E, F
+
+ANSWER: Deadpool 2","CITED: E, F
+
+ANSWER: Deadpool 2","CITED: F, E
+
+ANSWER: Deadpool 2 cast Zazie Beetz as Domino.",1,1,1,1,1,2,2,2,2,2
+5a89a59555429946c8d6e97e::active_set_pack_a,5a89a59555429946c8d6e97e,"['A', 'B']","['D', 'E']",False,"['C', 'E']","CITED: A, B
+
+ANSWER: No, only Juniper belongs to the cypress family Cupressaceae. Indigofera belongs to the family Fabaceae.","CITED: A, D
+
+ANSWER: No, only Juniper belongs to the cypress family Cupressaceae. Indigofera belongs to the legume family Fabaceae.","CITED: A, B
+
+ANSWER: No, only Juniper belongs to the cypress family Cupressaceae. Indigofera belongs to the family Fabaceae.","CITED: A, B
+
+ANSWER: No, only Juniper belongs to the cypress family Cupressaceae. Indigofera belongs to the family Fabaceae.","CITED: A, B
+
+ANSWER: No, only Juniper belongs to the cypress family Cupressaceae. Indigofera belongs to the family Fabaceae.",2,1,2,2,2,0,1,0,0,0
+5abe37295542993f32c2a090::active_set_pack_a,5abe37295542993f32c2a090,"['A', 'D']","['A', 'F']",False,"['B', 'E']","CITED: A, D
+
+ANSWER: Javier Sotomayor Sanabria is the current world record holder in high jump and uncle of Lorenzo Sotomayor Collazo.","CITED: A, D
+
+ANSWER: Javier Sotomayor is the current world record holder in high jump and uncle of Lorenzo Sotomayor Collazo.","CITED: A, D
+
+ANSWER: Javier Sotomayor is the current world record holder in high jump and uncle of Lorenzo Sotomayor Collazo.","CITED: A, D
+
+ANSWER: Javier Sotomayor Sanabria","CITED: A, D
+
+ANSWER: Javier Sotomayor is the current world record holder in high jump and uncle of Lorenzo Sotomayor Collazo.",2,2,2,2,2,0,0,0,0,0
+5adf54605542993a75d264c6::active_set_pack_a,5adf54605542993a75d264c6,"['A', 'F']","['B', 'D']",False,"['C', 'E']","CITED: A, F
+
+ANSWER: Alex Cox is from Great Britain. Miloš Forman is from Czechoslovakia.","CITED: A, F
+
+ANSWER: Alex Cox is from Great Britain. Miloš Forman is from Czechoslovakia.","CITED: A, F
+
+ANSWER: Alex Cox is from Great Britain. Miloš Forman is from Czechoslovakia.","CITED: A, F
+
+ANSWER: Alex Cox is from Great Britain. Miloš Forman is from Czechoslovakia.",The film director from Great Britain is Alex Cox.,2,2,2,2,0,0,0,0,0,0
+5a7792435542995d831811e4::active_set_pack_a,5a7792435542995d831811e4,"['B', 'F']","['B', 'C']",False,"['C', 'E']","CITED: B
+ANSWER: Hurricane Ivan","CITED: E, F
+ANSWER: Hurricane Ivan","CITED: E, F
+ANSWER: Hurricane Ivan","CITED: B
+ANSWER: Hurricane Ivan","CITED: B
+
+ANSWER: Hurricane Ivan",1,1,1,1,1,1,2,2,1,1
+5a8a481a55429930ff3c0d5a::active_set_pack_a,5a8a481a55429930ff3c0d5a,"['D', 'F']","['A', 'B']",False,"['B', 'E']","CITED: D, F
+
+ANSWER: Lisa Marie Presley, Navarone Garibaldi's half-sister, has been married four times.","CITED: E, F
+
+ANSWER: Navarone Garibaldi is the half-brother of Lisa Marie Presley, who has been married four times.","CITED: D, F
+
+ANSWER: Lisa Marie Presley, Navarone Garibaldi's half-sister, has been married four times.","CITED: D, F
+
+ANSWER: Lisa Marie Presley, Navarone Garibaldi's half-sister, has been married four times.","CITED: D, F
+
+ANSWER: Navarone Garibaldi is the half-brother of Lisa Marie Presley, who has been married four times.",2,1,2,2,2,1,2,1,1,1
+5ac269a455429951e9e685aa::active_set_pack_a,5ac269a455429951e9e685aa,"['B', 'C']","['C', 'F']",False,"['A', 'F']","CITED: B, C
+
+ANSWER: Samuel Johnson moved to Newton Heath in 1901.",CITED: C\nANSWER: The original name of the football club Samuel Johnson moved to in 1901 was Newton Heath.,CITED: B\nANSWER: Newton Heath,"CITED: B, C
+
+ANSWER: Samuel Johnson moved to Newton Heath in 1901.",The original name of the football club Samuel Johnson moved to in 1901 was Newton Heath LYR Football Club.,2,1,1,2,0,1,0,0,1,0
+5a7cd27e55429909bec76827::active_set_pack_a,5a7cd27e55429909bec76827,"['A', 'D']","['A', 'B']",False,"['E', 'F']","CITED: A, D
+
+ANSWER: Both the Drever and Finnish Hound are two dog breeds that are bred for hunting purposes. The Drever is used for hunting deer and other game, while the Finnish Hound is originally bred for hunting hare and fox.","CITED: A, B, D
+
+ANSWER: Both the Drever and Finnish Hound are dog breeds that are bred for hunting purposes. The Drever is used for hunting deer and other game, while the Finnish Hound is used for hunting hare and fox.","CITED: A, D
+
+ANSWER: Both the Drever and Finnish Hound are two dog breeds that are bred for hunting purposes. The Drever is used for hunting deer and other game, while the Finnish Hound is originally bred for hunting hare and fox.","CITED: A, D
+
+ANSWER: Both the Drever and Finnish Hound are two dog breeds that are bred for hunting purposes. The Drever is used for hunting deer and other game, while the Finnish Hound is originally bred for hunting hare and fox.","CITED: A, D
+
+ANSWER: Both the Drever and Finnish Hound are two dog breeds that are bred for hunting purposes. The Drever is a short-legged scenthound from Sweden used for hunting deer and other game, while the Finnish Hound is a breed of dog originally bred for hunting hare and fox.",2,2,2,2,2,0,1,0,0,0
+5adbf5e255429947ff17386c::active_set_pack_a,5adbf5e255429947ff17386c,"['C', 'E']","['A', 'C']",False,"['A', 'D']","CITED: C, E
+
+ANSWER: Ford Motor Land Development and Petrie Dierman Kughn built one of the three Mills landmarks in California, which is the Great Mall of the Bay Area.","CITED: C, E
+
+ANSWER: The Great Mall of the Bay Area was built by Ford Motor Land Development and Petrie Dierman Kughn in the 1990s.","CITED: C, E
+
+ANSWER: The Great Mall of the Bay Area was built by Ford Motor Land Development and Petrie Dierman Kughn in the 1990s.","CITED: C, E
+
+ANSWER: Ford Motor Land Development and Petrie Dierman Kughn built one of the three Mills landmarks in California, which is the Great Mall of the Bay Area.","CITED: C, E
+
+ANSWER: Ford Motor Land Development and Petrie Dierman Kughn built one of the three Mills landmarks in California.",2,2,2,2,2,1,1,1,1,1
+5a764341554299109176e6e9::active_set_pack_a,5a764341554299109176e6e9,"['A', 'F']","['A', 'B']",False,"['B', 'C']","CITED: E, F
+ANSWER: Girard city is located in Crawford County, Kansas, which has 39,134 inhabitants.","CITED: E, F
+ANSWER: Girard city is located in Crawford County, Kansas, which has 39,134 inhabitants.","CITED: E, F
+ANSWER: Girard city is located in Crawford County, Kansas, which has 39,134 inhabitants.","CITED: E, F
+ANSWER: Girard city is located in Crawford County, Kansas, which has 39,134 inhabitants.","CITED: A, F
+
+ANSWER: Girard city is located in a county with 39,134 inhabitants.",2,2,2,2,2,1,1,1,1,0
+5a7ded525542990b8f503af2::active_set_pack_a,5a7ded525542990b8f503af2,"['C', 'E']","['A', 'B']",False,"['B', 'F']","CITED: C, E
+
+ANSWER: The Anne of Green Gables series by Lucy Maud Montgomery was published by Scholastic Press. The first novel in the series, ""Anne of Green Gables"", was published in 1908.","CITED: C, E
+
+ANSWER: The series recounting the adventures of Anne Shirley, published by Scholastic Press, was first published in 1908.","CITED: C, E
+
+ANSWER: The Anne of Green Gables series by Lucy Maud Montgomery was published by Scholastic Press. The first book in the series, ""Anne of Green Gables"", was published in 1908.","CITED: C, E
+
+ANSWER: The Anne of Green Gables series by Lucy Maud Montgomery was published by Scholastic Press. The first book in the series, ""Anne of Green Gables"", was published in 1908.","The series published by Scholastic Press that recounts the adventures of Anne Shirley is the ""Anne of Green Gables"" series by Lucy Maud Montgomery. This series was first published in 1908.
+
+CITED: C, E",2,2,2,2,2,1,1,1,1,0
+5ae3aebf5542992f92d8233d::active_set_pack_a,5ae3aebf5542992f92d8233d,"['A', 'D']","['A', 'D']",True,"['B', 'E']","CITED: D, A
+
+ANSWER: The 1932 German football championship Final was played at Max-Morlock-Stadion, which opened in 1928.",CITED: D\nANSWER: The 1932 German football championship Final was played at a stadium that opened in 1928.,CITED: D\nANSWER: The 1932 German football championship Final was played at a stadium that opened in 1928.,"CITED: D, A
+
+ANSWER: The 1932 German football championship Final was played at Max-Morlock-Stadion, which opened in 1928.","CITED: A, D
+ANSWER: The 1932 German football championship Final was played at Max-Morlock-Stadion, which opened in 1928.",2,1,1,2,2,0,0,0,0,0
+5a7e15255542997cc2c4751d::active_set_pack_a,5a7e15255542997cc2c4751d,"['B', 'E']","['B', 'E']",True,"['A', 'C']","CITED: F, E
+
+ANSWER: Dharmatma is a 1975 Hindi thriller movie, and the first Bollywood film to be shot in Afghanistan. The title character was based on matka king Ratan Khatri. ""Matka"" gambling or ""satta"" is a form of lottery which originally involved betting on the opening and closing rates of","CITED: F, E
+
+ANSWER: Dharmatma is a 1975 Hindi thriller movie, and the first Bollywood film to be shot in Afghanistan. The title character was based on matka king Ratan Khatri. Matka gambling, also known as satta, is a form of lottery which originally involved betting on the opening and closing rate","CITED: F, E
+
+ANSWER: Dharmatma is a 1975 Hindi thriller movie, and the first Bollywood film to be shot in Afghanistan. The title character was based on matka king Ratan Khatri. Matka gambling, also known as satta, is a form of lottery which originally involved betting on the opening and closing rate","CITED: F, E
+
+ANSWER: Dharmatma is a 1975 Hindi thriller movie, and the first Bollywood film to be shot in Afghanistan. The title character was based on matka king Ratan Khatri. ""Matka"" gambling or ""satta"" is a form of lottery which originally involved betting on the opening and closing rates of","CITED: B, E
+
+ANSWER: Dharmatma is a 1975 Hindi thriller movie, and the first Bollywood film to be shot in Afghanistan. The title character was based on matka (form of Indian gambling) king Ratan Khatri. Matka"" gambling or satta"" is a form of lottery which originally involved betting on the opening",1,1,1,1,2,2,2,2,2,1
+5a8a07475542992e4fca84dc::active_set_pack_a,5a8a07475542992e4fca84dc,"['C', 'E']","['A', 'B']",False,"['A', 'F']","CITED: C, E
+
+ANSWER: Both John Frankenheimer and Tiffanie DeBartolo were film directors.","CITED: C, E
+
+ANSWER: Both John Frankenheimer and Tiffanie DeBartolo were film directors.","CITED: C, E
+
+ANSWER: Both John Frankenheimer and Tiffanie DeBartolo were film directors.","CITED: C, E
+
+ANSWER: Both John Frankenheimer and Tiffanie DeBartolo were film directors.",The occupation shared by both John Frankenheimer and Tiffanie DeBartolo was filmmaking.,2,2,2,2,0,1,1,1,1,0
+5a7fea955542994857a7684a::active_set_pack_a,5a7fea955542994857a7684a,"['B', 'F']","['A', 'B']",False,"['A', 'D']","CITED: B, F
+
+ANSWER: The population of the largest city in Iraq, Baghdad, is approximately 8,765,000. The 1956–57 Iraq FA Cup Championship, which was open to teams from Baghdad only, was held in this city.","CITED: B, F
+
+ANSWER: The population of the largest city in Iraq, Baghdad, is approximately 8,765,000. The 1956–57 Iraq FA Cup Championship, which was open to teams from the capital, was held in Baghdad.","CITED: B, F
+
+ANSWER: The population of the largest city in Iraq, Baghdad, is approximately 8,765,000. The 1956–57 Iraq FA Cup Championship, which was open to teams from Baghdad only, was held in this city.","CITED: B, F
+
+ANSWER: The population of the largest city in Iraq, Baghdad, is approximately 8,765,000. The 1956–57 Iraq FA Cup Championship, which was open to teams from Baghdad only, was held in this city.","CITED: B, F
+
+ANSWER: The population of Baghdad, the largest city in Iraq, is approximately 8,765,000. The 1956–57 Iraq FA Cup Championship was open to teams from Baghdad only.",2,2,2,2,2,1,1,1,1,1
+5ab98b2d554299131ca4236e::active_set_pack_a,5ab98b2d554299131ca4236e,"['A', 'C']","['A', 'D']",False,"['D', 'F']","CITED: A, C
+
+ANSWER: The Sulphur Bank Mine in California, lasting from 1873 to 1883, became one of the most noted mercury producers in the world.","CITED: A, B
+
+ANSWER: The Sulphur Bank Mine in California, lasting from 1873 to 1883, became one of the most noted mercury producers in the world.","CITED: A, C
+
+ANSWER: The Sulphur Bank Mine in California, lasting from 1873 to 1883, became one of the most noted mercury producers in the world.","CITED: A, C
+
+ANSWER: The Sulphur Bank Mine in California, lasting from 1873 to 1883, became one of the most noted mercury producers in the world.","CITED: A, C
+
+ANSWER: The Sulphur Bank Mine in California, lasting from 1873 to 1883, became one of the most noted mercury producers in the world.",2,1,2,2,2,0,1,0,0,0
+5ae717ec5542995703ce8bd0::active_set_pack_a,5ae717ec5542995703ce8bd0,"['C', 'F']","['B', 'F']",False,"['B', 'D']","CITED: F
+ANSWER: Mary Stanley","CITED: C, F
+
+ANSWER: The mother of Edward Stafford, 4th Baron Stafford, was the daughter of Edward Stanley, 3rd Earl of Derby.","CITED: B, F
+
+ANSWER: The mother of Edward Stafford, 4th Baron Stafford, was the daughter of Edward Stanley, 3rd Earl of Derby.","CITED: F
+ANSWER: Mary Stanley","CITED: F
+
+ANSWER: Mary Stanley",1,2,1,1,1,1,1,2,1,1
+5a7b5e55554299042af8f755::active_set_pack_a,5a7b5e55554299042af8f755,"['C', 'E']","['A', 'E']",False,"['A', 'B']","CITED: C, E
+
+ANSWER: Lorraine Hansberry was born first. She was born on May 19, 1930, while Sandra Gulland was born on November 3, 1944.","CITED: D, E
+
+ANSWER: Lorraine Hansberry was born first. She was born on May 19, 1930, while Sandra Gulland was born on November 3, 1944.","CITED: C, E
+
+ANSWER: Lorraine Hansberry was born first. She was born on May 19, 1930, while Sandra Gulland was born on November 3, 1944.","CITED: C, E
+
+ANSWER: Lorraine Hansberry was born first. She was born on May 19, 1930, while Sandra Gulland was born on November 3, 1944.","Cited: C, E
+
+Lorraine Hansberry was born on May 19, 1930, while Sandra Gulland was born on November 3, 1944. Therefore, Lorraine Hansberry was born first.",2,1,2,2,2,1,2,1,1,0
+5a7b96cf554299042af8f789::active_set_pack_a,5a7b96cf554299042af8f789,"['E', 'F']","['E', 'F']",True,"['B', 'D']","CITED: E, F
+ANSWER: The Kaurna name of the river that runs along Mount Torrens in South Australia is Ngangkiparri.",CITED: E\nANSWER: The Kaurna name of the river that runs along Mount Torrens in South Australia is not provided in the given facts.,CITED: E\nANSWER: The Kaurna name of the river that runs along Mount Torrens in South Australia is not provided in the given facts.,"CITED: E, F
+ANSWER: The Kaurna name of the river that runs along Mount Torrens in South Australia is Ngangkiparri.",The Kaurna name of the river that runs along Mount Torrens in South Australia is Ngangkiparri.,2,1,1,2,0,1,0,0,1,0
+5adca6c05542994d58a2f696::active_set_pack_a,5adca6c05542994d58a2f696,"['A', 'D']","['D', 'E']",False,"['C', 'F']","CITED: F
+ANSWER: The L in Samuel L. Jackson's name stands for Leroy.","CITED: F
+ANSWER: The L in Samuel L. Jackson's name stands for Leroy.","CITED: F
+ANSWER: The L in Samuel L. Jackson's name stands for Leroy.",CITED: A\nANSWER: The L in Samuel L. Jackson's name stands for Leroy.,"CITED: F
+
+ANSWER: The L in Samuel L. Jackson's name stands for Leroy.",1,1,1,1,1,1,1,1,0,1
+5ab2a4165542992953946786::active_set_pack_a,5ab2a4165542992953946786,"['A', 'F']","['A', 'D']",False,"['B', 'C']","CITED: A, F
+
+ANSWER: ""The Awakening""","CITED: A, E
+
+ANSWER: ""The Awakening""","CITED: A, F
+
+ANSWER: The Awakening","CITED: A, F
+
+ANSWER: ""The Awakening""","The movie was co-written by the person who directed ""Blood"" is ""The Awakening"".
+
+Facts used:
+A. [Nick Murphy (director)] He is best known for directing the films ""The Awakening"" (2011) (also writer) and ""Blood"" (2012).",2,1,2,2,0,0,1,0,0,0
+5ae092fe554299603e418427::active_set_pack_a,5ae092fe554299603e418427,"['E', 'F']","['D', 'F']",False,"['A', 'C']","CITED: E, F
+
+ANSWER: No, Kelly Jones and Martha Reeves are not both singers. Martha Reeves is an American R&B and pop singer and the lead singer of the Motown girl group Martha Reeves and the Vandellas. Kelly Jones, on the other hand, is a Welsh singer-songwriter and the lead singer of the band Ster","CITED: D, E
+
+ANSWER: Yes, both Kelly Jones and Martha Reeves are singers. Kelly Jones is the lead singer of the band Stereophonics, while Martha Reeves is the lead singer of the group Martha and the Vandellas.","CITED: E, F
+
+ANSWER: No, Kelly Jones and Martha Reeves are not both singers. Martha Reeves is the lead singer of the Motown girl group Martha Reeves and the Vandellas, while Kelly Jones is the lead singer of the Welsh rock band Stereophonics.","CITED: E, F
+
+ANSWER: No, Kelly Jones and Martha Reeves are not both singers. Martha Reeves is an American R&B and pop singer and the lead singer of the Motown girl group Martha Reeves and the Vandellas. Kelly Jones, on the other hand, is a Welsh singer-songwriter and the lead singer of the band Ster","The relevant facts are:
+
+A. [Martha and the Vandellas] The group signed with and eventually recorded all of their singles for Motown's Gordy imprint.
+E. [Martha Reeves] Martha Rose Reeves (born July 18, 1941) is an American R&B and pop singer and former politician, and is the lead singer of the Moto",2,1,2,2,0,1,2,1,1,0
+5ac16fca5542994ab5c67d32::active_set_pack_a,5ac16fca5542994ab5c67d32,"['A', 'D']","['A', 'F']",False,"['B', 'F']","CITED: A\nANSWER: Jerry Van Dyke is the oldest of the Van Dyke family, having been born on July 27, 1931.","CITED: A
+
+ANSWER: Jerry Van Dyke is the oldest of the Van Dyke family.",CITED: A\nANSWER: Jerry Van Dyke is the oldest of the Van Dyke family.,"CITED: A\nANSWER: Jerry Van Dyke is the oldest of the Van Dyke family, having been born in 1931.","CITED: A
+
+ANSWER: Jerry Van Dyke is the oldest of the Van Dyke family, as he was born in 1931.",1,1,1,1,1,0,0,0,0,0
+5ab29b23554299706120966c::active_set_pack_a,5ab29b23554299706120966c,"['E', 'F']","['B', 'C']",False,"['A', 'C']",CITED: F\nANSWER: Luc Besson,"CITED: F
+ANSWER: Luc Besson",CITED: F\nANSWER: Luc Besson,CITED: F\nANSWER: Luc Besson,"CITED: F
+ANSWER: Choi Min-sik, a South Korean actor, starred alongside Scarlett Johansson in ""Lucy"", an English-language French science fiction action film written and directed by Luc Besson.",1,1,1,1,1,0,1,0,0,1
+5a8019cb5542992bc0c4a6a6::active_set_pack_a,5a8019cb5542992bc0c4a6a6,"['B', 'F']","['B', 'E']",False,"['D', 'E']","CITED: B, F
+
+ANSWER: Snow White is a Disney media franchise based on a German fairy tale by the Brothers Grimm.",CITED: C\nANSWER: Snow White is a Disney media franchise based on a German fairy tale by the Brothers Grimm.,"CITED: C, F
+
+ANSWER: Snow White is a Disney media franchise based on a German fairy tale by the Brothers Grimm.","CITED: B, F
+
+ANSWER: Snow White is a Disney media franchise based on a German fairy tale by the Brothers Grimm.","CITED: B, F
+
+ANSWER: Snow White is a Disney media franchise based on a German fairy tale by the Brothers Grimm.",2,0,1,2,2,1,1,2,1,1
+5a81f60e55429903bc27ba09::active_set_pack_a,5a81f60e55429903bc27ba09,"['D', 'E']","['E', 'F']",False,"['A', 'B']","CITED: D, E
+
+ANSWER: St. John's College, which is known for its distinctive curriculum centered on reading and discussing the Great Books of Western Civilization, is listed as an important contributor and co-sponsor of the EnVISIONing Annapolis initiative, along with other organizations.","CITED: E, D
+
+ANSWER: The private liberal arts college known for its distinctive curriculum centered on reading and discussing the Great Books of Western Civilization, St. John's College (Annapolis/Santa Fe), is connected to EnVISIONing Annapolis through its inclusion as a co-sponsor of the project, ","CITED: D, E
+
+ANSWER: St. John's College, which is known for its distinctive curriculum centered on reading and discussing the Great Books of Western Civilization, is listed as an important contributor and co-sponsor of the EnVISIONing Annapolis initiative, along with other organizations.","CITED: D, E
+
+ANSWER: St. John's College, which is known for its distinctive curriculum centered on reading and discussing the Great Books of Western Civilization, is listed as an important contributor and co-sponsor of the EnVISIONing Annapolis initiative, along with other organizations.","CITED: D, E
+
+ANSWER: St. John's College, which is a private liberal arts college known for its distinctive curriculum centered on reading and discussing the Great Books of Western Civilization, is listed as one of the important contributors and co-sponsors of EnVISIONing Annapolis.",2,2,2,2,2,1,1,1,1,1
+5a734c425542994cef4bc514::active_set_pack_a,5a734c425542994cef4bc514,"['B', 'F']","['B', 'F']",True,"['A', 'C']","CITED: E, F
+ANSWER: The Prancing Horse was used by Francesco Baracca, Italy's top fighter ace of World War I.","CITED: E, F
+ANSWER: The Prancing Horse was used by Francesco Baracca.","CITED: E, F
+ANSWER: The Prancing Horse was used by Francesco Baracca.","CITED: E, F
+ANSWER: The Prancing Horse was used by Francesco Baracca, Italy's top fighter ace of World War I.","CITED: F, B
+
+ANSWER: The Prancing Horse was used by Francesco Baracca, Italy's top fighter ace of World War I.",1,1,1,1,2,2,2,2,2,1
+5a7724de5542993569682cf9::active_set_pack_a,5a7724de5542993569682cf9,"['C', 'E']","['B', 'E']",False,"['A', 'F']","CITED: E, B
+
+ANSWER: The Southern Baptist Theological Seminary in Louisville, Kentucky, was attended by Paul R. House.","CITED: E
+ANSWER: The Southern Baptist Theological Seminary in Louisville, Kentucky, was attended by Paul R. House.","CITED: E, B
+
+ANSWER: The Southern Baptist Theological Seminary in Louisville, Kentucky, was attended by Paul R. House.","CITED: E, F
+
+ANSWER: The Southern Baptist Theological Seminary in Louisville, Kentucky, was attended by Paul R. House.","The relevant facts are:
+
+C. [Southern Baptist Theological Seminary] The Southern Baptist Theological Seminary (SBTS), in Louisville, Kentucky, is the oldest of the six seminaries affiliated with the Southern Baptist Convention (SBC).
+
+E. [Paul R. House] Paul R. House (born 1958) is an American Old T",1,1,1,1,0,2,1,2,2,0
+5ae25ac85542996483e64983::active_set_pack_a,5ae25ac85542996483e64983,"['A', 'C']","['A', 'B']",False,"['E', 'F']","CITED: C, A
+
+ANSWER: MindGamers is a 2015 Austrian science fiction film directed by Andrew Goth.","CITED: C, A
+ANSWER: MindGamers is a 2015 Austrian science fiction film directed by Andrew Goth.","CITED: C, A
+
+ANSWER: MindGamers is a 2015 Austrian science fiction film directed by Andrew Goth.","CITED: C, A
+ANSWER: MindGamers is a 2015 Austrian science fiction film directed by Andrew Goth.","CITED: C, A
+ANSWER: MindGamers is a 2015 Austrian science fiction film directed by Andrew Goth.",2,2,2,2,2,0,0,0,0,0
+5a747efc55429929fddd8455::active_set_pack_a,5a747efc55429929fddd8455,"['D', 'E']","['B', 'D']",False,"['A', 'C']","CITED: D, E
+
+ANSWER: Jordan Mintz's whistleblowing was publicized in October 2001.","CITED: D
+ANSWER: The Enron scandal, which included Jordan Mintz's whistleblowing, was publicized in October 2001.","CITED: E
+ANSWER: Jordan Mintz's whistleblowing was not publicized.","CITED: D, E
+
+ANSWER: Jordan Mintz's whistleblowing was publicized in October 2001.","The information about Jordan Mintz's whistleblowing is not provided in the given facts. There is no information about any whistleblowing activity by Jordan Mintz being publicized. Therefore, the question cannot be answered with the provided information.",2,1,1,2,0,1,1,1,1,0
+5ae7c7355542993210983f46::active_set_pack_a,5ae7c7355542993210983f46,"['A', 'F']","['D', 'F']",False,"['C', 'D']","CITED: A, F
+
+ANSWER: Gordie Tapp played the onscreen husband of Roni Stoneman, who was a noted bluegrass banjo player on the variety show ""Hee Haw"".","CITED: A, F
+
+ANSWER: Gordie Tapp played the onscreen husband of Roni Stoneman, who was a banjo player on the variety show.","CITED: A, F
+
+ANSWER: Gordie Tapp played the onscreen husband of Roni Stoneman, who was a noted bluegrass banjo player on the variety show ""Hee Haw"".","CITED: A, F
+
+ANSWER: Gordie Tapp played the onscreen husband of Roni Stoneman, who was a noted bluegrass banjo player on the variety show ""Hee Haw"".","CITED: A, F
+
+ANSWER: Gordie Tapp played the onscreen husband of Roni Stoneman on the variety show ""Hee Haw"".",2,2,2,2,2,0,0,0,0,0
+5adccebc5542992c1e3a240d::active_set_pack_a,5adccebc5542992c1e3a240d,"['A', 'D']","['A', 'F']",False,"['E', 'F']","CITED: B, D
+ANSWER: The Mid Wirral Motorway (M53) is located in the Metropolitan Borough of Wirral, which includes the suburb of Ellesmere Port. Ellesmere Port is known for its terraced houses and the Joseph Groome Towers, three thirteen-storey tower blocks built as public housing.","CITED: B, D
+ANSWER: The motorway referred to as the Mid Wirral Motorway is located in the Metropolitan Borough of Wirral, which is known for its terraced houses.","CITED: B, D
+ANSWER: The Mid Wirral Motorway (M53) is located in the Metropolitan Borough of Wirral, which includes the suburb of Ellesmere Port. Ellesmere Port is known for its terraced houses and the Joseph Groome Towers.","CITED: B, D
+ANSWER: The Mid Wirral Motorway (M53) is located in the Metropolitan Borough of Wirral, which includes the suburb of Ellesmere Port. Ellesmere Port is known for its terraced houses and the Joseph Groome Towers, three thirteen-storey tower blocks built as public housing.","CITED: B, D
+
+ANSWER: The Mid Wirral Motorway (M53) is located in the Metropolitan Borough of Wirral, which includes the suburb of Ellesmere Port. Ellesmere Port is known for its terraced houses and the Joseph Groome Towers, three thirteen-storey tower blocks built as public housing.",2,2,2,2,2,1,1,1,1,1
+5a734fb35542992359bc32f7::active_set_pack_a,5a734fb35542992359bc32f7,"['C', 'F']","['B', 'E']",False,"['A', 'B']","CITED: C, F
+
+ANSWER: The Camp Chapman attack was the suicide attack located inside the Forward Operating Base Chapman.",CITED: C\nANSWER: The Camp Chapman attack.,"CITED: C, F
+
+ANSWER: The Camp Chapman attack was the suicide attack located inside the Forward Operating Base Chapman.","CITED: C, F
+
+ANSWER: The Camp Chapman attack was the suicide attack located inside the Forward Operating Base Chapman.",The suicide attack located inside the Forward Operating Base Chapman was the Camp Chapman attack.,2,1,2,2,0,1,0,1,1,0
+5ae140415542997b2ef7d179::active_set_pack_a,5ae140415542997b2ef7d179,"['E', 'F']","['A', 'F']",False,"['A', 'C']","CITED: E, F
+
+ANSWER: Phillip Calvert, the fifth Governor of Maryland, was born in 1626.","CITED: E, F
+ANSWER: Phillip Calvert, the fifth governor of Maryland, was born in 1626.","CITED: E, F
+ANSWER: Phillip Calvert, the fifth governor of the Province of Maryland, was born in 1626.","CITED: E, F
+
+ANSWER: Phillip Calvert, the fifth Governor of Maryland, was born in 1626.","The birth year of the fifth governor of the British colony in North America that existed from 1632 to 1776 was 1626.
+
+Facts used:
+- E: Identifies the Province of Maryland as the colony in question.
+- F: Provides the name and birth year of the fifth governor, Phillip Calvert.
+
+So, the answer is 1",2,2,2,2,0,1,1,1,1,0
+5ae3e5f55542996836b02beb::active_set_pack_a,5ae3e5f55542996836b02beb,"['D', 'F']","['B', 'F']",False,"['A', 'E']","CITED: D
+
+ANSWER: Hyde United Football Club","CITED: D
+
+ANSWER: Hyde United Football Club","CITED: D
+
+ANSWER: Hyde United Football Club","CITED: D
+
+ANSWER: Hyde United Football Club","CITED: D
+
+ANSWER: Hyde United Football Club",1,1,1,1,1,1,1,1,1,1
+5a8f612b5542992414482a99::active_set_pack_a,5a8f612b5542992414482a99,"['D', 'E']","['B', 'D']",False,"['B', 'F']","CITED: E, D
+
+ANSWER: The pop singer in the lead role in ""Tere Bin Laden,"" Ali Zafar, has received five Lux Style Awards.","CITED: E, F
+
+ANSWER: The pop singer in the lead role in ""Tere Bin Laden"" is Ali Zafar, who has received five Lux Style Awards.","CITED: E, F
+
+ANSWER: The pop singer in the lead role in ""Tere Bin Laden"" is Ali Zafar, who has received five Lux Style Awards.","CITED: E, D
+
+ANSWER: The pop singer in the lead role in ""Tere Bin Laden"", Ali Zafar, has received five Lux Style Awards.","CITED: E, D
+
+ANSWER: The pop singer in the lead role in ""Tere Bin Laden"" received 5 Lux Style Awards.",2,1,1,2,2,1,2,2,1,1
+5ae3e6f85542996836b02bee::active_set_pack_a,5ae3e6f85542996836b02bee,"['E', 'F']","['B', 'D']",False,"['C', 'D']","CITED: E, F
+ANSWER: Forza Horizon 3 was developed by Playground Games and published by Microsoft Studios. The song ""What's Golden"" was included in this game on the fictional radio 'Block Party'.","CITED: E, F
+ANSWER: Forza Horizon 3 was developed by Playground Games and published by Microsoft Studios.","CITED: E, F
+ANSWER: Forza Horizon 3 was developed by Playground Games and published by Microsoft Studios. The song ""What's Golden"" was included in this game on the fictional radio 'Block Party'.","CITED: E, F
+ANSWER: Forza Horizon 3 was developed by Playground Games and published by Microsoft Studios. The song ""What's Golden"" was included in this game on the fictional radio 'Block Party'.","CITED: E, F
+
+ANSWER: Forza Horizon 3",2,2,2,2,2,1,1,1,1,1
+5adef2be5542993a75d263b1::active_set_pack_a,5adef2be5542993a75d263b1,"['E', 'F']","['E', 'F']",True,"['A', 'C']","CITED: F
+ANSWER: Ulster","CITED: F
+ANSWER: Ulster","CITED: F
+ANSWER: Ulster","CITED: F
+ANSWER: Ulster","The province in the north of the island of Ireland that Queen Medb of Connacht made her invasion is Ulster.
+
+Facts used:
+- F (Louis le Brocquy Táin illustrations)",1,1,1,1,0,1,1,1,1,0
+5ae3e1815542992e3233c49f::active_set_pack_a,5ae3e1815542992e3233c49f,"['A', 'D']","['B', 'D']",False,"['E', 'F']","CITED: D, A
+
+ANSWER: Gabe Turner has collaborated with Kevin Spacey, who won his first Academy Award for Best Supporting Actor in the 1995 crime thriller ""The Usual Suspects"".","CITED: D, F
+
+ANSWER: Gabe Turner has collaborated with Kevin Spacey, who won his first Academy Award for his role in the 1995 crime thriller ""The Usual Suspects"".","CITED: A, D
+
+ANSWER: Gabe Turner has collaborated with Kevin Spacey, who won his first Academy Award for Best Supporting Actor in the 1995 crime thriller ""The Usual Suspects"".","CITED: D, A
+
+ANSWER: Gabe Turner has collaborated with Kevin Spacey, who won his first Academy Award for Best Supporting Actor in the 1995 crime thriller ""The Usual Suspects"".","The relevant facts are A and D.
+
+Kevin Spacey won his first Academy Award in 1995 for his role in the crime thriller ""The Usual Suspects"". Gabe Turner has collaborated with Kevin Spacey, as mentioned in fact D.
+
+So, Gabe Turner has collaborated with the actor and film director who won his first Acad",2,2,2,2,2,0,1,0,0,0
+5ac25b125542992f1f2b3872::active_set_pack_a,5ac25b125542992f1f2b3872,"['A', 'B']","['B', 'D']",False,"['D', 'F']","CITED: B, D
+ANSWER: Seamus Heaney, who received the 1995 Nobel Prize in Literature, published ""Door into the Dark"" in 1969.","CITED: B, D
+ANSWER: Seamus Heaney, who wrote ""Door into the Dark"", received the Nobel Prize in Literature in 1995.","CITED: A, B
+
+ANSWER: Seamus Heaney, who wrote ""Door into the Dark"", received the Nobel Prize in Literature in 1995.","CITED: B, A
+ANSWER: Door into the Dark is a poetry collection by Seamus Heaney, who received the 1995 Nobel Prize in Literature.","CITED: B, D\nANSWER: Seamus Heaney, who received the Nobel Prize in Literature in 1995, is the man.",2,2,2,2,1,1,1,0,0,1
+5a80c65f55429938b61421d4::active_set_pack_a,5a80c65f55429938b61421d4,"['C', 'F']","['E', 'F']",False,"['B', 'D']","CITED: C, F
+
+ANSWER: Stephen Wolfram designed the computer algebra system SMP at Caltech.","CITED: F
+ANSWER: The author of the book ""A New Kind of Science,"" Stephen Wolfram, designed a computer algebra system at the California Institute of Technology (Caltech).","CITED: F
+ANSWER: The author of the book ""A New Kind of Science,"" Stephen Wolfram, designed a computer algebra system at Caltech.","CITED: C, F
+
+ANSWER: Stephen Wolfram designed the computer algebra system SMP at Caltech.","The author of the book ""A New Kind of Science"" is Stephen Wolfram. He designed a computer algebra system at Caltech.
+
+Facts used:
+- C: [Symbolic Manipulation Program] ... designed by Chris A. Cole and Stephen Wolfram at Caltech ...",2,1,1,2,0,1,1,1,1,0
+5a813d4a554299260e20a277::active_set_pack_a,5a813d4a554299260e20a277,"['A', 'B']","['B', 'D']",False,"['E', 'F']","CITED: B, F
+
+ANSWER: Mark Rankin and Cedric Bixler-Zavala are both known for their work in rock bands. Mark Rankin was the lead vocalist of the Scottish rock band Gun, while Cedric Bixler-Zavala is known for his work in progressive rock band The Mars Volta and post-hardcore group At the Drive-In. Th","CITED: B, F
+
+ANSWER: Mark Rankin and Cedric Bixler-Zavala are both known for their work in rock bands. Mark Rankin was the lead vocalist of the rock band Gun, while Cedric Bixler-Zavala is known for his work in the progressive rock band The Mars Volta and the rock band El Grupo Nuevo de Omar Rodrigu","CITED: B, F
+
+ANSWER: Mark Rankin and Cedric Bixler-Zavala are both known for their work in rock bands. Mark Rankin was a vocalist in the rock band Gun, while Cedric Bixler-Zavala is known for his work in the progressive rock band The Mars Volta and the post-hardcore group At the Drive-In. Therefore","CITED: B, A
+
+ANSWER: Mark Rankin and Cedric Bixler-Zavala are both known for their work in rock bands. Mark Rankin was the lead vocalist of the Scottish rock band Gun, while Cedric Bixler-Zavala is known for his work as the frontman and lyricist of the progressive rock band The Mars Volta and the po","Cited: B, F
+
+ANSWER: Mark Rankin and Cedric Bixler-Zavala are both known for their work in rock genres. Mark Rankin was the lead vocalist for the Scottish rock band Gun, while Cedric Bixler-Zavala is known for his work in progressive rock band The Mars Volta and post-hardcore group At the Drive-In. ",2,2,2,2,2,1,1,1,0,1

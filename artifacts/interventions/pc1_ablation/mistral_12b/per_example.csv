@@ -1,0 +1,801 @@
+example_id,prompt_id,baseline_correct,pca_selected,gold_labels,full_abl_destroyed,pc1_only_destroyed,orthogonal_destroyed,pc1_restore_destroyed,random_destroyed
+5a8b57f25542995d1e6f1371,5a8b57f25542995d1e6f1371::working_set_pack_a,True,"['D', 'F']","['D', 'F']",True,True,False,False,False
+5a8b57f25542995d1e6f1371,5a8b57f25542995d1e6f1371::active_set_pack_a,True,"['D', 'F']","['D', 'F']",True,True,False,False,False
+5a8b57f25542995d1e6f1371,5a8b57f25542995d1e6f1371::working_set_pack_b,True,"['D', 'F']","['D', 'F']",True,True,False,False,False
+5a8b57f25542995d1e6f1371,5a8b57f25542995d1e6f1371::active_set_pack_b,True,"['D', 'F']","['D', 'F']",True,True,False,False,False
+5adbf0a255429947ff17385a,5adbf0a255429947ff17385a::working_set_pack_a,True,"['A', 'F']","['A', 'F']",True,False,True,True,False
+5adbf0a255429947ff17385a,5adbf0a255429947ff17385a::active_set_pack_a,False,,,,,,,
+5adbf0a255429947ff17385a,5adbf0a255429947ff17385a::working_set_pack_b,True,"['A', 'F']","['A', 'F']",True,False,True,True,False
+5adbf0a255429947ff17385a,5adbf0a255429947ff17385a::active_set_pack_b,True,"['A', 'F']","['A', 'F']",True,False,True,True,False
+5a8e3ea95542995a26add48d,5a8e3ea95542995a26add48d::working_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,True,False,False
+5a8e3ea95542995a26add48d,5a8e3ea95542995a26add48d::active_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,True,False,False
+5a8e3ea95542995a26add48d,5a8e3ea95542995a26add48d::working_set_pack_b,True,"['B', 'F']","['B', 'F']",False,False,True,True,False
+5a8e3ea95542995a26add48d,5a8e3ea95542995a26add48d::active_set_pack_b,True,"['B', 'F']","['B', 'F']",False,False,True,True,False
+5abd94525542992ac4f382d2,5abd94525542992ac4f382d2::working_set_pack_a,True,"['C', 'E']","['A', 'E']",False,False,False,False,False
+5abd94525542992ac4f382d2,5abd94525542992ac4f382d2::active_set_pack_a,False,,,,,,,
+5abd94525542992ac4f382d2,5abd94525542992ac4f382d2::working_set_pack_b,True,"['C', 'E']","['A', 'E']",False,False,False,False,False
+5abd94525542992ac4f382d2,5abd94525542992ac4f382d2::active_set_pack_b,True,"['C', 'E']","['A', 'E']",False,False,False,False,False
+5a85b2d95542997b5ce40028,5a85b2d95542997b5ce40028::working_set_pack_a,False,,,,,,,
+5a85b2d95542997b5ce40028,5a85b2d95542997b5ce40028::active_set_pack_a,False,,,,,,,
+5a85b2d95542997b5ce40028,5a85b2d95542997b5ce40028::working_set_pack_b,False,,,,,,,
+5a85b2d95542997b5ce40028,5a85b2d95542997b5ce40028::active_set_pack_b,False,,,,,,,
+5a87ab905542996e4f3088c1,5a87ab905542996e4f3088c1::working_set_pack_a,True,"['E', 'F']","['E', 'F']",False,False,False,False,False
+5a87ab905542996e4f3088c1,5a87ab905542996e4f3088c1::active_set_pack_a,True,"['E', 'F']","['E', 'F']",False,False,False,False,False
+5a87ab905542996e4f3088c1,5a87ab905542996e4f3088c1::working_set_pack_b,True,"['E', 'F']","['E', 'F']",False,False,False,False,False
+5a87ab905542996e4f3088c1,5a87ab905542996e4f3088c1::active_set_pack_b,True,"['E', 'F']","['E', 'F']",False,False,False,False,False
+5a8db19d5542994ba4e3dd00,5a8db19d5542994ba4e3dd00::working_set_pack_a,True,"['A', 'D']","['A', 'D']",False,False,True,True,False
+5a8db19d5542994ba4e3dd00,5a8db19d5542994ba4e3dd00::active_set_pack_a,True,"['A', 'D']","['A', 'D']",False,False,True,True,False
+5a8db19d5542994ba4e3dd00,5a8db19d5542994ba4e3dd00::working_set_pack_b,True,"['A', 'D']","['A', 'D']",False,False,False,False,False
+5a8db19d5542994ba4e3dd00,5a8db19d5542994ba4e3dd00::active_set_pack_b,True,"['A', 'D']","['A', 'D']",False,False,False,False,False
+5ab56e32554299637185c594,5ab56e32554299637185c594::working_set_pack_a,False,,,,,,,
+5ab56e32554299637185c594,5ab56e32554299637185c594::active_set_pack_a,False,,,,,,,
+5ab56e32554299637185c594,5ab56e32554299637185c594::working_set_pack_b,True,"['E', 'F']","['A', 'F']",True,True,False,False,False
+5ab56e32554299637185c594,5ab56e32554299637185c594::active_set_pack_b,False,,,,,,,
+5a75e05c55429976ec32bc5f,5a75e05c55429976ec32bc5f::working_set_pack_a,True,"['B', 'D']","['B', 'E']",True,True,False,False,False
+5a75e05c55429976ec32bc5f,5a75e05c55429976ec32bc5f::active_set_pack_a,False,,,,,,,
+5a75e05c55429976ec32bc5f,5a75e05c55429976ec32bc5f::working_set_pack_b,True,"['B', 'D']","['B', 'E']",True,True,False,False,False
+5a75e05c55429976ec32bc5f,5a75e05c55429976ec32bc5f::active_set_pack_b,True,"['D', 'E']","['B', 'E']",False,False,True,True,False
+5ab29c24554299449642c932,5ab29c24554299449642c932::working_set_pack_a,True,"['B', 'D']","['B', 'D']",False,False,False,False,False
+5ab29c24554299449642c932,5ab29c24554299449642c932::active_set_pack_a,True,"['B', 'D']","['B', 'D']",False,False,False,False,False
+5ab29c24554299449642c932,5ab29c24554299449642c932::working_set_pack_b,True,"['B', 'D']","['B', 'D']",False,False,False,False,False
+5ab29c24554299449642c932,5ab29c24554299449642c932::active_set_pack_b,True,"['B', 'D']","['B', 'D']",False,False,False,False,False
+5ae0d4c9554299603e418468,5ae0d4c9554299603e418468::working_set_pack_a,True,"['A', 'B']","['B', 'E']",True,False,False,False,False
+5ae0d4c9554299603e418468,5ae0d4c9554299603e418468::active_set_pack_a,True,"['A', 'B']","['B', 'E']",True,True,False,False,False
+5ae0d4c9554299603e418468,5ae0d4c9554299603e418468::working_set_pack_b,True,"['B', 'C']","['B', 'E']",True,True,False,False,False
+5ae0d4c9554299603e418468,5ae0d4c9554299603e418468::active_set_pack_b,True,"['A', 'B']","['B', 'E']",True,False,False,False,False
+5a8133725542995ce29dcbdb,5a8133725542995ce29dcbdb::working_set_pack_a,False,,,,,,,
+5a8133725542995ce29dcbdb,5a8133725542995ce29dcbdb::active_set_pack_a,False,,,,,,,
+5a8133725542995ce29dcbdb,5a8133725542995ce29dcbdb::working_set_pack_b,False,,,,,,,
+5a8133725542995ce29dcbdb,5a8133725542995ce29dcbdb::active_set_pack_b,False,,,,,,,
+5ae6050f55429929b0807a5e,5ae6050f55429929b0807a5e::working_set_pack_a,False,,,,,,,
+5ae6050f55429929b0807a5e,5ae6050f55429929b0807a5e::active_set_pack_a,True,"['B', 'E']","['D', 'E']",False,True,True,True,False
+5ae6050f55429929b0807a5e,5ae6050f55429929b0807a5e::working_set_pack_b,False,,,,,,,
+5ae6050f55429929b0807a5e,5ae6050f55429929b0807a5e::active_set_pack_b,False,,,,,,,
+5ae2070a5542994d89d5b313,5ae2070a5542994d89d5b313::working_set_pack_a,True,"['D', 'E']","['C', 'D']",False,True,True,False,False
+5ae2070a5542994d89d5b313,5ae2070a5542994d89d5b313::active_set_pack_a,True,"['C', 'D']","['C', 'D']",False,False,True,False,False
+5ae2070a5542994d89d5b313,5ae2070a5542994d89d5b313::working_set_pack_b,False,,,,,,,
+5ae2070a5542994d89d5b313,5ae2070a5542994d89d5b313::active_set_pack_b,True,"['D', 'E']","['C', 'D']",False,False,True,False,False
+5a722b8655429971e9dc9329,5a722b8655429971e9dc9329::working_set_pack_a,False,,,,,,,
+5a722b8655429971e9dc9329,5a722b8655429971e9dc9329::active_set_pack_a,False,,,,,,,
+5a722b8655429971e9dc9329,5a722b8655429971e9dc9329::working_set_pack_b,False,,,,,,,
+5a722b8655429971e9dc9329,5a722b8655429971e9dc9329::active_set_pack_b,False,,,,,,,
+5adf37a95542995ec70e8f97,5adf37a95542995ec70e8f97::working_set_pack_a,False,,,,,,,
+5adf37a95542995ec70e8f97,5adf37a95542995ec70e8f97::active_set_pack_a,False,,,,,,,
+5adf37a95542995ec70e8f97,5adf37a95542995ec70e8f97::working_set_pack_b,False,,,,,,,
+5adf37a95542995ec70e8f97,5adf37a95542995ec70e8f97::active_set_pack_b,False,,,,,,,
+5abd259d55429924427fcf1a,5abd259d55429924427fcf1a::working_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5abd259d55429924427fcf1a,5abd259d55429924427fcf1a::active_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5abd259d55429924427fcf1a,5abd259d55429924427fcf1a::working_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5abd259d55429924427fcf1a,5abd259d55429924427fcf1a::active_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5a8a3e745542996c9b8d5e70,5a8a3e745542996c9b8d5e70::working_set_pack_a,False,,,,,,,
+5a8a3e745542996c9b8d5e70,5a8a3e745542996c9b8d5e70::active_set_pack_a,False,,,,,,,
+5a8a3e745542996c9b8d5e70,5a8a3e745542996c9b8d5e70::working_set_pack_b,False,,,,,,,
+5a8a3e745542996c9b8d5e70,5a8a3e745542996c9b8d5e70::active_set_pack_b,False,,,,,,,
+5ac23ff0554299636651994d,5ac23ff0554299636651994d::working_set_pack_a,True,"['D', 'F']","['D', 'F']",False,False,True,False,False
+5ac23ff0554299636651994d,5ac23ff0554299636651994d::active_set_pack_a,True,"['D', 'F']","['D', 'F']",False,False,True,False,False
+5ac23ff0554299636651994d,5ac23ff0554299636651994d::working_set_pack_b,True,"['D', 'F']","['D', 'F']",False,False,True,False,False
+5ac23ff0554299636651994d,5ac23ff0554299636651994d::active_set_pack_b,True,"['D', 'F']","['D', 'F']",False,False,True,False,False
+5ae4a3265542995ad6573de5,5ae4a3265542995ad6573de5::working_set_pack_a,False,,,,,,,
+5ae4a3265542995ad6573de5,5ae4a3265542995ad6573de5::active_set_pack_a,False,,,,,,,
+5ae4a3265542995ad6573de5,5ae4a3265542995ad6573de5::working_set_pack_b,False,,,,,,,
+5ae4a3265542995ad6573de5,5ae4a3265542995ad6573de5::active_set_pack_b,False,,,,,,,
+5a7a06935542990198eaf050,5a7a06935542990198eaf050::working_set_pack_a,False,,,,,,,
+5a7a06935542990198eaf050,5a7a06935542990198eaf050::active_set_pack_a,False,,,,,,,
+5a7a06935542990198eaf050,5a7a06935542990198eaf050::working_set_pack_b,False,,,,,,,
+5a7a06935542990198eaf050,5a7a06935542990198eaf050::active_set_pack_b,False,,,,,,,
+5a879ab05542996e4f30887e,5a879ab05542996e4f30887e::working_set_pack_a,True,"['C', 'F']","['A', 'F']",False,False,False,False,False
+5a879ab05542996e4f30887e,5a879ab05542996e4f30887e::active_set_pack_a,True,"['C', 'F']","['A', 'F']",False,False,False,False,False
+5a879ab05542996e4f30887e,5a879ab05542996e4f30887e::working_set_pack_b,True,"['C', 'F']","['A', 'F']",False,False,False,False,False
+5a879ab05542996e4f30887e,5a879ab05542996e4f30887e::active_set_pack_b,False,,,,,,,
+5a84dd955542997b5ce3ff79,5a84dd955542997b5ce3ff79::working_set_pack_a,False,,,,,,,
+5a84dd955542997b5ce3ff79,5a84dd955542997b5ce3ff79::active_set_pack_a,False,,,,,,,
+5a84dd955542997b5ce3ff79,5a84dd955542997b5ce3ff79::working_set_pack_b,False,,,,,,,
+5a84dd955542997b5ce3ff79,5a84dd955542997b5ce3ff79::active_set_pack_b,False,,,,,,,
+5a7d0db955429909bec76924,5a7d0db955429909bec76924::working_set_pack_a,True,"['E', 'F']","['E', 'F']",True,True,False,True,False
+5a7d0db955429909bec76924,5a7d0db955429909bec76924::active_set_pack_a,True,"['E', 'F']","['E', 'F']",True,True,False,True,False
+5a7d0db955429909bec76924,5a7d0db955429909bec76924::working_set_pack_b,True,"['E', 'F']","['E', 'F']",True,True,False,True,False
+5a7d0db955429909bec76924,5a7d0db955429909bec76924::active_set_pack_b,True,"['E', 'F']","['E', 'F']",True,True,False,True,False
+5abd90545542996e802b47d7,5abd90545542996e802b47d7::working_set_pack_a,True,"['D', 'F']","['D', 'F']",True,True,True,True,False
+5abd90545542996e802b47d7,5abd90545542996e802b47d7::active_set_pack_a,True,"['D', 'F']","['D', 'F']",True,True,True,True,False
+5abd90545542996e802b47d7,5abd90545542996e802b47d7::working_set_pack_b,True,"['D', 'F']","['D', 'F']",True,True,True,True,False
+5abd90545542996e802b47d7,5abd90545542996e802b47d7::active_set_pack_b,True,"['D', 'F']","['D', 'F']",True,True,True,True,False
+5a7722d655429966f1a36c99,5a7722d655429966f1a36c99::working_set_pack_a,False,,,,,,,
+5a7722d655429966f1a36c99,5a7722d655429966f1a36c99::active_set_pack_a,False,,,,,,,
+5a7722d655429966f1a36c99,5a7722d655429966f1a36c99::working_set_pack_b,False,,,,,,,
+5a7722d655429966f1a36c99,5a7722d655429966f1a36c99::active_set_pack_b,False,,,,,,,
+5ade025e5542997dc790711e,5ade025e5542997dc790711e::working_set_pack_a,True,"['D', 'F']","['C', 'F']",True,False,True,True,False
+5ade025e5542997dc790711e,5ade025e5542997dc790711e::active_set_pack_a,True,"['C', 'D']","['C', 'F']",False,False,False,False,False
+5ade025e5542997dc790711e,5ade025e5542997dc790711e::working_set_pack_b,True,"['C', 'D']","['C', 'F']",False,False,False,False,False
+5ade025e5542997dc790711e,5ade025e5542997dc790711e::active_set_pack_b,True,"['C', 'D']","['C', 'F']",False,False,False,False,False
+5ab381b155429969a97a816b,5ab381b155429969a97a816b::working_set_pack_a,True,"['E', 'F']","['E', 'F']",True,True,False,False,False
+5ab381b155429969a97a816b,5ab381b155429969a97a816b::active_set_pack_a,True,"['E', 'F']","['E', 'F']",False,True,False,False,False
+5ab381b155429969a97a816b,5ab381b155429969a97a816b::working_set_pack_b,True,"['E', 'F']","['E', 'F']",True,True,False,False,False
+5ab381b155429969a97a816b,5ab381b155429969a97a816b::active_set_pack_b,True,"['E', 'F']","['E', 'F']",True,True,False,False,False
+5ac2a5d455429921a00ab01b,5ac2a5d455429921a00ab01b::working_set_pack_a,True,"['E', 'F']","['B', 'E']",False,False,True,True,False
+5ac2a5d455429921a00ab01b,5ac2a5d455429921a00ab01b::active_set_pack_a,True,"['E', 'F']","['B', 'E']",False,False,True,True,False
+5ac2a5d455429921a00ab01b,5ac2a5d455429921a00ab01b::working_set_pack_b,True,"['B', 'E']","['B', 'E']",False,False,False,True,False
+5ac2a5d455429921a00ab01b,5ac2a5d455429921a00ab01b::active_set_pack_b,True,"['B', 'E']","['B', 'E']",False,False,True,True,False
+5adc1309554299438c868d3b,5adc1309554299438c868d3b::working_set_pack_a,True,"['D', 'F']","['D', 'F']",True,False,False,False,False
+5adc1309554299438c868d3b,5adc1309554299438c868d3b::active_set_pack_a,True,"['D', 'F']","['D', 'F']",True,False,False,False,False
+5adc1309554299438c868d3b,5adc1309554299438c868d3b::working_set_pack_b,True,"['D', 'F']","['D', 'F']",True,True,False,False,False
+5adc1309554299438c868d3b,5adc1309554299438c868d3b::active_set_pack_b,True,"['D', 'F']","['D', 'F']",True,True,False,False,False
+5a83168855429966c78a6b2e,5a83168855429966c78a6b2e::working_set_pack_a,False,,,,,,,
+5a83168855429966c78a6b2e,5a83168855429966c78a6b2e::active_set_pack_a,False,,,,,,,
+5a83168855429966c78a6b2e,5a83168855429966c78a6b2e::working_set_pack_b,False,,,,,,,
+5a83168855429966c78a6b2e,5a83168855429966c78a6b2e::active_set_pack_b,False,,,,,,,
+5ab345db55429969a97a8122,5ab345db55429969a97a8122::working_set_pack_a,False,,,,,,,
+5ab345db55429969a97a8122,5ab345db55429969a97a8122::active_set_pack_a,False,,,,,,,
+5ab345db55429969a97a8122,5ab345db55429969a97a8122::working_set_pack_b,False,,,,,,,
+5ab345db55429969a97a8122,5ab345db55429969a97a8122::active_set_pack_b,False,,,,,,,
+5adf732a5542993a75d264e9,5adf732a5542993a75d264e9::working_set_pack_a,False,,,,,,,
+5adf732a5542993a75d264e9,5adf732a5542993a75d264e9::active_set_pack_a,False,,,,,,,
+5adf732a5542993a75d264e9,5adf732a5542993a75d264e9::working_set_pack_b,False,,,,,,,
+5adf732a5542993a75d264e9,5adf732a5542993a75d264e9::active_set_pack_b,False,,,,,,,
+5a7272eb5542997f827839d7,5a7272eb5542997f827839d7::working_set_pack_a,False,,,,,,,
+5a7272eb5542997f827839d7,5a7272eb5542997f827839d7::active_set_pack_a,False,,,,,,,
+5a7272eb5542997f827839d7,5a7272eb5542997f827839d7::working_set_pack_b,False,,,,,,,
+5a7272eb5542997f827839d7,5a7272eb5542997f827839d7::active_set_pack_b,False,,,,,,,
+5ac2c3545542990b17b1548b,5ac2c3545542990b17b1548b::working_set_pack_a,False,,,,,,,
+5ac2c3545542990b17b1548b,5ac2c3545542990b17b1548b::active_set_pack_a,False,,,,,,,
+5ac2c3545542990b17b1548b,5ac2c3545542990b17b1548b::working_set_pack_b,False,,,,,,,
+5ac2c3545542990b17b1548b,5ac2c3545542990b17b1548b::active_set_pack_b,False,,,,,,,
+5a76a401554299373536012b,5a76a401554299373536012b::working_set_pack_a,False,,,,,,,
+5a76a401554299373536012b,5a76a401554299373536012b::active_set_pack_a,False,,,,,,,
+5a76a401554299373536012b,5a76a401554299373536012b::working_set_pack_b,False,,,,,,,
+5a76a401554299373536012b,5a76a401554299373536012b::active_set_pack_b,False,,,,,,,
+5ae3918b5542994393b9e709,5ae3918b5542994393b9e709::working_set_pack_a,False,,,,,,,
+5ae3918b5542994393b9e709,5ae3918b5542994393b9e709::active_set_pack_a,False,,,,,,,
+5ae3918b5542994393b9e709,5ae3918b5542994393b9e709::working_set_pack_b,False,,,,,,,
+5ae3918b5542994393b9e709,5ae3918b5542994393b9e709::active_set_pack_b,False,,,,,,,
+5a8efd3c55429918e830d179,5a8efd3c55429918e830d179::working_set_pack_a,True,"['D', 'E']","['D', 'E']",True,True,True,False,False
+5a8efd3c55429918e830d179,5a8efd3c55429918e830d179::active_set_pack_a,True,"['D', 'E']","['D', 'E']",True,True,True,False,False
+5a8efd3c55429918e830d179,5a8efd3c55429918e830d179::working_set_pack_b,True,"['D', 'E']","['D', 'E']",True,False,True,False,False
+5a8efd3c55429918e830d179,5a8efd3c55429918e830d179::active_set_pack_b,True,"['D', 'E']","['D', 'E']",True,True,True,False,False
+5a8b63755542997f31a41cfe,5a8b63755542997f31a41cfe::working_set_pack_a,True,"['A', 'F']","['A', 'F']",True,False,False,True,False
+5a8b63755542997f31a41cfe,5a8b63755542997f31a41cfe::active_set_pack_a,False,,,,,,,
+5a8b63755542997f31a41cfe,5a8b63755542997f31a41cfe::working_set_pack_b,True,"['A', 'F']","['A', 'F']",False,False,False,False,False
+5a8b63755542997f31a41cfe,5a8b63755542997f31a41cfe::active_set_pack_b,True,"['A', 'F']","['A', 'F']",True,False,True,True,False
+5a7a02235542996c55b2dcd3,5a7a02235542996c55b2dcd3::working_set_pack_a,True,"['B', 'E']","['B', 'E']",True,False,True,False,False
+5a7a02235542996c55b2dcd3,5a7a02235542996c55b2dcd3::active_set_pack_a,True,"['B', 'E']","['B', 'E']",True,False,False,False,False
+5a7a02235542996c55b2dcd3,5a7a02235542996c55b2dcd3::working_set_pack_b,True,"['B', 'E']","['B', 'E']",True,True,True,True,False
+5a7a02235542996c55b2dcd3,5a7a02235542996c55b2dcd3::active_set_pack_b,True,"['B', 'E']","['B', 'E']",True,False,False,False,False
+5ac061ab554299294b218fac,5ac061ab554299294b218fac::working_set_pack_a,True,"['B', 'D']","['B', 'D']",False,False,True,False,False
+5ac061ab554299294b218fac,5ac061ab554299294b218fac::active_set_pack_a,True,"['B', 'D']","['B', 'D']",False,False,True,False,False
+5ac061ab554299294b218fac,5ac061ab554299294b218fac::working_set_pack_b,True,"['B', 'D']","['B', 'D']",True,False,True,True,False
+5ac061ab554299294b218fac,5ac061ab554299294b218fac::active_set_pack_b,True,"['B', 'D']","['B', 'D']",False,False,True,False,False
+5ab5a2f85542997d4ad1f197,5ab5a2f85542997d4ad1f197::working_set_pack_a,False,,,,,,,
+5ab5a2f85542997d4ad1f197,5ab5a2f85542997d4ad1f197::active_set_pack_a,False,,,,,,,
+5ab5a2f85542997d4ad1f197,5ab5a2f85542997d4ad1f197::working_set_pack_b,False,,,,,,,
+5ab5a2f85542997d4ad1f197,5ab5a2f85542997d4ad1f197::active_set_pack_b,False,,,,,,,
+5abd7ca05542993062266cab,5abd7ca05542993062266cab::working_set_pack_a,False,,,,,,,
+5abd7ca05542993062266cab,5abd7ca05542993062266cab::active_set_pack_a,False,,,,,,,
+5abd7ca05542993062266cab,5abd7ca05542993062266cab::working_set_pack_b,False,,,,,,,
+5abd7ca05542993062266cab,5abd7ca05542993062266cab::active_set_pack_b,False,,,,,,,
+5ae732685542991e8301cbc3,5ae732685542991e8301cbc3::working_set_pack_a,True,"['A', 'C']","['A', 'C']",True,True,True,True,False
+5ae732685542991e8301cbc3,5ae732685542991e8301cbc3::active_set_pack_a,True,"['A', 'C']","['A', 'C']",True,True,True,True,False
+5ae732685542991e8301cbc3,5ae732685542991e8301cbc3::working_set_pack_b,True,"['A', 'C']","['A', 'C']",True,True,True,True,False
+5ae732685542991e8301cbc3,5ae732685542991e8301cbc3::active_set_pack_b,False,,,,,,,
+5a8a2ebc5542996c9b8d5e33,5a8a2ebc5542996c9b8d5e33::working_set_pack_a,True,"['C', 'E']","['C', 'E']",False,False,False,False,False
+5a8a2ebc5542996c9b8d5e33,5a8a2ebc5542996c9b8d5e33::active_set_pack_a,True,"['C', 'E']","['C', 'E']",False,False,False,False,False
+5a8a2ebc5542996c9b8d5e33,5a8a2ebc5542996c9b8d5e33::working_set_pack_b,True,"['C', 'E']","['C', 'E']",False,False,False,False,False
+5a8a2ebc5542996c9b8d5e33,5a8a2ebc5542996c9b8d5e33::active_set_pack_b,True,"['C', 'E']","['C', 'E']",False,False,False,False,False
+5add28c85542992ae4cec4be,5add28c85542992ae4cec4be::working_set_pack_a,True,"['C', 'E']","['C', 'F']",False,False,False,False,False
+5add28c85542992ae4cec4be,5add28c85542992ae4cec4be::active_set_pack_a,True,"['C', 'F']","['C', 'F']",False,False,False,True,False
+5add28c85542992ae4cec4be,5add28c85542992ae4cec4be::working_set_pack_b,True,"['C', 'E']","['C', 'F']",False,False,False,False,False
+5add28c85542992ae4cec4be,5add28c85542992ae4cec4be::active_set_pack_b,True,"['C', 'E']","['C', 'F']",False,False,False,False,False
+5ae78ec5554299540e5a5605,5ae78ec5554299540e5a5605::working_set_pack_a,True,"['D', 'F']","['C', 'D']",False,False,True,False,False
+5ae78ec5554299540e5a5605,5ae78ec5554299540e5a5605::active_set_pack_a,True,"['D', 'F']","['C', 'D']",False,False,True,False,False
+5ae78ec5554299540e5a5605,5ae78ec5554299540e5a5605::working_set_pack_b,True,"['C', 'D']","['C', 'D']",False,False,True,False,False
+5ae78ec5554299540e5a5605,5ae78ec5554299540e5a5605::active_set_pack_b,True,"['C', 'D']","['C', 'D']",False,False,True,False,False
+5a7a52745542996c55b2dd4f,5a7a52745542996c55b2dd4f::working_set_pack_a,False,,,,,,,
+5a7a52745542996c55b2dd4f,5a7a52745542996c55b2dd4f::active_set_pack_a,False,,,,,,,
+5a7a52745542996c55b2dd4f,5a7a52745542996c55b2dd4f::working_set_pack_b,False,,,,,,,
+5a7a52745542996c55b2dd4f,5a7a52745542996c55b2dd4f::active_set_pack_b,False,,,,,,,
+5a74248855429929fddd83e5,5a74248855429929fddd83e5::working_set_pack_a,True,"['E', 'F']","['E', 'F']",False,False,False,False,False
+5a74248855429929fddd83e5,5a74248855429929fddd83e5::active_set_pack_a,True,"['E', 'F']","['E', 'F']",False,False,False,False,False
+5a74248855429929fddd83e5,5a74248855429929fddd83e5::working_set_pack_b,True,"['E', 'F']","['E', 'F']",False,False,False,False,False
+5a74248855429929fddd83e5,5a74248855429929fddd83e5::active_set_pack_b,True,"['E', 'F']","['E', 'F']",False,True,False,False,False
+5abd04f15542996e802b467e,5abd04f15542996e802b467e::working_set_pack_a,False,,,,,,,
+5abd04f15542996e802b467e,5abd04f15542996e802b467e::active_set_pack_a,False,,,,,,,
+5abd04f15542996e802b467e,5abd04f15542996e802b467e::working_set_pack_b,False,,,,,,,
+5abd04f15542996e802b467e,5abd04f15542996e802b467e::active_set_pack_b,False,,,,,,,
+5ac3ad225542995ef918c1da,5ac3ad225542995ef918c1da::working_set_pack_a,True,"['B', 'C']","['B', 'C']",False,False,True,True,False
+5ac3ad225542995ef918c1da,5ac3ad225542995ef918c1da::active_set_pack_a,True,"['B', 'C']","['B', 'C']",True,False,True,True,False
+5ac3ad225542995ef918c1da,5ac3ad225542995ef918c1da::working_set_pack_b,True,"['B', 'C']","['B', 'C']",True,False,True,True,False
+5ac3ad225542995ef918c1da,5ac3ad225542995ef918c1da::active_set_pack_b,True,"['B', 'C']","['B', 'C']",True,False,True,True,False
+5a736bfa5542991f29ee2e03,5a736bfa5542991f29ee2e03::working_set_pack_a,False,,,,,,,
+5a736bfa5542991f29ee2e03,5a736bfa5542991f29ee2e03::active_set_pack_a,False,,,,,,,
+5a736bfa5542991f29ee2e03,5a736bfa5542991f29ee2e03::working_set_pack_b,False,,,,,,,
+5a736bfa5542991f29ee2e03,5a736bfa5542991f29ee2e03::active_set_pack_b,False,,,,,,,
+5a7a0a965542996c55b2dce7,5a7a0a965542996c55b2dce7::working_set_pack_a,True,"['A', 'E']","['B', 'E']",False,False,True,False,False
+5a7a0a965542996c55b2dce7,5a7a0a965542996c55b2dce7::active_set_pack_a,True,"['A', 'E']","['B', 'E']",False,False,True,False,False
+5a7a0a965542996c55b2dce7,5a7a0a965542996c55b2dce7::working_set_pack_b,True,"['A', 'E']","['B', 'E']",False,False,True,False,False
+5a7a0a965542996c55b2dce7,5a7a0a965542996c55b2dce7::active_set_pack_b,True,"['A', 'E']","['B', 'E']",False,False,False,False,False
+5a8ae49155429951533613a3,5a8ae49155429951533613a3::working_set_pack_a,True,"['A', 'C']","['A', 'C']",True,False,False,True,False
+5a8ae49155429951533613a3,5a8ae49155429951533613a3::active_set_pack_a,True,"['A', 'C']","['A', 'C']",True,False,False,False,False
+5a8ae49155429951533613a3,5a8ae49155429951533613a3::working_set_pack_b,True,"['A', 'C']","['A', 'C']",True,False,False,False,False
+5a8ae49155429951533613a3,5a8ae49155429951533613a3::active_set_pack_b,True,"['A', 'C']","['A', 'C']",True,False,False,True,False
+5ab99943554299131ca42391,5ab99943554299131ca42391::working_set_pack_a,False,,,,,,,
+5ab99943554299131ca42391,5ab99943554299131ca42391::active_set_pack_a,False,,,,,,,
+5ab99943554299131ca42391,5ab99943554299131ca42391::working_set_pack_b,False,,,,,,,
+5ab99943554299131ca42391,5ab99943554299131ca42391::active_set_pack_b,False,,,,,,,
+5ab70446554299110f219a94,5ab70446554299110f219a94::working_set_pack_a,True,"['E', 'F']","['C', 'F']",False,False,True,False,False
+5ab70446554299110f219a94,5ab70446554299110f219a94::active_set_pack_a,True,"['E', 'F']","['C', 'F']",False,False,True,False,False
+5ab70446554299110f219a94,5ab70446554299110f219a94::working_set_pack_b,True,"['E', 'F']","['C', 'F']",False,False,True,False,False
+5ab70446554299110f219a94,5ab70446554299110f219a94::active_set_pack_b,True,"['E', 'F']","['C', 'F']",False,False,True,False,False
+5ae6038155429929b0807a55,5ae6038155429929b0807a55::working_set_pack_a,True,"['B', 'C']","['C', 'D']",True,True,True,False,False
+5ae6038155429929b0807a55,5ae6038155429929b0807a55::active_set_pack_a,True,"['B', 'C']","['C', 'D']",True,True,True,False,True
+5ae6038155429929b0807a55,5ae6038155429929b0807a55::working_set_pack_b,False,,,,,,,
+5ae6038155429929b0807a55,5ae6038155429929b0807a55::active_set_pack_b,False,,,,,,,
+5a71458e5542994082a3e738,5a71458e5542994082a3e738::working_set_pack_a,False,,,,,,,
+5a71458e5542994082a3e738,5a71458e5542994082a3e738::active_set_pack_a,False,,,,,,,
+5a71458e5542994082a3e738,5a71458e5542994082a3e738::working_set_pack_b,False,,,,,,,
+5a71458e5542994082a3e738,5a71458e5542994082a3e738::active_set_pack_b,False,,,,,,,
+5ae500fd55429908b63264d8,5ae500fd55429908b63264d8::working_set_pack_a,True,"['A', 'D']","['A', 'D']",False,False,True,True,True
+5ae500fd55429908b63264d8,5ae500fd55429908b63264d8::active_set_pack_a,False,,,,,,,
+5ae500fd55429908b63264d8,5ae500fd55429908b63264d8::working_set_pack_b,True,"['A', 'D']","['A', 'D']",False,False,False,False,False
+5ae500fd55429908b63264d8,5ae500fd55429908b63264d8::active_set_pack_b,True,"['A', 'D']","['A', 'D']",True,False,True,False,False
+5a8514545542992a431d1ad2,5a8514545542992a431d1ad2::working_set_pack_a,True,"['D', 'E']","['D', 'E']",True,True,False,False,False
+5a8514545542992a431d1ad2,5a8514545542992a431d1ad2::active_set_pack_a,True,"['D', 'E']","['D', 'E']",True,True,False,False,False
+5a8514545542992a431d1ad2,5a8514545542992a431d1ad2::working_set_pack_b,True,"['D', 'E']","['D', 'E']",True,True,False,False,False
+5a8514545542992a431d1ad2,5a8514545542992a431d1ad2::active_set_pack_b,True,"['D', 'E']","['D', 'E']",True,True,False,False,False
+5ae3345f55429928c4239682,5ae3345f55429928c4239682::working_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5ae3345f55429928c4239682,5ae3345f55429928c4239682::active_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5ae3345f55429928c4239682,5ae3345f55429928c4239682::working_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5ae3345f55429928c4239682,5ae3345f55429928c4239682::active_set_pack_b,True,"['B', 'F']","['A', 'B']",False,False,False,False,False
+5ac1b48f55429963665198f3,5ac1b48f55429963665198f3::working_set_pack_a,True,"['D', 'E']","['C', 'D']",True,True,True,False,False
+5ac1b48f55429963665198f3,5ac1b48f55429963665198f3::active_set_pack_a,True,"['D', 'E']","['C', 'D']",True,True,True,False,False
+5ac1b48f55429963665198f3,5ac1b48f55429963665198f3::working_set_pack_b,False,,,,,,,
+5ac1b48f55429963665198f3,5ac1b48f55429963665198f3::active_set_pack_b,True,"['D', 'E']","['C', 'D']",True,True,True,False,False
+5ab9d58855429939ce03dc3a,5ab9d58855429939ce03dc3a::working_set_pack_a,True,"['B', 'C']","['A', 'C']",True,True,True,True,True
+5ab9d58855429939ce03dc3a,5ab9d58855429939ce03dc3a::active_set_pack_a,True,"['C', 'E']","['A', 'C']",True,True,True,True,False
+5ab9d58855429939ce03dc3a,5ab9d58855429939ce03dc3a::working_set_pack_b,True,"['B', 'C']","['A', 'C']",True,True,False,True,False
+5ab9d58855429939ce03dc3a,5ab9d58855429939ce03dc3a::active_set_pack_b,True,"['B', 'C']","['A', 'C']",True,True,False,True,False
+5ab9121555429919ba4e238a,5ab9121555429919ba4e238a::working_set_pack_a,True,"['B', 'F']","['B', 'E']",False,True,False,False,False
+5ab9121555429919ba4e238a,5ab9121555429919ba4e238a::active_set_pack_a,True,"['B', 'F']","['B', 'E']",True,True,False,False,False
+5ab9121555429919ba4e238a,5ab9121555429919ba4e238a::working_set_pack_b,True,"['E', 'F']","['B', 'E']",False,True,False,False,False
+5ab9121555429919ba4e238a,5ab9121555429919ba4e238a::active_set_pack_b,True,"['B', 'F']","['B', 'E']",False,False,False,False,False
+5abf037a5542993fe9a41dbe,5abf037a5542993fe9a41dbe::working_set_pack_a,True,"['A', 'B']","['D', 'E']",False,False,True,True,False
+5abf037a5542993fe9a41dbe,5abf037a5542993fe9a41dbe::active_set_pack_a,True,"['A', 'B']","['D', 'E']",False,False,True,True,False
+5abf037a5542993fe9a41dbe,5abf037a5542993fe9a41dbe::working_set_pack_b,False,,,,,,,
+5abf037a5542993fe9a41dbe,5abf037a5542993fe9a41dbe::active_set_pack_b,True,"['B', 'D']","['D', 'E']",True,False,True,True,False
+5a74f2ff5542993748c89748,5a74f2ff5542993748c89748::working_set_pack_a,True,"['A', 'E']","['A', 'E']",True,True,False,False,False
+5a74f2ff5542993748c89748,5a74f2ff5542993748c89748::active_set_pack_a,False,,,,,,,
+5a74f2ff5542993748c89748,5a74f2ff5542993748c89748::working_set_pack_b,True,"['A', 'E']","['A', 'E']",False,False,False,False,False
+5a74f2ff5542993748c89748,5a74f2ff5542993748c89748::active_set_pack_b,True,"['E', 'F']","['A', 'E']",False,False,False,False,False
+5ac52b495542994611c8b3de,5ac52b495542994611c8b3de::working_set_pack_a,True,"['C', 'E']","['A', 'C']",False,False,True,False,False
+5ac52b495542994611c8b3de,5ac52b495542994611c8b3de::active_set_pack_a,True,"['C', 'E']","['A', 'C']",False,False,True,False,True
+5ac52b495542994611c8b3de,5ac52b495542994611c8b3de::working_set_pack_b,True,"['C', 'E']","['A', 'C']",False,False,True,False,False
+5ac52b495542994611c8b3de,5ac52b495542994611c8b3de::active_set_pack_b,True,"['C', 'F']","['A', 'C']",False,False,True,False,False
+5a72b1c25542992359bc3172,5a72b1c25542992359bc3172::working_set_pack_a,False,,,,,,,
+5a72b1c25542992359bc3172,5a72b1c25542992359bc3172::active_set_pack_a,False,,,,,,,
+5a72b1c25542992359bc3172,5a72b1c25542992359bc3172::working_set_pack_b,False,,,,,,,
+5a72b1c25542992359bc3172,5a72b1c25542992359bc3172::active_set_pack_b,False,,,,,,,
+5ab39701554299233954ff5e,5ab39701554299233954ff5e::working_set_pack_a,True,"['C', 'D']","['C', 'D']",False,False,True,False,False
+5ab39701554299233954ff5e,5ab39701554299233954ff5e::active_set_pack_a,True,"['C', 'D']","['C', 'D']",False,False,True,False,False
+5ab39701554299233954ff5e,5ab39701554299233954ff5e::working_set_pack_b,True,"['D', 'E']","['C', 'D']",False,False,True,False,False
+5ab39701554299233954ff5e,5ab39701554299233954ff5e::active_set_pack_b,True,"['C', 'D']","['C', 'D']",False,False,True,False,False
+5adf8d5b5542995534e8c7e1,5adf8d5b5542995534e8c7e1::working_set_pack_a,False,,,,,,,
+5adf8d5b5542995534e8c7e1,5adf8d5b5542995534e8c7e1::active_set_pack_a,False,,,,,,,
+5adf8d5b5542995534e8c7e1,5adf8d5b5542995534e8c7e1::working_set_pack_b,False,,,,,,,
+5adf8d5b5542995534e8c7e1,5adf8d5b5542995534e8c7e1::active_set_pack_b,False,,,,,,,
+5ae5b3df5542992663a4f20b,5ae5b3df5542992663a4f20b::working_set_pack_a,False,,,,,,,
+5ae5b3df5542992663a4f20b,5ae5b3df5542992663a4f20b::active_set_pack_a,True,"['C', 'D']","['C', 'D']",True,True,True,True,False
+5ae5b3df5542992663a4f20b,5ae5b3df5542992663a4f20b::working_set_pack_b,False,,,,,,,
+5ae5b3df5542992663a4f20b,5ae5b3df5542992663a4f20b::active_set_pack_b,False,,,,,,,
+5ac2423755429951e9e684ff,5ac2423755429951e9e684ff::working_set_pack_a,True,"['D', 'F']","['A', 'F']",False,False,False,False,False
+5ac2423755429951e9e684ff,5ac2423755429951e9e684ff::active_set_pack_a,True,"['D', 'F']","['A', 'F']",False,False,False,False,False
+5ac2423755429951e9e684ff,5ac2423755429951e9e684ff::working_set_pack_b,True,"['D', 'F']","['A', 'F']",True,True,False,False,False
+5ac2423755429951e9e684ff,5ac2423755429951e9e684ff::active_set_pack_b,True,"['D', 'F']","['A', 'F']",False,False,False,False,False
+5a822d4655429926c1cdae45,5a822d4655429926c1cdae45::working_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5a822d4655429926c1cdae45,5a822d4655429926c1cdae45::active_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5a822d4655429926c1cdae45,5a822d4655429926c1cdae45::working_set_pack_b,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5a822d4655429926c1cdae45,5a822d4655429926c1cdae45::active_set_pack_b,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5ab9672655429970cfb8eabd,5ab9672655429970cfb8eabd::working_set_pack_a,True,"['B', 'D']","['C', 'D']",False,True,True,False,False
+5ab9672655429970cfb8eabd,5ab9672655429970cfb8eabd::active_set_pack_a,True,"['B', 'D']","['C', 'D']",False,True,True,False,False
+5ab9672655429970cfb8eabd,5ab9672655429970cfb8eabd::working_set_pack_b,True,"['B', 'D']","['C', 'D']",False,True,True,False,False
+5ab9672655429970cfb8eabd,5ab9672655429970cfb8eabd::active_set_pack_b,False,,,,,,,
+5abb1f745542996cc5e49fb5,5abb1f745542996cc5e49fb5::working_set_pack_a,True,"['A', 'F']","['A', 'F']",True,True,False,False,False
+5abb1f745542996cc5e49fb5,5abb1f745542996cc5e49fb5::active_set_pack_a,True,"['A', 'F']","['A', 'F']",True,True,False,False,False
+5abb1f745542996cc5e49fb5,5abb1f745542996cc5e49fb5::working_set_pack_b,True,"['A', 'F']","['A', 'F']",True,True,False,False,False
+5abb1f745542996cc5e49fb5,5abb1f745542996cc5e49fb5::active_set_pack_b,True,"['E', 'F']","['A', 'F']",True,True,False,True,False
+5abbbd0f55429931dba144d5,5abbbd0f55429931dba144d5::working_set_pack_a,True,"['B', 'D']","['B', 'D']",True,False,True,True,False
+5abbbd0f55429931dba144d5,5abbbd0f55429931dba144d5::active_set_pack_a,True,"['B', 'D']","['B', 'D']",True,False,True,True,False
+5abbbd0f55429931dba144d5,5abbbd0f55429931dba144d5::working_set_pack_b,False,,,,,,,
+5abbbd0f55429931dba144d5,5abbbd0f55429931dba144d5::active_set_pack_b,True,"['B', 'D']","['B', 'D']",False,False,True,True,False
+5ac3e8c65542997ea680c993,5ac3e8c65542997ea680c993::working_set_pack_a,True,"['D', 'F']","['E', 'F']",False,True,True,False,False
+5ac3e8c65542997ea680c993,5ac3e8c65542997ea680c993::active_set_pack_a,True,"['D', 'F']","['E', 'F']",False,False,True,False,False
+5ac3e8c65542997ea680c993,5ac3e8c65542997ea680c993::working_set_pack_b,False,,,,,,,
+5ac3e8c65542997ea680c993,5ac3e8c65542997ea680c993::active_set_pack_b,True,"['D', 'F']","['E', 'F']",False,False,True,False,False
+5a87390555429960ec39b769,5a87390555429960ec39b769::working_set_pack_a,True,"['A', 'E']","['A', 'E']",False,True,False,False,False
+5a87390555429960ec39b769,5a87390555429960ec39b769::active_set_pack_a,True,"['A', 'E']","['A', 'E']",False,True,False,False,False
+5a87390555429960ec39b769,5a87390555429960ec39b769::working_set_pack_b,True,"['C', 'E']","['A', 'E']",False,True,False,False,False
+5a87390555429960ec39b769,5a87390555429960ec39b769::active_set_pack_b,True,"['C', 'E']","['A', 'E']",False,False,False,False,False
+5a8766cb5542996e4f3087d6,5a8766cb5542996e4f3087d6::working_set_pack_a,True,"['D', 'E']","['D', 'E']",False,False,False,False,False
+5a8766cb5542996e4f3087d6,5a8766cb5542996e4f3087d6::active_set_pack_a,True,"['D', 'E']","['D', 'E']",False,False,False,False,False
+5a8766cb5542996e4f3087d6,5a8766cb5542996e4f3087d6::working_set_pack_b,True,"['D', 'E']","['D', 'E']",False,True,False,False,False
+5a8766cb5542996e4f3087d6,5a8766cb5542996e4f3087d6::active_set_pack_b,True,"['D', 'E']","['D', 'E']",True,True,False,False,False
+5a7ca54c55429935c91b527f,5a7ca54c55429935c91b527f::working_set_pack_a,False,,,,,,,
+5a7ca54c55429935c91b527f,5a7ca54c55429935c91b527f::active_set_pack_a,False,,,,,,,
+5a7ca54c55429935c91b527f,5a7ca54c55429935c91b527f::working_set_pack_b,False,,,,,,,
+5a7ca54c55429935c91b527f,5a7ca54c55429935c91b527f::active_set_pack_b,False,,,,,,,
+5a90c2b35542995651fb51df,5a90c2b35542995651fb51df::working_set_pack_a,False,,,,,,,
+5a90c2b35542995651fb51df,5a90c2b35542995651fb51df::active_set_pack_a,False,,,,,,,
+5a90c2b35542995651fb51df,5a90c2b35542995651fb51df::working_set_pack_b,False,,,,,,,
+5a90c2b35542995651fb51df,5a90c2b35542995651fb51df::active_set_pack_b,False,,,,,,,
+5a74a3bd55429979e28829da,5a74a3bd55429979e28829da::working_set_pack_a,False,,,,,,,
+5a74a3bd55429979e28829da,5a74a3bd55429979e28829da::active_set_pack_a,False,,,,,,,
+5a74a3bd55429979e28829da,5a74a3bd55429979e28829da::working_set_pack_b,True,"['E', 'F']","['B', 'E']",False,False,False,False,True
+5a74a3bd55429979e28829da,5a74a3bd55429979e28829da::active_set_pack_b,True,"['E', 'F']","['B', 'E']",False,True,True,False,False
+5add3b665542997545bbbcd2,5add3b665542997545bbbcd2::working_set_pack_a,False,,,,,,,
+5add3b665542997545bbbcd2,5add3b665542997545bbbcd2::active_set_pack_a,False,,,,,,,
+5add3b665542997545bbbcd2,5add3b665542997545bbbcd2::working_set_pack_b,False,,,,,,,
+5add3b665542997545bbbcd2,5add3b665542997545bbbcd2::active_set_pack_b,False,,,,,,,
+5ab728e45542992aa3b8c7b4,5ab728e45542992aa3b8c7b4::working_set_pack_a,False,,,,,,,
+5ab728e45542992aa3b8c7b4,5ab728e45542992aa3b8c7b4::active_set_pack_a,False,,,,,,,
+5ab728e45542992aa3b8c7b4,5ab728e45542992aa3b8c7b4::working_set_pack_b,False,,,,,,,
+5ab728e45542992aa3b8c7b4,5ab728e45542992aa3b8c7b4::active_set_pack_b,False,,,,,,,
+5a74fbe55542996c70cfae63,5a74fbe55542996c70cfae63::working_set_pack_a,False,,,,,,,
+5a74fbe55542996c70cfae63,5a74fbe55542996c70cfae63::active_set_pack_a,False,,,,,,,
+5a74fbe55542996c70cfae63,5a74fbe55542996c70cfae63::working_set_pack_b,False,,,,,,,
+5a74fbe55542996c70cfae63,5a74fbe55542996c70cfae63::active_set_pack_b,False,,,,,,,
+5ab30bbb55429976abd1bc39,5ab30bbb55429976abd1bc39::working_set_pack_a,True,"['A', 'D']","['A', 'D']",True,True,True,True,False
+5ab30bbb55429976abd1bc39,5ab30bbb55429976abd1bc39::active_set_pack_a,True,"['A', 'D']","['A', 'D']",False,True,True,False,False
+5ab30bbb55429976abd1bc39,5ab30bbb55429976abd1bc39::working_set_pack_b,True,"['A', 'D']","['A', 'D']",True,True,False,True,False
+5ab30bbb55429976abd1bc39,5ab30bbb55429976abd1bc39::active_set_pack_b,True,"['A', 'D']","['A', 'D']",True,True,False,False,False
+5abdbeed5542993062266cdd,5abdbeed5542993062266cdd::working_set_pack_a,True,"['B', 'F']","['C', 'E']",False,False,True,False,False
+5abdbeed5542993062266cdd,5abdbeed5542993062266cdd::active_set_pack_a,True,"['B', 'F']","['C', 'E']",False,False,True,True,False
+5abdbeed5542993062266cdd,5abdbeed5542993062266cdd::working_set_pack_b,True,"['B', 'F']","['C', 'E']",False,False,True,False,False
+5abdbeed5542993062266cdd,5abdbeed5542993062266cdd::active_set_pack_b,True,"['B', 'C']","['C', 'E']",True,False,True,True,False
+5ab6e84a554299710c8d1fab,5ab6e84a554299710c8d1fab::working_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,True,False,False
+5ab6e84a554299710c8d1fab,5ab6e84a554299710c8d1fab::active_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,True,False,False
+5ab6e84a554299710c8d1fab,5ab6e84a554299710c8d1fab::working_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,True,False,False
+5ab6e84a554299710c8d1fab,5ab6e84a554299710c8d1fab::active_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,True,False,False
+5a90454855429933b8a204bb,5a90454855429933b8a204bb::working_set_pack_a,True,"['B', 'D']","['B', 'E']",False,False,False,False,False
+5a90454855429933b8a204bb,5a90454855429933b8a204bb::active_set_pack_a,True,"['B', 'D']","['B', 'E']",False,False,False,False,False
+5a90454855429933b8a204bb,5a90454855429933b8a204bb::working_set_pack_b,True,"['B', 'D']","['B', 'E']",False,False,False,False,False
+5a90454855429933b8a204bb,5a90454855429933b8a204bb::active_set_pack_b,True,"['B', 'D']","['B', 'E']",False,False,False,False,False
+5abeed7e5542993fe9a41da0,5abeed7e5542993fe9a41da0::working_set_pack_a,False,,,,,,,
+5abeed7e5542993fe9a41da0,5abeed7e5542993fe9a41da0::active_set_pack_a,False,,,,,,,
+5abeed7e5542993fe9a41da0,5abeed7e5542993fe9a41da0::working_set_pack_b,False,,,,,,,
+5abeed7e5542993fe9a41da0,5abeed7e5542993fe9a41da0::active_set_pack_b,False,,,,,,,
+5ab5141a5542991779162d70,5ab5141a5542991779162d70::working_set_pack_a,True,"['D', 'E']","['D', 'E']",True,True,False,False,False
+5ab5141a5542991779162d70,5ab5141a5542991779162d70::active_set_pack_a,True,"['D', 'E']","['D', 'E']",True,True,False,False,False
+5ab5141a5542991779162d70,5ab5141a5542991779162d70::working_set_pack_b,False,,,,,,,
+5ab5141a5542991779162d70,5ab5141a5542991779162d70::active_set_pack_b,False,,,,,,,
+5a7a0d455542990783324e13,5a7a0d455542990783324e13::working_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,True,True,False
+5a7a0d455542990783324e13,5a7a0d455542990783324e13::active_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,True,True,False
+5a7a0d455542990783324e13,5a7a0d455542990783324e13::working_set_pack_b,True,"['B', 'F']","['B', 'F']",False,False,False,True,False
+5a7a0d455542990783324e13,5a7a0d455542990783324e13::active_set_pack_b,True,"['B', 'F']","['B', 'F']",False,False,True,True,False
+5ab42ebd5542992339550047,5ab42ebd5542992339550047::working_set_pack_a,False,,,,,,,
+5ab42ebd5542992339550047,5ab42ebd5542992339550047::active_set_pack_a,False,,,,,,,
+5ab42ebd5542992339550047,5ab42ebd5542992339550047::working_set_pack_b,False,,,,,,,
+5ab42ebd5542992339550047,5ab42ebd5542992339550047::active_set_pack_b,True,"['B', 'F']","['B', 'F']",True,False,True,True,False
+5a804fc45542992bc0c4a6f0,5a804fc45542992bc0c4a6f0::working_set_pack_a,True,"['B', 'E']","['B', 'E']",False,False,False,False,False
+5a804fc45542992bc0c4a6f0,5a804fc45542992bc0c4a6f0::active_set_pack_a,True,"['B', 'E']","['B', 'E']",False,False,False,False,False
+5a804fc45542992bc0c4a6f0,5a804fc45542992bc0c4a6f0::working_set_pack_b,True,"['B', 'E']","['B', 'E']",False,False,False,False,False
+5a804fc45542992bc0c4a6f0,5a804fc45542992bc0c4a6f0::active_set_pack_b,True,"['B', 'E']","['B', 'E']",False,False,False,False,False
+5add85b65542997545bbbd61,5add85b65542997545bbbd61::working_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5add85b65542997545bbbd61,5add85b65542997545bbbd61::active_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,False,True,False
+5add85b65542997545bbbd61,5add85b65542997545bbbd61::working_set_pack_b,True,"['B', 'C']","['B', 'F']",False,False,False,False,False
+5add85b65542997545bbbd61,5add85b65542997545bbbd61::active_set_pack_b,True,"['B', 'C']","['B', 'F']",False,False,False,False,False
+5ac068d25542996f0d89cba2,5ac068d25542996f0d89cba2::working_set_pack_a,False,,,,,,,
+5ac068d25542996f0d89cba2,5ac068d25542996f0d89cba2::active_set_pack_a,False,,,,,,,
+5ac068d25542996f0d89cba2,5ac068d25542996f0d89cba2::working_set_pack_b,False,,,,,,,
+5ac068d25542996f0d89cba2,5ac068d25542996f0d89cba2::active_set_pack_b,False,,,,,,,
+5ade8f5e55429975fa854f11,5ade8f5e55429975fa854f11::working_set_pack_a,True,"['B', 'F']","['B', 'F']",True,True,True,True,False
+5ade8f5e55429975fa854f11,5ade8f5e55429975fa854f11::active_set_pack_a,True,"['B', 'F']","['B', 'F']",True,True,True,True,False
+5ade8f5e55429975fa854f11,5ade8f5e55429975fa854f11::working_set_pack_b,True,"['B', 'F']","['B', 'F']",True,True,True,True,False
+5ade8f5e55429975fa854f11,5ade8f5e55429975fa854f11::active_set_pack_b,True,"['B', 'F']","['B', 'F']",True,False,True,True,False
+5ac1b7495542994ab5c67dd9,5ac1b7495542994ab5c67dd9::working_set_pack_a,True,"['C', 'D']","['C', 'D']",True,True,False,False,False
+5ac1b7495542994ab5c67dd9,5ac1b7495542994ab5c67dd9::active_set_pack_a,True,"['C', 'D']","['C', 'D']",True,True,False,True,False
+5ac1b7495542994ab5c67dd9,5ac1b7495542994ab5c67dd9::working_set_pack_b,True,"['C', 'D']","['C', 'D']",True,True,False,False,False
+5ac1b7495542994ab5c67dd9,5ac1b7495542994ab5c67dd9::active_set_pack_b,True,"['C', 'D']","['C', 'D']",True,True,False,True,False
+5ae4b3da55429913cc2044d6,5ae4b3da55429913cc2044d6::working_set_pack_a,True,"['C', 'F']","['C', 'F']",True,False,False,True,False
+5ae4b3da55429913cc2044d6,5ae4b3da55429913cc2044d6::active_set_pack_a,True,"['C', 'F']","['C', 'F']",False,False,False,True,False
+5ae4b3da55429913cc2044d6,5ae4b3da55429913cc2044d6::working_set_pack_b,True,"['C', 'F']","['C', 'F']",True,False,True,True,False
+5ae4b3da55429913cc2044d6,5ae4b3da55429913cc2044d6::active_set_pack_b,True,"['A', 'C']","['C', 'F']",False,False,False,False,False
+5ab93287554299753720f78f,5ab93287554299753720f78f::working_set_pack_a,False,,,,,,,
+5ab93287554299753720f78f,5ab93287554299753720f78f::active_set_pack_a,False,,,,,,,
+5ab93287554299753720f78f,5ab93287554299753720f78f::working_set_pack_b,False,,,,,,,
+5ab93287554299753720f78f,5ab93287554299753720f78f::active_set_pack_b,False,,,,,,,
+5ae64cbf5542992ae0d162c1,5ae64cbf5542992ae0d162c1::working_set_pack_a,False,,,,,,,
+5ae64cbf5542992ae0d162c1,5ae64cbf5542992ae0d162c1::active_set_pack_a,False,,,,,,,
+5ae64cbf5542992ae0d162c1,5ae64cbf5542992ae0d162c1::working_set_pack_b,False,,,,,,,
+5ae64cbf5542992ae0d162c1,5ae64cbf5542992ae0d162c1::active_set_pack_b,False,,,,,,,
+5abae52a5542996cc5e49eea,5abae52a5542996cc5e49eea::working_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5abae52a5542996cc5e49eea,5abae52a5542996cc5e49eea::active_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5abae52a5542996cc5e49eea,5abae52a5542996cc5e49eea::working_set_pack_b,True,"['B', 'F']","['B', 'F']",True,True,False,False,False
+5abae52a5542996cc5e49eea,5abae52a5542996cc5e49eea::active_set_pack_b,True,"['B', 'F']","['B', 'F']",True,True,False,False,False
+5ae2e27155429928c423952a,5ae2e27155429928c423952a::working_set_pack_a,False,,,,,,,
+5ae2e27155429928c423952a,5ae2e27155429928c423952a::active_set_pack_a,False,,,,,,,
+5ae2e27155429928c423952a,5ae2e27155429928c423952a::working_set_pack_b,True,"['E', 'F']","['E', 'F']",True,True,True,False,False
+5ae2e27155429928c423952a,5ae2e27155429928c423952a::active_set_pack_b,True,"['E', 'F']","['E', 'F']",True,True,True,False,False
+5a80d30655429938b61421fe,5a80d30655429938b61421fe::working_set_pack_a,True,"['E', 'F']","['C', 'E']",False,False,True,False,False
+5a80d30655429938b61421fe,5a80d30655429938b61421fe::active_set_pack_a,True,"['E', 'F']","['C', 'E']",False,False,True,False,False
+5a80d30655429938b61421fe,5a80d30655429938b61421fe::working_set_pack_b,True,"['E', 'F']","['C', 'E']",True,True,True,False,False
+5a80d30655429938b61421fe,5a80d30655429938b61421fe::active_set_pack_b,True,"['E', 'F']","['C', 'E']",False,False,True,False,False
+5a77bd595542995d83181291,5a77bd595542995d83181291::working_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5a77bd595542995d83181291,5a77bd595542995d83181291::active_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5a77bd595542995d83181291,5a77bd595542995d83181291::working_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5a77bd595542995d83181291,5a77bd595542995d83181291::active_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5abffc58554299012d1db552,5abffc58554299012d1db552::working_set_pack_a,True,"['C', 'E']","['C', 'E']",True,True,False,False,False
+5abffc58554299012d1db552,5abffc58554299012d1db552::active_set_pack_a,True,"['C', 'E']","['C', 'E']",True,True,False,False,False
+5abffc58554299012d1db552,5abffc58554299012d1db552::working_set_pack_b,True,"['C', 'E']","['C', 'E']",True,True,False,False,False
+5abffc58554299012d1db552,5abffc58554299012d1db552::active_set_pack_b,True,"['A', 'C']","['C', 'E']",True,True,False,False,False
+5ac12fda5542994d76dccdb0,5ac12fda5542994d76dccdb0::working_set_pack_a,True,"['B', 'D']","['B', 'E']",False,False,False,False,False
+5ac12fda5542994d76dccdb0,5ac12fda5542994d76dccdb0::active_set_pack_a,True,"['B', 'D']","['B', 'E']",False,False,False,False,False
+5ac12fda5542994d76dccdb0,5ac12fda5542994d76dccdb0::working_set_pack_b,True,"['A', 'E']","['B', 'E']",False,False,False,False,False
+5ac12fda5542994d76dccdb0,5ac12fda5542994d76dccdb0::active_set_pack_b,True,"['A', 'E']","['B', 'E']",False,False,False,False,False
+5a8e171b554299068b959e5a,5a8e171b554299068b959e5a::working_set_pack_a,True,"['A', 'F']","['A', 'F']",False,False,False,False,False
+5a8e171b554299068b959e5a,5a8e171b554299068b959e5a::active_set_pack_a,True,"['A', 'F']","['A', 'F']",False,False,False,True,False
+5a8e171b554299068b959e5a,5a8e171b554299068b959e5a::working_set_pack_b,True,"['A', 'F']","['A', 'F']",False,False,False,False,False
+5a8e171b554299068b959e5a,5a8e171b554299068b959e5a::active_set_pack_b,True,"['A', 'F']","['A', 'F']",False,False,False,False,False
+5ae377a35542994393b9e6db,5ae377a35542994393b9e6db::working_set_pack_a,True,"['B', 'D']","['B', 'D']",False,False,False,True,False
+5ae377a35542994393b9e6db,5ae377a35542994393b9e6db::active_set_pack_a,True,"['B', 'D']","['B', 'D']",False,False,False,False,False
+5ae377a35542994393b9e6db,5ae377a35542994393b9e6db::working_set_pack_b,True,"['B', 'D']","['B', 'D']",False,False,False,False,False
+5ae377a35542994393b9e6db,5ae377a35542994393b9e6db::active_set_pack_b,True,"['A', 'B']","['B', 'D']",False,False,False,False,False
+5a7906f55542990784727792,5a7906f55542990784727792::working_set_pack_a,False,,,,,,,
+5a7906f55542990784727792,5a7906f55542990784727792::active_set_pack_a,False,,,,,,,
+5a7906f55542990784727792,5a7906f55542990784727792::working_set_pack_b,False,,,,,,,
+5a7906f55542990784727792,5a7906f55542990784727792::active_set_pack_b,False,,,,,,,
+5ab74412554299110f219ae8,5ab74412554299110f219ae8::working_set_pack_a,False,,,,,,,
+5ab74412554299110f219ae8,5ab74412554299110f219ae8::active_set_pack_a,False,,,,,,,
+5ab74412554299110f219ae8,5ab74412554299110f219ae8::working_set_pack_b,False,,,,,,,
+5ab74412554299110f219ae8,5ab74412554299110f219ae8::active_set_pack_b,False,,,,,,,
+5ac4bfd05542997ea680caab,5ac4bfd05542997ea680caab::working_set_pack_a,False,,,,,,,
+5ac4bfd05542997ea680caab,5ac4bfd05542997ea680caab::active_set_pack_a,False,,,,,,,
+5ac4bfd05542997ea680caab,5ac4bfd05542997ea680caab::working_set_pack_b,False,,,,,,,
+5ac4bfd05542997ea680caab,5ac4bfd05542997ea680caab::active_set_pack_b,False,,,,,,,
+5ab72adb5542993667793f5d,5ab72adb5542993667793f5d::working_set_pack_a,False,,,,,,,
+5ab72adb5542993667793f5d,5ab72adb5542993667793f5d::active_set_pack_a,False,,,,,,,
+5ab72adb5542993667793f5d,5ab72adb5542993667793f5d::working_set_pack_b,False,,,,,,,
+5ab72adb5542993667793f5d,5ab72adb5542993667793f5d::active_set_pack_b,False,,,,,,,
+5abb06bc554299232ef4a3bb,5abb06bc554299232ef4a3bb::working_set_pack_a,False,,,,,,,
+5abb06bc554299232ef4a3bb,5abb06bc554299232ef4a3bb::active_set_pack_a,False,,,,,,,
+5abb06bc554299232ef4a3bb,5abb06bc554299232ef4a3bb::working_set_pack_b,False,,,,,,,
+5abb06bc554299232ef4a3bb,5abb06bc554299232ef4a3bb::active_set_pack_b,False,,,,,,,
+5ae3cf7e5542990afbd1e1e2,5ae3cf7e5542990afbd1e1e2::working_set_pack_a,True,"['A', 'C']","['A', 'C']",False,False,False,False,False
+5ae3cf7e5542990afbd1e1e2,5ae3cf7e5542990afbd1e1e2::active_set_pack_a,True,"['A', 'C']","['A', 'C']",False,False,False,False,False
+5ae3cf7e5542990afbd1e1e2,5ae3cf7e5542990afbd1e1e2::working_set_pack_b,True,"['A', 'C']","['A', 'C']",False,False,True,True,False
+5ae3cf7e5542990afbd1e1e2,5ae3cf7e5542990afbd1e1e2::active_set_pack_b,True,"['A', 'C']","['A', 'C']",False,True,True,False,False
+5a7315015542994cef4bc448,5a7315015542994cef4bc448::working_set_pack_a,False,,,,,,,
+5a7315015542994cef4bc448,5a7315015542994cef4bc448::active_set_pack_a,False,,,,,,,
+5a7315015542994cef4bc448,5a7315015542994cef4bc448::working_set_pack_b,False,,,,,,,
+5a7315015542994cef4bc448,5a7315015542994cef4bc448::active_set_pack_b,False,,,,,,,
+5ab1ce395542997061209579,5ab1ce395542997061209579::working_set_pack_a,False,,,,,,,
+5ab1ce395542997061209579,5ab1ce395542997061209579::active_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5ab1ce395542997061209579,5ab1ce395542997061209579::working_set_pack_b,False,,,,,,,
+5ab1ce395542997061209579,5ab1ce395542997061209579::active_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5a8afba155429949d91db458,5a8afba155429949d91db458::working_set_pack_a,False,,,,,,,
+5a8afba155429949d91db458,5a8afba155429949d91db458::active_set_pack_a,False,,,,,,,
+5a8afba155429949d91db458,5a8afba155429949d91db458::working_set_pack_b,False,,,,,,,
+5a8afba155429949d91db458,5a8afba155429949d91db458::active_set_pack_b,False,,,,,,,
+5ade5a245542997c77adee0c,5ade5a245542997c77adee0c::working_set_pack_a,True,"['C', 'F']","['C', 'E']",False,True,False,False,False
+5ade5a245542997c77adee0c,5ade5a245542997c77adee0c::active_set_pack_a,True,"['C', 'E']","['C', 'E']",True,True,False,False,False
+5ade5a245542997c77adee0c,5ade5a245542997c77adee0c::working_set_pack_b,True,"['C', 'F']","['C', 'E']",False,True,False,False,False
+5ade5a245542997c77adee0c,5ade5a245542997c77adee0c::active_set_pack_b,True,"['C', 'F']","['C', 'E']",False,True,False,False,False
+5ae65d055542996d980e7b14,5ae65d055542996d980e7b14::working_set_pack_a,True,"['C', 'D']","['C', 'D']",True,True,False,False,False
+5ae65d055542996d980e7b14,5ae65d055542996d980e7b14::active_set_pack_a,True,"['C', 'D']","['C', 'D']",True,True,False,True,False
+5ae65d055542996d980e7b14,5ae65d055542996d980e7b14::working_set_pack_b,True,"['C', 'D']","['C', 'D']",True,True,True,False,False
+5ae65d055542996d980e7b14,5ae65d055542996d980e7b14::active_set_pack_b,True,"['C', 'D']","['C', 'D']",True,True,False,True,False
+5a8a698255429930ff3c0dcf,5a8a698255429930ff3c0dcf::working_set_pack_a,True,"['B', 'D']","['B', 'D']",False,False,True,True,False
+5a8a698255429930ff3c0dcf,5a8a698255429930ff3c0dcf::active_set_pack_a,True,"['B', 'D']","['B', 'D']",False,False,True,False,False
+5a8a698255429930ff3c0dcf,5a8a698255429930ff3c0dcf::working_set_pack_b,True,"['B', 'D']","['B', 'D']",False,False,True,True,False
+5a8a698255429930ff3c0dcf,5a8a698255429930ff3c0dcf::active_set_pack_b,True,"['B', 'D']","['B', 'D']",False,False,True,True,False
+5ac4f4255542996feb3fe99d,5ac4f4255542996feb3fe99d::working_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5ac4f4255542996feb3fe99d,5ac4f4255542996feb3fe99d::active_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5ac4f4255542996feb3fe99d,5ac4f4255542996feb3fe99d::working_set_pack_b,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5ac4f4255542996feb3fe99d,5ac4f4255542996feb3fe99d::active_set_pack_b,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5a85d5ba5542997175ce205a,5a85d5ba5542997175ce205a::working_set_pack_a,False,,,,,,,
+5a85d5ba5542997175ce205a,5a85d5ba5542997175ce205a::active_set_pack_a,False,,,,,,,
+5a85d5ba5542997175ce205a,5a85d5ba5542997175ce205a::working_set_pack_b,False,,,,,,,
+5a85d5ba5542997175ce205a,5a85d5ba5542997175ce205a::active_set_pack_b,False,,,,,,,
+5a8a1eb755429970aeb70261,5a8a1eb755429970aeb70261::working_set_pack_a,True,"['C', 'E']","['C', 'F']",False,False,True,False,True
+5a8a1eb755429970aeb70261,5a8a1eb755429970aeb70261::active_set_pack_a,False,,,,,,,
+5a8a1eb755429970aeb70261,5a8a1eb755429970aeb70261::working_set_pack_b,True,"['C', 'E']","['C', 'F']",True,True,True,False,False
+5a8a1eb755429970aeb70261,5a8a1eb755429970aeb70261::active_set_pack_b,False,,,,,,,
+5ac3bb805542993915413909,5ac3bb805542993915413909::working_set_pack_a,True,"['B', 'C']","['B', 'C']",True,False,True,True,False
+5ac3bb805542993915413909,5ac3bb805542993915413909::active_set_pack_a,True,"['B', 'C']","['B', 'C']",True,False,True,True,False
+5ac3bb805542993915413909,5ac3bb805542993915413909::working_set_pack_b,True,"['B', 'C']","['B', 'C']",True,False,False,True,False
+5ac3bb805542993915413909,5ac3bb805542993915413909::active_set_pack_b,True,"['B', 'C']","['B', 'C']",True,False,True,True,False
+5a81102b554299260e20a22a,5a81102b554299260e20a22a::working_set_pack_a,False,,,,,,,
+5a81102b554299260e20a22a,5a81102b554299260e20a22a::active_set_pack_a,False,,,,,,,
+5a81102b554299260e20a22a,5a81102b554299260e20a22a::working_set_pack_b,False,,,,,,,
+5a81102b554299260e20a22a,5a81102b554299260e20a22a::active_set_pack_b,False,,,,,,,
+5a77a0205542995d83181225,5a77a0205542995d83181225::working_set_pack_a,True,"['B', 'F']","['B', 'F']",True,True,True,True,False
+5a77a0205542995d83181225,5a77a0205542995d83181225::active_set_pack_a,True,"['B', 'F']","['B', 'F']",True,True,True,True,False
+5a77a0205542995d83181225,5a77a0205542995d83181225::working_set_pack_b,False,,,,,,,
+5a77a0205542995d83181225,5a77a0205542995d83181225::active_set_pack_b,True,"['B', 'F']","['B', 'F']",True,False,False,True,False
+5a8f7992554299458435d64c,5a8f7992554299458435d64c::working_set_pack_a,False,,,,,,,
+5a8f7992554299458435d64c,5a8f7992554299458435d64c::active_set_pack_a,False,,,,,,,
+5a8f7992554299458435d64c,5a8f7992554299458435d64c::working_set_pack_b,False,,,,,,,
+5a8f7992554299458435d64c,5a8f7992554299458435d64c::active_set_pack_b,False,,,,,,,
+5a83088a55429966c78a6afc,5a83088a55429966c78a6afc::working_set_pack_a,False,,,,,,,
+5a83088a55429966c78a6afc,5a83088a55429966c78a6afc::active_set_pack_a,True,"['B', 'E']","['B', 'E']",True,False,True,True,False
+5a83088a55429966c78a6afc,5a83088a55429966c78a6afc::working_set_pack_b,False,,,,,,,
+5a83088a55429966c78a6afc,5a83088a55429966c78a6afc::active_set_pack_b,True,"['B', 'E']","['B', 'E']",True,True,True,True,False
+5ab54b5c5542992aa134a298,5ab54b5c5542992aa134a298::working_set_pack_a,True,"['B', 'E']","['B', 'E']",False,False,False,False,False
+5ab54b5c5542992aa134a298,5ab54b5c5542992aa134a298::active_set_pack_a,True,"['B', 'E']","['B', 'E']",False,False,False,False,False
+5ab54b5c5542992aa134a298,5ab54b5c5542992aa134a298::working_set_pack_b,True,"['B', 'E']","['B', 'E']",False,False,False,False,False
+5ab54b5c5542992aa134a298,5ab54b5c5542992aa134a298::active_set_pack_b,True,"['B', 'E']","['B', 'E']",False,False,False,False,False
+5ac23b6f55429951e9e684b4,5ac23b6f55429951e9e684b4::working_set_pack_a,False,,,,,,,
+5ac23b6f55429951e9e684b4,5ac23b6f55429951e9e684b4::active_set_pack_a,False,,,,,,,
+5ac23b6f55429951e9e684b4,5ac23b6f55429951e9e684b4::working_set_pack_b,False,,,,,,,
+5ac23b6f55429951e9e684b4,5ac23b6f55429951e9e684b4::active_set_pack_b,False,,,,,,,
+5a7d231555429909bec76986,5a7d231555429909bec76986::working_set_pack_a,True,"['D', 'E']","['B', 'F']",True,False,True,True,False
+5a7d231555429909bec76986,5a7d231555429909bec76986::active_set_pack_a,False,,,,,,,
+5a7d231555429909bec76986,5a7d231555429909bec76986::working_set_pack_b,False,,,,,,,
+5a7d231555429909bec76986,5a7d231555429909bec76986::active_set_pack_b,False,,,,,,,
+5a79cc3c5542994bb94570b6,5a79cc3c5542994bb94570b6::working_set_pack_a,False,,,,,,,
+5a79cc3c5542994bb94570b6,5a79cc3c5542994bb94570b6::active_set_pack_a,True,"['B', 'D']","['B', 'D']",False,False,True,True,False
+5a79cc3c5542994bb94570b6,5a79cc3c5542994bb94570b6::working_set_pack_b,True,"['B', 'D']","['B', 'D']",False,False,True,True,False
+5a79cc3c5542994bb94570b6,5a79cc3c5542994bb94570b6::active_set_pack_b,False,,,,,,,
+5a769ac95542993569682c4f,5a769ac95542993569682c4f::working_set_pack_a,False,,,,,,,
+5a769ac95542993569682c4f,5a769ac95542993569682c4f::active_set_pack_a,False,,,,,,,
+5a769ac95542993569682c4f,5a769ac95542993569682c4f::working_set_pack_b,True,"['A', 'C']","['A', 'C']",False,False,True,False,False
+5a769ac95542993569682c4f,5a769ac95542993569682c4f::active_set_pack_b,True,"['A', 'C']","['A', 'C']",False,False,True,False,False
+5adf01425542995ec70e8f53,5adf01425542995ec70e8f53::working_set_pack_a,True,"['E', 'F']","['E', 'F']",False,True,False,False,False
+5adf01425542995ec70e8f53,5adf01425542995ec70e8f53::active_set_pack_a,True,"['E', 'F']","['E', 'F']",True,True,False,True,False
+5adf01425542995ec70e8f53,5adf01425542995ec70e8f53::working_set_pack_b,True,"['E', 'F']","['E', 'F']",True,True,False,False,False
+5adf01425542995ec70e8f53,5adf01425542995ec70e8f53::active_set_pack_b,True,"['E', 'F']","['E', 'F']",True,True,False,False,False
+5adc1b1a55429944faac2422,5adc1b1a55429944faac2422::working_set_pack_a,False,,,,,,,
+5adc1b1a55429944faac2422,5adc1b1a55429944faac2422::active_set_pack_a,False,,,,,,,
+5adc1b1a55429944faac2422,5adc1b1a55429944faac2422::working_set_pack_b,False,,,,,,,
+5adc1b1a55429944faac2422,5adc1b1a55429944faac2422::active_set_pack_b,False,,,,,,,
+5add67b05542995b365fab2a,5add67b05542995b365fab2a::working_set_pack_a,False,,,,,,,
+5add67b05542995b365fab2a,5add67b05542995b365fab2a::active_set_pack_a,False,,,,,,,
+5add67b05542995b365fab2a,5add67b05542995b365fab2a::working_set_pack_b,False,,,,,,,
+5add67b05542995b365fab2a,5add67b05542995b365fab2a::active_set_pack_b,False,,,,,,,
+5ac25c9055429951e9e68580,5ac25c9055429951e9e68580::working_set_pack_a,False,,,,,,,
+5ac25c9055429951e9e68580,5ac25c9055429951e9e68580::active_set_pack_a,False,,,,,,,
+5ac25c9055429951e9e68580,5ac25c9055429951e9e68580::working_set_pack_b,False,,,,,,,
+5ac25c9055429951e9e68580,5ac25c9055429951e9e68580::active_set_pack_b,False,,,,,,,
+5a8ef28c5542995b44241f0f,5a8ef28c5542995b44241f0f::working_set_pack_a,False,,,,,,,
+5a8ef28c5542995b44241f0f,5a8ef28c5542995b44241f0f::active_set_pack_a,False,,,,,,,
+5a8ef28c5542995b44241f0f,5a8ef28c5542995b44241f0f::working_set_pack_b,False,,,,,,,
+5a8ef28c5542995b44241f0f,5a8ef28c5542995b44241f0f::active_set_pack_b,False,,,,,,,
+5ab808755542990e739ec7f2,5ab808755542990e739ec7f2::working_set_pack_a,True,"['E', 'F']","['E', 'F']",False,False,True,False,False
+5ab808755542990e739ec7f2,5ab808755542990e739ec7f2::active_set_pack_a,True,"['E', 'F']","['E', 'F']",False,False,False,False,False
+5ab808755542990e739ec7f2,5ab808755542990e739ec7f2::working_set_pack_b,True,"['E', 'F']","['E', 'F']",False,False,True,False,False
+5ab808755542990e739ec7f2,5ab808755542990e739ec7f2::active_set_pack_b,True,"['E', 'F']","['E', 'F']",False,False,True,False,False
+5a7d15e35542995ed0d165dd,5a7d15e35542995ed0d165dd::working_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5a7d15e35542995ed0d165dd,5a7d15e35542995ed0d165dd::active_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5a7d15e35542995ed0d165dd,5a7d15e35542995ed0d165dd::working_set_pack_b,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5a7d15e35542995ed0d165dd,5a7d15e35542995ed0d165dd::active_set_pack_b,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5ac5247c55429924173fb602,5ac5247c55429924173fb602::working_set_pack_a,True,"['B', 'D']","['A', 'D']",False,True,False,False,False
+5ac5247c55429924173fb602,5ac5247c55429924173fb602::active_set_pack_a,True,"['B', 'D']","['A', 'D']",False,True,False,False,False
+5ac5247c55429924173fb602,5ac5247c55429924173fb602::working_set_pack_b,True,"['B', 'D']","['A', 'D']",False,True,False,False,False
+5ac5247c55429924173fb602,5ac5247c55429924173fb602::active_set_pack_b,True,"['B', 'D']","['A', 'D']",True,True,True,False,False
+5a80b23a5542992bc0c4a7b2,5a80b23a5542992bc0c4a7b2::working_set_pack_a,True,"['C', 'F']","['C', 'F']",True,False,True,True,False
+5a80b23a5542992bc0c4a7b2,5a80b23a5542992bc0c4a7b2::active_set_pack_a,True,"['C', 'F']","['C', 'F']",True,False,False,True,False
+5a80b23a5542992bc0c4a7b2,5a80b23a5542992bc0c4a7b2::working_set_pack_b,True,"['C', 'F']","['C', 'F']",True,False,False,True,False
+5a80b23a5542992bc0c4a7b2,5a80b23a5542992bc0c4a7b2::active_set_pack_b,True,"['C', 'F']","['C', 'F']",True,False,True,True,False
+5a8d209555429941ae14df84,5a8d209555429941ae14df84::working_set_pack_a,True,"['A', 'D']","['A', 'D']",True,True,True,True,False
+5a8d209555429941ae14df84,5a8d209555429941ae14df84::active_set_pack_a,True,"['A', 'D']","['A', 'D']",True,True,True,True,False
+5a8d209555429941ae14df84,5a8d209555429941ae14df84::working_set_pack_b,True,"['A', 'D']","['A', 'D']",False,False,True,True,False
+5a8d209555429941ae14df84,5a8d209555429941ae14df84::active_set_pack_b,True,"['A', 'D']","['A', 'D']",False,False,True,True,False
+5adf698f5542993a75d264e2,5adf698f5542993a75d264e2::working_set_pack_a,True,"['A', 'B']","['B', 'E']",False,True,False,False,False
+5adf698f5542993a75d264e2,5adf698f5542993a75d264e2::active_set_pack_a,True,"['B', 'E']","['B', 'E']",False,False,False,False,False
+5adf698f5542993a75d264e2,5adf698f5542993a75d264e2::working_set_pack_b,True,"['B', 'E']","['B', 'E']",False,True,False,False,False
+5adf698f5542993a75d264e2,5adf698f5542993a75d264e2::active_set_pack_b,True,"['B', 'E']","['B', 'E']",False,True,False,False,False
+5a8e506d5542990e94052ac8,5a8e506d5542990e94052ac8::working_set_pack_a,True,"['B', 'D']","['B', 'D']",True,False,False,True,False
+5a8e506d5542990e94052ac8,5a8e506d5542990e94052ac8::active_set_pack_a,True,"['B', 'D']","['B', 'D']",True,True,False,True,False
+5a8e506d5542990e94052ac8,5a8e506d5542990e94052ac8::working_set_pack_b,True,"['B', 'D']","['B', 'D']",True,False,False,True,False
+5a8e506d5542990e94052ac8,5a8e506d5542990e94052ac8::active_set_pack_b,True,"['B', 'D']","['B', 'D']",True,False,False,True,False
+5ac3983a554299657fa290f5,5ac3983a554299657fa290f5::working_set_pack_a,False,,,,,,,
+5ac3983a554299657fa290f5,5ac3983a554299657fa290f5::active_set_pack_a,False,,,,,,,
+5ac3983a554299657fa290f5,5ac3983a554299657fa290f5::working_set_pack_b,False,,,,,,,
+5ac3983a554299657fa290f5,5ac3983a554299657fa290f5::active_set_pack_b,False,,,,,,,
+5ac1bfd85542994ab5c67dfb,5ac1bfd85542994ab5c67dfb::working_set_pack_a,True,"['B', 'D']","['B', 'D']",True,False,False,True,False
+5ac1bfd85542994ab5c67dfb,5ac1bfd85542994ab5c67dfb::active_set_pack_a,True,"['B', 'D']","['B', 'D']",True,False,False,True,False
+5ac1bfd85542994ab5c67dfb,5ac1bfd85542994ab5c67dfb::working_set_pack_b,True,"['B', 'D']","['B', 'D']",True,False,False,True,False
+5ac1bfd85542994ab5c67dfb,5ac1bfd85542994ab5c67dfb::active_set_pack_b,True,"['B', 'D']","['B', 'D']",True,False,False,True,False
+5a77251055429966f1a36ca5,5a77251055429966f1a36ca5::working_set_pack_a,False,,,,,,,
+5a77251055429966f1a36ca5,5a77251055429966f1a36ca5::active_set_pack_a,False,,,,,,,
+5a77251055429966f1a36ca5,5a77251055429966f1a36ca5::working_set_pack_b,False,,,,,,,
+5a77251055429966f1a36ca5,5a77251055429966f1a36ca5::active_set_pack_b,False,,,,,,,
+5ac3bf5e5542995ef918c20f,5ac3bf5e5542995ef918c20f::working_set_pack_a,True,"['A', 'C']","['C', 'E']",True,False,False,True,False
+5ac3bf5e5542995ef918c20f,5ac3bf5e5542995ef918c20f::active_set_pack_a,True,"['A', 'C']","['C', 'E']",True,False,False,True,False
+5ac3bf5e5542995ef918c20f,5ac3bf5e5542995ef918c20f::working_set_pack_b,False,,,,,,,
+5ac3bf5e5542995ef918c20f,5ac3bf5e5542995ef918c20f::active_set_pack_b,True,"['E', 'F']","['C', 'E']",False,False,False,True,False
+5a81fab9554299676cceb1b1,5a81fab9554299676cceb1b1::working_set_pack_a,False,,,,,,,
+5a81fab9554299676cceb1b1,5a81fab9554299676cceb1b1::active_set_pack_a,False,,,,,,,
+5a81fab9554299676cceb1b1,5a81fab9554299676cceb1b1::working_set_pack_b,False,,,,,,,
+5a81fab9554299676cceb1b1,5a81fab9554299676cceb1b1::active_set_pack_b,False,,,,,,,
+5ac141dd5542991316484a9b,5ac141dd5542991316484a9b::working_set_pack_a,False,,,,,,,
+5ac141dd5542991316484a9b,5ac141dd5542991316484a9b::active_set_pack_a,False,,,,,,,
+5ac141dd5542991316484a9b,5ac141dd5542991316484a9b::working_set_pack_b,False,,,,,,,
+5ac141dd5542991316484a9b,5ac141dd5542991316484a9b::active_set_pack_b,False,,,,,,,
+5ab6ef2f554299710c8d1fc5,5ab6ef2f554299710c8d1fc5::working_set_pack_a,True,"['B', 'F']","['D', 'F']",False,False,True,False,False
+5ab6ef2f554299710c8d1fc5,5ab6ef2f554299710c8d1fc5::active_set_pack_a,True,"['B', 'F']","['D', 'F']",False,False,True,False,False
+5ab6ef2f554299710c8d1fc5,5ab6ef2f554299710c8d1fc5::working_set_pack_b,True,"['B', 'D']","['D', 'F']",True,True,False,False,False
+5ab6ef2f554299710c8d1fc5,5ab6ef2f554299710c8d1fc5::active_set_pack_b,True,"['B', 'D']","['D', 'F']",True,True,False,False,False
+5ae546be5542990ba0bbb251,5ae546be5542990ba0bbb251::working_set_pack_a,False,,,,,,,
+5ae546be5542990ba0bbb251,5ae546be5542990ba0bbb251::active_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,True,True,False
+5ae546be5542990ba0bbb251,5ae546be5542990ba0bbb251::working_set_pack_b,False,,,,,,,
+5ae546be5542990ba0bbb251,5ae546be5542990ba0bbb251::active_set_pack_b,False,,,,,,,
+5a73f2265542993a88ae2ea9,5a73f2265542993a88ae2ea9::working_set_pack_a,False,,,,,,,
+5a73f2265542993a88ae2ea9,5a73f2265542993a88ae2ea9::active_set_pack_a,False,,,,,,,
+5a73f2265542993a88ae2ea9,5a73f2265542993a88ae2ea9::working_set_pack_b,False,,,,,,,
+5a73f2265542993a88ae2ea9,5a73f2265542993a88ae2ea9::active_set_pack_b,False,,,,,,,
+5a7cbd7c554299452d57b9e6,5a7cbd7c554299452d57b9e6::working_set_pack_a,True,"['D', 'F']","['D', 'F']",True,True,True,True,False
+5a7cbd7c554299452d57b9e6,5a7cbd7c554299452d57b9e6::active_set_pack_a,True,"['D', 'F']","['D', 'F']",True,False,True,False,False
+5a7cbd7c554299452d57b9e6,5a7cbd7c554299452d57b9e6::working_set_pack_b,True,"['D', 'F']","['D', 'F']",True,True,True,True,False
+5a7cbd7c554299452d57b9e6,5a7cbd7c554299452d57b9e6::active_set_pack_b,True,"['D', 'F']","['D', 'F']",True,False,True,True,False
+5adf9e7e5542992d7e9f93be,5adf9e7e5542992d7e9f93be::working_set_pack_a,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5adf9e7e5542992d7e9f93be,5adf9e7e5542992d7e9f93be::active_set_pack_a,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5adf9e7e5542992d7e9f93be,5adf9e7e5542992d7e9f93be::working_set_pack_b,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5adf9e7e5542992d7e9f93be,5adf9e7e5542992d7e9f93be::active_set_pack_b,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5a7b970c554299294a54aa0b,5a7b970c554299294a54aa0b::working_set_pack_a,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5a7b970c554299294a54aa0b,5a7b970c554299294a54aa0b::active_set_pack_a,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5a7b970c554299294a54aa0b,5a7b970c554299294a54aa0b::working_set_pack_b,True,"['B', 'C']","['B', 'C']",True,False,True,True,False
+5a7b970c554299294a54aa0b,5a7b970c554299294a54aa0b::active_set_pack_b,True,"['B', 'C']","['B', 'C']",True,False,False,False,False
+5ab8f24f55429934fafe6e20,5ab8f24f55429934fafe6e20::working_set_pack_a,False,,,,,,,
+5ab8f24f55429934fafe6e20,5ab8f24f55429934fafe6e20::active_set_pack_a,False,,,,,,,
+5ab8f24f55429934fafe6e20,5ab8f24f55429934fafe6e20::working_set_pack_b,False,,,,,,,
+5ab8f24f55429934fafe6e20,5ab8f24f55429934fafe6e20::active_set_pack_b,False,,,,,,,
+5a83cf395542996488c2e4e0,5a83cf395542996488c2e4e0::working_set_pack_a,False,,,,,,,
+5a83cf395542996488c2e4e0,5a83cf395542996488c2e4e0::active_set_pack_a,False,,,,,,,
+5a83cf395542996488c2e4e0,5a83cf395542996488c2e4e0::working_set_pack_b,False,,,,,,,
+5a83cf395542996488c2e4e0,5a83cf395542996488c2e4e0::active_set_pack_b,False,,,,,,,
+5ab265de5542993be8fa9901,5ab265de5542993be8fa9901::working_set_pack_a,True,"['E', 'F']","['E', 'F']",True,False,False,True,False
+5ab265de5542993be8fa9901,5ab265de5542993be8fa9901::active_set_pack_a,True,"['E', 'F']","['E', 'F']",True,False,False,True,False
+5ab265de5542993be8fa9901,5ab265de5542993be8fa9901::working_set_pack_b,True,"['E', 'F']","['E', 'F']",True,True,False,True,False
+5ab265de5542993be8fa9901,5ab265de5542993be8fa9901::active_set_pack_b,True,"['E', 'F']","['E', 'F']",True,False,False,True,False
+5abc0e30554299700f9d77c5,5abc0e30554299700f9d77c5::working_set_pack_a,True,"['B', 'C']","['B', 'E']",False,False,False,False,False
+5abc0e30554299700f9d77c5,5abc0e30554299700f9d77c5::active_set_pack_a,True,"['B', 'C']","['B', 'E']",False,False,False,False,False
+5abc0e30554299700f9d77c5,5abc0e30554299700f9d77c5::working_set_pack_b,True,"['B', 'C']","['B', 'E']",False,False,False,False,False
+5abc0e30554299700f9d77c5,5abc0e30554299700f9d77c5::active_set_pack_b,True,"['A', 'B']","['B', 'E']",False,False,False,False,False
+5ae3417e5542990afbd1e0f7,5ae3417e5542990afbd1e0f7::working_set_pack_a,False,,,,,,,
+5ae3417e5542990afbd1e0f7,5ae3417e5542990afbd1e0f7::active_set_pack_a,False,,,,,,,
+5ae3417e5542990afbd1e0f7,5ae3417e5542990afbd1e0f7::working_set_pack_b,False,,,,,,,
+5ae3417e5542990afbd1e0f7,5ae3417e5542990afbd1e0f7::active_set_pack_b,False,,,,,,,
+5ae334345542991a06ce9951,5ae334345542991a06ce9951::working_set_pack_a,True,"['A', 'C']","['A', 'C']",True,True,False,False,False
+5ae334345542991a06ce9951,5ae334345542991a06ce9951::active_set_pack_a,True,"['A', 'C']","['A', 'C']",True,True,False,False,False
+5ae334345542991a06ce9951,5ae334345542991a06ce9951::working_set_pack_b,True,"['B', 'C']","['A', 'C']",True,True,False,False,False
+5ae334345542991a06ce9951,5ae334345542991a06ce9951::active_set_pack_b,True,"['B', 'C']","['A', 'C']",True,True,False,False,False
+5abeb68d5542994516f453f9,5abeb68d5542994516f453f9::working_set_pack_a,False,,,,,,,
+5abeb68d5542994516f453f9,5abeb68d5542994516f453f9::active_set_pack_a,False,,,,,,,
+5abeb68d5542994516f453f9,5abeb68d5542994516f453f9::working_set_pack_b,False,,,,,,,
+5abeb68d5542994516f453f9,5abeb68d5542994516f453f9::active_set_pack_b,False,,,,,,,
+5ae1cab7554299492dc91b8a,5ae1cab7554299492dc91b8a::working_set_pack_a,True,"['C', 'D']","['C', 'D']",True,False,True,True,False
+5ae1cab7554299492dc91b8a,5ae1cab7554299492dc91b8a::active_set_pack_a,True,"['D', 'E']","['C', 'D']",True,False,True,False,False
+5ae1cab7554299492dc91b8a,5ae1cab7554299492dc91b8a::working_set_pack_b,True,"['C', 'D']","['C', 'D']",True,False,True,False,False
+5ae1cab7554299492dc91b8a,5ae1cab7554299492dc91b8a::active_set_pack_b,True,"['C', 'D']","['C', 'D']",True,False,True,True,False
+5ae6e5d65542992ae0d163a1,5ae6e5d65542992ae0d163a1::working_set_pack_a,True,"['A', 'E']","['A', 'E']",False,False,True,True,False
+5ae6e5d65542992ae0d163a1,5ae6e5d65542992ae0d163a1::active_set_pack_a,True,"['A', 'E']","['A', 'E']",False,False,True,True,False
+5ae6e5d65542992ae0d163a1,5ae6e5d65542992ae0d163a1::working_set_pack_b,True,"['A', 'E']","['A', 'E']",False,False,True,True,False
+5ae6e5d65542992ae0d163a1,5ae6e5d65542992ae0d163a1::active_set_pack_b,True,"['A', 'E']","['A', 'E']",False,False,True,False,False
+5abaebab55429939ce03dd66,5abaebab55429939ce03dd66::working_set_pack_a,True,"['D', 'E']","['A', 'E']",False,False,False,False,False
+5abaebab55429939ce03dd66,5abaebab55429939ce03dd66::active_set_pack_a,True,"['A', 'E']","['A', 'E']",True,True,False,False,False
+5abaebab55429939ce03dd66,5abaebab55429939ce03dd66::working_set_pack_b,True,"['D', 'E']","['A', 'E']",False,False,False,False,False
+5abaebab55429939ce03dd66,5abaebab55429939ce03dd66::active_set_pack_b,True,"['D', 'E']","['A', 'E']",True,False,False,False,False
+5ab9149d5542991b5579f0e6,5ab9149d5542991b5579f0e6::working_set_pack_a,True,"['E', 'F']","['E', 'F']",False,False,False,False,False
+5ab9149d5542991b5579f0e6,5ab9149d5542991b5579f0e6::active_set_pack_a,True,"['E', 'F']","['E', 'F']",False,False,False,False,False
+5ab9149d5542991b5579f0e6,5ab9149d5542991b5579f0e6::working_set_pack_b,True,"['E', 'F']","['E', 'F']",False,False,False,False,False
+5ab9149d5542991b5579f0e6,5ab9149d5542991b5579f0e6::active_set_pack_b,True,"['E', 'F']","['E', 'F']",False,False,False,False,False
+5add57e35542992200553ac2,5add57e35542992200553ac2::working_set_pack_a,False,,,,,,,
+5add57e35542992200553ac2,5add57e35542992200553ac2::active_set_pack_a,False,,,,,,,
+5add57e35542992200553ac2,5add57e35542992200553ac2::working_set_pack_b,False,,,,,,,
+5add57e35542992200553ac2,5add57e35542992200553ac2::active_set_pack_b,False,,,,,,,
+5a8fae775542992414482b3b,5a8fae775542992414482b3b::working_set_pack_a,True,"['A', 'C']","['A', 'C']",False,True,True,True,False
+5a8fae775542992414482b3b,5a8fae775542992414482b3b::active_set_pack_a,True,"['A', 'C']","['A', 'C']",False,True,False,False,False
+5a8fae775542992414482b3b,5a8fae775542992414482b3b::working_set_pack_b,True,"['A', 'C']","['A', 'C']",False,False,True,True,False
+5a8fae775542992414482b3b,5a8fae775542992414482b3b::active_set_pack_b,True,"['A', 'C']","['A', 'C']",True,True,True,True,False
+5ab71f385542993667793f41,5ab71f385542993667793f41::working_set_pack_a,False,,,,,,,
+5ab71f385542993667793f41,5ab71f385542993667793f41::active_set_pack_a,False,,,,,,,
+5ab71f385542993667793f41,5ab71f385542993667793f41::working_set_pack_b,False,,,,,,,
+5ab71f385542993667793f41,5ab71f385542993667793f41::active_set_pack_b,False,,,,,,,
+5a7d9eb55542990b8f5039cd,5a7d9eb55542990b8f5039cd::working_set_pack_a,False,,,,,,,
+5a7d9eb55542990b8f5039cd,5a7d9eb55542990b8f5039cd::active_set_pack_a,False,,,,,,,
+5a7d9eb55542990b8f5039cd,5a7d9eb55542990b8f5039cd::working_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,True,False,False
+5a7d9eb55542990b8f5039cd,5a7d9eb55542990b8f5039cd::active_set_pack_b,False,,,,,,,
+5ae5e2285542996de7b71a5a,5ae5e2285542996de7b71a5a::working_set_pack_a,False,,,,,,,
+5ae5e2285542996de7b71a5a,5ae5e2285542996de7b71a5a::active_set_pack_a,False,,,,,,,
+5ae5e2285542996de7b71a5a,5ae5e2285542996de7b71a5a::working_set_pack_b,False,,,,,,,
+5ae5e2285542996de7b71a5a,5ae5e2285542996de7b71a5a::active_set_pack_b,False,,,,,,,
+5ac13d745542991316484a91,5ac13d745542991316484a91::working_set_pack_a,False,,,,,,,
+5ac13d745542991316484a91,5ac13d745542991316484a91::active_set_pack_a,False,,,,,,,
+5ac13d745542991316484a91,5ac13d745542991316484a91::working_set_pack_b,False,,,,,,,
+5ac13d745542991316484a91,5ac13d745542991316484a91::active_set_pack_b,False,,,,,,,
+5a7d24f1554299452d57bb21,5a7d24f1554299452d57bb21::working_set_pack_a,False,,,,,,,
+5a7d24f1554299452d57bb21,5a7d24f1554299452d57bb21::active_set_pack_a,False,,,,,,,
+5a7d24f1554299452d57bb21,5a7d24f1554299452d57bb21::working_set_pack_b,False,,,,,,,
+5a7d24f1554299452d57bb21,5a7d24f1554299452d57bb21::active_set_pack_b,True,"['D', 'F']","['C', 'F']",True,False,True,True,False
+5ac28a21554299677310256e,5ac28a21554299677310256e::working_set_pack_a,True,"['B', 'F']","['B', 'E']",False,False,False,False,False
+5ac28a21554299677310256e,5ac28a21554299677310256e::active_set_pack_a,True,"['B', 'F']","['B', 'E']",False,False,False,False,False
+5ac28a21554299677310256e,5ac28a21554299677310256e::working_set_pack_b,True,"['B', 'F']","['B', 'E']",False,False,False,False,False
+5ac28a21554299677310256e,5ac28a21554299677310256e::active_set_pack_b,True,"['B', 'F']","['B', 'E']",False,False,False,False,False
+5a8f11fd554299458435d544,5a8f11fd554299458435d544::working_set_pack_a,True,"['D', 'E']","['D', 'E']",True,True,False,False,False
+5a8f11fd554299458435d544,5a8f11fd554299458435d544::active_set_pack_a,True,"['D', 'E']","['D', 'E']",True,True,False,False,False
+5a8f11fd554299458435d544,5a8f11fd554299458435d544::working_set_pack_b,True,"['D', 'E']","['D', 'E']",True,True,False,False,False
+5a8f11fd554299458435d544,5a8f11fd554299458435d544::active_set_pack_b,True,"['B', 'D']","['D', 'E']",True,True,False,False,False
+5abef2365542997ec76fd397,5abef2365542997ec76fd397::working_set_pack_a,True,"['A', 'D']","['A', 'D']",False,False,False,False,False
+5abef2365542997ec76fd397,5abef2365542997ec76fd397::active_set_pack_a,True,"['A', 'D']","['A', 'D']",False,False,False,False,False
+5abef2365542997ec76fd397,5abef2365542997ec76fd397::working_set_pack_b,True,"['A', 'D']","['A', 'D']",False,False,False,False,False
+5abef2365542997ec76fd397,5abef2365542997ec76fd397::active_set_pack_b,True,"['A', 'D']","['A', 'D']",False,False,True,False,False
+5a78d1bd55429974737f78bd,5a78d1bd55429974737f78bd::working_set_pack_a,False,,,,,,,
+5a78d1bd55429974737f78bd,5a78d1bd55429974737f78bd::active_set_pack_a,False,,,,,,,
+5a78d1bd55429974737f78bd,5a78d1bd55429974737f78bd::working_set_pack_b,False,,,,,,,
+5a78d1bd55429974737f78bd,5a78d1bd55429974737f78bd::active_set_pack_b,False,,,,,,,
+5abdb9125542993f32c2a018,5abdb9125542993f32c2a018::working_set_pack_a,False,,,,,,,
+5abdb9125542993f32c2a018,5abdb9125542993f32c2a018::active_set_pack_a,False,,,,,,,
+5abdb9125542993f32c2a018,5abdb9125542993f32c2a018::working_set_pack_b,True,"['C', 'F']","['C', 'D']",False,False,False,False,False
+5abdb9125542993f32c2a018,5abdb9125542993f32c2a018::active_set_pack_b,True,"['C', 'F']","['C', 'D']",False,False,False,False,True
+5a745eb055429979e2882928,5a745eb055429979e2882928::working_set_pack_a,False,,,,,,,
+5a745eb055429979e2882928,5a745eb055429979e2882928::active_set_pack_a,False,,,,,,,
+5a745eb055429979e2882928,5a745eb055429979e2882928::working_set_pack_b,False,,,,,,,
+5a745eb055429979e2882928,5a745eb055429979e2882928::active_set_pack_b,False,,,,,,,
+5ab7f030554299366779405a,5ab7f030554299366779405a::working_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5ab7f030554299366779405a,5ab7f030554299366779405a::active_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,True,False,False
+5ab7f030554299366779405a,5ab7f030554299366779405a::working_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5ab7f030554299366779405a,5ab7f030554299366779405a::active_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,True,False,False
+5a90bd6555429933b8a205cf,5a90bd6555429933b8a205cf::working_set_pack_a,True,"['B', 'F']","['B', 'F']",True,True,True,True,False
+5a90bd6555429933b8a205cf,5a90bd6555429933b8a205cf::active_set_pack_a,True,"['B', 'F']","['B', 'F']",True,True,True,True,False
+5a90bd6555429933b8a205cf,5a90bd6555429933b8a205cf::working_set_pack_b,False,,,,,,,
+5a90bd6555429933b8a205cf,5a90bd6555429933b8a205cf::active_set_pack_b,True,"['B', 'F']","['B', 'F']",True,True,False,True,False
+5ab433675542991751b4d6e6,5ab433675542991751b4d6e6::working_set_pack_a,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5ab433675542991751b4d6e6,5ab433675542991751b4d6e6::active_set_pack_a,True,"['B', 'C']","['B', 'C']",False,False,True,False,False
+5ab433675542991751b4d6e6,5ab433675542991751b4d6e6::working_set_pack_b,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5ab433675542991751b4d6e6,5ab433675542991751b4d6e6::active_set_pack_b,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5ac47249554299194317399c,5ac47249554299194317399c::working_set_pack_a,False,,,,,,,
+5ac47249554299194317399c,5ac47249554299194317399c::active_set_pack_a,False,,,,,,,
+5ac47249554299194317399c,5ac47249554299194317399c::working_set_pack_b,False,,,,,,,
+5ac47249554299194317399c,5ac47249554299194317399c::active_set_pack_b,False,,,,,,,
+5aba04fb55429939ce03dc54,5aba04fb55429939ce03dc54::working_set_pack_a,False,,,,,,,
+5aba04fb55429939ce03dc54,5aba04fb55429939ce03dc54::active_set_pack_a,False,,,,,,,
+5aba04fb55429939ce03dc54,5aba04fb55429939ce03dc54::working_set_pack_b,False,,,,,,,
+5aba04fb55429939ce03dc54,5aba04fb55429939ce03dc54::active_set_pack_b,False,,,,,,,
+5a79f2185542996a35c1703d,5a79f2185542996a35c1703d::working_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5a79f2185542996a35c1703d,5a79f2185542996a35c1703d::active_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5a79f2185542996a35c1703d,5a79f2185542996a35c1703d::working_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5a79f2185542996a35c1703d,5a79f2185542996a35c1703d::active_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5ae0925e55429945ae9593c9,5ae0925e55429945ae9593c9::working_set_pack_a,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5ae0925e55429945ae9593c9,5ae0925e55429945ae9593c9::active_set_pack_a,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5ae0925e55429945ae9593c9,5ae0925e55429945ae9593c9::working_set_pack_b,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5ae0925e55429945ae9593c9,5ae0925e55429945ae9593c9::active_set_pack_b,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5a7f165b55429934daa2fccd,5a7f165b55429934daa2fccd::working_set_pack_a,True,"['D', 'E']","['D', 'E']",False,False,False,False,False
+5a7f165b55429934daa2fccd,5a7f165b55429934daa2fccd::active_set_pack_a,True,"['D', 'E']","['D', 'E']",False,False,False,False,False
+5a7f165b55429934daa2fccd,5a7f165b55429934daa2fccd::working_set_pack_b,True,"['D', 'E']","['D', 'E']",False,False,False,False,False
+5a7f165b55429934daa2fccd,5a7f165b55429934daa2fccd::active_set_pack_b,True,"['D', 'E']","['D', 'E']",False,False,False,False,False
+5a8ba62d554299240d9c205c,5a8ba62d554299240d9c205c::working_set_pack_a,True,"['B', 'C']","['B', 'C']",False,False,True,False,False
+5a8ba62d554299240d9c205c,5a8ba62d554299240d9c205c::active_set_pack_a,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5a8ba62d554299240d9c205c,5a8ba62d554299240d9c205c::working_set_pack_b,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5a8ba62d554299240d9c205c,5a8ba62d554299240d9c205c::active_set_pack_b,True,"['B', 'C']","['B', 'C']",False,False,False,False,False
+5ae6053c55429929b0807a60,5ae6053c55429929b0807a60::working_set_pack_a,True,"['B', 'D']","['B', 'D']",False,False,False,False,False
+5ae6053c55429929b0807a60,5ae6053c55429929b0807a60::active_set_pack_a,True,"['B', 'D']","['B', 'D']",False,False,False,False,False
+5ae6053c55429929b0807a60,5ae6053c55429929b0807a60::working_set_pack_b,True,"['B', 'D']","['B', 'D']",False,False,False,False,False
+5ae6053c55429929b0807a60,5ae6053c55429929b0807a60::active_set_pack_b,True,"['B', 'D']","['B', 'D']",False,False,False,False,False
+5ae42a195542995ad6573d0e,5ae42a195542995ad6573d0e::working_set_pack_a,False,,,,,,,
+5ae42a195542995ad6573d0e,5ae42a195542995ad6573d0e::active_set_pack_a,False,,,,,,,
+5ae42a195542995ad6573d0e,5ae42a195542995ad6573d0e::working_set_pack_b,False,,,,,,,
+5ae42a195542995ad6573d0e,5ae42a195542995ad6573d0e::active_set_pack_b,False,,,,,,,
+5ae1aed65542997f29b3c0ff,5ae1aed65542997f29b3c0ff::working_set_pack_a,False,,,,,,,
+5ae1aed65542997f29b3c0ff,5ae1aed65542997f29b3c0ff::active_set_pack_a,False,,,,,,,
+5ae1aed65542997f29b3c0ff,5ae1aed65542997f29b3c0ff::working_set_pack_b,False,,,,,,,
+5ae1aed65542997f29b3c0ff,5ae1aed65542997f29b3c0ff::active_set_pack_b,False,,,,,,,
+5a7c75a655429935c91b51c4,5a7c75a655429935c91b51c4::working_set_pack_a,True,"['B', 'C']","['B', 'C']",True,True,False,False,False
+5a7c75a655429935c91b51c4,5a7c75a655429935c91b51c4::active_set_pack_a,True,"['B', 'C']","['B', 'C']",True,False,False,False,False
+5a7c75a655429935c91b51c4,5a7c75a655429935c91b51c4::working_set_pack_b,True,"['B', 'C']","['B', 'C']",True,True,False,False,False
+5a7c75a655429935c91b51c4,5a7c75a655429935c91b51c4::active_set_pack_b,True,"['B', 'C']","['B', 'C']",True,True,True,False,False
+5a76c0d3554299373536019f,5a76c0d3554299373536019f::working_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5a76c0d3554299373536019f,5a76c0d3554299373536019f::active_set_pack_a,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5a76c0d3554299373536019f,5a76c0d3554299373536019f::working_set_pack_b,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5a76c0d3554299373536019f,5a76c0d3554299373536019f::active_set_pack_b,True,"['B', 'F']","['B', 'F']",False,False,False,False,False
+5a8b1fc955429971feec4643,5a8b1fc955429971feec4643::working_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5a8b1fc955429971feec4643,5a8b1fc955429971feec4643::active_set_pack_a,True,"['A', 'B']","['A', 'B']",False,False,True,False,False
+5a8b1fc955429971feec4643,5a8b1fc955429971feec4643::working_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,False,False,False
+5a8b1fc955429971feec4643,5a8b1fc955429971feec4643::active_set_pack_b,True,"['A', 'B']","['A', 'B']",False,False,True,False,False
+5a8add645542992d82986fb5,5a8add645542992d82986fb5::working_set_pack_a,False,,,,,,,
+5a8add645542992d82986fb5,5a8add645542992d82986fb5::active_set_pack_a,False,,,,,,,
+5a8add645542992d82986fb5,5a8add645542992d82986fb5::working_set_pack_b,False,,,,,,,
+5a8add645542992d82986fb5,5a8add645542992d82986fb5::active_set_pack_b,False,,,,,,,
+5a754aa455429916b01642e3,5a754aa455429916b01642e3::working_set_pack_a,True,"['C', 'D']","['C', 'D']",True,True,False,False,False
+5a754aa455429916b01642e3,5a754aa455429916b01642e3::active_set_pack_a,True,"['C', 'D']","['C', 'D']",True,True,False,True,False
+5a754aa455429916b01642e3,5a754aa455429916b01642e3::working_set_pack_b,True,"['C', 'D']","['C', 'D']",True,True,False,False,False
+5a754aa455429916b01642e3,5a754aa455429916b01642e3::active_set_pack_b,True,"['C', 'D']","['C', 'D']",True,True,False,True,False
+5abad3395542996cc5e49e9f,5abad3395542996cc5e49e9f::working_set_pack_a,False,,,,,,,
+5abad3395542996cc5e49e9f,5abad3395542996cc5e49e9f::active_set_pack_a,False,,,,,,,
+5abad3395542996cc5e49e9f,5abad3395542996cc5e49e9f::working_set_pack_b,False,,,,,,,
+5abad3395542996cc5e49e9f,5abad3395542996cc5e49e9f::active_set_pack_b,False,,,,,,,

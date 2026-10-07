@@ -1,0 +1,57 @@
+{
+  "cell": "qwen_7b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "n_prompts": 800,
+  "n_baseline_correct": 510,
+  "direction_cosine": {
+    "a_vs_b": 0.544,
+    "a_vs_full": 0.9422,
+    "b_vs_full": 0.7932
+  },
+  "discovery": {
+    "same_set_auc": 0.7857,
+    "crossval_auc": 0.7715,
+    "auc_retention": 0.9818,
+    "same_set_top2": 0.3262,
+    "crossval_top2": 0.3162
+  },
+  "causal": {
+    "xval_destruction": 0.1725,
+    "same_destruction": 0.1137,
+    "random_destruction": 0.002,
+    "xval_vs_random": 88.0,
+    "xval_retention_vs_same": 1.517
+  },
+  "bootstrap_cis": {
+    "xval": {
+      "mean": 0.17254901960784313,
+      "ci_lo": 0.1392156862745098,
+      "ci_hi": 0.20588235294117646,
+      "n": 510
+    },
+    "same": {
+      "mean": 0.11372549019607843,
+      "ci_lo": 0.08627450980392157,
+      "ci_hi": 0.14313725490196078,
+      "n": 510
+    },
+    "rand": {
+      "mean": 0.00196078431372549,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0058823529411764705,
+      "n": 510
+    }
+  },
+  "paired_test": {
+    "xval_minus_rand_mean": 0.1706,
+    "xval_minus_rand_ci": {
+      "mean": 0.17058823529411765,
+      "ci_lo": 0.13725490196078433,
+      "ci_hi": 0.20392156862745098,
+      "n": 510
+    },
+    "p_value": 0.0
+  },
+  "verdict": "CROSSVAL_STRONG"
+}

@@ -1,0 +1,16 @@
+{
+  "unchanged_scientific_functions": {
+    "source_split": true,
+    "category": true,
+    "random_seed": true,
+    "random_unit": true,
+    "project_remove": true,
+    "decode": true,
+    "fit_pc1": true,
+    "load_mistral_tokenizer": true
+  },
+  "legacy_matcher_AST_unchanged": true,
+  "successful_legacy_calls_byte_identical": 27,
+  "captured_failing_site_nearest_endpoint_reproduced": true,
+  "captured_original_bound_violation_preserved": true
+}

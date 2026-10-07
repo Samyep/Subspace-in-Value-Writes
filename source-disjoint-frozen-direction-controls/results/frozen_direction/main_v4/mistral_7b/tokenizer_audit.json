@@ -1,0 +1,39 @@
+{
+  "cell": "mistral_7b",
+  "loader": "AutoTokenizer.from_pretrained public API",
+  "fix_mistral_regex_argument": false,
+  "raw_backend_fix_flag": null,
+  "canonical_pre_tokenizer": {
+    "type": "Metaspace",
+    "replacement": "▁",
+    "prepend_scheme": "first",
+    "split": false
+  },
+  "observed_pre_tokenizer": {
+    "type": "Metaspace",
+    "replacement": "▁",
+    "prepend_scheme": "first",
+    "split": false
+  },
+  "canonical_pre_tokenizer_preserved": true,
+  "probe_audits": [
+    {
+      "text": "A. [Title] First fact.",
+      "roundtrip_exact": true,
+      "canonical_token_ids_match": true,
+      "token_count": 8
+    },
+    {
+      "text": "Two  spaces and\ta tab.\nNext line.",
+      "roundtrip_exact": true,
+      "canonical_token_ids_match": true,
+      "token_count": 12
+    },
+    {
+      "text": "Select two facts. Unicode: café, 東京. Digits: 12345.",
+      "roundtrip_exact": true,
+      "canonical_token_ids_match": true,
+      "token_count": 23
+    }
+  ]
+}

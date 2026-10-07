@@ -1,0 +1,32 @@
+{
+  "cell": "qwen_7b",
+  "family": "Qwen",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "n_prompts": 800,
+  "n_baseline_correct": 510,
+  "alphas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "accuracy_by_alpha": {
+    "0.00": 0.7451,
+    "0.25": 0.8941,
+    "0.50": 0.9588,
+    "0.75": 0.9863,
+    "1.00": 1.0
+  },
+  "destruction_by_alpha": {
+    "0.00": 0.2549,
+    "0.25": 0.1059,
+    "0.50": 0.0412,
+    "0.75": 0.0137,
+    "1.00": 0.0
+  },
+  "spearman_rho": 1.0,
+  "spearman_p": 0.0,
+  "monotonic": true,
+  "verdict": "DOSE_RESPONSE_STRONG"
+}

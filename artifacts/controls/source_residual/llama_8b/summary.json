@@ -1,0 +1,17 @@
+{
+  "cell": "llama_8b",
+  "family": "Llama",
+  "n_valid": 800,
+  "auc": {
+    "value_write": 0.8505,
+    "residual": 0.8202,
+    "value_write_avg": 0.823
+  },
+  "top2_recovery": {
+    "value_write": 0.6188,
+    "residual": 0.2375,
+    "value_write_avg": 0.565
+  },
+  "value_write_advantage_over_residual": 0.0303,
+  "verdict": "VALUE_WRITE_SUPERIOR"
+}

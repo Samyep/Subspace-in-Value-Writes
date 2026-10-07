@@ -1,0 +1,51 @@
+{
+  "cell": "llama_8b",
+  "family": "Llama",
+  "model_id": "NousResearch/Hermes-3-Llama-3.1-8B",
+  "n_prompts": 800,
+  "n_baseline_correct": 383,
+  "destruction_rates": {
+    "full_abl": 0.7023,
+    "pc1_only": 0.3551,
+    "orthogonal": 0.3969,
+    "pc1_restore": 0.4386,
+    "random": 0.0052
+  },
+  "bootstrap_cis": {
+    "full_abl": {
+      "mean": 0.7023498694516971,
+      "ci_lo": 0.6553524804177546,
+      "ci_hi": 0.7493472584856397,
+      "n": 383
+    },
+    "pc1_only": {
+      "mean": 0.35509138381201044,
+      "ci_lo": 0.30809399477806787,
+      "ci_hi": 0.402088772845953,
+      "n": 383
+    },
+    "orthogonal": {
+      "mean": 0.3968668407310705,
+      "ci_lo": 0.34986945169712796,
+      "ci_hi": 0.4464751958224543,
+      "n": 383
+    },
+    "pc1_restore": {
+      "mean": 0.4386422976501306,
+      "ci_lo": 0.38903394255874674,
+      "ci_hi": 0.48825065274151436,
+      "n": 383
+    },
+    "random": {
+      "mean": 0.005221932114882507,
+      "ci_lo": 0.0,
+      "ci_hi": 0.013054830287206266,
+      "n": 383
+    }
+  },
+  "pc1_concentration": 0.506,
+  "orth_vs_full_ratio": 0.565,
+  "pc1_vs_random_ratio": 68.0,
+  "pc1_restore_recovery": 0.375,
+  "verdict": "PC1_CAUSAL_STRONG"
+}

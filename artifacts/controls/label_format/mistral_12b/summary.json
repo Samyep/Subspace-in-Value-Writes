@@ -1,0 +1,49 @@
+{
+  "cell": "mistral_12b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+  "label_formats": {
+    "original_af": {
+      "labels_used": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "n_valid_prompts": 800,
+      "pca_auc": 0.8112,
+      "top2_recovery": 0.535
+    },
+    "numeric_16": {
+      "labels_used": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "n_valid_prompts": 800,
+      "pca_auc": 0.839,
+      "top2_recovery": 0.5363,
+      "auc_retention": 1.0343
+    },
+    "random_strings": {
+      "labels_used": [
+        "XK7",
+        "PQ3",
+        "MV9",
+        "BN2",
+        "FL8",
+        "TZ4"
+      ],
+      "n_valid_prompts": 800,
+      "pca_auc": 0.8575,
+      "top2_recovery": 0.6012,
+      "auc_retention": 1.0571
+    }
+  },
+  "verdict": "LABEL_FORMAT_ROBUST"
+}

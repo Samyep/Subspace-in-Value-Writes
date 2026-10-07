@@ -1,0 +1,7 @@
+{
+  "source_data": "external/support_evidencespace/artifacts/prompts/hotpot_fullwiki_rag.jsonl",
+  "source_evaluation": "external/support_evidencespace/results/rag_fullwiki/qwen_14b/per_example.jsonl",
+  "direction_calibration_examples": 50,
+  "held_out_examples": 200,
+  "direction_calibration_overlap": 0
+}

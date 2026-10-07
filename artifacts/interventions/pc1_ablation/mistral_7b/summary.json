@@ -1,0 +1,51 @@
+{
+  "cell": "mistral_7b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "n_prompts": 800,
+  "n_baseline_correct": 217,
+  "destruction_rates": {
+    "full_abl": 0.1613,
+    "pc1_only": 0.0645,
+    "orthogonal": 0.47,
+    "pc1_restore": 0.1106,
+    "random": 0.0
+  },
+  "bootstrap_cis": {
+    "full_abl": {
+      "mean": 0.16129032258064516,
+      "ci_lo": 0.1152073732718894,
+      "ci_hi": 0.2119815668202765,
+      "n": 217
+    },
+    "pc1_only": {
+      "mean": 0.06451612903225806,
+      "ci_lo": 0.03225806451612903,
+      "ci_hi": 0.0967741935483871,
+      "n": 217
+    },
+    "orthogonal": {
+      "mean": 0.4700460829493088,
+      "ci_lo": 0.4055299539170507,
+      "ci_hi": 0.5391705069124424,
+      "n": 217
+    },
+    "pc1_restore": {
+      "mean": 0.11059907834101383,
+      "ci_lo": 0.06912442396313365,
+      "ci_hi": 0.15668202764976957,
+      "n": 217
+    },
+    "random": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 217
+    }
+  },
+  "pc1_concentration": 0.4,
+  "orth_vs_full_ratio": 2.914,
+  "pc1_vs_random_ratio": 64.516,
+  "pc1_restore_recovery": 0.314,
+  "verdict": "PC1_CAUSAL_STRONG"
+}

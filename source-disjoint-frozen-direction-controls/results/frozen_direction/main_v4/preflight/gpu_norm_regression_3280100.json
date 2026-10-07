@@ -1,0 +1,66 @@
+{
+  "purpose": "numerical GPU regression only; no model loading or scientific evaluation",
+  "utc": "2026-09-30T17:06:14.858938+00:00",
+  "torch_version": "2.10.0+cu129",
+  "status": "passed",
+  "device": "cuda",
+  "gpu_name": "NVIDIA GH200 120GB",
+  "captured_site": {
+    "prompt_id": "5a827a9f55429940e5e1a8cf::working_set_pack_b",
+    "layer": 40,
+    "step": 1,
+    "replicate": 0
+  },
+  "target": 0.00476321205496788,
+  "captured_gpu_tensor_byte_identical": true,
+  "adjacent_amplitudes_and_actual_norms_identical": true,
+  "activation_and_direction_unchanged": true,
+  "rng_states_unchanged": true,
+  "zero_edit_original_path_passed": true,
+  "representable_edit_original_path_passed": true,
+  "certifier_record": {
+    "requested_norm": 0.00476321205496788,
+    "achieved_norm": 0.00472657335922122,
+    "relative_norm_error": 0.007692014406212973,
+    "absolute_norm_error": 3.663869574666023e-05,
+    "output_relative_norm_error": 1.068210066002852e-06,
+    "absolute_tolerance_floor": 3.429914855957031e-05,
+    "used_absolute_tolerance": false,
+    "scale": 0.010345213115215302,
+    "original_output_norm": 34.29914855957031,
+    "original_tolerance_passed": false,
+    "certified_fallback_used": true,
+    "quantization_limited": true,
+    "certified_bracket": {
+      "lower": {
+        "scale": 0.010345213115215302,
+        "scalar_float32_bits": 1009352440,
+        "achieved_norm": 0.00472657335922122,
+        "achieved_norm_fp64": 0.004726573503342126,
+        "absolute_norm_error": 3.663869574666023e-05,
+        "original_tolerance_passed": false
+      },
+      "upper": {
+        "scale": 0.010345214046537876,
+        "scalar_float32_bits": 1009352441,
+        "achieved_norm": 0.004826403688639402,
+        "achieved_norm_fp64": 0.0048264035677616215,
+        "absolute_norm_error": 6.319163367152214e-05,
+        "original_tolerance_passed": false
+      },
+      "selected_endpoint": "lower",
+      "tie_rule": "lower",
+      "norm_gap": 9.983032941818237e-05,
+      "adjacent_scalar_bits_difference": 1,
+      "straddles_target": true,
+      "device": "cuda:0",
+      "candidate_dtype": "torch.bfloat16",
+      "iterations": 23,
+      "expansions": 2,
+      "candidate_evaluations": 28,
+      "original_combined_tolerance": 3.429914855957031e-05,
+      "original_tolerance_attainable": false
+    },
+    "certified_search_steps": 28
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "cell": "mistral_7b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "n_valid_prompts": 800,
+  "n_model_correct": 217,
+  "auc": {
+    "gold": 0.7702,
+    "h1_per_prompt": 0.6461,
+    "h2_global": 0.5378
+  },
+  "top2_recovery": {
+    "gold": 0.2925,
+    "h1_per_prompt": 0.235,
+    "h2_global": 0.18
+  },
+  "h1_sign_agreement_with_gold": 0.72,
+  "h2_global_sign": -1,
+  "h2_positive_count": 377,
+  "h2_negative_count": 423,
+  "h1_auc_retention": 0.8389,
+  "h2_auc_retention": 0.6983,
+  "verdict": "CALIBRATION_FREE_INSUFFICIENT"
+}

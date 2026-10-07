@@ -1,0 +1,32 @@
+{
+  "cell": "llama_8b",
+  "family": "Llama",
+  "model_id": "NousResearch/Hermes-3-Llama-3.1-8B",
+  "n_prompts": 800,
+  "n_baseline_correct": 383,
+  "alphas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "accuracy_by_alpha": {
+    "0.00": 0.6449,
+    "0.25": 0.7389,
+    "0.50": 0.8642,
+    "0.75": 0.953,
+    "1.00": 1.0
+  },
+  "destruction_by_alpha": {
+    "0.00": 0.3551,
+    "0.25": 0.2611,
+    "0.50": 0.1358,
+    "0.75": 0.047,
+    "1.00": 0.0
+  },
+  "spearman_rho": 1.0,
+  "spearman_p": 0.0,
+  "monotonic": true,
+  "verdict": "DOSE_RESPONSE_STRONG"
+}

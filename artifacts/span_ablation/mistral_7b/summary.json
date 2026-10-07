@@ -1,0 +1,14 @@
+{
+  "cell": "mistral_7b",
+  "family": "Mistral",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "n_prompts": 800,
+  "n_baseline_correct": 197,
+  "gold_destruction_rate": 0.193,
+  "pca_destruction_rate": 0.102,
+  "random_destruction_rate": 0.0,
+  "pca_gold_ratio": 101.5,
+  "gold_random_ratio": 192.9,
+  "pca_gold_agreement": 0.299,
+  "verdict": "PCA_CAUSAL"
+}

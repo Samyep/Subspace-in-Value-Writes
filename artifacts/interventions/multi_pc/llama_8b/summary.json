@@ -1,0 +1,44 @@
+{
+  "cell": "llama_8b",
+  "family": "Llama",
+  "model_id": "NousResearch/Hermes-3-Llama-3.1-8B",
+  "n_prompts": 800,
+  "n_baseline_correct": 383,
+  "destruction_rates": {
+    "pc1": 0.3551,
+    "pc2": 0.1488,
+    "pc3": 0.1436,
+    "random": 0.0
+  },
+  "bootstrap_cis": {
+    "pc1": {
+      "mean": 0.35509138381201044,
+      "ci_lo": 0.30809399477806787,
+      "ci_hi": 0.402088772845953,
+      "n": 383
+    },
+    "pc2": {
+      "mean": 0.14882506527415143,
+      "ci_lo": 0.11488250652741515,
+      "ci_hi": 0.185378590078329,
+      "n": 383
+    },
+    "pc3": {
+      "mean": 0.14360313315926893,
+      "ci_lo": 0.10966057441253264,
+      "ci_hi": 0.1801566579634465,
+      "n": 383
+    },
+    "random": {
+      "mean": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "n": 383
+    }
+  },
+  "pc1_vs_pc2": 2.4,
+  "pc1_vs_pc3": 2.5,
+  "pc1_vs_random": 355.1,
+  "pc1_uniquely_causal": true,
+  "verdict": "PC1_UNIQUE"
+}

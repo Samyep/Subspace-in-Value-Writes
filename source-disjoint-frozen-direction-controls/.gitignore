@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+results/frozen_direction/reproduction_v4/
+results/frozen_direction/smoke_v4/
+results/frozen_direction/main_v4/preflight/gpu_norm_regression_reproduction_*.json
