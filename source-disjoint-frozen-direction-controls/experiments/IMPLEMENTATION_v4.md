@@ -19,8 +19,8 @@ The method is therefore an approximate norm control with explicitly audited exce
 ## Validation and execution
 
 ```bash
-/sw/user/python/miniforge3-pytorch-2.10.0/bin/python -m unittest -v test_frozen_direction_intervention_v4.py
-/sw/user/python/miniforge3-pytorch-2.10.0/bin/python frozen_direction_intervention_v4.py --cell qwen_14b --output ../results/frozen_direction/main_v4/qwen_14b
+python -m unittest -v test_frozen_direction_intervention_v4.py
+python frozen_direction_intervention_v4.py --cell qwen_14b --output ../results/frozen_direction/main_v4/qwen_14b
 ```
 
 Seven CPU tests cover the actual captured GPU failure, the same certified lower endpoint and tensor values, an exactly representable edit, unchanged original successes, no reseeding or vector mutation, explicit rejection flags for a large mismatch, and the fixed lower tie rule. The unchanged scientific functions and original matcher body are also compared structurally. These checks do not replace GPU review of the v4 fallback or the complete all-model numerical audit.

@@ -1,7 +1,5 @@
 #!/bin/bash
 #SBATCH --job-name=vw_ctx_repair
-#SBATCH --account=bgvf-dtai-gh
-#SBATCH --partition=ghx4-interactive
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
@@ -20,9 +18,15 @@ mkdir -p logs results/context_scaling/readers/qwen3_8b \
   results/context_scaling/readers/qwen_14b \
   results/context_scaling/aggregate
 
-module load default
-source /sw/user/python/miniforge3-pytorch-2.10.0/etc/profile.d/conda.sh
-conda activate base
+# Use the active Python environment by default. Set CONDA_INIT and
+# VW_RAG_CONDA_ENV if the job must initialize and activate a Conda environment.
+if [[ -n "${CONDA_INIT:-}" ]]; then
+  # shellcheck source=/dev/null
+  source "${CONDA_INIT}"
+fi
+if [[ -n "${VW_RAG_CONDA_ENV:-}" ]]; then
+  conda activate "${VW_RAG_CONDA_ENV}"
+fi
 
 export HF_HOME=${HF_HOME:-$REPO_ROOT/.cache/huggingface}
 export HF_HUB_OFFLINE=1
@@ -35,8 +39,8 @@ python -V
 nvidia-smi
 python -c "import torch, transformers; print('torch', torch.__version__, 'transformers', transformers.__version__, 'cuda', torch.cuda.is_available())"
 
-# Job 3237682 encountered a pre-execution Slurm interconnect error only for
-# Qwen2.5-14B shard 0. The JSONL writer is resumable if any rows exist.
+# Rerun Qwen2.5-14B shard 0 after an interrupted reader job.
+# The JSONL writer resumes from any rows already present.
 srun python -u scripts/run_context_scaling.py \
   --reader-cell qwen_14b --shard-index 0 --num-shards 2
 

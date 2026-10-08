@@ -14,7 +14,7 @@ import frozen_direction_intervention_v4 as v4
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_CAPTURE = ROOT / 'results/frozen_direction/norm_diagnostic/capture_3279792/failure_site.pt'
+DEFAULT_CAPTURE = ROOT / 'results/frozen_direction/norm_diagnostic/capture_qwen14b_norm_site/failure_site.pt'
 PREFLIGHT_ROOT = ROOT / 'results/frozen_direction/main_v4/preflight'
 EXPECTED_LOWER_BITS = 1009352440
 EXPECTED_UPPER_BITS = 1009352441

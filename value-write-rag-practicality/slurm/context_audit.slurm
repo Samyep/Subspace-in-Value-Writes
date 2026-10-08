@@ -1,7 +1,5 @@
 #!/bin/bash
 #SBATCH --job-name=vw_ctx_audit
-#SBATCH --account=bgvf-dtai-gh
-#SBATCH --partition=ghx4-interactive
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
@@ -18,9 +16,15 @@ REPO_ROOT=${VW_RAG_REPO_ROOT:-${SLURM_SUBMIT_DIR:-$PWD}}
 cd "$REPO_ROOT"
 mkdir -p logs results/context_scaling
 
-module load default
-source /sw/user/python/miniforge3-pytorch-2.10.0/etc/profile.d/conda.sh
-conda activate base
+# Use the active Python environment by default. Set CONDA_INIT and
+# VW_RAG_CONDA_ENV if the job must initialize and activate a Conda environment.
+if [[ -n "${CONDA_INIT:-}" ]]; then
+  # shellcheck source=/dev/null
+  source "${CONDA_INIT}"
+fi
+if [[ -n "${VW_RAG_CONDA_ENV:-}" ]]; then
+  conda activate "${VW_RAG_CONDA_ENV}"
+fi
 
 export HF_HOME=${HF_HOME:-$REPO_ROOT/.cache/huggingface}
 export HF_HUB_OFFLINE=1

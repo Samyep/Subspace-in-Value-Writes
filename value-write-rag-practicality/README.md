@@ -133,12 +133,11 @@ python scripts/run_scout_reader.py \
 The full primary experiment uses all 400 questions. The cost scripts also default to all 400; pass `--max-examples 100` for a smaller timing audit.
 
 The long-context extension and its hybrid gate are frozen in
-`FROZEN_EXTENSION_PROTOCOL.md`. On the bgvf cluster, the selector/calibration
-and reader phases are:
+`FROZEN_EXTENSION_PROTOCOL.md`. In a Slurm environment, run the selector/calibration and reader phases as follows:
 
 ```bash
-selector_job=$(sbatch --parsable slurm/bgvf_context_selectors.slurm)
-sbatch --dependency="afterok:${selector_job}" slurm/bgvf_context_readers.slurm
+selector_job=$(sbatch --parsable slurm/context_selectors.slurm)
+sbatch --dependency="afterok:${selector_job}" slurm/context_readers.slurm
 ```
 
 The first job also evaluates the single predeclared hybrid gate. A failed gate

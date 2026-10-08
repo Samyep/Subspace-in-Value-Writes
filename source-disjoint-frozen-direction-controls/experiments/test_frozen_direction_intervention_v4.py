@@ -11,7 +11,7 @@ import frozen_direction_intervention as legacy
 import frozen_direction_intervention_v4 as v4
 
 
-CAPTURE = Path(__file__).resolve().parents[1] / 'results/frozen_direction/norm_diagnostic/capture_3279792/failure_site.pt'
+CAPTURE = Path(__file__).resolve().parents[1] / 'results/frozen_direction/norm_diagnostic/capture_qwen14b_norm_site/failure_site.pt'
 
 
 class V4NormControlTests(unittest.TestCase):

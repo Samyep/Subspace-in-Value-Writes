@@ -184,25 +184,22 @@ The JSON file contains confidence intervals and all component metrics. The Markd
 
 ## Cluster templates
 
-The `slurm/` files follow the current bgvf single-GPU convention and point to this checkout. Create `logs/` before `sbatch`. The BGE and scout selection jobs must finish before the corresponding reader arrays start. The cost array likewise requires the merged BGE selection file.
+The `slurm/` files are site-neutral templates. Add any account, partition, module, and cache settings required by your scheduler before submission. Set `CONDA_INIT` and `VW_RAG_CONDA_ENV` if a job must initialize Conda; otherwise the templates use the active Python environment. Create `logs/` before `sbatch`. The BGE and scout selection jobs must finish before the corresponding reader arrays start. The cost array likewise requires the merged BGE selection file.
 
 ```bash
 mkdir -p logs
-reranker_job=$(sbatch --parsable slurm/bgvf_reranker.slurm)
-scout_job=$(sbatch --parsable slurm/bgvf_scout_select.slurm)
-sbatch --dependency="afterok:${reranker_job}" slurm/bgvf_reader_array.slurm
+reranker_job=$(sbatch --parsable slurm/reranker.slurm)
+scout_job=$(sbatch --parsable slurm/scout_select.slurm)
+sbatch --dependency="afterok:${reranker_job}" slurm/reader_array.slurm
 sbatch --dependency="afterok:${reranker_job}:${scout_job}" \
-  slurm/bgvf_scout_reader_array.slurm
-sbatch --dependency="afterok:${reranker_job}" slurm/bgvf_cost_array.slurm
+  slurm/scout_reader_array.slurm
+sbatch --dependency="afterok:${reranker_job}" slurm/cost_array.slurm
 ```
 
-On another cluster, update the account, partition, repository path, environment activation, and Hugging Face cache before submission. The plain Python commands above are scheduler-independent.
-
-The bgvf interactive QOS permits only one running job per user. To use all four
-GPUs in that job while keeping every model process isolated to one GPU, submit:
+Adjust the resource requests, repository path, environment activation, and Hugging Face cache for the target system. The plain Python commands above are scheduler-independent. For a four-GPU allocation that keeps each model process isolated to one GPU, submit:
 
 ```bash
-sbatch slurm/bgvf_all_experiments_4gpu.slurm
+sbatch slurm/all_experiments_4gpu.slurm
 ```
 
 This job runs the two shared selectors first, queues the ten independent reader
@@ -228,8 +225,8 @@ Score the shared selectors, calibrate the one allowed hybrid on held-out
 HotpotQA, and run the two readers:
 
 ```bash
-selector_job=$(sbatch --parsable slurm/bgvf_context_selectors.slurm)
-sbatch --dependency="afterok:${selector_job}" slurm/bgvf_context_readers.slurm
+selector_job=$(sbatch --parsable slurm/context_selectors.slurm)
+sbatch --dependency="afterok:${selector_job}" slurm/context_readers.slurm
 ```
 
 The selector job writes 400-row BGE and scout files under
